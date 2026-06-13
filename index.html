@@ -92,7 +92,7 @@ html,body{width:100%;height:100%;background:var(--bg);color:var(--txt);font-fami
   <div class="hs">
     <div class="hst">PINS <span id="pc">0</span></div>
     <div class="hst">LAST SCAN <span id="ls">--</span></div>
-    <button class="sbtn" id="sbn" onclick="runScan()">⟳ SCAN NOW</button>
+    <button class="sbtn" id="sbn" onclick="runScan()">⟳ SYNC NOW</button>
   </div>
 </div>
 <div class="body">
@@ -406,26 +406,36 @@ setInterval(()=>{document.getElementById('clk').textContent=new Date().toUTCStri
 async function runScan(){
   const btn=document.getElementById('sbn'),ov=document.getElementById('sov'),pf=document.getElementById('spf'),st=document.getElementById('stx');
   btn.disabled=true;ov.classList.add('v');
-  log('LIVE SCAN INITIATED — searching all sources...','hi');
-  const steps=[[10,'QUERYING NUFORC DATABASE...'],[22,'SCANNING REDDIT r/UFOs...'],[35,'SEARCHING X/TWITTER FEEDS...'],[48,'CHECKING PENTAGON UAP PORTAL...'],[60,'SEARCHING NEWS WIRE...'],[72,'QUERYING MUFON REPORTS...'],[85,'CROSS-REF AARO DATA...'],[95,'COMPILING...']];
-  for(const[p,m]of steps){pf.style.width=p+'%';st.textContent=m;log(m.toLowerCase());await sleep(440+Math.random()*330);}
-  log('Calling SENTINEL-7 AI with live web search...','warn');
+  log('SYNCING WITH GITHUB DATABASE...','hi');
+  const steps=[[20,'CONNECTING TO data/sightings.json...'],[45,'FETCHING LATEST AUTO-SCAN RESULTS...'],[70,'MERGING NEW PINS...'],[90,'RE-RENDERING MAP...']];
+  for(const[p,m]of steps){pf.style.width=p+'%';st.textContent=m;log(m.toLowerCase());await sleep(350+Math.random()*250);}
   try{
-    const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1000,system:'You are a UAP intelligence extraction agent. Search the internet for the LATEST UAP/UFO sightings and government disclosures. Return ONLY valid JSON array (no markdown, no extra text): [{"name":"Location, Country","lat":0.0,"lng":0.0,"cat":"recent","date":"Month Year","desc":"Under 120 chars factual description","source":"Source name"}] Categories: recent, military, civilian, gov, historic. Return 5-8 real incidents with accurate coordinates.',tools:[{type:'web_search_20250305',name:'web_search'}],messages:[{role:'user',content:'Search for the latest UAP UFO sighting reports and government disclosures 2024 and 2025 with specific locations. JSON array only.'}]})});
-    const data=await r.json();
-    let txt=(data.content||[]).filter(b=>b.type==='text').map(b=>b.text).join('').replace(/```json|```/g,'').trim();
-    const s=txt.indexOf('['),e=txt.lastIndexOf(']');
-    if(s>=0&&e>s){
-      const items=JSON.parse(txt.slice(s,e+1));let added=0;
-      items.forEach(item=>{if(item.name&&item.lat&&item.lng&&!sightings.find(x=>x.name===item.name)){sightings.push({...item,id:'sc_'+Date.now()+'_'+Math.random().toString(36).substr(2,4),isNew:true});added++;log('❆ NEW PIN: '+item.name+' ['+item.cat+']','nw');}});
-      if(added>0){saveData();renderAll();log(added+' new sighting'+(added>1?'s':'')+' added to map.','hi');}
-      else log('No additional locations found beyond current database.');
+    const resp=await fetch('./data/sightings.json?_='+Date.now());
+    if(resp.ok){
+      const remote=await resp.json();
+      if(remote && remote.sightings && remote.sightings.length){
+        const cutoff=new Date(Date.now()-7*24*60*60*1000);
+        const oldNames=new Set(sightings.map(s=>s.name.toLowerCase()));
+        let added=0;
+        remote.sightings.forEach(s=>{
+          if(!oldNames.has(s.name.toLowerCase())){
+            added++;
+            log('✦ NEW PIN: '+s.name+' ['+s.cat+']'+(s.approx?' [APPROX]':''),'nw');
+          }
+        });
+        sightings=remote.sightings.map(s=>({...s,isNew:!!s.isNew||(s.addedOn&&new Date(s.addedOn)>cutoff)}));
+        saveData();renderAll();
+        if(added>0) log(added+' new sighting'+(added>1?'s':'')+' synced from daily scan ('+(remote.updated||'unknown')+').','hi');
+        else log('Up to date \u2014 database last updated '+(remote.updated||'unknown')+'. No new pins since last sync.');
+      }
+    } else {
+      log('Could not fetch data/sightings.json (HTTP '+resp.status+').','warn');
     }
-  }catch(err){log('Scan error: '+err.message,'warn');}
-  pf.style.width='100%';st.textContent='SCAN COMPLETE';await sleep(700);
+  }catch(err){log('Sync error: '+err.message,'warn');}
+  pf.style.width='100%';st.textContent='SYNC COMPLETE';await sleep(500);
   ov.classList.remove('v');pf.style.width='0%';btn.disabled=false;
   document.getElementById('ls').textContent=new Date().toLocaleTimeString('en-US',{hour12:false});
-  log('Scan complete. Map updated.','hi');
+  log('Sync complete. Daily auto-scan runs at 09:00 UTC via GitHub Actions.','hi');
 }
 function openMod(){document.getElementById('mod').classList.add('o');}
 function closeMod(){document.getElementById('mod').classList.remove('o');}
@@ -443,7 +453,7 @@ window.addEventListener('resize',()=>render());
 loadData();
 log('SENTINEL-7 online — canvas map engine active.','hi');
 log('Database: '+SEED.length+' UAP locations across 6 continents — updated May 2026.','hi');
-log('Drag to pan · Scroll to zoom · Hover for details · + to add · SCAN NOW for live search.');
+log('Drag to pan · Scroll to zoom · Hover for details · + to add · SYNC NOW to pull latest auto-scan results.');
 </script>
 </body>
 </html>

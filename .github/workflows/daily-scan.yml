@@ -21,9 +21,9 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run UAP scan via Claude API
+      - name: Run UAP scan via OpenRouter API
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python3 .github/scripts/scan.py
 
       - name: Commit and push if changed

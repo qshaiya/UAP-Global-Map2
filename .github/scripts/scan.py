@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 SENTINEL-7 Daily UAP Scan
-Calls the Anthropic API with web search enabled to find new UAP/UFO sightings,
-witness reports, and government disclosures reported recently. Appends any
-genuinely new entries (deduplicated by name) to data/sightings.json.
+Calls the OpenRouter API (free model + web search plugin) to find new UAP/UFO
+sightings, witness reports, and government disclosures reported recently.
+Appends any genuinely new entries (deduplicated by name) to data/sightings.json.
 
 If a sighting only has a general area (no precise coordinates), the model is
 instructed to provide an approximate lat/lng for that area and set "approx": true.
@@ -16,9 +16,12 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "sightings.json")
-API_KEY = os.environ.get("ANTHROPIC_API_KEY")
-API_URL = "https://api.anthropic.com/v1/messages"
-MODEL = "claude-sonnet-4-6"
+API_KEY = os.environ.get("OPENROUTER_API_KEY")
+API_URL = "https://openrouter.ai/api/v1/chat/completions"
+# Free-tier OpenRouter model. The "web" plugin (Exa search) used below incurs a
+# tiny per-search fee (a few tenths of a cent) even though the base model is
+# free — your OpenRouter account needs a small amount of credit for this.
+MODEL = "deepseek/deepseek-chat-v3.1:free"
 
 SYSTEM_PROMPT = """You are SENTINEL-7, a UAP/UFO intelligence extraction agent.
 
@@ -50,21 +53,24 @@ Rules:
 USER_PROMPT = "Search for the latest UAP/UFO sightings, witness reports, and government disclosures from the last 24-72 hours. Return as a JSON array per the schema."
 
 
-def call_claude():
+def call_model():
     body = {
         "model": MODEL,
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": USER_PROMPT},
+        ],
+        "plugins": [{"id": "web", "max_results": 5}],
         "max_tokens": 1500,
-        "system": SYSTEM_PROMPT,
-        "tools": [{"type": "web_search_20250305", "name": "web_search"}],
-        "messages": [{"role": "user", "content": USER_PROMPT}],
     }
     req = urllib.request.Request(
         API_URL,
         data=json.dumps(body).encode("utf-8"),
         headers={
             "Content-Type": "application/json",
-            "x-api-key": API_KEY,
-            "anthropic-version": "2023-06-01",
+            "Authorization": f"Bearer {API_KEY}",
+            "HTTP-Referer": "https://github.com/qshaiya/UAP-Global-Map2",
+            "X-Title": "SENTINEL-7 UAP Daily Scan",
         },
         method="POST",
     )
@@ -86,7 +92,7 @@ def extract_json_array(text):
 
 def main():
     if not API_KEY:
-        print("No ANTHROPIC_API_KEY set — skipping scan.")
+        print("No OPENROUTER_API_KEY set — skipping scan.")
         sys.exit(0)
 
     with open(DATA_PATH, "r", encoding="utf-8") as f:
@@ -95,13 +101,17 @@ def main():
     existing_names = {s["name"].strip().lower() for s in db["sightings"]}
 
     try:
-        data = call_claude()
+        data = call_model()
     except Exception as e:
         print(f"API call failed: {e}")
         sys.exit(0)
 
-    text_blocks = [b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"]
-    full_text = "".join(text_blocks)
+    try:
+        full_text = data["choices"][0]["message"]["content"]
+    except (KeyError, IndexError, TypeError):
+        print(f"Unexpected response shape: {json.dumps(data)[:500]}")
+        sys.exit(0)
+
     new_items = extract_json_array(full_text)
 
     added = 0
