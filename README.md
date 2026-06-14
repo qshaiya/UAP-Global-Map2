@@ -18,8 +18,7 @@ Live repo: https://github.com/qshaiya/UAP-Global-Map2
 2. In this repo, go to **Settings → Secrets and variables → Actions**.
 3. Add a new repository secret named **`OPENROUTER_API_KEY`** with your key.
    - ⚠️ Paste it directly into the GitHub Settings page in your browser — never share API keys in chat.
-4. (Optional) Go to **Settings → Pages** and enable GitHub Pages, source = `main` branch, root folder. Your map will then be live at:
-   `https://qshaiya.github.io/UAP-Global-Map2/`
+4. (Optional) Go to **Settings → Pages** and enable GitHub Pages, source = `main` branch, root folder. Your map will then be live at your GitHub Pages URL.
 
 ## How daily updates work
 
