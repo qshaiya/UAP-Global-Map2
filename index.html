@@ -277,7 +277,7 @@ let map;
 
 function initMap(){
   map = L.map('map',{worldCopyJump:true,minZoom:2,maxZoom:12,zoomControl:false,attributionControl:true}).setView([20,15],2.3);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png',{
     maxZoom:19,subdomains:'abcd',
     attribution:'&copy; OpenStreetMap &copy; CARTO'
   }).addTo(map);
