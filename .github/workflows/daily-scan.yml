@@ -2,9 +2,11 @@ name: Daily UAP Scan
 
 on:
   schedule:
-    # Runs every day at 09:00 UTC
+    # Runs every day at 09:00 UTC — passes 1 & 2
     - cron: '0 9 * * *'
-  workflow_dispatch: {}   # allows manual "Run workflow" button
+    # Runs once a week (Monday 10:00 UTC) — adds pass 3 (Gemini Flash)
+    - cron: '0 10 * * 1'
+  workflow_dispatch: {}   # allows manual "Run workflow" button — runs all passes
 
 permissions:
   contents: write
@@ -21,10 +23,27 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run UAP scan via OpenRouter API
+      # Passes 1 & 2 run on the daily trigger and on manual runs,
+      # but are skipped on the weekly-only trigger to avoid duplicate effort.
+      - name: Run UAP scan — pass 1 (DeepSeek)
+        if: github.event.schedule != '0 10 * * 1'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python3 .github/scripts/scan.py
+        run: python3 .github/scripts/scan.py "deepseek/deepseek-chat-v3.1:free"
+
+      - name: Run UAP scan — pass 2 (Llama)
+        if: github.event.schedule != '0 10 * * 1'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python3 .github/scripts/scan.py "meta-llama/llama-3.3-70b-instruct:free"
+
+      # Pass 3 runs once a week (Monday) on its own schedule, or on any
+      # manual run for testing.
+      - name: Run UAP scan — pass 3 (Gemini Flash, weekly)
+        if: github.event.schedule == '0 10 * * 1' || github.event_name == 'workflow_dispatch'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python3 .github/scripts/scan.py "google/gemini-2.0-flash-exp:free"
 
       - name: Commit and push if changed
         run: |

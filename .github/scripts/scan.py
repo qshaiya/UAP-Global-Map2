@@ -21,7 +21,13 @@ API_URL = "https://openrouter.ai/api/v1/chat/completions"
 # Free-tier OpenRouter model. The "web" plugin (Exa search) used below incurs a
 # tiny per-search fee (a few tenths of a cent) even though the base model is
 # free — your OpenRouter account needs a small amount of credit for this.
-MODEL = "deepseek/deepseek-chat-v3.1:free"
+#
+# Pass a different model as argv[1] to run a second/third scan pass with a
+# different model — each model formulates its own search queries, so a
+# second pass often surfaces different sightings even using the same web
+# search backend. See daily-scan.yml for how multiple passes are wired up.
+DEFAULT_MODEL = "deepseek/deepseek-chat-v3.1:free"
+MODEL = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("OPENROUTER_MODEL", DEFAULT_MODEL)
 
 SYSTEM_PROMPT = """You are SENTINEL-7, a UAP/UFO intelligence extraction agent.
 
@@ -95,6 +101,8 @@ def main():
         print("No OPENROUTER_API_KEY set — skipping scan.")
         sys.exit(0)
 
+    print(f"Running scan with model: {MODEL}")
+
     with open(DATA_PATH, "r", encoding="utf-8") as f:
         db = json.load(f)
 
@@ -116,6 +124,7 @@ def main():
 
     added = 0
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    model_tag = re.sub(r"[^a-z0-9]+", "-", MODEL.lower()).strip("-")[:20]
     for item in new_items:
         name = str(item.get("name", "")).strip()
         lat = item.get("lat")
@@ -124,7 +133,7 @@ def main():
             continue
         if name.strip().lower() in existing_names:
             continue
-        new_id = "scan_" + datetime.now(timezone.utc).strftime("%Y%m%d") + f"_{added+1:02d}"
+        new_id = "scan_" + datetime.now(timezone.utc).strftime("%Y%m%d") + f"_{model_tag}_{added+1:02d}"
         db["sightings"].append({
             "id": new_id,
             "name": name,
