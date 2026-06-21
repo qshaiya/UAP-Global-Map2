@@ -1,0 +1,31 @@
+{
+  "api_version": "1.0",
+  "description": "SENTINEL-7 — category: historic",
+  "category": "historic",
+  "updated": "2026-06-21",
+  "total": 2,
+  "sightings": [
+    {
+      "id": "r1",
+      "name": "Roswell, New Mexico",
+      "lat": 33.394,
+      "lng": -104.523,
+      "cat": "historic",
+      "date": "Jul 1947",
+      "desc": "US Army recovered wreckage and confirmed flying disc before retracting. Non-human bodies reported. Ground zero for UFO disclosure movement.",
+      "source": "USAF/RAAF 1947",
+      "approx": false
+    },
+    {
+      "id": "r5",
+      "name": "Kecksburg, Pennsylvania",
+      "lat": 40.178,
+      "lng": -79.46,
+      "cat": "historic",
+      "date": "Dec 1965",
+      "desc": "Acorn-shaped craft crashed. US Army removed object. NASA later admitted retrieval. Origin unknown.",
+      "source": "NUFORC/NASA FOIA",
+      "approx": false
+    }
+  ]
+}

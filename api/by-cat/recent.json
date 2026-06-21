@@ -1,0 +1,130 @@
+{
+  "api_version": "1.0",
+  "description": "SENTINEL-7 — category: recent",
+  "category": "recent",
+  "updated": "2026-06-21",
+  "total": 11,
+  "sightings": [
+    {
+      "id": "r14",
+      "name": "Porterville, California",
+      "lat": 36.065,
+      "lng": -119.016,
+      "cat": "recent",
+      "date": "2025",
+      "desc": "Dark metallic octahedron near school. Box-truck sized. Impossible 90-degree turn. NUFORC top unusual shape of 2025.",
+      "source": "NUFORC 2025",
+      "approx": false
+    },
+    {
+      "id": "r15",
+      "name": "Colorado — Lockheed Facility",
+      "lat": 39.55,
+      "lng": -104.975,
+      "cat": "recent",
+      "date": "Jan 2025",
+      "desc": "Silent orbs near Lockheed Martin aerospace facility. Witnesses ruled out Starlink and drones.",
+      "source": "NUFORC 2025",
+      "approx": false
+    },
+    {
+      "id": "r16",
+      "name": "New Jersey Drone Wave",
+      "lat": 40.917,
+      "lng": -74.172,
+      "cat": "recent",
+      "date": "Nov–Dec 2024",
+      "desc": "1,000s of drone sightings over NJ/NY/PA. Confirmed incursions over Picatinny Arsenal.",
+      "source": "DoD/FBI 2024",
+      "approx": false
+    },
+    {
+      "id": "r17",
+      "name": "Evans Mills, New York",
+      "lat": 44.089,
+      "lng": -75.811,
+      "cat": "recent",
+      "date": "Mar 2025",
+      "desc": "Repeated orb sightings near Fort Drum military base. NUFORC documented.",
+      "source": "NUFORC 2025",
+      "approx": false
+    },
+    {
+      "id": "r18",
+      "name": "Chester, New York",
+      "lat": 41.36,
+      "lng": -74.273,
+      "cat": "recent",
+      "date": "Mar 2025",
+      "desc": "Two objects performing advanced maneuvers. Part of 66 NY sightings in H1 2025.",
+      "source": "NUFORC 2025",
+      "approx": false
+    },
+    {
+      "id": "r20",
+      "name": "US Coastline USO Cluster",
+      "lat": 34.052,
+      "lng": -118.243,
+      "cat": "recent",
+      "date": "Aug–Nov 2025",
+      "desc": "Enigma app: 9,000+ sightings within 10mi of US shorelines. 150+ objects seen entering water.",
+      "source": "Enigma App 2025",
+      "approx": false
+    },
+    {
+      "id": "e3",
+      "name": "Copenhagen Airport, Denmark",
+      "lat": 55.612,
+      "lng": 12.648,
+      "cat": "recent",
+      "date": "Sep 2025",
+      "desc": "Drones shut down airport 4hrs. NATO increased Baltic Sea vigilance across 7 nations.",
+      "source": "NATO/Danish Defence 2025",
+      "approx": false
+    },
+    {
+      "id": "m3",
+      "name": "Yemen — Orb survives missile",
+      "lat": 15.553,
+      "lng": 48.516,
+      "cat": "recent",
+      "date": "2025",
+      "desc": "UAP orb struck by Hellfire missile and survived without damage. Evidence of non-ballistic behavior.",
+      "source": "Intelligence Reports 2025",
+      "approx": false
+    },
+    {
+      "id": "a1",
+      "name": "Fukushima Nuclear Zone, Japan",
+      "lat": 37.316,
+      "lng": 141.025,
+      "cat": "recent",
+      "date": "2011–2025",
+      "desc": "Persistent UAP sightings over nuclear zone since 2011. AARO hotspot map elevated frequency.",
+      "source": "AARO/Japanese UFO Research",
+      "approx": false
+    },
+    {
+      "id": "q3",
+      "name": "Survey Park, Kolkata, India",
+      "lat": 22.572,
+      "lng": 88.394,
+      "cat": "recent",
+      "date": "2026",
+      "desc": "Eyewitness: bright, silent spherical UAP with stable white brightness and no blinking navigation lights observed over Survey Park, Kolkata.",
+      "source": "UFO Sightings Daily 2026",
+      "approx": false
+    },
+    {
+      "id": "q4",
+      "name": "NYC Approach — Metallic Sphere (Flight)",
+      "lat": 40.64,
+      "lng": -73.779,
+      "cat": "recent",
+      "date": "Jun 24, 2025",
+      "desc": "Passenger in seat 1A on flight from Toronto reported a perfectly round, shiny metallic sphere flying opposite direction, 100-200ft below aircraft on approach to NYC.",
+      "source": "NUFORC / Fox News 2025",
+      "approx": false
+    }
+  ]
+}

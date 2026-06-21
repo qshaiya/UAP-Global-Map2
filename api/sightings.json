@@ -1,6 +1,35 @@
 {
+  "api_version": "1.0",
+  "description": "SENTINEL-7 UAP Live Map — complete sightings database",
+  "repo": "https://github.com/qshaiya/UAP-Global-Map2",
+  "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
   "updated": "2026-06-21",
-  "count": 99,
+  "total": 99,
+  "categories": {
+    "recent": 11,
+    "military": 19,
+    "civilian": 46,
+    "gov": 21,
+    "historic": 2
+  },
+  "approximate_locations": 0,
+  "endpoints": {
+    "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
+    "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
+    "by_category": {
+      "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/by-cat/recent.json",
+      "military": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/by-cat/military.json",
+      "civilian": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/by-cat/civilian.json",
+      "gov": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/by-cat/gov.json",
+      "historic": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/by-cat/historic.json"
+    },
+    "write": {
+      "method": "POST",
+      "url": "https://api.github.com/repos/qshaiya/UAP-Global-Map2/actions/workflows/add-sighting.yml/dispatches",
+      "auth": "Bearer <GITHUB_PAT> with Contents+Workflows write scope",
+      "docs": "https://github.com/qshaiya/UAP-Global-Map2#api"
+    }
+  },
   "sightings": [
     {
       "id": "r1",
