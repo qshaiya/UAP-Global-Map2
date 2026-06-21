@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-06-21",
-  "total": 19,
+  "updated": "2026-06-13",
+  "total": 17,
   "sightings": [
     {
       "id": "r2",
@@ -14,7 +14,8 @@
       "date": "1950s–present",
       "desc": "Classified USAF test facility. CIA declassified docs confirm secret aircraft. AARO flags as major US hotspot.",
       "source": "CIA Declassified 2013",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r3",
@@ -25,7 +26,8 @@
       "date": "1990s–present",
       "desc": "Legendary UAP hotspot. Orbs, cattle mutilations, EM anomalies. Classified BAASS govt investigation.",
       "source": "NIDS/BAASS Research",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r7",
@@ -36,7 +38,8 @@
       "date": "Mar 1967",
       "desc": "UFO hovered over nuclear missile facility. Ten ICBMs went offline simultaneously.",
       "source": "Declassified USAF / Congress",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r8",
@@ -47,7 +50,8 @@
       "date": "Nov 2004",
       "desc": "Navy pilots encountered Tic-Tac craft descending from 80,000ft instantly. Pentagon video declassified 2020.",
       "source": "Pentagon FOIA 2020",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r9",
@@ -58,7 +62,8 @@
       "date": "Apr 2013",
       "desc": "US CBP video: oval object entered ocean, split in two, re-emerged. NARCAP analysis inconclusive.",
       "source": "NARCAP 2013",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "e1",
@@ -69,7 +74,8 @@
       "date": "Dec 1980",
       "desc": "USAF personnel encountered landed craft. Lt Col Halt recorded audio. Physical traces confirmed.",
       "source": "Lt Col Halt / UK MoD",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "m1",
@@ -80,7 +86,8 @@
       "date": "2016",
       "desc": "Metallic orb filmed by US spy plane. Shown at Congressional hearing by AARO director.",
       "source": "AARO Congressional 2023",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "m2",
@@ -91,7 +98,8 @@
       "date": "May 2022",
       "desc": "US military captured metallic orb at high speed. Released in Pentagon 162-file dump 2024.",
       "source": "Pentagon UAP Website 2024",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "m4",
@@ -102,7 +110,8 @@
       "date": "Sep 1976",
       "desc": "Iranian F-4 jets scrambled. Weapons and avionics failed when targeting object. DIA documented.",
       "source": "DIA Report 1976",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "a4",
@@ -113,7 +122,8 @@
       "date": "Jul 2019",
       "desc": "Sphere entered ocean without splash. Tracked 40kts underwater. Pentagon declassified.",
       "source": "Pentagon/Navy FOIA 2021",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "a5",
@@ -124,7 +134,8 @@
       "date": "2024",
       "desc": "US Indo-Pacific Command reported football-shaped UAP near Japan.",
       "source": "US INDOPACOM 2024",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "wu1",
@@ -135,7 +146,8 @@
       "date": "Sep 2025",
       "desc": "Pentagon released infrared image of unidentified object below military helicopter.",
       "source": "Pentagon UAP Website 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "gm1",
@@ -146,7 +158,8 @@
       "date": "Ongoing",
       "desc": "AARO identifies Gulf of Mexico as major global UAP cluster. High Navy/Coast Guard report density.",
       "source": "AARO Pentagon Report 2024",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p13",
@@ -157,7 +170,8 @@
       "date": "Jan 1, 2024",
       "desc": "PURSUE file: Football-shaped body with three fin-like projections hovering in infrared. Detected for only 9 seconds before vanishing. New Years Day 2024.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p14",
@@ -168,7 +182,8 @@
       "date": "2013",
       "desc": "PURSUE file: 1min 46sec appearance of 8-pointed starlike body swerving in front of Naval jet, leaving contrail. Swerved and maneuvered in impossible patterns.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "n4",
@@ -179,7 +194,8 @@
       "date": "1967 / filed Apr 2026",
       "desc": "NUFORC Apr 12, 2026: Retired AF radar tech reported 5,000 mph radar return tracked by 780th Radar Squadron. Related to nuclear missile UAP wave.",
       "source": "NUFORC April 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "l9",
@@ -190,35 +206,8 @@
       "date": "Dec 2025",
       "desc": "Pentagon released infrared image: small dark irregularly shaped object below military helicopter. Included in PURSUE May 2026 release.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
-    },
-    {
-      "id": "legacy_auto-1bae6a3c4126",
-      "name": "New Mexico, USA",
-      "lat": 34.5199,
-      "lng": -105.8701,
-      "cat": "military",
-      "date": "2026-06-13",
-      "desc": "Time: June 18, 2023 - 10:20 PM Location: New Mexico, Doña Ana training complex near White Sands We had been out camping in the New Mexican desert for a couple of weeks now. Me and my squad were handli",
-      "source": "Reddit | confidence: medium",
       "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-16f06d2b043f",
-      "name": "Area 51 / Groom Lake, Nevada, USA",
-      "lat": 37.2431,
-      "lng": -115.793,
-      "cat": "military",
-      "date": "2026-06-15",
-      "desc": "So - I consider myself a lay skeptic, but not rigidly enough that I see the need to debunk every possible event that can&#39;t be explained. I&#39;m not super well-versed on the phenomenon, but I thin",
-      "source": "Reddit | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
+      "confidence": "high"
     }
   ]
 }

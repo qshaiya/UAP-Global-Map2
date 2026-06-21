@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: historic",
   "category": "historic",
-  "updated": "2026-06-21",
+  "updated": "2026-06-13",
   "total": 2,
   "sightings": [
     {
@@ -14,7 +14,8 @@
       "date": "Jul 1947",
       "desc": "US Army recovered wreckage and confirmed flying disc before retracting. Non-human bodies reported. Ground zero for UFO disclosure movement.",
       "source": "USAF/RAAF 1947",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r5",
@@ -25,7 +26,8 @@
       "date": "Dec 1965",
       "desc": "Acorn-shaped craft crashed. US Army removed object. NASA later admitted retrieval. Origin unknown.",
       "source": "NUFORC/NASA FOIA",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     }
   ]
 }

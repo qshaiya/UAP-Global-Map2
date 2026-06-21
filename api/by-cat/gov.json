@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-06-21",
-  "total": 21,
+  "updated": "2026-06-13",
+  "total": 18,
   "sightings": [
     {
       "id": "a2",
@@ -14,7 +14,8 @@
       "date": "present",
       "desc": "AARO global hotspot map flags Hiroshima & Nagasaki. Japan established UAP parliamentary security body 2024.",
       "source": "AARO Hotspot Map 2024",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "ca3",
@@ -25,7 +26,8 @@
       "date": "1985–2025",
       "desc": "State Dept diplomatic cables: UAP incidents in Kazakhstan. Pentagon 162-file release May 2025.",
       "source": "Pentagon UAP Website 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "ca4",
@@ -36,7 +38,8 @@
       "date": "1994",
       "desc": "US Embassy cable: pilot and crew saw strange object at 41,000ft. Declassified in 2025 dump.",
       "source": "Pentagon UAP Website 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "oc1",
@@ -47,7 +50,8 @@
       "date": "1985–2025",
       "desc": "State Dept cables describe UAP incidents. In Pentagon 162-file document release May 2025.",
       "source": "Pentagon UAP Website 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p1",
@@ -58,7 +62,8 @@
       "date": "2023",
       "desc": "PURSUE file: triangular metallic UAP at 25,000ft making multiple 90-degree turns at ~80mph over Mediterranean. Declassified May 2026.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p2",
@@ -69,7 +74,8 @@
       "date": "2024",
       "desc": "PURSUE file: US troops reported multiple glares/lights from unknown origin. Two semi-transparent irregularly shaped orange areas over Syria.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p3",
@@ -80,7 +86,8 @@
       "date": "2022",
       "desc": "PURSUE file: Internal military memo describing one possible small UAP during active US operations in Iraq.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p4",
@@ -91,7 +98,8 @@
       "date": "2023",
       "desc": "PURSUE file: Reports from US troops stationed in United Arab Emirates. Objects observed during operations.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p5",
@@ -102,7 +110,8 @@
       "date": "2020–2026",
       "desc": "PURSUE file: Pentagon infrared videos showing UAP encounters over Gulf of Aden. Objects with unusual flight characteristics.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p6",
@@ -113,7 +122,8 @@
       "date": "2020–2026",
       "desc": "PURSUE file: Multiple UAP encounter reports from US military in Persian Gulf and Strait of Hormuz. Objects tracked entering water.",
       "source": "PURSUE Pentagon / Navy 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p7",
@@ -124,7 +134,8 @@
       "date": "2023",
       "desc": "PURSUE file: Pilot reported triangular metallic UAP at 25,000ft over Mediterranean. Part of 162 declassified files.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p8",
@@ -135,7 +146,8 @@
       "date": "2025",
       "desc": "PURSUE file DOW-UAP-PR43: US military operator reported UAP while operating in African airspace in 2025. Details partially redacted.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p9",
@@ -146,7 +158,8 @@
       "date": "1950s",
       "desc": "PURSUE/FBI file 62-HQ-83894: Surveillance imagery from Oak Ridge nuclear facility showing UAP activity. Declassified 2026.",
       "source": "PURSUE FBI File 62-HQ-83894",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p10",
@@ -157,7 +170,8 @@
       "date": "1985–2025",
       "desc": "PURSUE file: US State Dept diplomatic cables from Turkmenistan detailing UAP incidents over four decades. Released May 2026.",
       "source": "PURSUE State Dept Cables 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p11",
@@ -168,7 +182,8 @@
       "date": "1985–2025",
       "desc": "PURSUE file: US Embassy cables from Georgia reporting UAP incidents to Washington DC. Part of diplomatic cable collection.",
       "source": "PURSUE State Dept Cables 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p12",
@@ -179,7 +194,8 @@
       "date": "1985–2025",
       "desc": "PURSUE file: US Embassy cables from Mexico detailing UAP incidents. Part of diplomatic cable collection spanning 1985 to late 2025.",
       "source": "PURSUE State Dept Cables 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "q1",
@@ -190,7 +206,8 @@
       "date": "2022",
       "desc": "Pentagon 3rd UAP release (Jun 12 2026): “Potato”-shaped object, creamy/whitish opalescent, translucent with slight shimmer. Documented near Colorado Springs.",
       "source": "Pentagon 3rd Release Jun 12, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "q2",
@@ -201,49 +218,8 @@
       "date": "2023",
       "desc": "Pentagon 3rd release: Five federal law enforcement officers reported strange glowing orbs on the horizon in 2023. “Are you seeing this?” one agent asked. Exact location redacted — approximate central US placement.",
       "source": "Pentagon 3rd Release Jun 12, 2026",
-      "approx": false
-    },
-    {
-      "id": "legacy_2026-05-22-pursue-sandia-new-mexico-1948",
-      "name": "Sandia, New Mexico, USA",
-      "lat": 35.054,
-      "lng": -106.54,
-      "cat": "gov",
-      "date": "1948-1950",
-      "desc": "Reuters reported that the May 22, 2026 second U.S. release included a 116-page document describing 209 sightings near a secret military facility in Sandia, New Mexico between 1948 and 1950.",
-      "source": "Government_Disclosure_News_Report | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_2026-05-22-pursue-syria-2024-white-orb",
-      "name": "Syria",
-      "lat": 34.8021,
-      "lng": 38.9968,
-      "cat": "gov",
-      "date": "2024",
-      "desc": "Wired reported that the May 2026 Pentagon/PURSUE materials include a 2024 military sighting in Syria of an unusual white light orb.",
-      "source": "Government_Disclosure_News_Report | confidence: low | https://www.wired.com/story/pentagon-drops-new-ufo-files",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_2026-05-22-pursue-iran-unspecified",
-      "name": "Iran",
-      "lat": 32.4279,
-      "lng": 53.688,
-      "cat": "gov",
-      "date": "unknown",
-      "desc": "The Guardian reported that the May 22, 2026 Pentagon release included footage or materials related to Iran among other regions.",
-      "source": "Government_Disclosure_News_Report | confidence: low",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
+      "approx": true,
+      "confidence": "high"
     }
   ]
 }
