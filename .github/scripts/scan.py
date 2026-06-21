@@ -186,6 +186,22 @@ def main():
 
     # ── Parse JSON array from the response ───────────────────────────────────
     new_items = extract_json_array(full_text)
+
+    # Some models return an array of JSON strings instead of an array of objects.
+    # e.g. ["{ \"name\": \"...\" }", "{ \"name\": \"...\" }"]
+    # Parse each string element into a dict if needed.
+    parsed_items = []
+    for item in new_items:
+        if isinstance(item, dict):
+            parsed_items.append(item)
+        elif isinstance(item, str):
+            try:
+                obj = json.loads(item)
+                if isinstance(obj, dict):
+                    parsed_items.append(obj)
+            except json.JSONDecodeError:
+                print(f"  SKIP (could not parse string item): {item[:80]}")
+    new_items = parsed_items
     print(f"Items returned by model: {len(new_items)}")
 
     # ── Add genuinely new sightings ───────────────────────────────────────────
