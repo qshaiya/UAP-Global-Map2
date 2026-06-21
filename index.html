@@ -128,6 +128,8 @@ html,body{width:100%;height:100%;background:var(--bg);color:var(--txt);font-fami
       <button class="fb" onclick="setFilter('military',this)">MILITARY</button>
       <button class="fb" onclick="setFilter('gov',this)">GOV</button>
       <button class="fb" onclick="setFilter('historic',this)">HISTORIC</button>
+      <button class="fb" onclick="setFilter('high',this)" style="color:#ef4444;border-color:#ef444455">HIGH CONF</button>
+      <button class="fb" onclick="setFilter('source_url',this)">HAS SOURCE</button>
     </div>
     <div class="sl" id="sl"></div>
   </div>
@@ -140,13 +142,34 @@ html,body{width:100%;height:100%;background:var(--bg);color:var(--txt);font-fami
       <button class="mb" onclick="resetView()" title="Reset view" style="font-size:10px">&#8962;</button>
     </div>
     <div class="leg">
-      <div class="lt">CLASSIFICATION</div>
+      <div class="lt">CLASSIFICATION (COLOR)</div>
       <div class="lr"><div class="ld" style="background:#00ffe7;box-shadow:0 0 4px #00ffe7"></div>Recent 2024-26</div>
       <div class="lr"><div class="ld" style="background:#00a8ff"></div>Civilian</div>
       <div class="lr"><div class="ld" style="background:#ff6b35"></div>Military</div>
       <div class="lr"><div class="ld" style="background:#f0c040"></div>Gov Doc</div>
       <div class="lr"><div class="ld" style="background:#7b2fff"></div>Historic</div>
-      <div class="lr"><div style="width:7px;height:7px;border-radius:50%;border:1px dashed var(--muted)"></div>Approx. Location</div>
+      <div class="lr"><div style="width:7px;height:7px;border-radius:50%;border:1px dashed var(--muted)"></div>Approx. location</div>
+      <div class="lt" style="margin-top:8px">CONFIDENCE (SHAPE)</div>
+      <div class="lr">
+        <svg width="10" height="10" viewBox="0 0 10 10"><circle cx="5" cy="5" r="4" fill="var(--muted)"/></svg>
+        High
+      </div>
+      <div class="lr">
+        <svg width="10" height="10" viewBox="0 0 10 10"><polygon points="5,1 9,5 5,9 1,5" fill="var(--muted)"/></svg>
+        Medium-high
+      </div>
+      <div class="lr">
+        <svg width="10" height="10" viewBox="0 0 10 10"><rect x="1" y="1" width="8" height="8" fill="var(--muted)"/></svg>
+        Medium
+      </div>
+      <div class="lr">
+        <svg width="10" height="10" viewBox="0 0 10 10"><polygon points="5,1 9,9 1,9" fill="var(--muted)"/></svg>
+        Low
+      </div>
+      <div class="lr">
+        <svg width="10" height="10" viewBox="0 0 10 10"><circle cx="5" cy="5" r="3.5" fill="var(--muted)" fill-opacity="0.6"/></svg>
+        Unknown
+      </div>
     </div>
     <button class="fab" onclick="openMod()" title="Add sighting">+</button>
     <div class="lp">
@@ -290,26 +313,77 @@ function initMap(){
 function pinIcon(s){
   const c=COLS[s.cat]||'#00ffe7';
   const isNew=!!s.isNew;
-  const dotCls='pin-dot'+(isNew?' new':'');
+  const sz=isNew?14:10;
   const glow=(s.cat==='recent'||isNew)?`<div class="pin-glow"></div>`:'';
   const approxRing=s.approx?`<div class="pin-approx"></div>`:'';
-  const html=`<div class="pin-wrap" style="--c:${c}">${glow}${approxRing}<div class="${dotCls}" style="--c:${c}"></div></div>`;
-  const size=isNew?26:22;
-  return L.divIcon({className:'',html,iconSize:[size,size],iconAnchor:[size/2,size/2],popupAnchor:[0,-size/2]});
+
+  // Shape encodes confidence — color still encodes category only
+  let shape='';
+  const conf=s.confidence||'';
+  const strokeW=isNew?2:1.5;
+  const glowFilter=isNew?`filter:drop-shadow(0 0 4px ${c})`:'';
+  if(conf==='high'){
+    // Circle — most authoritative
+    shape=`<svg width="${sz}" height="${sz}" viewBox="0 0 10 10" style="${glowFilter}">
+      <circle cx="5" cy="5" r="4" fill="${c}" stroke="rgba(255,255,255,0.35)" stroke-width="${strokeW}"/>
+    </svg>`;
+  } else if(conf==='medium-high'){
+    // Diamond (rotated square)
+    shape=`<svg width="${sz}" height="${sz}" viewBox="0 0 10 10" style="${glowFilter}">
+      <polygon points="5,1 9,5 5,9 1,5" fill="${c}" stroke="rgba(255,255,255,0.35)" stroke-width="${strokeW}"/>
+    </svg>`;
+  } else if(conf==='medium'){
+    // Square
+    shape=`<svg width="${sz}" height="${sz}" viewBox="0 0 10 10" style="${glowFilter}">
+      <rect x="1" y="1" width="8" height="8" fill="${c}" stroke="rgba(255,255,255,0.35)" stroke-width="${strokeW}"/>
+    </svg>`;
+  } else if(conf==='low'){
+    // Triangle (pointing up)
+    shape=`<svg width="${sz}" height="${sz}" viewBox="0 0 10 10" style="${glowFilter}">
+      <polygon points="5,1 9,9 1,9" fill="${c}" stroke="rgba(255,255,255,0.35)" stroke-width="${strokeW}"/>
+    </svg>`;
+  } else {
+    // Unknown — small open circle
+    shape=`<svg width="${sz}" height="${sz}" viewBox="0 0 10 10" style="${glowFilter}">
+      <circle cx="5" cy="5" r="3.5" fill="${c}" stroke="rgba(255,255,255,0.35)" stroke-width="${strokeW}" fill-opacity="0.7"/>
+    </svg>`;
+  }
+
+  const html=`<div class="pin-wrap" style="--c:${c}">${glow}${approxRing}${shape}</div>`;
+  const wrap=sz+10;
+  return L.divIcon({className:'',html,iconSize:[wrap,wrap],iconAnchor:[wrap/2,wrap/2],popupAnchor:[0,-wrap/2]});
 }
 
 function popupHtml(s){
   const newTag=s.isNew?' <span style="color:var(--acc)">[NEW]</span>':'';
-  const approxTag=s.approx?`<div class="pp-approx">\u25cb Approximate location — exact coordinates not confirmed</div>`:'';
-  const src=s.source?`<div class="pp-src">\ud83d\udce1 ${s.source}</div>`:'';
-  return `<div class="pp-title">${s.name}${newTag}</div>`+
+  const approxTag=s.approx?`<div class="pp-approx">\u25cb Approximate location \u2014 coordinates not confirmed</div>`:'';
+
+  // Confidence badge — neutral monospace, no competing color
+  const confBadge = s.confidence
+    ? `<span style="font-family:'Share Tech Mono',monospace;font-size:8px;letter-spacing:1px;color:var(--muted);border:1px solid var(--brd);border-radius:2px;padding:1px 4px;margin-left:5px">${s.confidence.toUpperCase()}</span>`
+    : '';
+
+  // Source — clickable if source_url exists
+  let srcHtml='';
+  if(s.source_url){
+    srcHtml=`<div class="pp-src"><a href="${s.source_url}" target="_blank" style="color:var(--acc2);text-decoration:none">\ud83d\udce1 ${s.source||'Source'} \u2197</a></div>`;
+  } else if(s.source){
+    srcHtml=`<div class="pp-src">\ud83d\udce1 ${s.source}</div>`;
+  }
+
+  // Location precision note
+  const precNote = s.location_precision && s.location_precision!=='exact'
+    ? `<div style="font-size:9px;color:var(--muted);margin-top:2px">\ud83d\udccd ${s.location_precision.replace(/_/g,' ')}</div>`
+    : '';
+
+  return `<div class="pp-title">${s.name}${newTag}${confBadge}</div>`+
          `<div class="pp-meta">${s.cat.toUpperCase()} \u00b7 ${s.date||''}</div>`+
          `<div class="pp-desc">${s.desc}</div>`+
-         src+approxTag;
+         srcHtml+precNote+approxTag;
 }
 
 function renderAll(){
-  const list=filter==='all'?sightings:sightings.filter(s=>s.cat===filter);
+  const list=applyFilter(sightings);
   document.getElementById('pc').textContent=sightings.length;
   document.getElementById('sbc').textContent=list.length+' pins';
 
@@ -328,10 +402,13 @@ function renderAll(){
   const el=document.getElementById('sl');el.innerHTML='';
   [...list].sort((a,b)=>(b.isNew?1:0)-(a.isNew?1:0)).forEach(s=>{
     const c=COLS[s.cat]||'#00ffe7',nb=s.isNew?'<span class="stg t-new">NEW</span>':'';
-    const approxB=s.approx?' <span style="color:var(--muted);font-size:9px">(approx. location)</span>':'';
+    const approxB=s.approx?' <span style="color:var(--muted);font-size:9px">(approx.)</span>':'';
+    const confB=s.confidence?`<span style="font-size:9px;font-family:'Share Tech Mono',monospace;color:var(--muted);letter-spacing:1px">${s.confidence.toUpperCase()}</span> `:'';
+    const srcB=s.source_url?`<a href="${s.source_url}" target="_blank" style="font-size:9px;color:var(--acc2);text-decoration:none" onclick="event.stopPropagation()">source \u2197</a>`:'';
+    const bottomRow=(confB||srcB)?`<div style="display:flex;gap:8px;align-items:center;margin-top:4px">${confB}${srcB}</div>`:'';
     const d=document.createElement('div');
     d.className='sc'+(s.isNew?' n':'');
-    d.innerHTML=`<div class="sct"><div class="sd" style="background:${c}${s.isNew?';box-shadow:0 0 5px '+c:''}"></div><div class="sn">${s.name}${approxB}</div></div><div class="sm">${s.cat.toUpperCase()} \u00b7 ${s.date||''}</div><div class="sds">${s.desc.substring(0,88)}${s.desc.length>88?'\u2026':''}</div>${nb}<span class="stg t-${s.cat}">${s.cat.toUpperCase()}</span>`;
+    d.innerHTML=`<div class="sct"><div class="sd" style="background:${c}${s.isNew?';box-shadow:0 0 5px '+c:''}"></div><div class="sn">${s.name}${approxB}</div></div><div class="sm">${s.cat.toUpperCase()} \u00b7 ${s.date||''}</div><div class="sds">${s.desc.substring(0,88)}${s.desc.length>88?'\u2026':''}</div>${nb}<span class="stg t-${s.cat}">${s.cat.toUpperCase()}</span>${bottomRow}`;
     d.onclick=()=>{
       if(typeof s.lat!=='number'||typeof s.lng!=='number')return;
       map.setView([s.lat,s.lng],6,{animate:true});
@@ -342,7 +419,19 @@ function renderAll(){
   });
 }
 
-function setFilter(f,btn){filter=f;document.querySelectorAll('.fb').forEach(b=>b.classList.remove('act'));btn.classList.add('act');renderAll();}
+function setFilter(f,btn){
+  filter=f;
+  document.querySelectorAll('.fb').forEach(b=>b.classList.remove('act'));
+  btn.classList.add('act');
+  renderAll();
+}
+
+function applyFilter(list){
+  if(filter==='all') return list;
+  if(filter==='high') return list.filter(s=>s.confidence==='high'||s.confidence==='medium-high');
+  if(filter==='source_url') return list.filter(s=>!!s.source_url);
+  return list.filter(s=>s.cat===filter);
+}
 
 function zoom(dir){ map.setZoom(map.getZoom()+dir); }
 function resetView(){ map.setView([20,15],2.3,{animate:true}); }
