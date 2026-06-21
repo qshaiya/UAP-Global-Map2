@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-06-13",
-  "total": 18,
+  "updated": "2026-06-21",
+  "total": 21,
   "sightings": [
     {
       "id": "a2",
@@ -220,6 +220,48 @@
       "source": "Pentagon 3rd Release Jun 12, 2026",
       "approx": true,
       "confidence": "high"
+    },
+    {
+      "id": "legacy_2026-05-22-pursue-sandia-new-mexico-1948",
+      "name": "Sandia, New Mexico, USA",
+      "lat": 35.054,
+      "lng": -106.54,
+      "cat": "gov",
+      "date": "1948-1950",
+      "desc": "Reuters reported that the May 22, 2026 second U.S. release included a 116-page document describing 209 sightings near a secret military facility in Sandia, New Mexico between 1948 and 1950.",
+      "source": "Government_Disclosure_News_Report | confidence: medium",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": false,
+      "legacy": true
+    },
+    {
+      "id": "legacy_2026-05-22-pursue-syria-2024-white-orb",
+      "name": "Syria",
+      "lat": 34.8021,
+      "lng": 38.9968,
+      "cat": "gov",
+      "date": "2024",
+      "desc": "Wired reported that the May 2026 Pentagon/PURSUE materials include a 2024 military sighting in Syria of an unusual white light orb.",
+      "source": "Government_Disclosure_News_Report | confidence: low | https://www.wired.com/story/pentagon-drops-new-ufo-files",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": false,
+      "legacy": true
+    },
+    {
+      "id": "legacy_2026-05-22-pursue-iran-unspecified",
+      "name": "Iran",
+      "lat": 32.4279,
+      "lng": 53.688,
+      "cat": "gov",
+      "date": "unknown",
+      "desc": "The Guardian reported that the May 22, 2026 Pentagon release included footage or materials related to Iran among other regions.",
+      "source": "Government_Disclosure_News_Report | confidence: low",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": false,
+      "legacy": true
     }
   ]
 }

@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-06-13",
-  "total": 17,
+  "updated": "2026-06-21",
+  "total": 19,
   "sightings": [
     {
       "id": "r2",
@@ -208,6 +208,34 @@
       "source": "PURSUE Pentagon Release May 8, 2026",
       "approx": false,
       "confidence": "high"
+    },
+    {
+      "id": "legacy_auto-1bae6a3c4126",
+      "name": "New Mexico, USA",
+      "lat": 34.5199,
+      "lng": -105.8701,
+      "cat": "military",
+      "date": "2026-06-13",
+      "desc": "Time: June 18, 2023 - 10:20 PM Location: New Mexico, Doña Ana training complex near White Sands We had been out camping in the New Mexican desert for a couple of weeks now. Me and my squad were handli",
+      "source": "Reddit | confidence: medium",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": false,
+      "legacy": true
+    },
+    {
+      "id": "legacy_auto-16f06d2b043f",
+      "name": "Area 51 / Groom Lake, Nevada, USA",
+      "lat": 37.2431,
+      "lng": -115.793,
+      "cat": "military",
+      "date": "2026-06-15",
+      "desc": "So - I consider myself a lay skeptic, but not rigidly enough that I see the need to debunk every possible event that can&#39;t be explained. I&#39;m not super well-versed on the phenomenon, but I thin",
+      "source": "Reddit | confidence: medium",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": false,
+      "legacy": true
     }
   ]
 }
