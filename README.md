@@ -2,7 +2,7 @@
 
 A continuously-updating interactive map of UAP/UFO sightings, government disclosures, and witness reports from around the world.
 
-Live repo: https://github.com/qshaiya/UAP-Global-Map2
+Live repo: [https://github.com/qshaiya/UAP-Global-Map2](https://qshaiya.github.io/UAP-Global-Map2/)
 
 ## How it works
 
