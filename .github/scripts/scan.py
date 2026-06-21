@@ -1,46 +1,55 @@
 #!/usr/bin/env python3
 """
 SENTINEL-7 Daily UAP Scan
-Calls the OpenRouter API (free model + web search plugin) to find new UAP/UFO
-sightings, witness reports, and government disclosures reported recently.
-Appends any genuinely new entries (deduplicated by name) to data/sightings.json.
+Uses OpenRouter's openrouter:web_search server tool to find new UAP/UFO
+sightings, government disclosures, and witness reports daily.
 
-If a sighting only has a general area (no precise coordinates), the model is
-instructed to provide an approximate lat/lng for that area and set "approx": true.
+Usage:
+  python3 scan.py                                    # uses DEFAULT_MODEL
+  python3 scan.py "meta-llama/llama-3.3-70b-instruct:free"
 """
 import json
 import os
 import re
 import sys
 import urllib.request
+import urllib.error
 from datetime import datetime, timedelta, timezone
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "sightings.json")
-API_KEY = os.environ.get("OPENROUTER_API_KEY")
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
-# Free-tier OpenRouter model. The "web" plugin (Exa search) used below incurs a
-# tiny per-search fee (a few tenths of a cent) even though the base model is
-# free — your OpenRouter account needs a small amount of credit for this.
-#
-# Pass a different model as argv[1] to run a second/third scan pass with a
-# different model — each model formulates its own search queries, so a
-# second pass often surfaces different sightings even using the same web
-# search backend. See daily-scan.yml for how multiple passes are wired up.
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
+DATA_PATH = os.path.join(ROOT, "data", "sightings.json")
+
+API_KEY  = os.environ.get("OPENROUTER_API_KEY")
+API_URL  = "https://openrouter.ai/api/v1/chat/completions"
+
+# Base free models — :online suffix enables web search for any model via Exa
 DEFAULT_MODEL = "deepseek/deepseek-chat-v3.1:free"
 MODEL = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("OPENROUTER_MODEL", DEFAULT_MODEL)
 
+# Append :online if web search suffix not already present
+# This is the correct, non-deprecated way per OpenRouter docs (2026)
+if ":online" not in MODEL and ":free" in MODEL:
+    SEARCH_MODEL = MODEL.replace(":free", "") + ":online"
+elif ":online" not in MODEL:
+    SEARCH_MODEL = MODEL + ":online"
+else:
+    SEARCH_MODEL = MODEL
+
 SYSTEM_PROMPT = """You are SENTINEL-7, a UAP/UFO intelligence extraction agent.
 
-Search the internet (Reddit r/UFOs, X/Twitter, NUFORC, MUFON, news wires, the Pentagon PURSUE/war.gov/ufo portal, AARO releases, and similar sources) for UAP/UFO sightings, witness reports, or government disclosure documents that were reported or published in roughly the last 24-72 hours.
+Search the internet for UAP/UFO sightings, witness reports, or government
+disclosure documents reported or published in the last 24-72 hours. Search
+Reddit r/UFOs, X/Twitter UAP accounts, NUFORC, MUFON, news wires, and the
+Pentagon PURSUE/AARO portal.
 
-Return ONLY a valid JSON array, no markdown, no commentary:
+Return ONLY a valid JSON array (no markdown, no commentary, no preamble):
 [
   {
-    "name": "Location or Region, Country",
+    "name": "City, Country or Region",
     "lat": 0.0,
     "lng": 0.0,
     "cat": "recent",
-    "date": "Month Year or specific date",
+    "date": "Month Year",
     "desc": "Factual description under 150 characters",
     "source": "Source name and date",
     "approx": false
@@ -48,30 +57,44 @@ Return ONLY a valid JSON array, no markdown, no commentary:
 ]
 
 Rules:
-- Categories allowed: recent, military, civilian, gov, historic
-- If the report gives an exact location, use precise coordinates and set "approx": false.
-- If the report only gives a general area (a city, region, country, "near X base", "over the Pacific", etc.) with no exact coordinates, pick a reasonable representative lat/lng for that area (e.g. the city center, or a point within the named region/ocean) and set "approx": true.
-- Only include incidents that are NEWLY reported (do not return well-known historic cases like Roswell, Area 51, etc. unless there is a genuinely new development about them).
-- Return between 0 and 6 items. If you find nothing new, return an empty array [].
-- Every item must have real, plausible coordinates (no 0,0 placeholders unless the location truly is at the equator/prime meridian).
+- cat must be one of: recent, military, civilian, gov, historic
+- approx: true if coordinates are estimated (only a region/country known),
+  false if the sighting has a specific city/location
+- Return 3-8 genuinely NEW incidents — do NOT return well-known historic
+  cases (Roswell, Nimitz, Area 51, etc.) unless there is brand-new news
+- If you find nothing new, return exactly: []
+- Every lat/lng must be a real coordinate — never use 0.0 unless the
+  location is actually near the equator/prime meridian
 """
 
-USER_PROMPT = "Search for the latest UAP/UFO sightings, witness reports, and government disclosures from the last 24-72 hours. Return as a JSON array per the schema."
+USER_PROMPT = (
+    "Search for the latest UAP/UFO sightings, witness reports, and government "
+    "disclosures from the last 24-72 hours. Include specific locations where known. "
+    "Return as a JSON array only."
+)
 
 
 def call_model():
+    """Call OpenRouter using the openrouter:web_search server tool."""
     body = {
-        "model": MODEL,
+        "model": SEARCH_MODEL,
+        "max_tokens": 1500,
+        "tools": [
+            {
+                "type": "openrouter:web_search",
+                "engine": "auto",       # auto = native search if available, else Exa
+                "max_results": 8,
+            }
+        ],
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": USER_PROMPT},
+            {"role": "user",   "content": USER_PROMPT},
         ],
-        "plugins": [{"id": "web", "max_results": 5}],
-        "max_tokens": 1500,
     }
+    data = json.dumps(body).encode("utf-8")
     req = urllib.request.Request(
         API_URL,
-        data=json.dumps(body).encode("utf-8"),
+        data=data,
         headers={
             "Content-Type": "application/json",
             "Authorization": f"Bearer {API_KEY}",
@@ -80,92 +103,161 @@ def call_model():
         },
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            raw = resp.read().decode("utf-8")
+            return json.loads(raw)
+    except urllib.error.HTTPError as e:
+        body_text = e.read().decode("utf-8", errors="replace")
+        print(f"HTTP {e.code}: {body_text[:800]}")
+        raise
 
 
 def extract_json_array(text):
+    """Extract a JSON array from model output, handling markdown fences."""
     text = re.sub(r"```json|```", "", text).strip()
     start = text.find("[")
-    end = text.rfind("]")
+    end   = text.rfind("]")
     if start == -1 or end == -1 or end <= start:
+        print(f"No JSON array found in response. Raw text:\n{text[:600]}")
         return []
     try:
         return json.loads(text[start:end + 1])
-    except json.JSONDecodeError:
+    except json.JSONDecodeError as e:
+        print(f"JSON parse error: {e}\nRaw snippet: {text[start:start+400]}")
         return []
 
 
 def main():
-    if not API_KEY:
-        print("No OPENROUTER_API_KEY set — skipping scan.")
-        sys.exit(0)
+    print(f"=== SENTINEL-7 UAP Scan ===")
+    print(f"Model     : {MODEL}")
+    print(f"Search via: {SEARCH_MODEL}")
+    print(f"Data file : {os.path.abspath(DATA_PATH)}")
+    print(f"Timestamp : {datetime.now(timezone.utc).isoformat()}")
+    print()
 
-    print(f"Running scan with model: {MODEL}")
+    if not API_KEY:
+        print("ERROR: No OPENROUTER_API_KEY set — skipping scan.")
+        sys.exit(1)
+
+    if not os.path.exists(DATA_PATH):
+        print(f"ERROR: Data file not found: {DATA_PATH}")
+        sys.exit(1)
 
     with open(DATA_PATH, "r", encoding="utf-8") as f:
         db = json.load(f)
 
     existing_names = {s["name"].strip().lower() for s in db["sightings"]}
+    print(f"Existing sightings in DB: {len(db['sightings'])}")
 
+    # ── Call the model ────────────────────────────────────────────────────────
     try:
-        data = call_model()
+        response = call_model()
     except Exception as e:
-        print(f"API call failed: {e}")
+        print(f"ERROR: API call failed: {e}")
+        sys.exit(1)
+
+    # ── Print usage/cost info if available ────────────────────────────────────
+    usage = response.get("usage", {})
+    if usage:
+        print(f"Tokens used: prompt={usage.get('prompt_tokens','-')} "
+              f"completion={usage.get('completion_tokens','-')}")
+
+    # ── Extract text from response ────────────────────────────────────────────
+    choices = response.get("choices", [])
+    if not choices:
+        print(f"ERROR: No choices in response. Full response:\n{json.dumps(response)[:800]}")
+        sys.exit(1)
+
+    msg = choices[0].get("message", {})
+    full_text = msg.get("content") or ""
+
+    # Tool call results may also contain text
+    tool_calls = msg.get("tool_calls", [])
+    if tool_calls:
+        print(f"Model made {len(tool_calls)} tool call(s) (web search)")
+
+    print(f"Model response ({len(full_text)} chars):\n{full_text[:600]}")
+    print()
+
+    if not full_text.strip():
+        print("WARNING: Empty response from model.")
         sys.exit(0)
 
-    try:
-        full_text = data["choices"][0]["message"]["content"]
-    except (KeyError, IndexError, TypeError):
-        print(f"Unexpected response shape: {json.dumps(data)[:500]}")
-        sys.exit(0)
-
+    # ── Parse JSON array from the response ───────────────────────────────────
     new_items = extract_json_array(full_text)
+    print(f"Items returned by model: {len(new_items)}")
 
+    # ── Add genuinely new sightings ───────────────────────────────────────────
     added = 0
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     model_tag = re.sub(r"[^a-z0-9]+", "-", MODEL.lower()).strip("-")[:20]
+
+    VALID_CATS = {"recent", "military", "civilian", "gov", "historic"}
+
     for item in new_items:
         name = str(item.get("name", "")).strip()
-        lat = item.get("lat")
-        lng = item.get("lng")
-        if not name or lat is None or lng is None:
+        lat  = item.get("lat")
+        lng  = item.get("lng")
+
+        if not name:
+            print(f"  SKIP (no name): {item}")
+            continue
+        if lat is None or lng is None:
+            print(f"  SKIP (no coords): {name}")
+            continue
+        try:
+            lat = float(lat); lng = float(lng)
+        except (ValueError, TypeError):
+            print(f"  SKIP (bad coords): {name} lat={lat} lng={lng}")
+            continue
+        if not (-90 <= lat <= 90 and -180 <= lng <= 180):
+            print(f"  SKIP (out-of-range coords): {name} lat={lat} lng={lng}")
             continue
         if name.strip().lower() in existing_names:
+            print(f"  SKIP (duplicate): {name}")
             continue
-        new_id = "scan_" + datetime.now(timezone.utc).strftime("%Y%m%d") + f"_{model_tag}_{added+1:02d}"
-        db["sightings"].append({
-            "id": new_id,
-            "name": name,
-            "lat": float(lat),
-            "lng": float(lng),
-            "cat": item.get("cat", "recent"),
-            "date": item.get("date", today),
-            "desc": item.get("desc", ""),
-            "source": item.get("source", "SENTINEL-7 Daily Scan"),
-            "approx": bool(item.get("approx", False)),
+
+        cat = item.get("cat", "recent")
+        if cat not in VALID_CATS:
+            cat = "recent"
+
+        new_id = f"scan_{today}_{model_tag}_{added+1:02d}"
+        entry = {
+            "id":      new_id,
+            "name":    name,
+            "lat":     lat,
+            "lng":     lng,
+            "cat":     cat,
+            "date":    item.get("date", today),
+            "desc":    str(item.get("desc", ""))[:200],
+            "source":  str(item.get("source", "SENTINEL-7 Daily Scan")),
+            "approx":  bool(item.get("approx", False)),
             "addedOn": today,
-            "isNew": True,
-        })
+            "isNew":   True,
+        }
+        db["sightings"].append(entry)
         existing_names.add(name.strip().lower())
         added += 1
-        print(f"NEW PIN: {name} ({item.get('cat')}) {'[APPROX]' if item.get('approx') else ''}")
+        approx_tag = " [APPROX]" if entry["approx"] else ""
+        print(f"  + NEW PIN: {name} ({cat}){approx_tag}")
 
-    # Clear "isNew" flag from entries older than 7 days
+    # ── Age out old "isNew" flags ─────────────────────────────────────────────
     cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).strftime("%Y-%m-%d")
     for s in db["sightings"]:
         if s.get("isNew") and s.get("addedOn", today) < cutoff:
             s["isNew"] = False
 
     db["updated"] = today
-    db["count"] = len(db["sightings"])
+    db["count"]   = len(db["sightings"])
 
+    # ── Write back only if something changed ──────────────────────────────────
     if added > 0:
         with open(DATA_PATH, "w", encoding="utf-8") as f:
             json.dump(db, f, ensure_ascii=False, indent=2)
-        print(f"Added {added} new sighting(s). Total: {db['count']}")
+        print(f"\nAdded {added} new sighting(s). Total: {db['count']}")
     else:
-        print("No new sightings found.")
+        print(f"\nNo new sightings found. DB unchanged ({db['count']} entries).")
 
 
 if __name__ == "__main__":

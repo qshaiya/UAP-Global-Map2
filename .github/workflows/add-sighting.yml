@@ -1,0 +1,99 @@
+name: Add UAP Sighting (Write API)
+
+# This workflow acts as the WRITE API endpoint.
+# Trigger it via the GitHub Actions API:
+#
+#   POST https://api.github.com/repos/qshaiya/UAP-Global-Map2/actions/workflows/add-sighting.yml/dispatches
+#   Headers:
+#     Authorization: Bearer <GITHUB_PAT>
+#     Content-Type: application/json
+#   Body:
+#     {
+#       "ref": "main",
+#       "inputs": {
+#         "name":   "Phoenix, Arizona",
+#         "lat":    "33.448",
+#         "lng":    "-112.074",
+#         "cat":    "civilian",
+#         "date":   "June 2026",
+#         "desc":   "Triangular object observed by 3 witnesses",
+#         "source": "NUFORC June 2026",
+#         "approx": "false"
+#       }
+#     }
+#
+# cat must be one of: recent, military, civilian, gov, historic
+# approx: "true" if lat/lng are approximate, "false" if exact
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Location name (e.g. "Phoenix, Arizona")'
+        required: true
+      lat:
+        description: 'Latitude (e.g. "33.448")'
+        required: true
+      lng:
+        description: 'Longitude (e.g. "-112.074")'
+        required: true
+      cat:
+        description: 'Category: recent | military | civilian | gov | historic'
+        required: true
+        default: 'recent'
+      date:
+        description: 'Date (e.g. "June 2026")'
+        required: false
+        default: ''
+      desc:
+        description: 'Description (under 150 chars)'
+        required: true
+      source:
+        description: 'Source (e.g. "NUFORC June 2026")'
+        required: false
+        default: 'Manual via API'
+      approx:
+        description: 'Approximate location? "true" or "false"'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Add sighting to database
+        env:
+          INPUT_NAME:   ${{ github.event.inputs.name }}
+          INPUT_LAT:    ${{ github.event.inputs.lat }}
+          INPUT_LNG:    ${{ github.event.inputs.lng }}
+          INPUT_CAT:    ${{ github.event.inputs.cat }}
+          INPUT_DATE:   ${{ github.event.inputs.date }}
+          INPUT_DESC:   ${{ github.event.inputs.desc }}
+          INPUT_SOURCE: ${{ github.event.inputs.source }}
+          INPUT_APPROX: ${{ github.event.inputs.approx }}
+        run: python3 .github/scripts/add_sighting.py
+
+      - name: Rebuild API files
+        run: python3 .github/scripts/build_api.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "sentinel-7-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/sightings.json api/
+          if ! git diff --cached --quiet; then
+            git commit -m "📍 API: added sighting — ${{ github.event.inputs.name }}"
+            git push
+          else
+            echo "Sighting already exists."
+          fi
