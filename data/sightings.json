@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-21",
-  "count": 109,
+  "updated": "2026-06-13",
+  "count": 79,
   "sightings": [
     {
       "id": "r1",
@@ -11,7 +11,8 @@
       "date": "Jul 1947",
       "desc": "US Army recovered wreckage and confirmed flying disc before retracting. Non-human bodies reported. Ground zero for UFO disclosure movement.",
       "source": "USAF/RAAF 1947",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r2",
@@ -22,7 +23,8 @@
       "date": "1950s–present",
       "desc": "Classified USAF test facility. CIA declassified docs confirm secret aircraft. AARO flags as major US hotspot.",
       "source": "CIA Declassified 2013",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r3",
@@ -33,7 +35,8 @@
       "date": "1990s–present",
       "desc": "Legendary UAP hotspot. Orbs, cattle mutilations, EM anomalies. Classified BAASS govt investigation.",
       "source": "NIDS/BAASS Research",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r4",
@@ -44,7 +47,8 @@
       "date": "Mar 13, 1997",
       "desc": "Massive V-shaped craft witnessed by thousands across Arizona. Governor later admitted he saw it.",
       "source": "NUFORC / Gov. Symington",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r5",
@@ -55,7 +59,8 @@
       "date": "Dec 1965",
       "desc": "Acorn-shaped craft crashed. US Army removed object. NASA later admitted retrieval. Origin unknown.",
       "source": "NUFORC/NASA FOIA",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r6",
@@ -66,7 +71,8 @@
       "date": "Jan 2008",
       "desc": "Massive silent object 1 mile wide witnessed by dozens incl. pilots. FAA radar confirmed.",
       "source": "MUFON 2008",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r7",
@@ -77,7 +83,8 @@
       "date": "Mar 1967",
       "desc": "UFO hovered over nuclear missile facility. Ten ICBMs went offline simultaneously.",
       "source": "Declassified USAF / Congress",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r8",
@@ -88,7 +95,8 @@
       "date": "Nov 2004",
       "desc": "Navy pilots encountered Tic-Tac craft descending from 80,000ft instantly. Pentagon video declassified 2020.",
       "source": "Pentagon FOIA 2020",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r9",
@@ -99,7 +107,8 @@
       "date": "Apr 2013",
       "desc": "US CBP video: oval object entered ocean, split in two, re-emerged. NARCAP analysis inconclusive.",
       "source": "NARCAP 2013",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "r10",
@@ -110,7 +119,8 @@
       "date": "1967–present",
       "desc": "Persistent UAP hotspot. 1,000+ documented cases. Cattle mutilations.",
       "source": "NUFORC/MUFON",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "r11",
@@ -121,7 +131,8 @@
       "date": "1982–1995",
       "desc": "Boomerang craft witnessed by 5,000+ over 13 years. J. Allen Hynek investigated.",
       "source": "J. Allen Hynek 1987",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "r12",
@@ -132,7 +143,8 @@
       "date": "1987–1992",
       "desc": "Multiple craft photographs. 100+ corroborating witnesses. MUFON full team investigation.",
       "source": "MUFON 1988",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "r13",
@@ -143,7 +155,8 @@
       "date": "Jan 2025",
       "desc": "Multiple unexplained sightings. Light captured by Fox 26 News tower camera, MUFON filed.",
       "source": "MUFON/Fox26 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "r14",
@@ -154,7 +167,8 @@
       "date": "2025",
       "desc": "Dark metallic octahedron near school. Box-truck sized. Impossible 90-degree turn. NUFORC top unusual shape of 2025.",
       "source": "NUFORC 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "medium"
     },
     {
       "id": "r15",
@@ -165,7 +179,8 @@
       "date": "Jan 2025",
       "desc": "Silent orbs near Lockheed Martin aerospace facility. Witnesses ruled out Starlink and drones.",
       "source": "NUFORC 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "medium"
     },
     {
       "id": "r16",
@@ -176,7 +191,8 @@
       "date": "Nov–Dec 2024",
       "desc": "1,000s of drone sightings over NJ/NY/PA. Confirmed incursions over Picatinny Arsenal.",
       "source": "DoD/FBI 2024",
-      "approx": false
+      "approx": false,
+      "confidence": "medium"
     },
     {
       "id": "r17",
@@ -187,7 +203,8 @@
       "date": "Mar 2025",
       "desc": "Repeated orb sightings near Fort Drum military base. NUFORC documented.",
       "source": "NUFORC 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "medium"
     },
     {
       "id": "r18",
@@ -198,7 +215,8 @@
       "date": "Mar 2025",
       "desc": "Two objects performing advanced maneuvers. Part of 66 NY sightings in H1 2025.",
       "source": "NUFORC 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "medium"
     },
     {
       "id": "r19",
@@ -209,7 +227,8 @@
       "date": "Sep–Oct 2025",
       "desc": "Elderly couple: repeated encounters with basketball-sized glowing objects at eye level in woodland home.",
       "source": "NUFORC 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "r20",
@@ -220,7 +239,8 @@
       "date": "Aug–Nov 2025",
       "desc": "Enigma app: 9,000+ sightings within 10mi of US shorelines. 150+ objects seen entering water.",
       "source": "Enigma App 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "medium"
     },
     {
       "id": "e1",
@@ -231,7 +251,8 @@
       "date": "Dec 1980",
       "desc": "USAF personnel encountered landed craft. Lt Col Halt recorded audio. Physical traces confirmed.",
       "source": "Lt Col Halt / UK MoD",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "e2",
@@ -242,7 +263,8 @@
       "date": "Aug 1990",
       "desc": "Diamond-shaped craft photographed with military jet. UK MoD classified 30 years. Declassified 2022.",
       "source": "UK MoD 2022",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "e3",
@@ -253,7 +275,8 @@
       "date": "Sep 2025",
       "desc": "Drones shut down airport 4hrs. NATO increased Baltic Sea vigilance across 7 nations.",
       "source": "NATO/Danish Defence 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "medium"
     },
     {
       "id": "e4",
@@ -264,7 +287,8 @@
       "date": "Apr 1966",
       "desc": "200+ schoolchildren and teachers witnessed disc land in paddock. No official explanation.",
       "source": "Victorian State Archives",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "e5",
@@ -275,7 +299,8 @@
       "date": "Jul 1995",
       "desc": "Argentine Air Force pilot encountered UFO on approach. Radar confirmed.",
       "source": "Argentine Air Force",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "e6",
@@ -286,7 +311,8 @@
       "date": "1977",
       "desc": "Operation Prato: Brazilian AF documented people injured by objects emitting light beams.",
       "source": "Brazilian Air Force",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "e7",
@@ -297,7 +323,8 @@
       "date": "2024–2025",
       "desc": "Mysterious metallic sphere. Monument erected. International UAP tourism site. Origin unexplained.",
       "source": "Colombian Media 2024",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "m1",
@@ -308,7 +335,8 @@
       "date": "2016",
       "desc": "Metallic orb filmed by US spy plane. Shown at Congressional hearing by AARO director.",
       "source": "AARO Congressional 2023",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "m2",
@@ -319,7 +347,8 @@
       "date": "May 2022",
       "desc": "US military captured metallic orb at high speed. Released in Pentagon 162-file dump 2024.",
       "source": "Pentagon UAP Website 2024",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "m3",
@@ -330,7 +359,8 @@
       "date": "2025",
       "desc": "UAP orb struck by Hellfire missile and survived without damage. Evidence of non-ballistic behavior.",
       "source": "Intelligence Reports 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "medium"
     },
     {
       "id": "m4",
@@ -341,7 +371,8 @@
       "date": "Sep 1976",
       "desc": "Iranian F-4 jets scrambled. Weapons and avionics failed when targeting object. DIA documented.",
       "source": "DIA Report 1976",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "a1",
@@ -352,7 +383,8 @@
       "date": "2011–2025",
       "desc": "Persistent UAP sightings over nuclear zone since 2011. AARO hotspot map elevated frequency.",
       "source": "AARO/Japanese UFO Research",
-      "approx": false
+      "approx": false,
+      "confidence": "medium"
     },
     {
       "id": "a2",
@@ -363,7 +395,8 @@
       "date": "present",
       "desc": "AARO global hotspot map flags Hiroshima & Nagasaki. Japan established UAP parliamentary security body 2024.",
       "source": "AARO Hotspot Map 2024",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "a3",
@@ -374,7 +407,8 @@
       "date": "Sep 2024",
       "desc": "Three consecutive nights of UAP sightings near airport. Jellyfish-like and egg-shaped objects.",
       "source": "MUFON/WatchMojo 2024",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "a4",
@@ -385,7 +419,8 @@
       "date": "Jul 2019",
       "desc": "Sphere entered ocean without splash. Tracked 40kts underwater. Pentagon declassified.",
       "source": "Pentagon/Navy FOIA 2021",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "a5",
@@ -396,7 +431,8 @@
       "date": "2024",
       "desc": "US Indo-Pacific Command reported football-shaped UAP near Japan.",
       "source": "US INDOPACOM 2024",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "a6",
@@ -407,7 +443,8 @@
       "date": "2024–2025",
       "desc": "Shimanto City repeated sightings. Strong magnetic anomalies documented.",
       "source": "Japanese UFO Research 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "s1",
@@ -418,7 +455,8 @@
       "date": "Jan 1996",
       "desc": "Teenage girls observed wounded non-human entity. Brazilian army involved. Witnesses threatened.",
       "source": "MUFON/Brazilian Witnesses",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "s2",
@@ -429,7 +467,8 @@
       "date": "Ongoing",
       "desc": "Chilean CEFAA officially investigates UAP. Santiago ATC has multiple radar confirmations.",
       "source": "CEFAA Chile Official",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "af1",
@@ -440,7 +479,8 @@
       "date": "Sep 1994",
       "desc": "62 schoolchildren witnessed disc land near school. Beings emerged. Harvard psychiatrist Dr Mack interviewed all.",
       "source": "Dr John Mack Harvard 1994",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "ca1",
@@ -451,7 +491,8 @@
       "date": "Jan 1986",
       "desc": "Red glowing sphere crashed. Soviet scientists found unusual alloys. Physical traces recovered.",
       "source": "Soviet Science Academy",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "ca2",
@@ -462,7 +503,8 @@
       "date": "Sep 1977",
       "desc": "Jellyfish craft hovered 12 mins over city. Thousands witnessed. TASS reported.",
       "source": "TASS 1977",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "ca3",
@@ -473,7 +515,8 @@
       "date": "1985–2025",
       "desc": "State Dept diplomatic cables: UAP incidents in Kazakhstan. Pentagon 162-file release May 2025.",
       "source": "Pentagon UAP Website 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "ca4",
@@ -484,7 +527,8 @@
       "date": "1994",
       "desc": "US Embassy cable: pilot and crew saw strange object at 41,000ft. Declassified in 2025 dump.",
       "source": "Pentagon UAP Website 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "oc1",
@@ -495,7 +539,8 @@
       "date": "1985–2025",
       "desc": "State Dept cables describe UAP incidents. In Pentagon 162-file document release May 2025.",
       "source": "Pentagon UAP Website 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "oc2",
@@ -506,7 +551,8 @@
       "date": "Dec 1978",
       "desc": "TV crew filmed bright objects from aircraft. Wellington ATC confirmed radar contacts.",
       "source": "NZ ATC/TVNZ 1978",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "wu1",
@@ -517,7 +563,8 @@
       "date": "Sep 2025",
       "desc": "Pentagon released infrared image of unidentified object below military helicopter.",
       "source": "Pentagon UAP Website 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "gm1",
@@ -528,7 +575,8 @@
       "date": "Ongoing",
       "desc": "AARO identifies Gulf of Mexico as major global UAP cluster. High Navy/Coast Guard report density.",
       "source": "AARO Pentagon Report 2024",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p1",
@@ -539,7 +587,8 @@
       "date": "2023",
       "desc": "PURSUE file: triangular metallic UAP at 25,000ft making multiple 90-degree turns at ~80mph over Mediterranean. Declassified May 2026.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p2",
@@ -550,7 +599,8 @@
       "date": "2024",
       "desc": "PURSUE file: US troops reported multiple glares/lights from unknown origin. Two semi-transparent irregularly shaped orange areas over Syria.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p3",
@@ -561,7 +611,8 @@
       "date": "2022",
       "desc": "PURSUE file: Internal military memo describing one possible small UAP during active US operations in Iraq.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p4",
@@ -572,7 +623,8 @@
       "date": "2023",
       "desc": "PURSUE file: Reports from US troops stationed in United Arab Emirates. Objects observed during operations.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p5",
@@ -583,7 +635,8 @@
       "date": "2020–2026",
       "desc": "PURSUE file: Pentagon infrared videos showing UAP encounters over Gulf of Aden. Objects with unusual flight characteristics.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p6",
@@ -594,7 +647,8 @@
       "date": "2020–2026",
       "desc": "PURSUE file: Multiple UAP encounter reports from US military in Persian Gulf and Strait of Hormuz. Objects tracked entering water.",
       "source": "PURSUE Pentagon / Navy 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p7",
@@ -605,7 +659,8 @@
       "date": "2023",
       "desc": "PURSUE file: Pilot reported triangular metallic UAP at 25,000ft over Mediterranean. Part of 162 declassified files.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p8",
@@ -616,7 +671,8 @@
       "date": "2025",
       "desc": "PURSUE file DOW-UAP-PR43: US military operator reported UAP while operating in African airspace in 2025. Details partially redacted.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p9",
@@ -627,7 +683,8 @@
       "date": "1950s",
       "desc": "PURSUE/FBI file 62-HQ-83894: Surveillance imagery from Oak Ridge nuclear facility showing UAP activity. Declassified 2026.",
       "source": "PURSUE FBI File 62-HQ-83894",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p10",
@@ -638,7 +695,8 @@
       "date": "1985–2025",
       "desc": "PURSUE file: US State Dept diplomatic cables from Turkmenistan detailing UAP incidents over four decades. Released May 2026.",
       "source": "PURSUE State Dept Cables 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p11",
@@ -649,7 +707,8 @@
       "date": "1985–2025",
       "desc": "PURSUE file: US Embassy cables from Georgia reporting UAP incidents to Washington DC. Part of diplomatic cable collection.",
       "source": "PURSUE State Dept Cables 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p12",
@@ -660,7 +719,8 @@
       "date": "1985–2025",
       "desc": "PURSUE file: US Embassy cables from Mexico detailing UAP incidents. Part of diplomatic cable collection spanning 1985 to late 2025.",
       "source": "PURSUE State Dept Cables 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p13",
@@ -671,7 +731,8 @@
       "date": "Jan 1, 2024",
       "desc": "PURSUE file: Football-shaped body with three fin-like projections hovering in infrared. Detected for only 9 seconds before vanishing. New Years Day 2024.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "p14",
@@ -682,7 +743,8 @@
       "date": "2013",
       "desc": "PURSUE file: 1min 46sec appearance of 8-pointed starlike body swerving in front of Naval jet, leaving contrail. Swerved and maneuvered in impossible patterns.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "n1",
@@ -693,7 +755,8 @@
       "date": "Jan 1, 2026",
       "desc": "NUFORC Jan 2026: Oval luminous object observed on New Years Day. Part of 269 NUFORC reports logged in January 2026.",
       "source": "NUFORC January 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "n2",
@@ -704,7 +767,8 @@
       "date": "Jan 13, 2026",
       "desc": "NUFORC Jan 2026: Circular lights viewed over Loscoe. Logged as unexplained in NUFORC international database.",
       "source": "NUFORC January 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "n3",
@@ -715,7 +779,8 @@
       "date": "Jan 12, 2026",
       "desc": "NUFORC Jan 2026: Multi-coloured triangular light formation observed over international waters. NUFORC logged as unexplained.",
       "source": "NUFORC January 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "n4",
@@ -726,7 +791,8 @@
       "date": "1967 / filed Apr 2026",
       "desc": "NUFORC Apr 12, 2026: Retired AF radar tech reported 5,000 mph radar return tracked by 780th Radar Squadron. Related to nuclear missile UAP wave.",
       "source": "NUFORC April 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "l1",
@@ -737,7 +803,8 @@
       "date": "2025",
       "desc": "Helicopter filmed chasing bright white saucer. NUFORC NY 2025 dataset of 66 sightings H1 2025.",
       "source": "NUFORC NY 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "l2",
@@ -748,7 +815,8 @@
       "date": "2025",
       "desc": "Green orbs zigzagging over Norwood NY. NUFORC documented in 2025 NY sighting wave.",
       "source": "NUFORC NY 2025",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "l3",
@@ -759,7 +827,8 @@
       "date": "Jan 2023",
       "desc": "Dark saucer photographed over Estadio Olimpico during football match. AI analysis deemed object unidentified. UFO researcher Jamie Maussan investigated.",
       "source": "MUFON/Maussan 2023",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "l4",
@@ -770,7 +839,8 @@
       "date": "May 1, 2023",
       "desc": "Police investigated family report of 10ft non-human creatures in backyard. Officer spotted falling object from sky 8 minutes earlier. Body cam footage obtained.",
       "source": "Las Vegas Metro PD 2023",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "l5",
@@ -781,7 +851,8 @@
       "date": "1986–present",
       "desc": "Famous 1986 UAP event site. Annual UFO festival hosted here. Ongoing sightings region-wide. Officially recognized in Argentine records.",
       "source": "Argentine CEFAE",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "l6",
@@ -792,7 +863,8 @@
       "date": "May 19, 1967",
       "desc": "Stefan Michalak suffered burn injuries from direct UAP contact near Falcon Lake. Two govt investigations. Physical evidence recovered and documented.",
       "source": "Canadian Dept of National Defence 1967",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "l7",
@@ -803,7 +875,8 @@
       "date": "2012",
       "desc": "UAP crash in forest resulted in recovered titanium object. Unusual alloys found. Physical evidence retrieved.",
       "source": "Russian Media / MUFON 2012",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "l8",
@@ -814,7 +887,8 @@
       "date": "Sep 1989",
       "desc": "Children and adults witnessed large sphere land in park. Robot-like beings 9ft tall emerged. TASS reported. Soviet militia investigated.",
       "source": "TASS 1989",
-      "approx": false
+      "approx": false,
+      "confidence": "low"
     },
     {
       "id": "l9",
@@ -825,7 +899,8 @@
       "date": "Dec 2025",
       "desc": "Pentagon released infrared image: small dark irregularly shaped object below military helicopter. Included in PURSUE May 2026 release.",
       "source": "PURSUE Pentagon Release May 8, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "q1",
@@ -836,7 +911,8 @@
       "date": "2022",
       "desc": "Pentagon 3rd UAP release (Jun 12 2026): “Potato”-shaped object, creamy/whitish opalescent, translucent with slight shimmer. Documented near Colorado Springs.",
       "source": "Pentagon 3rd Release Jun 12, 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "high"
     },
     {
       "id": "q2",
@@ -847,7 +923,8 @@
       "date": "2023",
       "desc": "Pentagon 3rd release: Five federal law enforcement officers reported strange glowing orbs on the horizon in 2023. “Are you seeing this?” one agent asked. Exact location redacted — approximate central US placement.",
       "source": "Pentagon 3rd Release Jun 12, 2026",
-      "approx": false
+      "approx": true,
+      "confidence": "high"
     },
     {
       "id": "q3",
@@ -858,7 +935,8 @@
       "date": "2026",
       "desc": "Eyewitness: bright, silent spherical UAP with stable white brightness and no blinking navigation lights observed over Survey Park, Kolkata.",
       "source": "UFO Sightings Daily 2026",
-      "approx": false
+      "approx": false,
+      "confidence": "medium"
     },
     {
       "id": "q4",
@@ -869,417 +947,8 @@
       "date": "Jun 24, 2025",
       "desc": "Passenger in seat 1A on flight from Toronto reported a perfectly round, shiny metallic sphere flying opposite direction, 100-200ft below aircraft on approach to NYC.",
       "source": "NUFORC / Fox News 2025",
-      "approx": false
-    },
-    {
-      "id": "legacy_2026-05-22-pursue-sandia-new-mexico-1948",
-      "name": "Sandia, New Mexico, USA",
-      "lat": 35.054,
-      "lng": -106.54,
-      "cat": "gov",
-      "date": "1948-1950",
-      "desc": "Reuters reported that the May 22, 2026 second U.S. release included a 116-page document describing 209 sightings near a secret military facility in Sandia, New Mexico between 1948 and 1950.",
-      "source": "Government_Disclosure_News_Report | confidence: medium",
       "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_2026-05-22-pursue-syria-2024-white-orb",
-      "name": "Syria",
-      "lat": 34.8021,
-      "lng": 38.9968,
-      "cat": "gov",
-      "date": "2024",
-      "desc": "Wired reported that the May 2026 Pentagon/PURSUE materials include a 2024 military sighting in Syria of an unusual white light orb.",
-      "source": "Government_Disclosure_News_Report | confidence: low | https://www.wired.com/story/pentagon-drops-new-ufo-files",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_2026-05-22-pursue-iran-unspecified",
-      "name": "Iran",
-      "lat": 32.4279,
-      "lng": 53.688,
-      "cat": "gov",
-      "date": "unknown",
-      "desc": "The Guardian reported that the May 22, 2026 Pentagon release included footage or materials related to Iran among other regions.",
-      "source": "Government_Disclosure_News_Report | confidence: low",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-2161e412f50e",
-      "name": "Arizona, USA",
-      "lat": 34.0489,
-      "lng": -111.0937,
-      "cat": "civilian",
-      "date": "2026-06-09",
-      "desc": "Nothing was showing on satellite trackers, this is a local phenomenon that I&#39;ve been seeing for 3 years now. Happens during the summer. They appear, fly, and disappear, for an hour. Next time I fi",
-      "source": "Reddit | confidence: low",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-b63805610568",
-      "name": "Germany",
-      "lat": 51.1657,
-      "lng": 10.4515,
-      "cat": "civilian",
-      "date": "2026-06-09",
-      "desc": "Time: 08 June 2026 Location: Brazil The Brazilian government has today made public 972 previously confidential (“RESERVADO”) and top secret (“SECRETO”) documents relating to “Objetos Voadores Não Iden",
-      "source": "Reddit | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-f40db18df877",
-      "name": "Canada",
-      "lat": 56.1304,
-      "lng": -106.3468,
-      "cat": "civilian",
-      "date": "2026-06-09",
-      "desc": "I spotted this orb flying in a very unusual aka impossible way while driving my atv near my camp. This was filmed by myself the 8 of July 2018 around 1 am. Location is close to a small village called ",
-      "source": "Reddit | confidence: low",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-559a04c41c4a",
-      "name": "New Jersey, USA",
-      "lat": 40.0583,
-      "lng": -74.4057,
-      "cat": "civilian",
-      "date": "2026-06-08",
-      "desc": "Time [9:41pm 6/4/1993] Locarion (Pine Bush, New York) On August 6th 1992 at 9:41pm, Dr Ellen Crystall managed to capture rhis UFO over the fields of Pine Bush, New Jersey. it forms part of the sightin",
-      "source": "Reddit | confidence: low",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-997d015ce62b",
-      "name": "Brazil",
-      "lat": -14.235,
-      "lng": -51.9253,
-      "cat": "civilian",
-      "date": "2026-06-08",
-      "desc": "This case was investigated by Brazil&#39;s first ufological investigation group, CICOANI, founded in 1952 by the first Brazilian ufologist, Professor Húlvio Brant Aleixo. It is considered one of the m",
-      "source": "Reddit | confidence: low",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-3c3800d8b9df",
-      "name": "United States",
-      "lat": 39.8283,
-      "lng": -98.5795,
-      "cat": "civilian",
-      "date": "2026-06-08",
-      "desc": "Jeffrey Nuccetelli, who was on the base at that time, has recently given sworn statements to Congress stating that from 2003-2005 Vandenberg USAF Base (now Space Force Base) was experiencing a wave of",
-      "source": "Reddit | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-009435d737fc",
-      "name": "California, USA",
-      "lat": 36.7783,
-      "lng": -119.4179,
-      "cat": "civilian",
-      "date": "2026-06-10",
-      "desc": "Hi r/UFOs . We&#39;re ELDÆON , a team building low-cost UAP detection hardware and software for the public. Our founder David Hooper is a UC Berkeley EECS engineer who spent years working on drones, s",
-      "source": "Reddit | confidence: low",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-a89619082484",
-      "name": "Australia",
-      "lat": -25.2744,
-      "lng": 133.7751,
-      "cat": "civilian",
-      "date": "2026-06-09",
-      "desc": "In the press conference today, this is the document that David Grusch said was very important to read 7 through 16. An Australian previously classified document. &#32; submitted by &#32; /u/Will_Buxto",
-      "source": "Reddit | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-9112fe03da0e",
-      "name": "Lake Huron",
-      "lat": 44.8,
-      "lng": -82.4,
-      "cat": "civilian",
-      "date": "2026-06-11",
-      "desc": "Hey r/aliens , first post here so bear with me. Three friends who&#39;ve been friends for 30 years went to Sedona last month, and because we&#39;re already deep into the UAP rabbit hole, we walked awa",
-      "source": "Reddit | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-ca72793f77c0",
-      "name": "Mount Mayon, Albay, Philippines",
-      "lat": 13.257,
-      "lng": 123.6856,
-      "cat": "civilian",
-      "date": "2026-06-12",
-      "desc": "Time: 6/11/2026, 3:00p-3:15p Location: North Hollywood, CA I posted about this object I saw earlier today (see my last post) and took video of it. It was easier to spot with my polarized shades so in ",
-      "source": "Reddit | confidence: low",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-4375d3ce0ce2",
-      "name": "India",
-      "lat": 20.5937,
-      "lng": 78.9629,
-      "cat": "civilian",
-      "date": "2026-06-12",
-      "desc": "This incident happened between 2004-2005 I believe. We were late teens and early twenties, partying at a lake in northeast Indiana near the Michigan border. At around 3 or 4 am, we were on a porch and",
-      "source": "Reddit | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-a290dd1baebe",
-      "name": "Japan",
-      "lat": 36.2048,
-      "lng": 138.2529,
-      "cat": "civilian",
-      "date": "2026-06-13",
-      "desc": "I am not saying what UFOs are. But factually even the US government says “unidentified flying objects” literally exist. They certainly have high quality videos they won’t release. Also fact. From the ",
-      "source": "Reddit | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-add4bd1e0c37",
-      "name": "Ukraine",
-      "lat": 48.3794,
-      "lng": 31.1656,
-      "cat": "civilian",
-      "date": "2026-06-13",
-      "desc": "Hi everyone! I’m reaching out because I had a mind-blowing experience tonight while stargazing in Busk, Lviv region. I’m a huge space enthusiast and spend a lot of time observing the sky, so I know th",
-      "source": "Reddit | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-1bae6a3c4126",
-      "name": "New Mexico, USA",
-      "lat": 34.5199,
-      "lng": -105.8701,
-      "cat": "military",
-      "date": "2026-06-13",
-      "desc": "Time: June 18, 2023 - 10:20 PM Location: New Mexico, Doña Ana training complex near White Sands We had been out camping in the New Mexican desert for a couple of weeks now. Me and my squad were handli",
-      "source": "Reddit | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-16f06d2b043f",
-      "name": "Area 51 / Groom Lake, Nevada, USA",
-      "lat": 37.2431,
-      "lng": -115.793,
-      "cat": "military",
-      "date": "2026-06-15",
-      "desc": "So - I consider myself a lay skeptic, but not rigidly enough that I see the need to debunk every possible event that can&#39;t be explained. I&#39;m not super well-versed on the phenomenon, but I thin",
-      "source": "Reddit | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-9058753eb7df",
-      "name": "Philippines",
-      "lat": 12.8797,
-      "lng": 121.774,
-      "cat": "civilian",
-      "date": "2026-06-15",
-      "desc": "Time: Night (approximately 9:00 PM–11:00 PM, 2021–2022, during the COVID pandemic) Location: High mountains in the Philippines, far from populated cities I have been holding onto this experience for y",
-      "source": "Reddit | confidence: low",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-fbf0a057466d",
-      "name": "China",
-      "lat": 35.8617,
-      "lng": 104.1954,
-      "cat": "civilian",
-      "date": "2026-06-16",
-      "desc": "so ive been doing a lot of &quot;dot connecting&quot; and it feels like everyone thinks there are only two ways this whole uap/disclosure thing plays out. like literally only two options. &#x200B; opt",
-      "source": "Reddit | confidence: medium",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "scan_2026-06-21_deepseek-deepseek-ch_01",
-      "name": "Springfield, Ohio, USA",
-      "lat": 39.9242,
-      "lng": -83.8088,
-      "cat": "civilian",
-      "date": "June 2026",
-      "desc": "White orb filmed hovering in daylight sky, later identified as high-altitude hobby balloon",
-      "source": "uapglobe.com June 20 2026",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-21_deepseek-deepseek-ch_02",
-      "name": "Graniteville, South Carolina, USA",
-      "lat": 33.5635,
-      "lng": -81.8079,
-      "cat": "civilian",
-      "date": "June 2026",
-      "desc": "Fast-moving silent sphere crossing cloudy sky NW to SE, no flight radar activity",
-      "source": "uapglobe.com June 14 2026",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-21_deepseek-deepseek-ch_03",
-      "name": "Helensburgh, Scotland, UK",
-      "lat": 56.0066,
-      "lng": -4.7328,
-      "cat": "civilian",
-      "date": "June 2026",
-      "desc": "Two pale orbs hanging against overcast sky near Royal Navy submarine base",
-      "source": "uapglobe.com June 14 2026",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-21_deepseek-deepseek-ch_04",
-      "name": "Bainbridge, New York, USA",
-      "lat": 42.2934,
-      "lng": -75.4791,
-      "cat": "civilian",
-      "date": "June 2026",
-      "desc": "4 lights changing shape around chicken coop, animals reacted, 33 minute duration",
-      "source": "nuforc.org June 17 2026",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-21_deepseek-deepseek-ch_05",
-      "name": "Richmond, Virginia, USA",
-      "lat": 37.5407,
-      "lng": -77.436,
-      "cat": "civilian",
-      "date": "June 2026",
-      "desc": "Small light dot moving at incredible speeds with abrupt direction changes near planets",
-      "source": "nuforc.org June 6 2026",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-21_meta-llama-llama-3-3_01",
-      "name": "Northeastern United States",
-      "lat": 40.7128,
-      "lng": -74.006,
-      "cat": "recent",
-      "date": "July 2025",
-      "desc": "Two bright red orbs moving through the sky",
-      "source": "Pentagon PURSUE/AARO portal",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-21_meta-llama-llama-3-3_02",
-      "name": "Cheyenne Mountains",
-      "lat": 39.0,
-      "lng": -104.9,
-      "cat": "recent",
-      "date": "February 2022",
-      "desc": "Translucent, milky, shimmering, airborne object",
-      "source": "Pentagon report",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-21_meta-llama-llama-3-3_03",
-      "name": "Western United States",
-      "lat": 37.0902,
-      "lng": -95.7129,
-      "cat": "recent",
-      "date": "October 2023",
-      "desc": "Red lights moving in groups",
-      "source": "Pentagon PURSUE/AARO portal",
-      "approx": true,
-      "addedOn": "2026-06-21",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-21_meta-llama-llama-3-3_04",
-      "name": "Graniteville, South Carolina",
-      "lat": 33.5635,
-      "lng": -81.8081,
-      "cat": "recent",
-      "date": "14 June 2026",
-      "desc": "Small, bright, sphere-shaped object",
-      "source": "UAP Globe",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-21_meta-llama-llama-3-3_05",
-      "name": "Springfield, Ohio",
-      "lat": 39.9242,
-      "lng": -83.8088,
-      "cat": "recent",
-      "date": "16 June 2026",
-      "desc": "Bright white object moving faster than planes",
-      "source": "UAP Globe",
-      "approx": false,
-      "addedOn": "2026-06-21",
-      "isNew": true
+      "confidence": "medium"
     }
   ]
 }
