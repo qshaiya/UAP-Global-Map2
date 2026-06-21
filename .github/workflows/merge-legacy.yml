@@ -1,0 +1,40 @@
+name: Merge Legacy UAP Data
+
+on:
+  workflow_dispatch: {}   # run manually once to import old repo data
+  # Also runs automatically once a week to pick up any new entries
+  # added to the old repo
+  schedule:
+    - cron: '0 11 * * 0'   # Sunday 11:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch and merge legacy UAP reports
+        run: python3 .github/scripts/merge_legacy.py
+
+      - name: Rebuild API files
+        run: python3 .github/scripts/build_api.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "sentinel-7-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/sightings.json api/
+          if ! git diff --cached --quiet; then
+            git commit -m "📥 Legacy merge: imported UAP-Global-Map data $(date -u +'%Y-%m-%d')"
+            git push
+          else
+            echo "No new legacy entries to merge."
+          fi
