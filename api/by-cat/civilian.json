@@ -3,7 +3,7 @@
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
   "updated": "2026-06-21",
-  "total": 46,
+  "total": 51,
   "sightings": [
     {
       "id": "r4",
@@ -555,6 +555,71 @@
       "addedOn": "2026-06-21",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-06-21_deepseek-deepseek-ch_01",
+      "name": "Springfield, Ohio, USA",
+      "lat": 39.9242,
+      "lng": -83.8088,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "White orb filmed hovering in daylight sky, later identified as high-altitude hobby balloon",
+      "source": "uapglobe.com June 20 2026",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-21_deepseek-deepseek-ch_02",
+      "name": "Graniteville, South Carolina, USA",
+      "lat": 33.5635,
+      "lng": -81.8079,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Fast-moving silent sphere crossing cloudy sky NW to SE, no flight radar activity",
+      "source": "uapglobe.com June 14 2026",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-21_deepseek-deepseek-ch_03",
+      "name": "Helensburgh, Scotland, UK",
+      "lat": 56.0066,
+      "lng": -4.7328,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Two pale orbs hanging against overcast sky near Royal Navy submarine base",
+      "source": "uapglobe.com June 14 2026",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-21_deepseek-deepseek-ch_04",
+      "name": "Bainbridge, New York, USA",
+      "lat": 42.2934,
+      "lng": -75.4791,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "4 lights changing shape around chicken coop, animals reacted, 33 minute duration",
+      "source": "nuforc.org June 17 2026",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-21_deepseek-deepseek-ch_05",
+      "name": "Richmond, Virginia, USA",
+      "lat": 37.5407,
+      "lng": -77.436,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Small light dot moving at incredible speeds with abrupt direction changes near planets",
+      "source": "nuforc.org June 6 2026",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": true
     }
   ]
 }

@@ -3,7 +3,7 @@
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
   "updated": "2026-06-21",
-  "total": 11,
+  "total": 16,
   "sightings": [
     {
       "id": "r14",
@@ -125,6 +125,71 @@
       "desc": "Passenger in seat 1A on flight from Toronto reported a perfectly round, shiny metallic sphere flying opposite direction, 100-200ft below aircraft on approach to NYC.",
       "source": "NUFORC / Fox News 2025",
       "approx": false
+    },
+    {
+      "id": "scan_2026-06-21_meta-llama-llama-3-3_01",
+      "name": "Northeastern United States",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "cat": "recent",
+      "date": "July 2025",
+      "desc": "Two bright red orbs moving through the sky",
+      "source": "Pentagon PURSUE/AARO portal",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-21_meta-llama-llama-3-3_02",
+      "name": "Cheyenne Mountains",
+      "lat": 39.0,
+      "lng": -104.9,
+      "cat": "recent",
+      "date": "February 2022",
+      "desc": "Translucent, milky, shimmering, airborne object",
+      "source": "Pentagon report",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-21_meta-llama-llama-3-3_03",
+      "name": "Western United States",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "cat": "recent",
+      "date": "October 2023",
+      "desc": "Red lights moving in groups",
+      "source": "Pentagon PURSUE/AARO portal",
+      "approx": true,
+      "addedOn": "2026-06-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-21_meta-llama-llama-3-3_04",
+      "name": "Graniteville, South Carolina",
+      "lat": 33.5635,
+      "lng": -81.8081,
+      "cat": "recent",
+      "date": "14 June 2026",
+      "desc": "Small, bright, sphere-shaped object",
+      "source": "UAP Globe",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-21_meta-llama-llama-3-3_05",
+      "name": "Springfield, Ohio",
+      "lat": 39.9242,
+      "lng": -83.8088,
+      "cat": "recent",
+      "date": "16 June 2026",
+      "desc": "Bright white object moving faster than planes",
+      "source": "UAP Globe",
+      "approx": false,
+      "addedOn": "2026-06-21",
+      "isNew": true
     }
   ]
 }
