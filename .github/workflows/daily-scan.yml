@@ -43,7 +43,7 @@ jobs:
         if: github.event.schedule == '0 10 * * 1' || github.event_name == 'workflow_dispatch'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python3 .github/scripts/scan.py "google/gemini-2.0-flash-exp:free"
+        run: python3 .github/scripts/scan.py "google/gemini-3.5-flash:free"
 
       - name: Rebuild API files
         run: python3 .github/scripts/build_api.py
