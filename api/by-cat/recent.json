@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-06-21",
-  "total": 16,
+  "updated": "2026-06-22",
+  "total": 17,
   "sightings": [
     {
       "id": "r14",
@@ -200,6 +200,19 @@
       "source": "UAP Globe",
       "approx": false,
       "addedOn": "2026-06-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-22_meta-llama-llama-3-3_01",
+      "name": "Denver, Colorado",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "cat": "recent",
+      "date": "June 2026",
+      "desc": "Rectangular UFOs reported",
+      "source": "NewsBreak, 2026-06-22",
+      "approx": false,
+      "addedOn": "2026-06-22",
       "isNew": true
     }
   ]

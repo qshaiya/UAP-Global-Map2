@@ -3,12 +3,12 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-06-21",
-  "total": 109,
+  "updated": "2026-06-22",
+  "total": 111,
   "categories": {
-    "recent": 16,
+    "recent": 17,
     "military": 19,
-    "civilian": 51,
+    "civilian": 52,
     "gov": 21,
     "historic": 2
   },
@@ -1387,6 +1387,32 @@
       "source": "UAP Globe",
       "approx": false,
       "addedOn": "2026-06-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-22_deepseek-deepseek-ch_01",
+      "name": "Denver, Colorado, USA",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Four UFOs including two rectangular objects reported traversing downtown Denver skyline near cash register building on June 7, 2026.",
+      "source": "NewsBreak, June 22 2026",
+      "approx": false,
+      "addedOn": "2026-06-22",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-22_meta-llama-llama-3-3_01",
+      "name": "Denver, Colorado",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "cat": "recent",
+      "date": "June 2026",
+      "desc": "Rectangular UFOs reported",
+      "source": "NewsBreak, 2026-06-22",
+      "approx": false,
+      "addedOn": "2026-06-22",
       "isNew": true
     }
   ]

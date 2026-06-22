@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-06-21",
-  "total": 51,
+  "updated": "2026-06-22",
+  "total": 52,
   "sightings": [
     {
       "id": "r4",
@@ -650,6 +650,19 @@
       "source": "nuforc.org June 6 2026",
       "approx": false,
       "addedOn": "2026-06-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-22_deepseek-deepseek-ch_01",
+      "name": "Denver, Colorado, USA",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Four UFOs including two rectangular objects reported traversing downtown Denver skyline near cash register building on June 7, 2026.",
+      "source": "NewsBreak, June 22 2026",
+      "approx": false,
+      "addedOn": "2026-06-22",
       "isNew": true
     }
   ]
