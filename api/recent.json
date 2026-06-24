@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-06-23",
-  "total": 34,
+  "updated": "2026-06-24",
+  "total": 36,
   "sightings": [
     {
       "id": "legacy_2026-05-22-pursue-sandia-new-mexico-1948",
@@ -464,6 +464,32 @@
       "source": "[caliber.az](https://caliber.az/en/post/russian-astronomer-reports-possible-ufo-sighting-in-omsk-region) June 22, 2026",
       "approx": false,
       "addedOn": "2026-06-23",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-24_deepseek-deepseek-ch_01",
+      "name": "Converse, Texas, USA",
+      "lat": 29.518,
+      "lng": -98.3164,
+      "cat": "recent",
+      "date": "June 2026",
+      "desc": "UAP footage recorded on June 18, 2026 by witness. Posted to YouTube on June 22, 2026 showing unknown aerial phenomenon.",
+      "source": "YouTube post June 22, 2026",
+      "approx": false,
+      "addedOn": "2026-06-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-24_deepseek-deepseek-ch_02",
+      "name": "Colorado Springs, Colorado, USA",
+      "lat": 38.8339,
+      "lng": -104.8214,
+      "cat": "gov",
+      "date": "June 2026",
+      "desc": "Pentagon report documents giant translucent potato-shaped UFO observed by Army personnel over Cheyenne Mountains in Feb 2022.",
+      "source": "Cowboy State Daily June 17, 2026",
+      "approx": false,
+      "addedOn": "2026-06-24",
       "isNew": true
     }
   ]

@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-06-23",
-  "total": 21,
+  "updated": "2026-06-24",
+  "total": 22,
   "sightings": [
     {
       "id": "a2",
@@ -262,6 +262,19 @@
       "addedOn": "2026-06-21",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-06-24_deepseek-deepseek-ch_02",
+      "name": "Colorado Springs, Colorado, USA",
+      "lat": 38.8339,
+      "lng": -104.8214,
+      "cat": "gov",
+      "date": "June 2026",
+      "desc": "Pentagon report documents giant translucent potato-shaped UFO observed by Army personnel over Cheyenne Mountains in Feb 2022.",
+      "source": "Cowboy State Daily June 17, 2026",
+      "approx": false,
+      "addedOn": "2026-06-24",
+      "isNew": true
     }
   ]
 }
