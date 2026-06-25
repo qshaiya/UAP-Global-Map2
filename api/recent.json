@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-06-24",
-  "total": 36,
+  "updated": "2026-06-25",
+  "total": 37,
   "sightings": [
     {
       "id": "legacy_2026-05-22-pursue-sandia-new-mexico-1948",
@@ -490,6 +490,19 @@
       "source": "Cowboy State Daily June 17, 2026",
       "approx": false,
       "addedOn": "2026-06-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-25_deepseek-deepseek-ch_01",
+      "name": "Helensburgh, Scotland",
+      "lat": 56.006,
+      "lng": -4.7326,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Two pale objects hanging against cloud cover - one bright white shape, one darker compact dot, filmed for over 5 minutes",
+      "source": "UAP Globe, June 14 2026",
+      "approx": false,
+      "addedOn": "2026-06-25",
       "isNew": true
     }
   ]

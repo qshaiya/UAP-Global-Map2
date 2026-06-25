@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-06-24",
-  "total": 52,
+  "updated": "2026-06-25",
+  "total": 53,
   "sightings": [
     {
       "id": "r4",
@@ -663,6 +663,19 @@
       "source": "NewsBreak, June 22 2026",
       "approx": false,
       "addedOn": "2026-06-22",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-25_deepseek-deepseek-ch_01",
+      "name": "Helensburgh, Scotland",
+      "lat": 56.006,
+      "lng": -4.7326,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Two pale objects hanging against cloud cover - one bright white shape, one darker compact dot, filmed for over 5 minutes",
+      "source": "UAP Globe, June 14 2026",
+      "approx": false,
+      "addedOn": "2026-06-25",
       "isNew": true
     }
   ]
