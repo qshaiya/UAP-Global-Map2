@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-25",
-  "count": 116,
+  "updated": "2026-06-26",
+  "count": 119,
   "sightings": [
     {
       "id": "r1",
@@ -1449,6 +1449,45 @@
       "source": "UAP Globe, June 14 2026",
       "approx": false,
       "addedOn": "2026-06-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-26_deepseek-deepseek-ch_01",
+      "name": "Not specified, US Central Command AOR",
+      "lat": 33.3152,
+      "lng": 44.3661,
+      "cat": "military",
+      "date": "April 2021",
+      "desc": "Spherical UAP video from US military platform in 2021, released June 2026 after congressional requests. Designated 'Spherical UAP [CALLSIGN] 2021/04/12 obj 2'.",
+      "source": "IBTimes UK referencing US Dept of War, June 2026",
+      "approx": true,
+      "addedOn": "2026-06-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-26_deepseek-deepseek-ch_02",
+      "name": "Iran (combat area)",
+      "lat": 32.4279,
+      "lng": 53.688,
+      "cat": "military",
+      "date": "June 2026",
+      "desc": "US F-15 pilot shot down over Iran reported seeing 'jellyfish' UAP formation of interconnected drones before ejection. Details emerged in June 2026.",
+      "source": "Above The Norm News, June 23, 2026",
+      "approx": true,
+      "addedOn": "2026-06-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-26_meta-llama-llama-3-3_01",
+      "name": "Canyon, USA",
+      "lat": 37.0,
+      "lng": -109.0,
+      "cat": "gov",
+      "date": "June 2026",
+      "desc": "Mysterious object sighting",
+      "source": "ibtimes.co.uk, June 2026",
+      "approx": true,
+      "addedOn": "2026-06-26",
       "isNew": true
     }
   ]

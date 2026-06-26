@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-06-25",
-  "total": 116,
+  "updated": "2026-06-26",
+  "total": 119,
   "categories": {
     "recent": 20,
-    "military": 19,
+    "military": 21,
     "civilian": 53,
-    "gov": 22,
+    "gov": 23,
     "historic": 2
   },
-  "approximate_locations": 3,
+  "approximate_locations": 6,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -1478,6 +1478,45 @@
       "source": "UAP Globe, June 14 2026",
       "approx": false,
       "addedOn": "2026-06-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-26_deepseek-deepseek-ch_01",
+      "name": "Not specified, US Central Command AOR",
+      "lat": 33.3152,
+      "lng": 44.3661,
+      "cat": "military",
+      "date": "April 2021",
+      "desc": "Spherical UAP video from US military platform in 2021, released June 2026 after congressional requests. Designated 'Spherical UAP [CALLSIGN] 2021/04/12 obj 2'.",
+      "source": "IBTimes UK referencing US Dept of War, June 2026",
+      "approx": true,
+      "addedOn": "2026-06-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-26_deepseek-deepseek-ch_02",
+      "name": "Iran (combat area)",
+      "lat": 32.4279,
+      "lng": 53.688,
+      "cat": "military",
+      "date": "June 2026",
+      "desc": "US F-15 pilot shot down over Iran reported seeing 'jellyfish' UAP formation of interconnected drones before ejection. Details emerged in June 2026.",
+      "source": "Above The Norm News, June 23, 2026",
+      "approx": true,
+      "addedOn": "2026-06-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-26_meta-llama-llama-3-3_01",
+      "name": "Canyon, USA",
+      "lat": 37.0,
+      "lng": -109.0,
+      "cat": "gov",
+      "date": "June 2026",
+      "desc": "Mysterious object sighting",
+      "source": "ibtimes.co.uk, June 2026",
+      "approx": true,
+      "addedOn": "2026-06-26",
       "isNew": true
     }
   ]

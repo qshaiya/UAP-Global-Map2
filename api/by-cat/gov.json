@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-06-25",
-  "total": 22,
+  "updated": "2026-06-26",
+  "total": 23,
   "sightings": [
     {
       "id": "a2",
@@ -274,6 +274,19 @@
       "source": "Cowboy State Daily June 17, 2026",
       "approx": false,
       "addedOn": "2026-06-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-26_meta-llama-llama-3-3_01",
+      "name": "Canyon, USA",
+      "lat": 37.0,
+      "lng": -109.0,
+      "cat": "gov",
+      "date": "June 2026",
+      "desc": "Mysterious object sighting",
+      "source": "ibtimes.co.uk, June 2026",
+      "approx": true,
+      "addedOn": "2026-06-26",
       "isNew": true
     }
   ]
