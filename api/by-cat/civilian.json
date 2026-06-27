@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-06-26",
-  "total": 53,
+  "updated": "2026-06-27",
+  "total": 54,
   "sightings": [
     {
       "id": "r4",
@@ -676,6 +676,19 @@
       "source": "UAP Globe, June 14 2026",
       "approx": false,
       "addedOn": "2026-06-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-27_deepseek-deepseek-ch_01",
+      "name": "Fresno, California, USA",
+      "lat": 36.7378,
+      "lng": -119.7871,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Strange object hovering for hours, changing shapes but not moving position. Witness filmed it for hours in clear sky.",
+      "source": "kmph.com/news/local/strange-object-seen-hovering-in-sky-for-hours-in-fresno (26 June 2026)",
+      "approx": false,
+      "addedOn": "2026-06-27",
       "isNew": true
     }
   ]

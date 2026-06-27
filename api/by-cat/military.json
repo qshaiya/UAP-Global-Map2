@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-06-26",
-  "total": 21,
+  "updated": "2026-06-27",
+  "total": 22,
   "sightings": [
     {
       "id": "r2",
@@ -261,6 +261,19 @@
       "source": "Above The Norm News, June 23, 2026",
       "approx": true,
       "addedOn": "2026-06-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-27_deepseek-deepseek-ch_03",
+      "name": "Iranian Airspace",
+      "lat": 32.4279,
+      "lng": 53.688,
+      "cat": "military",
+      "date": "June 2026",
+      "desc": "US F-15 pilot shot down over Iran reported 'jellyfish' UFO formation of interconnected drones moving as single structure.",
+      "source": "abovethenormnews.com/2026/06/23/jellyfish-ufo-iran (23 June 2026)",
+      "approx": true,
+      "addedOn": "2026-06-27",
       "isNew": true
     }
   ]

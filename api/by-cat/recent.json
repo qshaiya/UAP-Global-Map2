@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-06-26",
-  "total": 20,
+  "updated": "2026-06-27",
+  "total": 23,
   "sightings": [
     {
       "id": "r14",
@@ -252,6 +252,45 @@
       "source": "YouTube post June 22, 2026",
       "approx": false,
       "addedOn": "2026-06-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-27_meta-llama-llama-3-3_01",
+      "name": "Cheyenne Mountains, Colorado",
+      "lat": 38.8403,
+      "lng": -105.0042,
+      "cat": "recent",
+      "date": "June 2026",
+      "desc": "Potato-shaped UFO sighting over Cheyenne Mountains",
+      "source": "Pentagon Report, [cowboystatedaily.com](https://cowboystatedaily.com)",
+      "approx": false,
+      "addedOn": "2026-06-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-27_meta-llama-llama-3-3_02",
+      "name": "Near Harare International Airport, Zimbabwe",
+      "lat": -17.9117,
+      "lng": 31.0925,
+      "cat": "recent",
+      "date": "July 2008",
+      "desc": "CIA UAP incident report",
+      "source": "US Department of War, [war.gov](https://www.war.gov)",
+      "approx": false,
+      "addedOn": "2026-06-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-27_meta-llama-llama-3-3_03",
+      "name": "Above the Canyon, location unknown",
+      "lat": 0.0,
+      "lng": 0.0,
+      "cat": "recent",
+      "date": "2026",
+      "desc": "Mysterious object appearing to emerge from the shadows of a canyon",
+      "source": "IBTimes UK, [ibtimes.co.uk](https://www.ibtimes.co.uk)",
+      "approx": true,
+      "addedOn": "2026-06-27",
       "isNew": true
     }
   ]

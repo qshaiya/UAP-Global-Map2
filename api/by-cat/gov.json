@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-06-26",
-  "total": 23,
+  "updated": "2026-06-27",
+  "total": 24,
   "sightings": [
     {
       "id": "a2",
@@ -287,6 +287,19 @@
       "source": "ibtimes.co.uk, June 2026",
       "approx": true,
       "addedOn": "2026-06-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-27_deepseek-deepseek-ch_02",
+      "name": "Central Command Area (Middle East)",
+      "lat": 25.0,
+      "lng": 45.0,
+      "cat": "gov",
+      "date": "April 2021",
+      "desc": "Spherical UAP video from US military platform released by Department of War/AARO in June 2026 following Congressional requests.",
+      "source": "ibtimes.co.uk/mysterious-canyon-object-sparks-ufo-debate-1805186 (June 2026)",
+      "approx": true,
+      "addedOn": "2026-06-27",
       "isNew": true
     }
   ]
