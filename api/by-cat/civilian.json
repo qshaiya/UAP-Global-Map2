@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-06-27",
-  "total": 54,
+  "updated": "2026-06-28",
+  "total": 57,
   "sightings": [
     {
       "id": "r4",
@@ -690,6 +690,48 @@
       "approx": false,
       "addedOn": "2026-06-27",
       "isNew": true
+    },
+    {
+      "id": "legacy_auto-6f8f8d2da181",
+      "name": "Oregon, USA",
+      "lat": 43.8041,
+      "lng": -120.5542,
+      "cat": "civilian",
+      "date": "2026-06-25",
+      "desc": "okay this could just be a balloon but idk I noticed this in the sky when I was on a walk yesterday and the way it&#39;s moving is kind of strange to me. also if it were a balloon would it even still l",
+      "source": "Reddit | confidence: low | https://www.reddit.com/r/UFOs/comments/1uf1hnq/ufo_flying_over_portland/",
+      "approx": false,
+      "addedOn": "2026-06-28",
+      "isNew": false,
+      "legacy": true
+    },
+    {
+      "id": "legacy_auto-bc8d592eea22",
+      "name": "Crete, Greece",
+      "lat": 35.2401,
+      "lng": 24.8093,
+      "cat": "civilian",
+      "date": "2026-06-26",
+      "desc": "Time: July 1, 1978 at 3:00 PM Location: Elbistan, Turkey This is not an adult reflecting on UFO culture. This is the memory of a six year old boy in a small town in eastern Turkey in the 1970s, who ha",
+      "source": "Reddit | confidence: low",
+      "approx": false,
+      "addedOn": "2026-06-28",
+      "isNew": false,
+      "legacy": true
+    },
+    {
+      "id": "legacy_auto-2f16016f8757",
+      "name": "East China Sea",
+      "lat": 29.5,
+      "lng": 126.0,
+      "cat": "civilian",
+      "date": "2026-06-27",
+      "desc": "I&#39;ve always wanted to believe. When the government started releasing documents through AARO, FOIA, and war.gov , I wanted a way to actually explore them — not just read a PDF buried on a governmen",
+      "source": "Reddit | confidence: medium",
+      "approx": false,
+      "addedOn": "2026-06-28",
+      "isNew": false,
+      "legacy": true
     }
   ]
 }
