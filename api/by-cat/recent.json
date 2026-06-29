@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-06-28",
+  "updated": "2026-06-29",
   "total": 23,
   "sightings": [
     {
@@ -148,7 +148,7 @@
       "source": "Pentagon PURSUE/AARO portal",
       "approx": false,
       "addedOn": "2026-06-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-21_meta-llama-llama-3-3_02",
@@ -161,7 +161,7 @@
       "source": "Pentagon report",
       "approx": false,
       "addedOn": "2026-06-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-21_meta-llama-llama-3-3_03",
@@ -174,7 +174,7 @@
       "source": "Pentagon PURSUE/AARO portal",
       "approx": true,
       "addedOn": "2026-06-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-21_meta-llama-llama-3-3_04",
@@ -187,7 +187,7 @@
       "source": "UAP Globe",
       "approx": false,
       "addedOn": "2026-06-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-21_meta-llama-llama-3-3_05",
@@ -200,7 +200,7 @@
       "source": "UAP Globe",
       "approx": false,
       "addedOn": "2026-06-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-22_meta-llama-llama-3-3_01",

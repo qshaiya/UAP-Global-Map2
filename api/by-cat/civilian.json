@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-06-28",
-  "total": 57,
+  "updated": "2026-06-29",
+  "total": 58,
   "sightings": [
     {
       "id": "r4",
@@ -598,7 +598,7 @@
       "source": "uapglobe.com June 20 2026",
       "approx": false,
       "addedOn": "2026-06-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-21_deepseek-deepseek-ch_02",
@@ -611,7 +611,7 @@
       "source": "uapglobe.com June 14 2026",
       "approx": false,
       "addedOn": "2026-06-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-21_deepseek-deepseek-ch_03",
@@ -624,7 +624,7 @@
       "source": "uapglobe.com June 14 2026",
       "approx": false,
       "addedOn": "2026-06-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-21_deepseek-deepseek-ch_04",
@@ -637,7 +637,7 @@
       "source": "nuforc.org June 17 2026",
       "approx": false,
       "addedOn": "2026-06-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-21_deepseek-deepseek-ch_05",
@@ -650,7 +650,7 @@
       "source": "nuforc.org June 6 2026",
       "approx": false,
       "addedOn": "2026-06-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-22_deepseek-deepseek-ch_01",
@@ -732,6 +732,19 @@
       "addedOn": "2026-06-28",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-06-29_deepseek-deepseek-ch_01",
+      "name": "South Louisiana",
+      "lat": 30.3918,
+      "lng": -91.0382,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Bright meteor/fireball spotted over southern states, captured on home security cameras",
+      "source": "geo.tv (June 29, 2026)",
+      "approx": false,
+      "addedOn": "2026-06-29",
+      "isNew": true
     }
   ]
 }
