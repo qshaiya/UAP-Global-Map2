@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-06-29",
-  "total": 58,
+  "updated": "2026-06-30",
+  "total": 62,
   "sightings": [
     {
       "id": "r4",
@@ -663,7 +663,7 @@
       "source": "NewsBreak, June 22 2026",
       "approx": false,
       "addedOn": "2026-06-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-25_deepseek-deepseek-ch_01",
@@ -744,6 +744,58 @@
       "source": "geo.tv (June 29, 2026)",
       "approx": false,
       "addedOn": "2026-06-29",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-30_deepseek-deepseek-ch_01",
+      "name": "Antiguo Cuscatlán, El Salvador",
+      "lat": 13.6762,
+      "lng": -89.2413,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Municipal surveillance camera captured unidentified flying object over Boulevard Luis Poma, transforming from saucer to ball of light",
+      "source": "croniosv.com, June 2026",
+      "approx": false,
+      "addedOn": "2026-06-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-30_deepseek-deepseek-ch_02",
+      "name": "San Salvador, El Salvador",
+      "lat": 13.6929,
+      "lng": -89.2182,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "TV station camera captured fast-moving object near Boquerón volcano, with rapid vertical ascent between 4:55-4:59 AM",
+      "source": "tcsahora.com, June 2026",
+      "approx": false,
+      "addedOn": "2026-06-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-30_deepseek-deepseek-ch_03",
+      "name": "Baton Rouge, Louisiana, USA",
+      "lat": 30.4571,
+      "lng": -91.1874,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Green fireball with trailing tail observed at 5:03 AM over Perkins Road, described as huge green ball with fire",
+      "source": "news-usa.today, June 28, 2026",
+      "approx": false,
+      "addedOn": "2026-06-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-30_deepseek-deepseek-ch_04",
+      "name": "Venezuela (various locations)",
+      "lat": 7.126,
+      "lng": -66.2097,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Reports of red energy beams in sky before earthquake, sparking UFO theories but no verified evidence linking to seismic event",
+      "source": "ibtimes.co.uk, June 2026",
+      "approx": true,
+      "addedOn": "2026-06-30",
       "isNew": true
     }
   ]

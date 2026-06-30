@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-06-29",
+  "updated": "2026-06-30",
   "total": 23,
   "sightings": [
     {
@@ -213,7 +213,7 @@
       "source": "NewsBreak, 2026-06-22",
       "approx": false,
       "addedOn": "2026-06-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-23_deepseek-deepseek-ch_01",

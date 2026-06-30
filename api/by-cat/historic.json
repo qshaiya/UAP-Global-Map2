@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: historic",
   "category": "historic",
-  "updated": "2026-06-29",
-  "total": 2,
+  "updated": "2026-06-30",
+  "total": 4,
   "sightings": [
     {
       "id": "r1",
@@ -28,6 +28,32 @@
       "source": "NUFORC/NASA FOIA",
       "approx": false,
       "confidence": "high"
+    },
+    {
+      "id": "scan_2026-06-30_meta-llama-llama-3-3_01",
+      "name": "West Rindge, New Hampshire",
+      "lat": 42.7577,
+      "lng": -72.0079,
+      "cat": "historic",
+      "date": "July 1947",
+      "desc": "Metal fragments found",
+      "source": "[wbur.org](https://www.wbur.org/news/2026/06/30/pentagon-ufo-documents-new-hampshire-boston)",
+      "approx": false,
+      "addedOn": "2026-06-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-06-30_meta-llama-llama-3-3_02",
+      "name": "Harare, Zimbabwe",
+      "lat": -17.8259,
+      "lng": 31.0534,
+      "cat": "historic",
+      "date": "July 2008",
+      "desc": "UFO sighting reported",
+      "source": "[cbsnews.com](https://www.cbsnews.com/news/ufo-files-pentagon-3rd-release-documents-videos/)",
+      "approx": false,
+      "addedOn": "2026-06-30",
+      "isNew": true
     }
   ]
 }
