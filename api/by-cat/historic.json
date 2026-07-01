@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: historic",
   "category": "historic",
-  "updated": "2026-06-30",
-  "total": 4,
+  "updated": "2026-07-01",
+  "total": 5,
   "sightings": [
     {
       "id": "r1",
@@ -53,6 +53,19 @@
       "source": "[cbsnews.com](https://www.cbsnews.com/news/ufo-files-pentagon-3rd-release-documents-videos/)",
       "approx": false,
       "addedOn": "2026-06-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-01_meta-llama-llama-3-3_03",
+      "name": "West Rindge",
+      "lat": 42.7465,
+      "lng": -71.9871,
+      "cat": "historic",
+      "date": "July 1947",
+      "desc": "Metallic fragments found",
+      "source": "[ctpublic.org](https://www.ctpublic.org/2026-06-29/declassified-pentagon-ufo-files-mysterious-west-rindge-aliens-nh-newhampshire)",
+      "approx": false,
+      "addedOn": "2026-07-01",
       "isNew": true
     }
   ]

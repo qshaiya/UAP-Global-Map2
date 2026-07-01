@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-06-30",
-  "total": 62,
+  "updated": "2026-07-01",
+  "total": 65,
   "sightings": [
     {
       "id": "r4",
@@ -796,6 +796,45 @@
       "source": "ibtimes.co.uk, June 2026",
       "approx": true,
       "addedOn": "2026-06-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-01_deepseek-deepseek-ch_01",
+      "name": "Sprowston, England",
+      "lat": 52.6602,
+      "lng": 1.3164,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Strange black object with white smoke trail spotted falling from sky near Tesco store at 5pm. Object deployed parachute during descent.",
+      "source": "edp24.co.uk July 1, 2026",
+      "approx": false,
+      "addedOn": "2026-07-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-01_deepseek-deepseek-ch_02",
+      "name": "Amsterdam, Netherlands",
+      "lat": 52.3676,
+      "lng": 4.9041,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Light flying object moving SW to NE direction, stopped briefly then continued on altered course. Observed from balcony at 3:30 PM on June 29.",
+      "source": "ufomeldpunt.nl June 29, 2026",
+      "approx": false,
+      "addedOn": "2026-07-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-01_deepseek-deepseek-ch_03",
+      "name": "Gulf Coast, USA",
+      "lat": 30.0,
+      "lng": -90.0,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Bright fireball meteor sighted over Louisiana and Mississippi pre-dawn on June 29. Multiple dashcam and security footage captured the event.",
+      "source": "news-usa.today June 30, 2026",
+      "approx": true,
+      "addedOn": "2026-07-01",
       "isNew": true
     }
   ]

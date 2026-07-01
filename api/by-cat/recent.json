@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-06-30",
-  "total": 23,
+  "updated": "2026-07-01",
+  "total": 25,
   "sightings": [
     {
       "id": "r14",
@@ -226,7 +226,7 @@
       "source": "Caliber.Az, June 22 2026",
       "approx": true,
       "addedOn": "2026-06-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-23_meta-llama-llama-3-3_01",
@@ -239,7 +239,7 @@
       "source": "[caliber.az](https://caliber.az/en/post/russian-astronomer-reports-possible-ufo-sighting-in-omsk-region) June 22, 2026",
       "approx": false,
       "addedOn": "2026-06-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-24_deepseek-deepseek-ch_01",
@@ -291,6 +291,32 @@
       "source": "IBTimes UK, [ibtimes.co.uk](https://www.ibtimes.co.uk)",
       "approx": true,
       "addedOn": "2026-06-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-01_meta-llama-llama-3-3_01",
+      "name": "Sprowston",
+      "lat": 52.6583,
+      "lng": 1.3167,
+      "cat": "recent",
+      "date": "June 2026",
+      "desc": "Object with parachute spotted",
+      "source": "[edp24.co.uk](https://www.edp24.co.uk/news/26242917.strange-black-object-spotted-sky-sprowston/)",
+      "approx": false,
+      "addedOn": "2026-07-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-01_meta-llama-llama-3-3_02",
+      "name": "Colorado Springs",
+      "lat": 38.8339,
+      "lng": -104.8214,
+      "cat": "recent",
+      "date": "2022",
+      "desc": "Potato-shaped object spotted",
+      "source": "[war.gov](https://www.war.gov/ufo/)",
+      "approx": false,
+      "addedOn": "2026-07-01",
       "isNew": true
     }
   ]

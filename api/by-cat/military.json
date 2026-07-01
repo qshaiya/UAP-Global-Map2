@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-06-30",
-  "total": 23,
+  "updated": "2026-07-01",
+  "total": 24,
   "sightings": [
     {
       "id": "r2",
@@ -287,6 +287,19 @@
       "source": "ibtimes.co.uk",
       "approx": false,
       "addedOn": "2026-06-29",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-01_deepseek-deepseek-ch_04",
+      "name": "Troy, New York",
+      "lat": 42.7284,
+      "lng": -73.6918,
+      "cat": "military",
+      "date": "May 2026",
+      "desc": "Military witnesses reported triangle-shaped objects the size of school buses hovering 50-100 ft, projecting grid beams toward ground near National Guard facility.",
+      "source": "cnynews.com recent report",
+      "approx": false,
+      "addedOn": "2026-07-01",
       "isNew": true
     }
   ]
