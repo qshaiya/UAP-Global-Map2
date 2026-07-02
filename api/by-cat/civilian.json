@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-01",
-  "total": 65,
+  "updated": "2026-07-02",
+  "total": 67,
   "sightings": [
     {
       "id": "r4",
@@ -835,6 +835,32 @@
       "source": "news-usa.today June 30, 2026",
       "approx": true,
       "addedOn": "2026-07-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-02_deepseek-deepseek-ch_01",
+      "name": "Olivette, Missouri, USA",
+      "lat": 38.6728,
+      "lng": -90.3761,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Military veteran reports 3 bright white lights aligned in formation, moving silently at ~200mph from south to west before disappearing behind trees",
+      "source": "101theeagle.com, June 2026",
+      "approx": false,
+      "addedOn": "2026-07-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-02_deepseek-deepseek-ch_02",
+      "name": "Bradenton, Florida, USA",
+      "lat": 27.4989,
+      "lng": -82.5748,
+      "cat": "civilian",
+      "date": "Spring 2024",
+      "desc": "Multiple witnesses report groups of bright blue and white lights moving in coordinated patterns, identified as UFO hotspot by Congresswoman Luna",
+      "source": "sfl.media, June 2026",
+      "approx": false,
+      "addedOn": "2026-07-02",
       "isNew": true
     }
   ]

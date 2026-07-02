@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-07-01",
+  "updated": "2026-07-02",
   "total": 24,
   "sightings": [
     {
@@ -274,7 +274,7 @@
       "source": "Cowboy State Daily June 17, 2026",
       "approx": false,
       "addedOn": "2026-06-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-26_meta-llama-llama-3-3_01",

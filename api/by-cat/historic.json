@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: historic",
   "category": "historic",
-  "updated": "2026-07-01",
-  "total": 5,
+  "updated": "2026-07-02",
+  "total": 7,
   "sightings": [
     {
       "id": "r1",
@@ -66,6 +66,32 @@
       "source": "[ctpublic.org](https://www.ctpublic.org/2026-06-29/declassified-pentagon-ufo-files-mysterious-west-rindge-aliens-nh-newhampshire)",
       "approx": false,
       "addedOn": "2026-07-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-02_deepseek-deepseek-ch_03",
+      "name": "West Rindge, New Hampshire, USA",
+      "lat": 42.7512,
+      "lng": -72.0098,
+      "cat": "historic",
+      "date": "July 1947",
+      "desc": "Recently declassified FBI report details metallic fragments and small burn marks on lawn, investigated by MIT researchers",
+      "source": "Connecticut Public, June 2026",
+      "approx": false,
+      "addedOn": "2026-07-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-02_meta-llama-llama-3-3_04",
+      "name": "Harare International Airport, Zimbabwe",
+      "lat": -17.9167,
+      "lng": 31.1167,
+      "cat": "historic",
+      "date": "2008",
+      "desc": "Suspected UFO sighting",
+      "source": "nbcnews.com, June 2026",
+      "approx": false,
+      "addedOn": "2026-07-02",
       "isNew": true
     }
   ]

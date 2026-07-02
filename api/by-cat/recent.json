@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-01",
-  "total": 25,
+  "updated": "2026-07-02",
+  "total": 28,
   "sightings": [
     {
       "id": "r14",
@@ -252,7 +252,7 @@
       "source": "YouTube post June 22, 2026",
       "approx": false,
       "addedOn": "2026-06-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-27_meta-llama-llama-3-3_01",
@@ -317,6 +317,45 @@
       "source": "[war.gov](https://www.war.gov/ufo/)",
       "approx": false,
       "addedOn": "2026-07-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-02_meta-llama-llama-3-3_01",
+      "name": "Olivette, Missouri",
+      "lat": 38.6667,
+      "lng": -90.3667,
+      "cat": "recent",
+      "date": "June 2026",
+      "desc": "3 white lights moving in unison",
+      "source": "101theeagle.com, June 2026",
+      "approx": false,
+      "addedOn": "2026-07-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-02_meta-llama-llama-3-3_02",
+      "name": "Bradenton, Florida",
+      "lat": 27.4833,
+      "lng": -82.5833,
+      "cat": "recent",
+      "date": "June 2026",
+      "desc": "UFO hotspot",
+      "source": "sfl.media, June 2026",
+      "approx": false,
+      "addedOn": "2026-07-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-02_meta-llama-llama-3-3_03",
+      "name": "Pond in Northeastern United States",
+      "lat": 41.5833,
+      "lng": -72.6833,
+      "cat": "recent",
+      "date": "October 2024",
+      "desc": "Light source hovering above a pond",
+      "source": "cbsnews.com, June 2026",
+      "approx": true,
+      "addedOn": "2026-07-02",
       "isNew": true
     }
   ]
