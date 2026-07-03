@@ -3,12 +3,12 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-02",
-  "total": 150,
+  "updated": "2026-07-03",
+  "total": 154,
   "categories": {
-    "recent": 28,
+    "recent": 29,
     "military": 24,
-    "civilian": 67,
+    "civilian": 70,
     "gov": 24,
     "historic": 7
   },
@@ -1478,7 +1478,7 @@
       "source": "UAP Globe, June 14 2026",
       "approx": false,
       "addedOn": "2026-06-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-26_deepseek-deepseek-ch_01",
@@ -1923,6 +1923,58 @@
       "source": "nbcnews.com, June 2026",
       "approx": false,
       "addedOn": "2026-07-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-03_deepseek-deepseek-ch_01",
+      "name": "Emiliano Zapata, Mexico",
+      "lat": 18.8333,
+      "lng": -99.1833,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Triangular UFO with bright lights at vertices sighted silently moving at non-conventional speed over multiple Mexican cities",
+      "source": "ibtimes.co.uk July 2026",
+      "approx": false,
+      "addedOn": "2026-07-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-03_deepseek-deepseek-ch_02",
+      "name": "Gouda, Netherlands",
+      "lat": 52.0116,
+      "lng": 4.7089,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Two light objects observed moving smoothly with silver reflections, changing appearance and direction near Moordrecht",
+      "source": "ufomeldpunt.nl July 2026",
+      "approx": false,
+      "addedOn": "2026-07-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-03_deepseek-deepseek-ch_03",
+      "name": "New Windsor, New York",
+      "lat": 41.4768,
+      "lng": -74.0229,
+      "cat": "civilian",
+      "date": "May 2026",
+      "desc": "Green orb-like object observed changing shape and moving before disappearing during sunset hours",
+      "source": "wrrv.com June 2026",
+      "approx": false,
+      "addedOn": "2026-07-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-03_meta-llama-llama-3-3_01",
+      "name": "New Windsor, New York, USA",
+      "lat": 41.4667,
+      "lng": -74.0333,
+      "cat": "recent",
+      "date": "May 19th, 2026",
+      "desc": "Green orb-like object",
+      "source": "[wrrv.com](https://wrrv.com/snookie-hudson-valley-aliens-abducted/)",
+      "approx": false,
+      "addedOn": "2026-07-03",
       "isNew": true
     }
   ]
