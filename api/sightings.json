@@ -3,12 +3,12 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-03",
-  "total": 154,
+  "updated": "2026-07-05",
+  "total": 158,
   "categories": {
-    "recent": 29,
+    "recent": 31,
     "military": 24,
-    "civilian": 70,
+    "civilian": 72,
     "gov": 24,
     "historic": 7
   },
@@ -1491,7 +1491,7 @@
       "source": "IBTimes UK referencing US Dept of War, June 2026",
       "approx": true,
       "addedOn": "2026-06-26",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-26_deepseek-deepseek-ch_02",
@@ -1504,7 +1504,7 @@
       "source": "Above The Norm News, June 23, 2026",
       "approx": true,
       "addedOn": "2026-06-26",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-26_meta-llama-llama-3-3_01",
@@ -1517,7 +1517,7 @@
       "source": "ibtimes.co.uk, June 2026",
       "approx": true,
       "addedOn": "2026-06-26",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-27_deepseek-deepseek-ch_01",
@@ -1530,7 +1530,7 @@
       "source": "kmph.com/news/local/strange-object-seen-hovering-in-sky-for-hours-in-fresno (26 June 2026)",
       "approx": false,
       "addedOn": "2026-06-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-27_deepseek-deepseek-ch_02",
@@ -1543,7 +1543,7 @@
       "source": "ibtimes.co.uk/mysterious-canyon-object-sparks-ufo-debate-1805186 (June 2026)",
       "approx": true,
       "addedOn": "2026-06-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-27_deepseek-deepseek-ch_03",
@@ -1556,7 +1556,7 @@
       "source": "abovethenormnews.com/2026/06/23/jellyfish-ufo-iran (23 June 2026)",
       "approx": true,
       "addedOn": "2026-06-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-27_meta-llama-llama-3-3_01",
@@ -1569,7 +1569,7 @@
       "source": "Pentagon Report, [cowboystatedaily.com](https://cowboystatedaily.com)",
       "approx": false,
       "addedOn": "2026-06-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-27_meta-llama-llama-3-3_02",
@@ -1582,7 +1582,7 @@
       "source": "US Department of War, [war.gov](https://www.war.gov)",
       "approx": false,
       "addedOn": "2026-06-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-27_meta-llama-llama-3-3_03",
@@ -1595,7 +1595,7 @@
       "source": "IBTimes UK, [ibtimes.co.uk](https://www.ibtimes.co.uk)",
       "approx": true,
       "addedOn": "2026-06-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-6f8f8d2da181",
@@ -1975,6 +1975,58 @@
       "source": "[wrrv.com](https://wrrv.com/snookie-hudson-valley-aliens-abducted/)",
       "approx": false,
       "addedOn": "2026-07-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-05_deepseek-deepseek-ch_01",
+      "name": "Zoetermeer, Netherlands",
+      "lat": 52.0607,
+      "lng": 4.494,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Silver-colored orb changed direction, hovered, then moved toward Rotterdam for 41 seconds",
+      "source": "ufomeldpunt.nl July 4, 2026",
+      "approx": false,
+      "addedOn": "2026-07-05",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-05_deepseek-deepseek-ch_02",
+      "name": "Kyle Canyon, Nevada, USA",
+      "lat": 36.272,
+      "lng": -115.595,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Multiple bright lights hovering and moving slowly near Mount Charleston, witnessed by drivers on I-11",
+      "source": "archynewsy.com July 2026",
+      "approx": false,
+      "addedOn": "2026-07-05",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-05_meta-llama-llama-3-3_01",
+      "name": "Forrest Beach, Queensland, Australia",
+      "lat": -19.303888,
+      "lng": 146.879444,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Mysterious metallic balls found on beach",
+      "source": "aapnews.aap.com.au",
+      "approx": false,
+      "addedOn": "2026-07-05",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-05_meta-llama-llama-3-3_02",
+      "name": "Townsville, Queensland, Australia",
+      "lat": -19.257067,
+      "lng": 146.818106,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Suspected space debris found on shore",
+      "source": "aapnews.aap.com.au",
+      "approx": false,
+      "addedOn": "2026-07-05",
       "isNew": true
     }
   ]

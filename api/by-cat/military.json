@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-03",
+  "updated": "2026-07-05",
   "total": 24,
   "sightings": [
     {
@@ -248,7 +248,7 @@
       "source": "IBTimes UK referencing US Dept of War, June 2026",
       "approx": true,
       "addedOn": "2026-06-26",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-26_deepseek-deepseek-ch_02",
@@ -261,7 +261,7 @@
       "source": "Above The Norm News, June 23, 2026",
       "approx": true,
       "addedOn": "2026-06-26",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-27_deepseek-deepseek-ch_03",
@@ -274,7 +274,7 @@
       "source": "abovethenormnews.com/2026/06/23/jellyfish-ufo-iran (23 June 2026)",
       "approx": true,
       "addedOn": "2026-06-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-29_meta-llama-llama-3-3_01",

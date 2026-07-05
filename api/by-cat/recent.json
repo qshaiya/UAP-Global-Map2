@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-03",
-  "total": 29,
+  "updated": "2026-07-05",
+  "total": 31,
   "sightings": [
     {
       "id": "r14",
@@ -265,7 +265,7 @@
       "source": "Pentagon Report, [cowboystatedaily.com](https://cowboystatedaily.com)",
       "approx": false,
       "addedOn": "2026-06-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-27_meta-llama-llama-3-3_02",
@@ -278,7 +278,7 @@
       "source": "US Department of War, [war.gov](https://www.war.gov)",
       "approx": false,
       "addedOn": "2026-06-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-27_meta-llama-llama-3-3_03",
@@ -291,7 +291,7 @@
       "source": "IBTimes UK, [ibtimes.co.uk](https://www.ibtimes.co.uk)",
       "approx": true,
       "addedOn": "2026-06-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_meta-llama-llama-3-3_01",
@@ -369,6 +369,32 @@
       "source": "[wrrv.com](https://wrrv.com/snookie-hudson-valley-aliens-abducted/)",
       "approx": false,
       "addedOn": "2026-07-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-05_meta-llama-llama-3-3_01",
+      "name": "Forrest Beach, Queensland, Australia",
+      "lat": -19.303888,
+      "lng": 146.879444,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Mysterious metallic balls found on beach",
+      "source": "aapnews.aap.com.au",
+      "approx": false,
+      "addedOn": "2026-07-05",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-05_meta-llama-llama-3-3_02",
+      "name": "Townsville, Queensland, Australia",
+      "lat": -19.257067,
+      "lng": 146.818106,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Suspected space debris found on shore",
+      "source": "aapnews.aap.com.au",
+      "approx": false,
+      "addedOn": "2026-07-05",
       "isNew": true
     }
   ]
