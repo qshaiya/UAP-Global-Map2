@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
   "updated": "2026-07-05",
-  "total": 30,
+  "total": 33,
   "sightings": [
     {
       "id": "scan_2026-06-29_deepseek-deepseek-ch_01",
@@ -393,6 +393,48 @@
       "approx": false,
       "addedOn": "2026-07-05",
       "isNew": true
+    },
+    {
+      "id": "legacy_auto-6650f82de9b1",
+      "name": "Mexico",
+      "lat": 23.6345,
+      "lng": -102.5528,
+      "cat": "civilian",
+      "date": "2026-06-28",
+      "desc": "Time: June 27th 2026 Location: Mexico City This media was not taken by me, it was taken off a Facebook group on a location near me. This morning at about 10 AM I saw a red glowing thing spinning in th",
+      "source": "Reddit | confidence: low | https://www.reddit.com/r/UFOs/comments/1uhnxk0/red_ufo_looking_thing_in_mexico/",
+      "approx": false,
+      "addedOn": "2026-07-05",
+      "isNew": false,
+      "legacy": true
+    },
+    {
+      "id": "legacy_auto-b6b67275f231",
+      "name": "London, UK",
+      "lat": 51.5072,
+      "lng": -0.1276,
+      "cat": "civilian",
+      "date": "2026-06-30",
+      "desc": "Has anyone seen anything in London tonight? My girlfriend&#39;s bedroom in Highgate overlooks the whole city. Around 10:20pm tonight she was looking at the moon and saw a light above the moon that she",
+      "source": "Reddit | confidence: low",
+      "approx": false,
+      "addedOn": "2026-07-05",
+      "isNew": false,
+      "legacy": true
+    },
+    {
+      "id": "legacy_auto-ee3747ebab20",
+      "name": "Coordinates 51.6211397, -0.3959755",
+      "lat": 51.62114,
+      "lng": -0.395975,
+      "cat": "civilian",
+      "date": "2026-06-29",
+      "desc": "I’m curious whether anyone else has ever seen something similar, particularly in the UK during the 1980s. This happened sometime between 1984 and 1987 , during the school summer holidays. I was visiti",
+      "source": "Reddit | confidence: low",
+      "approx": false,
+      "addedOn": "2026-07-05",
+      "isNew": false,
+      "legacy": true
     }
   ]
 }
