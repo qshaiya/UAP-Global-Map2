@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-05",
-  "total": 75,
+  "updated": "2026-07-06",
+  "total": 78,
   "sightings": [
     {
       "id": "r4",
@@ -969,6 +969,45 @@
       "addedOn": "2026-07-05",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-07-06_deepseek-deepseek-ch_04",
+      "name": "Emiliano Zapata, Morelos, Mexico",
+      "lat": 18.8419,
+      "lng": -99.1847,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Triangular UFO with bright lights at vertices observed moving silently at non-conventional speed over multiple cities",
+      "source": "IBTimes UK, July 2026",
+      "approx": false,
+      "addedOn": "2026-07-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-06_deepseek-deepseek-ch_05",
+      "name": "Lakeville, Massachusetts, USA",
+      "lat": 41.8479,
+      "lng": -70.9495,
+      "cat": "civilian",
+      "date": "May 2026",
+      "desc": "Purple orb-like object emitting energy patterns observed below tree level in backyard, with animals reacting",
+      "source": "NUFORC report #198103, May 27, 2026",
+      "approx": false,
+      "addedOn": "2026-07-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-06_deepseek-deepseek-ch_06",
+      "name": "Turenne, Nouvelle-Aquitaine, France",
+      "lat": 45.0547,
+      "lng": 1.8094,
+      "cat": "civilian",
+      "date": "May 2026",
+      "desc": "Security camera captured 300-foot cigar-shaped white object following another object, estimated speed 300 mph",
+      "source": "NUFORC report #197479, May 10, 2026",
+      "approx": false,
+      "addedOn": "2026-07-06",
+      "isNew": true
     }
   ]
 }

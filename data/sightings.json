@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05",
-  "count": 161,
+  "updated": "2026-07-06",
+  "count": 168,
   "sightings": [
     {
       "id": "r1",
@@ -2041,6 +2041,97 @@
       "addedOn": "2026-07-05",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-07-06_deepseek-deepseek-ch_01",
+      "name": "Syracuse, Utah, USA",
+      "lat": 41.0896,
+      "lng": -112.0647,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Disk-shaped object passing over home on July 4, 2026, captured in UAP paranormal sighting",
+      "source": "Theothernews.com, July 4, 2026",
+      "approx": false,
+      "addedOn": "2026-07-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-06_deepseek-deepseek-ch_02",
+      "name": "Kyle Canyon Road area, Las Vegas, Nevada, USA",
+      "lat": 36.2722,
+      "lng": -115.6636,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Unusual bright light displays near Mount Charleston and Interstate 11 reported by residents and motorists",
+      "source": "Archynewsy.com, July 5, 2026",
+      "approx": true,
+      "addedOn": "2026-07-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-06_deepseek-deepseek-ch_03",
+      "name": "Near New York-New Jersey border, USA",
+      "lat": 40.9136,
+      "lng": -74.1425,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "NetJets pilots report near miss with large silver object at 15,800 feet during climb-out from New York",
+      "source": "Simple Flying, July 6, 2026",
+      "approx": true,
+      "addedOn": "2026-07-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-06_deepseek-deepseek-ch_04",
+      "name": "Emiliano Zapata, Morelos, Mexico",
+      "lat": 18.8419,
+      "lng": -99.1847,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Triangular UFO with bright lights at vertices observed moving silently at non-conventional speed over multiple cities",
+      "source": "IBTimes UK, July 2026",
+      "approx": false,
+      "addedOn": "2026-07-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-06_deepseek-deepseek-ch_05",
+      "name": "Lakeville, Massachusetts, USA",
+      "lat": 41.8479,
+      "lng": -70.9495,
+      "cat": "civilian",
+      "date": "May 2026",
+      "desc": "Purple orb-like object emitting energy patterns observed below tree level in backyard, with animals reacting",
+      "source": "NUFORC report #198103, May 27, 2026",
+      "approx": false,
+      "addedOn": "2026-07-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-06_deepseek-deepseek-ch_06",
+      "name": "Turenne, Nouvelle-Aquitaine, France",
+      "lat": 45.0547,
+      "lng": 1.8094,
+      "cat": "civilian",
+      "date": "May 2026",
+      "desc": "Security camera captured 300-foot cigar-shaped white object following another object, estimated speed 300 mph",
+      "source": "NUFORC report #197479, May 10, 2026",
+      "approx": false,
+      "addedOn": "2026-07-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-06_meta-llama-llama-3-3_01",
+      "name": "Syracuse, Utah",
+      "lat": 41.0933,
+      "lng": -112.0631,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Disk passes over home",
+      "source": "Theothernews",
+      "approx": false,
+      "addedOn": "2026-07-06",
+      "isNew": true
     }
   ]
 }
