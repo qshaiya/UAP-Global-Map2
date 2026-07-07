@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-07-06",
-  "total": 24,
+  "updated": "2026-07-07",
+  "total": 26,
   "sightings": [
     {
       "id": "a2",
@@ -301,6 +301,32 @@
       "approx": true,
       "addedOn": "2026-06-27",
       "isNew": false
+    },
+    {
+      "id": "scan_2026-07-07_meta-llama-llama-3-3_02",
+      "name": "Pentagon releases 3rd batch of UFO files",
+      "lat": 38.85,
+      "lng": -77.01,
+      "cat": "gov",
+      "date": "July 2026",
+      "desc": "Pentagon releases UFO files",
+      "source": "cbsnews.com",
+      "approx": false,
+      "addedOn": "2026-07-07",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-07_meta-llama-llama-3-3_03",
+      "name": "Trump UFO Advisory Team Pushes Defence Firms to Disclose Secret Alien Tech",
+      "lat": 51.5,
+      "lng": -0.12,
+      "cat": "gov",
+      "date": "July 2026",
+      "desc": "Trump UFO Advisory Team",
+      "source": "ibtimes.co.uk",
+      "approx": false,
+      "addedOn": "2026-07-07",
+      "isNew": true
     }
   ]
 }

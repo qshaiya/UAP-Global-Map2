@@ -1,35 +1,9 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-07-06",
-  "total": 40,
+  "updated": "2026-07-07",
+  "total": 43,
   "sightings": [
-    {
-      "id": "scan_2026-06-29_deepseek-deepseek-ch_01",
-      "name": "South Louisiana",
-      "lat": 30.3918,
-      "lng": -91.0382,
-      "cat": "civilian",
-      "date": "June 2026",
-      "desc": "Bright meteor/fireball spotted over southern states, captured on home security cameras",
-      "source": "geo.tv (June 29, 2026)",
-      "approx": false,
-      "addedOn": "2026-06-29",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-29_meta-llama-llama-3-3_01",
-      "name": "Langley Air Force Base, Virginia",
-      "lat": 37.0922,
-      "lng": -76.3602,
-      "cat": "military",
-      "date": "Unknown",
-      "desc": "Unknown objects violating airspace for 17 days",
-      "source": "ibtimes.co.uk",
-      "approx": false,
-      "addedOn": "2026-06-29",
-      "isNew": true
-    },
     {
       "id": "scan_2026-06-30_deepseek-deepseek-ch_01",
       "name": "Antiguo Cuscatlán, El Salvador",
@@ -525,6 +499,71 @@
       "source": "Theothernews",
       "approx": false,
       "addedOn": "2026-07-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-07_deepseek-deepseek-ch_01",
+      "name": "Near White Plains, New York, USA",
+      "lat": 41.067,
+      "lng": -73.7078,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "NetJets Global 6500 crew reported near miss with large silver unidentified object at 15,800 ft altitude during climb from Westchester Airport",
+      "source": "boltflight.com July 6, 2026",
+      "approx": true,
+      "addedOn": "2026-07-07",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-07_deepseek-deepseek-ch_02",
+      "name": "Sherburne, New York, USA",
+      "lat": 42.6781,
+      "lng": -75.498,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Unknown object crashed into building with loud impact, NASA investigating potential space debris. Object described as precision-manufactured",
+      "source": "cnycentral.com July 6, 2026",
+      "approx": false,
+      "addedOn": "2026-07-07",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-07_meta-llama-llama-3-3_01",
+      "name": "NetJets Global 6500 Crew Reports Near Miss With Unidentified Silver Object During Climb From New York",
+      "lat": 40.87,
+      "lng": -74.07,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Near miss with unidentified silver object",
+      "source": "boltflight.com",
+      "approx": false,
+      "addedOn": "2026-07-07",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-07_meta-llama-llama-3-3_02",
+      "name": "Pentagon releases 3rd batch of UFO files",
+      "lat": 38.85,
+      "lng": -77.01,
+      "cat": "gov",
+      "date": "July 2026",
+      "desc": "Pentagon releases UFO files",
+      "source": "cbsnews.com",
+      "approx": false,
+      "addedOn": "2026-07-07",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-07_meta-llama-llama-3-3_03",
+      "name": "Trump UFO Advisory Team Pushes Defence Firms to Disclose Secret Alien Tech",
+      "lat": 51.5,
+      "lng": -0.12,
+      "cat": "gov",
+      "date": "July 2026",
+      "desc": "Trump UFO Advisory Team",
+      "source": "ibtimes.co.uk",
+      "approx": false,
+      "addedOn": "2026-07-07",
       "isNew": true
     }
   ]
