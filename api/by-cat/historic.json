@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: historic",
   "category": "historic",
-  "updated": "2026-07-07",
+  "updated": "2026-07-08",
   "total": 7,
   "sightings": [
     {
@@ -40,7 +40,7 @@
       "source": "[wbur.org](https://www.wbur.org/news/2026/06/30/pentagon-ufo-documents-new-hampshire-boston)",
       "approx": false,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-30_meta-llama-llama-3-3_02",
@@ -53,7 +53,7 @@
       "source": "[cbsnews.com](https://www.cbsnews.com/news/ufo-files-pentagon-3rd-release-documents-videos/)",
       "approx": false,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_meta-llama-llama-3-3_03",

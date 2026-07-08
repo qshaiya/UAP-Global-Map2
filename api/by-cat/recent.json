@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-07",
-  "total": 38,
+  "updated": "2026-07-08",
+  "total": 40,
   "sightings": [
     {
       "id": "r14",
@@ -486,6 +486,32 @@
       "source": "boltflight.com",
       "approx": false,
       "addedOn": "2026-07-07",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-08_meta-llama-llama-3-3_01",
+      "name": "Wisconsin",
+      "lat": 43.7844,
+      "lng": -89.9916,
+      "cat": "recent",
+      "date": "March 2026",
+      "desc": "UFO cluster and county-level UAP map",
+      "source": "[uaplogbook.com](https://uaplogbook.com/wisconsin-uap-cluster-county-density/)",
+      "approx": true,
+      "addedOn": "2026-07-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-08_meta-llama-llama-3-3_02",
+      "name": "Philadelphia, Pennsylvania",
+      "lat": 39.9524,
+      "lng": -75.1631,
+      "cat": "recent",
+      "date": "Various",
+      "desc": "Glowing balls of light, silent oval-shaped objects",
+      "source": "[philadelphianewsroom.com](https://philadelphianewsroom.com/2026/07/07/pennsylvanias-skies-keep-the-mystery-alive-philly-ranks-among-americas-ufo-hotspots/)",
+      "approx": false,
+      "addedOn": "2026-07-08",
       "isNew": true
     }
   ]

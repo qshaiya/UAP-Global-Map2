@@ -1,87 +1,9 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-07-07",
-  "total": 43,
+  "updated": "2026-07-08",
+  "total": 39,
   "sightings": [
-    {
-      "id": "scan_2026-06-30_deepseek-deepseek-ch_01",
-      "name": "Antiguo Cuscatlán, El Salvador",
-      "lat": 13.6762,
-      "lng": -89.2413,
-      "cat": "civilian",
-      "date": "June 2026",
-      "desc": "Municipal surveillance camera captured unidentified flying object over Boulevard Luis Poma, transforming from saucer to ball of light",
-      "source": "croniosv.com, June 2026",
-      "approx": false,
-      "addedOn": "2026-06-30",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-30_deepseek-deepseek-ch_02",
-      "name": "San Salvador, El Salvador",
-      "lat": 13.6929,
-      "lng": -89.2182,
-      "cat": "civilian",
-      "date": "June 2026",
-      "desc": "TV station camera captured fast-moving object near Boquerón volcano, with rapid vertical ascent between 4:55-4:59 AM",
-      "source": "tcsahora.com, June 2026",
-      "approx": false,
-      "addedOn": "2026-06-30",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-30_deepseek-deepseek-ch_03",
-      "name": "Baton Rouge, Louisiana, USA",
-      "lat": 30.4571,
-      "lng": -91.1874,
-      "cat": "civilian",
-      "date": "June 2026",
-      "desc": "Green fireball with trailing tail observed at 5:03 AM over Perkins Road, described as huge green ball with fire",
-      "source": "news-usa.today, June 28, 2026",
-      "approx": false,
-      "addedOn": "2026-06-30",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-30_deepseek-deepseek-ch_04",
-      "name": "Venezuela (various locations)",
-      "lat": 7.126,
-      "lng": -66.2097,
-      "cat": "civilian",
-      "date": "June 2026",
-      "desc": "Reports of red energy beams in sky before earthquake, sparking UFO theories but no verified evidence linking to seismic event",
-      "source": "ibtimes.co.uk, June 2026",
-      "approx": true,
-      "addedOn": "2026-06-30",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-30_meta-llama-llama-3-3_01",
-      "name": "West Rindge, New Hampshire",
-      "lat": 42.7577,
-      "lng": -72.0079,
-      "cat": "historic",
-      "date": "July 1947",
-      "desc": "Metal fragments found",
-      "source": "[wbur.org](https://www.wbur.org/news/2026/06/30/pentagon-ufo-documents-new-hampshire-boston)",
-      "approx": false,
-      "addedOn": "2026-06-30",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-06-30_meta-llama-llama-3-3_02",
-      "name": "Harare, Zimbabwe",
-      "lat": -17.8259,
-      "lng": 31.0534,
-      "cat": "historic",
-      "date": "July 2008",
-      "desc": "UFO sighting reported",
-      "source": "[cbsnews.com](https://www.cbsnews.com/news/ufo-files-pentagon-3rd-release-documents-videos/)",
-      "approx": false,
-      "addedOn": "2026-06-30",
-      "isNew": true
-    },
     {
       "id": "scan_2026-07-01_deepseek-deepseek-ch_01",
       "name": "Sprowston, England",
@@ -564,6 +486,32 @@
       "source": "ibtimes.co.uk",
       "approx": false,
       "addedOn": "2026-07-07",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-08_meta-llama-llama-3-3_01",
+      "name": "Wisconsin",
+      "lat": 43.7844,
+      "lng": -89.9916,
+      "cat": "recent",
+      "date": "March 2026",
+      "desc": "UFO cluster and county-level UAP map",
+      "source": "[uaplogbook.com](https://uaplogbook.com/wisconsin-uap-cluster-county-density/)",
+      "approx": true,
+      "addedOn": "2026-07-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-08_meta-llama-llama-3-3_02",
+      "name": "Philadelphia, Pennsylvania",
+      "lat": 39.9524,
+      "lng": -75.1631,
+      "cat": "recent",
+      "date": "Various",
+      "desc": "Glowing balls of light, silent oval-shaped objects",
+      "source": "[philadelphianewsroom.com](https://philadelphianewsroom.com/2026/07/07/pennsylvanias-skies-keep-the-mystery-alive-philly-ranks-among-americas-ufo-hotspots/)",
+      "approx": false,
+      "addedOn": "2026-07-08",
       "isNew": true
     }
   ]

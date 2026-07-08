@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-07",
+  "updated": "2026-07-08",
   "total": 78,
   "sightings": [
     {
@@ -757,7 +757,7 @@
       "source": "croniosv.com, June 2026",
       "approx": false,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-30_deepseek-deepseek-ch_02",
@@ -770,7 +770,7 @@
       "source": "tcsahora.com, June 2026",
       "approx": false,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-30_deepseek-deepseek-ch_03",
@@ -783,7 +783,7 @@
       "source": "news-usa.today, June 28, 2026",
       "approx": false,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-30_deepseek-deepseek-ch_04",
@@ -796,7 +796,7 @@
       "source": "ibtimes.co.uk, June 2026",
       "approx": true,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_deepseek-deepseek-ch_01",

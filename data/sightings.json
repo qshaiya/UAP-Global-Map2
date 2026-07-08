@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-07",
-  "count": 173,
+  "updated": "2026-07-08",
+  "count": 175,
   "sightings": [
     {
       "id": "r1",
@@ -1647,7 +1647,7 @@
       "source": "croniosv.com, June 2026",
       "approx": false,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-30_deepseek-deepseek-ch_02",
@@ -1660,7 +1660,7 @@
       "source": "tcsahora.com, June 2026",
       "approx": false,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-30_deepseek-deepseek-ch_03",
@@ -1673,7 +1673,7 @@
       "source": "news-usa.today, June 28, 2026",
       "approx": false,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-30_deepseek-deepseek-ch_04",
@@ -1686,7 +1686,7 @@
       "source": "ibtimes.co.uk, June 2026",
       "approx": true,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-30_meta-llama-llama-3-3_01",
@@ -1699,7 +1699,7 @@
       "source": "[wbur.org](https://www.wbur.org/news/2026/06/30/pentagon-ufo-documents-new-hampshire-boston)",
       "approx": false,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-06-30_meta-llama-llama-3-3_02",
@@ -1712,7 +1712,7 @@
       "source": "[cbsnews.com](https://www.cbsnews.com/news/ufo-files-pentagon-3rd-release-documents-videos/)",
       "approx": false,
       "addedOn": "2026-06-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_deepseek-deepseek-ch_01",
@@ -2196,6 +2196,32 @@
       "source": "ibtimes.co.uk",
       "approx": false,
       "addedOn": "2026-07-07",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-08_meta-llama-llama-3-3_01",
+      "name": "Wisconsin",
+      "lat": 43.7844,
+      "lng": -89.9916,
+      "cat": "recent",
+      "date": "March 2026",
+      "desc": "UFO cluster and county-level UAP map",
+      "source": "[uaplogbook.com](https://uaplogbook.com/wisconsin-uap-cluster-county-density/)",
+      "approx": true,
+      "addedOn": "2026-07-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-08_meta-llama-llama-3-3_02",
+      "name": "Philadelphia, Pennsylvania",
+      "lat": 39.9524,
+      "lng": -75.1631,
+      "cat": "recent",
+      "date": "Various",
+      "desc": "Glowing balls of light, silent oval-shaped objects",
+      "source": "[philadelphianewsroom.com](https://philadelphianewsroom.com/2026/07/07/pennsylvanias-skies-keep-the-mystery-alive-philly-ranks-among-americas-ufo-hotspots/)",
+      "approx": false,
+      "addedOn": "2026-07-08",
       "isNew": true
     }
   ]
