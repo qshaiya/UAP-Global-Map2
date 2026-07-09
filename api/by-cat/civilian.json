@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-08",
+  "updated": "2026-07-09",
   "total": 78,
   "sightings": [
     {
@@ -809,7 +809,7 @@
       "source": "edp24.co.uk July 1, 2026",
       "approx": false,
       "addedOn": "2026-07-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_deepseek-deepseek-ch_02",
@@ -822,7 +822,7 @@
       "source": "ufomeldpunt.nl June 29, 2026",
       "approx": false,
       "addedOn": "2026-07-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_deepseek-deepseek-ch_03",
@@ -835,7 +835,7 @@
       "source": "news-usa.today June 30, 2026",
       "approx": true,
       "addedOn": "2026-07-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-02_deepseek-deepseek-ch_01",

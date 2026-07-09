@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-08",
-  "total": 24,
+  "updated": "2026-07-09",
+  "total": 26,
   "sightings": [
     {
       "id": "r2",
@@ -300,6 +300,32 @@
       "source": "cnynews.com recent report",
       "approx": false,
       "addedOn": "2026-07-01",
+      "isNew": false
+    },
+    {
+      "id": "scan_2026-07-09_deepseek-deepseek-ch_02",
+      "name": "Fortuna AFS, North Dakota, USA",
+      "lat": 48.905,
+      "lng": -103.779,
+      "cat": "military",
+      "date": "April 2026",
+      "desc": "Retired Air Force radar tech reported high-speed (~5,000 mph) radar return tracked by 780th Radar Squadron in spring 1967. New historical radar case surfaced.",
+      "source": "NUFORC, April 12 2026",
+      "approx": false,
+      "addedOn": "2026-07-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-09_deepseek-deepseek-ch_03",
+      "name": "Genkai Nuclear Power Plant, Saga Prefecture, Japan",
+      "lat": 33.514,
+      "lng": 129.826,
+      "cat": "military",
+      "date": "July 2025",
+      "desc": "Three glowing objects spotted over nuclear power plant at 9 PM. Kyushu Electric reported incident as nuclear material protection case.",
+      "source": "Milky Way News, 2026",
+      "approx": false,
+      "addedOn": "2026-07-09",
       "isNew": true
     }
   ]

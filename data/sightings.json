@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08",
-  "count": 175,
+  "updated": "2026-07-09",
+  "count": 178,
   "sightings": [
     {
       "id": "r1",
@@ -1725,7 +1725,7 @@
       "source": "edp24.co.uk July 1, 2026",
       "approx": false,
       "addedOn": "2026-07-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_deepseek-deepseek-ch_02",
@@ -1738,7 +1738,7 @@
       "source": "ufomeldpunt.nl June 29, 2026",
       "approx": false,
       "addedOn": "2026-07-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_deepseek-deepseek-ch_03",
@@ -1751,7 +1751,7 @@
       "source": "news-usa.today June 30, 2026",
       "approx": true,
       "addedOn": "2026-07-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_deepseek-deepseek-ch_04",
@@ -1764,7 +1764,7 @@
       "source": "cnynews.com recent report",
       "approx": false,
       "addedOn": "2026-07-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_meta-llama-llama-3-3_01",
@@ -1777,7 +1777,7 @@
       "source": "[edp24.co.uk](https://www.edp24.co.uk/news/26242917.strange-black-object-spotted-sky-sprowston/)",
       "approx": false,
       "addedOn": "2026-07-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_meta-llama-llama-3-3_02",
@@ -1790,7 +1790,7 @@
       "source": "[war.gov](https://www.war.gov/ufo/)",
       "approx": false,
       "addedOn": "2026-07-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-01_meta-llama-llama-3-3_03",
@@ -1803,7 +1803,7 @@
       "source": "[ctpublic.org](https://www.ctpublic.org/2026-06-29/declassified-pentagon-ufo-files-mysterious-west-rindge-aliens-nh-newhampshire)",
       "approx": false,
       "addedOn": "2026-07-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-02_deepseek-deepseek-ch_01",
@@ -2222,6 +2222,45 @@
       "source": "[philadelphianewsroom.com](https://philadelphianewsroom.com/2026/07/07/pennsylvanias-skies-keep-the-mystery-alive-philly-ranks-among-americas-ufo-hotspots/)",
       "approx": false,
       "addedOn": "2026-07-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-09_deepseek-deepseek-ch_01",
+      "name": "Nanjo City, Okinawa, Japan",
+      "lat": 26.137147,
+      "lng": 127.793998,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Two witnesses filmed mysterious glowing orbs hovering over ocean near Hyakuna Beach on Monday evening. One described 'light above horizon that seemed to be burning'.",
+      "source": "Coast to Coast AM, July 8 2026",
+      "approx": false,
+      "addedOn": "2026-07-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-09_deepseek-deepseek-ch_02",
+      "name": "Fortuna AFS, North Dakota, USA",
+      "lat": 48.905,
+      "lng": -103.779,
+      "cat": "military",
+      "date": "April 2026",
+      "desc": "Retired Air Force radar tech reported high-speed (~5,000 mph) radar return tracked by 780th Radar Squadron in spring 1967. New historical radar case surfaced.",
+      "source": "NUFORC, April 12 2026",
+      "approx": false,
+      "addedOn": "2026-07-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-09_deepseek-deepseek-ch_03",
+      "name": "Genkai Nuclear Power Plant, Saga Prefecture, Japan",
+      "lat": 33.514,
+      "lng": 129.826,
+      "cat": "military",
+      "date": "July 2025",
+      "desc": "Three glowing objects spotted over nuclear power plant at 9 PM. Kyushu Electric reported incident as nuclear material protection case.",
+      "source": "Milky Way News, 2026",
+      "approx": false,
+      "addedOn": "2026-07-09",
       "isNew": true
     }
   ]
