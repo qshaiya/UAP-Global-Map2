@@ -3,12 +3,12 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-09",
-  "total": 178,
+  "updated": "2026-07-10",
+  "total": 183,
   "categories": {
-    "recent": 41,
+    "recent": 44,
     "military": 26,
-    "civilian": 78,
+    "civilian": 80,
     "gov": 26,
     "historic": 7
   },
@@ -1845,7 +1845,7 @@
       "source": "101theeagle.com, June 2026",
       "approx": false,
       "addedOn": "2026-07-02",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-02_deepseek-deepseek-ch_02",
@@ -1858,7 +1858,7 @@
       "source": "sfl.media, June 2026",
       "approx": false,
       "addedOn": "2026-07-02",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-02_deepseek-deepseek-ch_03",
@@ -1871,7 +1871,7 @@
       "source": "Connecticut Public, June 2026",
       "approx": false,
       "addedOn": "2026-07-02",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-02_meta-llama-llama-3-3_01",
@@ -1884,7 +1884,7 @@
       "source": "101theeagle.com, June 2026",
       "approx": false,
       "addedOn": "2026-07-02",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-02_meta-llama-llama-3-3_02",
@@ -1897,7 +1897,7 @@
       "source": "sfl.media, June 2026",
       "approx": false,
       "addedOn": "2026-07-02",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-02_meta-llama-llama-3-3_03",
@@ -1910,7 +1910,7 @@
       "source": "cbsnews.com, June 2026",
       "approx": true,
       "addedOn": "2026-07-02",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-02_meta-llama-llama-3-3_04",
@@ -1923,7 +1923,7 @@
       "source": "nbcnews.com, June 2026",
       "approx": false,
       "addedOn": "2026-07-02",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-03_deepseek-deepseek-ch_01",
@@ -2290,6 +2290,71 @@
       "source": "Milky Way News, 2026",
       "approx": false,
       "addedOn": "2026-07-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-10_deepseek-deepseek-ch_01",
+      "name": "Interstate 85, Georgia, USA",
+      "lat": 33.8589,
+      "lng": -84.4208,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Multiple witnesses reported three bright, rapid flashes of light over I-85 north of Atlanta on July 9, 2026",
+      "source": "news-usa.today July 10, 2026",
+      "approx": false,
+      "addedOn": "2026-07-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-10_deepseek-deepseek-ch_02",
+      "name": "Victor Harbor, South Australia, Australia",
+      "lat": -35.55,
+      "lng": 138.6167,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Large disk-shaped UFO creating visible hole in cloud cover observed on July 8, 2026 with multiple witnesses",
+      "source": "ufosightingsdaily.com July 9, 2026",
+      "approx": false,
+      "addedOn": "2026-07-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-10_deepseek-deepseek-ch_03",
+      "name": "New Bern, North Carolina, USA",
+      "lat": 35.1085,
+      "lng": -77.0441,
+      "cat": "civilian",
+      "date": "November 2025",
+      "desc": "Three witnesses captured clear photo of black triangle UFO with lights at each corner at Derby Park",
+      "source": "NUFORC case #194088",
+      "approx": false,
+      "addedOn": "2026-07-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-10_deepseek-deepseek-ch_04",
+      "name": "Acquaviva Picena, Italy",
+      "lat": 42.9458,
+      "lng": 13.8142,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Witness observed bright white luminous object moving slowly with unusual trajectory near medieval fortress",
+      "source": "Ufology Research June 2026",
+      "approx": false,
+      "addedOn": "2026-07-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-10_meta-llama-llama-3-3_01",
+      "name": "North of Atlanta",
+      "lat": 33.7489,
+      "lng": -84.3879,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "3 bright flashes of light",
+      "source": "[news-usa.today](https://news-usa.today/bright-flashes-of-light-reported-over-i-85-north-of-the-loop/)",
+      "approx": false,
+      "addedOn": "2026-07-10",
       "isNew": true
     }
   ]

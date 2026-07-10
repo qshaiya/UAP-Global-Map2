@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-09",
-  "total": 78,
+  "updated": "2026-07-10",
+  "total": 80,
   "sightings": [
     {
       "id": "r4",
@@ -848,7 +848,7 @@
       "source": "101theeagle.com, June 2026",
       "approx": false,
       "addedOn": "2026-07-02",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-02_deepseek-deepseek-ch_02",
@@ -861,7 +861,7 @@
       "source": "sfl.media, June 2026",
       "approx": false,
       "addedOn": "2026-07-02",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-03_deepseek-deepseek-ch_01",
@@ -1007,6 +1007,32 @@
       "source": "NUFORC report #197479, May 10, 2026",
       "approx": false,
       "addedOn": "2026-07-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-10_deepseek-deepseek-ch_03",
+      "name": "New Bern, North Carolina, USA",
+      "lat": 35.1085,
+      "lng": -77.0441,
+      "cat": "civilian",
+      "date": "November 2025",
+      "desc": "Three witnesses captured clear photo of black triangle UFO with lights at each corner at Derby Park",
+      "source": "NUFORC case #194088",
+      "approx": false,
+      "addedOn": "2026-07-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-10_deepseek-deepseek-ch_04",
+      "name": "Acquaviva Picena, Italy",
+      "lat": 42.9458,
+      "lng": 13.8142,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Witness observed bright white luminous object moving slowly with unusual trajectory near medieval fortress",
+      "source": "Ufology Research June 2026",
+      "approx": false,
+      "addedOn": "2026-07-10",
       "isNew": true
     }
   ]
