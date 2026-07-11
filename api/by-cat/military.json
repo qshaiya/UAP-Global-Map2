@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-10",
-  "total": 26,
+  "updated": "2026-07-11",
+  "total": 30,
   "sightings": [
     {
       "id": "r2",
@@ -326,6 +326,58 @@
       "source": "Milky Way News, 2026",
       "approx": false,
       "addedOn": "2026-07-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_deepseek-deepseek-ch_02",
+      "name": "Yellow Sea",
+      "lat": 37.0,
+      "lng": 124.0,
+      "cat": "military",
+      "date": "January 2025",
+      "desc": "Military sensor tracked six-pointed star-shaped object over Yellow Sea, Indo-Pacific Command mission",
+      "source": "Pentagon PURSUE release, July 10, 2026",
+      "approx": true,
+      "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_deepseek-deepseek-ch_04",
+      "name": "Pantex Plant, Amarillo, Texas",
+      "lat": 35.3167,
+      "lng": -101.5333,
+      "cat": "military",
+      "date": "September 2015",
+      "desc": "Diamond-shaped object intruded nuclear facility airspace, silent with no propulsion visible, facility lockdown",
+      "source": "Pentagon PURSUE release, July 10, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_deepseek-deepseek-ch_05",
+      "name": "Eastern United States",
+      "lat": 39.0,
+      "lng": -77.0,
+      "cat": "military",
+      "date": "2019",
+      "desc": "Military aviator reported object with flight characteristics unlike anything seen in 28 years of service",
+      "source": "Pentagon PURSUE release, July 10, 2026",
+      "approx": true,
+      "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_meta-llama-llama-3-3_02",
+      "name": "Atlantic Ocean",
+      "lat": 35.721716,
+      "lng": -65.439829,
+      "cat": "military",
+      "date": "2020",
+      "desc": "UAP sighting by Navy crew member off East Coast of North America",
+      "source": "[cbsnews.com](https://cbsnews.com/) - Jul 11, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
       "isNew": true
     }
   ]

@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-07-10",
-  "total": 26,
+  "updated": "2026-07-11",
+  "total": 27,
   "sightings": [
     {
       "id": "a2",
@@ -326,6 +326,19 @@
       "source": "ibtimes.co.uk",
       "approx": false,
       "addedOn": "2026-07-07",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_meta-llama-llama-3-3_01",
+      "name": "Amarillo Pantex Plant",
+      "lat": 35.347121,
+      "lng": -101.710718,
+      "cat": "gov",
+      "date": "September 2015",
+      "desc": "Diamond-shaped UFO witnessed by security officers",
+      "source": "[interestingengineering.com](https://interestingengineering.com/) - Jul 11, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
       "isNew": true
     }
   ]

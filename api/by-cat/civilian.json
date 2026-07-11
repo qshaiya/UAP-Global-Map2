@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-10",
-  "total": 80,
+  "updated": "2026-07-11",
+  "total": 82,
   "sightings": [
     {
       "id": "r4",
@@ -874,7 +874,7 @@
       "source": "ibtimes.co.uk July 2026",
       "approx": false,
       "addedOn": "2026-07-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-03_deepseek-deepseek-ch_02",
@@ -887,7 +887,7 @@
       "source": "ufomeldpunt.nl July 2026",
       "approx": false,
       "addedOn": "2026-07-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-03_deepseek-deepseek-ch_03",
@@ -900,7 +900,7 @@
       "source": "wrrv.com June 2026",
       "approx": false,
       "addedOn": "2026-07-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-05_deepseek-deepseek-ch_01",
@@ -1033,6 +1033,32 @@
       "source": "Ufology Research June 2026",
       "approx": false,
       "addedOn": "2026-07-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_deepseek-deepseek-ch_01",
+      "name": "Victor Harbor, South Australia",
+      "lat": -35.55,
+      "lng": 138.6167,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Large UFO cloaked as hole in cloud ceiling, estimated half-mile wide, pushing clouds aside to reveal ship shape",
+      "source": "UFO Sightings Daily, July 8, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_deepseek-deepseek-ch_03",
+      "name": "Converse, Texas",
+      "lat": 29.518,
+      "lng": -98.3161,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Green glowing UFO observed for five minutes, silent with no visible propulsion, captured on video",
+      "source": "UFO Sightings Daily, June 18, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
       "isNew": true
     }
   ]

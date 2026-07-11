@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-10",
-  "total": 183,
+  "updated": "2026-07-11",
+  "total": 191,
   "categories": {
     "recent": 44,
-    "military": 26,
-    "civilian": 80,
-    "gov": 26,
-    "historic": 7
+    "military": 30,
+    "civilian": 82,
+    "gov": 27,
+    "historic": 8
   },
-  "approximate_locations": 16,
+  "approximate_locations": 18,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -1936,7 +1936,7 @@
       "source": "ibtimes.co.uk July 2026",
       "approx": false,
       "addedOn": "2026-07-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-03_deepseek-deepseek-ch_02",
@@ -1949,7 +1949,7 @@
       "source": "ufomeldpunt.nl July 2026",
       "approx": false,
       "addedOn": "2026-07-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-03_deepseek-deepseek-ch_03",
@@ -1962,7 +1962,7 @@
       "source": "wrrv.com June 2026",
       "approx": false,
       "addedOn": "2026-07-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-03_meta-llama-llama-3-3_01",
@@ -1975,7 +1975,7 @@
       "source": "[wrrv.com](https://wrrv.com/snookie-hudson-valley-aliens-abducted/)",
       "approx": false,
       "addedOn": "2026-07-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-05_deepseek-deepseek-ch_01",
@@ -2355,6 +2355,110 @@
       "source": "[news-usa.today](https://news-usa.today/bright-flashes-of-light-reported-over-i-85-north-of-the-loop/)",
       "approx": false,
       "addedOn": "2026-07-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_deepseek-deepseek-ch_01",
+      "name": "Victor Harbor, South Australia",
+      "lat": -35.55,
+      "lng": 138.6167,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Large UFO cloaked as hole in cloud ceiling, estimated half-mile wide, pushing clouds aside to reveal ship shape",
+      "source": "UFO Sightings Daily, July 8, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_deepseek-deepseek-ch_02",
+      "name": "Yellow Sea",
+      "lat": 37.0,
+      "lng": 124.0,
+      "cat": "military",
+      "date": "January 2025",
+      "desc": "Military sensor tracked six-pointed star-shaped object over Yellow Sea, Indo-Pacific Command mission",
+      "source": "Pentagon PURSUE release, July 10, 2026",
+      "approx": true,
+      "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_deepseek-deepseek-ch_03",
+      "name": "Converse, Texas",
+      "lat": 29.518,
+      "lng": -98.3161,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Green glowing UFO observed for five minutes, silent with no visible propulsion, captured on video",
+      "source": "UFO Sightings Daily, June 18, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_deepseek-deepseek-ch_04",
+      "name": "Pantex Plant, Amarillo, Texas",
+      "lat": 35.3167,
+      "lng": -101.5333,
+      "cat": "military",
+      "date": "September 2015",
+      "desc": "Diamond-shaped object intruded nuclear facility airspace, silent with no propulsion visible, facility lockdown",
+      "source": "Pentagon PURSUE release, July 10, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_deepseek-deepseek-ch_05",
+      "name": "Eastern United States",
+      "lat": 39.0,
+      "lng": -77.0,
+      "cat": "military",
+      "date": "2019",
+      "desc": "Military aviator reported object with flight characteristics unlike anything seen in 28 years of service",
+      "source": "Pentagon PURSUE release, July 10, 2026",
+      "approx": true,
+      "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_meta-llama-llama-3-3_01",
+      "name": "Amarillo Pantex Plant",
+      "lat": 35.347121,
+      "lng": -101.710718,
+      "cat": "gov",
+      "date": "September 2015",
+      "desc": "Diamond-shaped UFO witnessed by security officers",
+      "source": "[interestingengineering.com](https://interestingengineering.com/) - Jul 11, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_meta-llama-llama-3-3_02",
+      "name": "Atlantic Ocean",
+      "lat": 35.721716,
+      "lng": -65.439829,
+      "cat": "military",
+      "date": "2020",
+      "desc": "UAP sighting by Navy crew member off East Coast of North America",
+      "source": "[cbsnews.com](https://cbsnews.com/) - Jul 11, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-11_meta-llama-llama-3-3_03",
+      "name": "Los Alamos, New Mexico",
+      "lat": 35.880077,
+      "lng": -106.306282,
+      "cat": "historic",
+      "date": "1949",
+      "desc": "Atomic Energy Commission conference discusses 'green fireballs'",
+      "source": "[kmph.com](https://kmph.com/) - Jul 11, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
       "isNew": true
     }
   ]

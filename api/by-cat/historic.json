@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: historic",
   "category": "historic",
-  "updated": "2026-07-10",
-  "total": 7,
+  "updated": "2026-07-11",
+  "total": 8,
   "sightings": [
     {
       "id": "r1",
@@ -93,6 +93,19 @@
       "approx": false,
       "addedOn": "2026-07-02",
       "isNew": false
+    },
+    {
+      "id": "scan_2026-07-11_meta-llama-llama-3-3_03",
+      "name": "Los Alamos, New Mexico",
+      "lat": 35.880077,
+      "lng": -106.306282,
+      "cat": "historic",
+      "date": "1949",
+      "desc": "Atomic Energy Commission conference discusses 'green fireballs'",
+      "source": "[kmph.com](https://kmph.com/) - Jul 11, 2026",
+      "approx": false,
+      "addedOn": "2026-07-11",
+      "isNew": true
     }
   ]
 }

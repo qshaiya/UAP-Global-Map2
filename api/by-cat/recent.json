@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-10",
+  "updated": "2026-07-11",
   "total": 44,
   "sightings": [
     {
@@ -369,7 +369,7 @@
       "source": "[wrrv.com](https://wrrv.com/snookie-hudson-valley-aliens-abducted/)",
       "approx": false,
       "addedOn": "2026-07-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-05_meta-llama-llama-3-3_01",
