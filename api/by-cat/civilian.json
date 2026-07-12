@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-11",
-  "total": 82,
+  "updated": "2026-07-12",
+  "total": 83,
   "sightings": [
     {
       "id": "r4",
@@ -1059,6 +1059,19 @@
       "source": "UFO Sightings Daily, June 18, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-12_deepseek-deepseek-ch_01",
+      "name": "Alaska Airspace",
+      "lat": 61.2181,
+      "lng": -149.9003,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Crew member aboard UPS Flight 62 filmed three bright orbs shadowing aircraft over Alaska",
+      "source": "ufosightingshotspot.blogspot.com July 7, 2026",
+      "approx": false,
+      "addedOn": "2026-07-12",
       "isNew": true
     }
   ]

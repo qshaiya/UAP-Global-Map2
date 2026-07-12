@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-11",
-  "total": 44,
+  "updated": "2026-07-12",
+  "total": 46,
   "sightings": [
     {
       "id": "r14",
@@ -564,6 +564,32 @@
       "source": "[news-usa.today](https://news-usa.today/bright-flashes-of-light-reported-over-i-85-north-of-the-loop/)",
       "approx": false,
       "addedOn": "2026-07-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-12_meta-llama-llama-3-3_01",
+      "name": "Pantex Plant, Texas",
+      "lat": 35.333,
+      "lng": -101.567,
+      "cat": "recent",
+      "date": "September 2015",
+      "desc": "Unidentified object reported near nuclear facility",
+      "source": "[foxnews.com](https://www.foxnews.com/politics/trump-ufo-file-dump-includes-military-footage-mysterious-star-shaped-object)",
+      "approx": false,
+      "addedOn": "2026-07-12",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-12_meta-llama-llama-3-3_02",
+      "name": "Western Pacific Ocean",
+      "lat": 10.0,
+      "lng": 150.0,
+      "cat": "recent",
+      "date": "2024",
+      "desc": "Infrared video of unexplained object",
+      "source": "[foxnews.com](https://www.foxnews.com/politics/trump-ufo-file-dump-includes-military-footage-mysterious-star-shaped-object)",
+      "approx": true,
+      "addedOn": "2026-07-12",
       "isNew": true
     }
   ]

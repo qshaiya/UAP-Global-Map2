@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-11",
-  "total": 30,
+  "updated": "2026-07-12",
+  "total": 31,
   "sightings": [
     {
       "id": "r2",
@@ -378,6 +378,19 @@
       "source": "[cbsnews.com](https://cbsnews.com/) - Jul 11, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-12_deepseek-deepseek-ch_02",
+      "name": "Gulf of America",
+      "lat": 25.0,
+      "lng": -90.0,
+      "cat": "military",
+      "date": "July 2019",
+      "desc": "Infrared military sensor footage of unidentified object recorded over Gulf of America",
+      "source": "fouglobal.com July 10, 2026",
+      "approx": true,
+      "addedOn": "2026-07-12",
       "isNew": true
     }
   ]

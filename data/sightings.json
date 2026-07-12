@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11",
-  "count": 191,
+  "updated": "2026-07-12",
+  "count": 195,
   "sightings": [
     {
       "id": "r1",
@@ -2430,6 +2430,58 @@
       "source": "[kmph.com](https://kmph.com/) - Jul 11, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-12_deepseek-deepseek-ch_01",
+      "name": "Alaska Airspace",
+      "lat": 61.2181,
+      "lng": -149.9003,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Crew member aboard UPS Flight 62 filmed three bright orbs shadowing aircraft over Alaska",
+      "source": "ufosightingshotspot.blogspot.com July 7, 2026",
+      "approx": false,
+      "addedOn": "2026-07-12",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-12_deepseek-deepseek-ch_02",
+      "name": "Gulf of America",
+      "lat": 25.0,
+      "lng": -90.0,
+      "cat": "military",
+      "date": "July 2019",
+      "desc": "Infrared military sensor footage of unidentified object recorded over Gulf of America",
+      "source": "fouglobal.com July 10, 2026",
+      "approx": true,
+      "addedOn": "2026-07-12",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-12_meta-llama-llama-3-3_01",
+      "name": "Pantex Plant, Texas",
+      "lat": 35.333,
+      "lng": -101.567,
+      "cat": "recent",
+      "date": "September 2015",
+      "desc": "Unidentified object reported near nuclear facility",
+      "source": "[foxnews.com](https://www.foxnews.com/politics/trump-ufo-file-dump-includes-military-footage-mysterious-star-shaped-object)",
+      "approx": false,
+      "addedOn": "2026-07-12",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-12_meta-llama-llama-3-3_02",
+      "name": "Western Pacific Ocean",
+      "lat": 10.0,
+      "lng": 150.0,
+      "cat": "recent",
+      "date": "2024",
+      "desc": "Infrared video of unexplained object",
+      "source": "[foxnews.com](https://www.foxnews.com/politics/trump-ufo-file-dump-includes-military-footage-mysterious-star-shaped-object)",
+      "approx": true,
+      "addedOn": "2026-07-12",
       "isNew": true
     }
   ]
