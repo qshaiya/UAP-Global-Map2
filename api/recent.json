@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
   "updated": "2026-07-12",
-  "total": 38,
+  "total": 40,
   "sightings": [
     {
       "id": "scan_2026-07-05_deepseek-deepseek-ch_01",
@@ -497,6 +497,34 @@
       "approx": true,
       "addedOn": "2026-07-12",
       "isNew": true
+    },
+    {
+      "id": "legacy_auto-d26b20a7c091",
+      "name": "Greece",
+      "lat": 39.0742,
+      "lng": 21.8243,
+      "cat": "civilian",
+      "date": "2026-07-08",
+      "desc": "Location: Greece/Kavala/Mountain Paggaio Date: July 2 to July 6 of 2026 Time: Usually 12pm to 1am Duration: 20 Minutes at times Number of witnesses: At least 50 people Description of sighting: Every d",
+      "source": "Reddit | confidence: low",
+      "approx": false,
+      "addedOn": "2026-07-12",
+      "isNew": false,
+      "legacy": true
+    },
+    {
+      "id": "legacy_auto-dc32d91732b7",
+      "name": "Iraq",
+      "lat": 33.2232,
+      "lng": 43.6793,
+      "cat": "recent",
+      "date": "2026-07-10",
+      "desc": "The object resembles what was dubbed a “jellyfish” UFO, captured on video in Iraq in 2018.",
+      "source": "News_Search | confidence: low",
+      "approx": false,
+      "addedOn": "2026-07-12",
+      "isNew": false,
+      "legacy": true
     }
   ]
 }
