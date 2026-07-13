@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-12",
-  "total": 197,
+  "updated": "2026-07-13",
+  "total": 202,
   "categories": {
-    "recent": 47,
-    "military": 31,
-    "civilian": 84,
+    "recent": 48,
+    "military": 33,
+    "civilian": 86,
     "gov": 27,
     "historic": 8
   },
-  "approximate_locations": 20,
+  "approximate_locations": 21,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -1988,7 +1988,7 @@
       "source": "ufomeldpunt.nl July 4, 2026",
       "approx": false,
       "addedOn": "2026-07-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-05_deepseek-deepseek-ch_02",
@@ -2001,7 +2001,7 @@
       "source": "archynewsy.com July 2026",
       "approx": false,
       "addedOn": "2026-07-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-05_meta-llama-llama-3-3_01",
@@ -2014,7 +2014,7 @@
       "source": "aapnews.aap.com.au",
       "approx": false,
       "addedOn": "2026-07-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-05_meta-llama-llama-3-3_02",
@@ -2027,7 +2027,7 @@
       "source": "aapnews.aap.com.au",
       "approx": false,
       "addedOn": "2026-07-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-6650f82de9b1",
@@ -2540,6 +2540,71 @@
       "addedOn": "2026-07-12",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-07-13_deepseek-deepseek-ch_01",
+      "name": "Yellow Sea, China",
+      "lat": 34.8189,
+      "lng": 122.761,
+      "cat": "military",
+      "date": "July 2026",
+      "desc": "Military sensor tracked six-pointed star-shaped object over Yellow Sea in 2025 video released by Pentagon on July 10, 2026",
+      "source": "CBS News July 11, 2026",
+      "approx": true,
+      "addedOn": "2026-07-13",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-13_deepseek-deepseek-ch_02",
+      "name": "Anchorage, Alaska",
+      "lat": 61.2181,
+      "lng": -149.9003,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Crew member filmed three bright orbs shadowing UPS Flight 62 on July 7, 2026 during flight from Louisville to Anchorage to Hong Kong",
+      "source": "UFOSightingsHotspot July 2026",
+      "approx": false,
+      "addedOn": "2026-07-13",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-13_deepseek-deepseek-ch_03",
+      "name": "Amarillo, Texas",
+      "lat": 35.221997,
+      "lng": -101.831297,
+      "cat": "military",
+      "date": "July 2026",
+      "desc": "New Pentagon files detail 2015 diamond-shaped UFO incident over Pantex nuclear facility causing lockdown, released July 10, 2026",
+      "source": "Interesting Engineering July 2026",
+      "approx": false,
+      "addedOn": "2026-07-13",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-13_deepseek-deepseek-ch_04",
+      "name": "Port Charlotte, Florida",
+      "lat": 26.9762,
+      "lng": -82.2106,
+      "cat": "civilian",
+      "date": "April 2026",
+      "desc": "Witness reported lights dropping from sky as if entering atmosphere, fading as approaching horizon in April 2026 NUFORC report",
+      "source": "Naples News July 8, 2026",
+      "approx": false,
+      "addedOn": "2026-07-13",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-13_meta-llama-llama-3-3_01",
+      "name": "Pantex nuclear plant, Amarillo, Texas",
+      "lat": 35.3123,
+      "lng": -101.7045,
+      "cat": "recent",
+      "date": "September 2015",
+      "desc": "Unidentified object seen over nuclear facility",
+      "source": "Pentagon declassified files",
+      "approx": false,
+      "addedOn": "2026-07-13",
+      "isNew": true
     }
   ]
 }

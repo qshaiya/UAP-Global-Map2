@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-12",
-  "total": 47,
+  "updated": "2026-07-13",
+  "total": 48,
   "sightings": [
     {
       "id": "r14",
@@ -382,7 +382,7 @@
       "source": "aapnews.aap.com.au",
       "approx": false,
       "addedOn": "2026-07-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-05_meta-llama-llama-3-3_02",
@@ -395,7 +395,7 @@
       "source": "aapnews.aap.com.au",
       "approx": false,
       "addedOn": "2026-07-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-06_deepseek-deepseek-ch_01",
@@ -605,6 +605,19 @@
       "addedOn": "2026-07-12",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-07-13_meta-llama-llama-3-3_01",
+      "name": "Pantex nuclear plant, Amarillo, Texas",
+      "lat": 35.3123,
+      "lng": -101.7045,
+      "cat": "recent",
+      "date": "September 2015",
+      "desc": "Unidentified object seen over nuclear facility",
+      "source": "Pentagon declassified files",
+      "approx": false,
+      "addedOn": "2026-07-13",
+      "isNew": true
     }
   ]
 }

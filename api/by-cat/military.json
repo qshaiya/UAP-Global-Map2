@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-12",
-  "total": 31,
+  "updated": "2026-07-13",
+  "total": 33,
   "sightings": [
     {
       "id": "r2",
@@ -391,6 +391,32 @@
       "source": "fouglobal.com July 10, 2026",
       "approx": true,
       "addedOn": "2026-07-12",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-13_deepseek-deepseek-ch_01",
+      "name": "Yellow Sea, China",
+      "lat": 34.8189,
+      "lng": 122.761,
+      "cat": "military",
+      "date": "July 2026",
+      "desc": "Military sensor tracked six-pointed star-shaped object over Yellow Sea in 2025 video released by Pentagon on July 10, 2026",
+      "source": "CBS News July 11, 2026",
+      "approx": true,
+      "addedOn": "2026-07-13",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-13_deepseek-deepseek-ch_03",
+      "name": "Amarillo, Texas",
+      "lat": 35.221997,
+      "lng": -101.831297,
+      "cat": "military",
+      "date": "July 2026",
+      "desc": "New Pentagon files detail 2015 diamond-shaped UFO incident over Pantex nuclear facility causing lockdown, released July 10, 2026",
+      "source": "Interesting Engineering July 2026",
+      "approx": false,
+      "addedOn": "2026-07-13",
       "isNew": true
     }
   ]
