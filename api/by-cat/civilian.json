@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-13",
-  "total": 86,
+  "updated": "2026-07-14",
+  "total": 87,
   "sightings": [
     {
       "id": "r4",
@@ -981,7 +981,7 @@
       "source": "IBTimes UK, July 2026",
       "approx": false,
       "addedOn": "2026-07-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-06_deepseek-deepseek-ch_05",
@@ -994,7 +994,7 @@
       "source": "NUFORC report #198103, May 27, 2026",
       "approx": false,
       "addedOn": "2026-07-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-06_deepseek-deepseek-ch_06",
@@ -1007,7 +1007,7 @@
       "source": "NUFORC report #197479, May 10, 2026",
       "approx": false,
       "addedOn": "2026-07-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-10_deepseek-deepseek-ch_03",
@@ -1112,6 +1112,19 @@
       "source": "Naples News July 8, 2026",
       "approx": false,
       "addedOn": "2026-07-13",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-14_deepseek-deepseek-ch_03",
+      "name": "San Angelo, Texas, USA",
+      "lat": 31.4638,
+      "lng": -100.437,
+      "cat": "civilian",
+      "date": "November 2025",
+      "desc": "Two small white orb-shaped objects at high altitude moving extremely fast in different directions, vanishing within 2 seconds",
+      "source": "San Angelo Live - 13 May 2026",
+      "approx": false,
+      "addedOn": "2026-07-14",
       "isNew": true
     }
   ]

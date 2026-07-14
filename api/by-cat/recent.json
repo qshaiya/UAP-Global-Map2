@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-13",
-  "total": 48,
+  "updated": "2026-07-14",
+  "total": 49,
   "sightings": [
     {
       "id": "r14",
@@ -408,7 +408,7 @@
       "source": "Theothernews.com, July 4, 2026",
       "approx": false,
       "addedOn": "2026-07-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-06_deepseek-deepseek-ch_02",
@@ -421,7 +421,7 @@
       "source": "Archynewsy.com, July 5, 2026",
       "approx": true,
       "addedOn": "2026-07-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-06_deepseek-deepseek-ch_03",
@@ -434,7 +434,7 @@
       "source": "Simple Flying, July 6, 2026",
       "approx": true,
       "addedOn": "2026-07-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-06_meta-llama-llama-3-3_01",
@@ -447,7 +447,7 @@
       "source": "Theothernews",
       "approx": false,
       "addedOn": "2026-07-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-07_deepseek-deepseek-ch_01",
@@ -617,6 +617,19 @@
       "source": "Pentagon declassified files",
       "approx": false,
       "addedOn": "2026-07-13",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-14_deepseek-deepseek-ch_01",
+      "name": "Near Anchorage, Alaska, USA",
+      "lat": 61.2181,
+      "lng": -149.9003,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Crew member on UPS Flight 62 filmed three vibrant luminous orbs pacing aircraft, changing speed in coordinated formation",
+      "source": "Inter Space Sky Way - 10 July 2026",
+      "approx": true,
+      "addedOn": "2026-07-14",
       "isNew": true
     }
   ]
