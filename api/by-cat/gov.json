@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-07-14",
+  "updated": "2026-07-15",
   "total": 27,
   "sightings": [
     {
@@ -313,7 +313,7 @@
       "source": "cbsnews.com",
       "approx": false,
       "addedOn": "2026-07-07",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-07_meta-llama-llama-3-3_03",
@@ -326,7 +326,7 @@
       "source": "ibtimes.co.uk",
       "approx": false,
       "addedOn": "2026-07-07",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_meta-llama-llama-3-3_01",

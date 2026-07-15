@@ -3,10 +3,10 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-14",
-  "total": 205,
+  "updated": "2026-07-15",
+  "total": 206,
   "categories": {
-    "recent": 49,
+    "recent": 50,
     "military": 34,
     "civilian": 87,
     "gov": 27,
@@ -2173,7 +2173,7 @@
       "source": "boltflight.com July 6, 2026",
       "approx": true,
       "addedOn": "2026-07-07",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-07_deepseek-deepseek-ch_02",
@@ -2186,7 +2186,7 @@
       "source": "cnycentral.com July 6, 2026",
       "approx": false,
       "addedOn": "2026-07-07",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-07_meta-llama-llama-3-3_01",
@@ -2199,7 +2199,7 @@
       "source": "boltflight.com",
       "approx": false,
       "addedOn": "2026-07-07",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-07_meta-llama-llama-3-3_02",
@@ -2212,7 +2212,7 @@
       "source": "cbsnews.com",
       "approx": false,
       "addedOn": "2026-07-07",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-07_meta-llama-llama-3-3_03",
@@ -2225,7 +2225,7 @@
       "source": "ibtimes.co.uk",
       "approx": false,
       "addedOn": "2026-07-07",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-08_meta-llama-llama-3-3_01",
@@ -2643,6 +2643,19 @@
       "source": "San Angelo Live - 13 May 2026",
       "approx": false,
       "addedOn": "2026-07-14",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-15_meta-llama-llama-3-3_01",
+      "name": "Pantex nuclear weapons plant, Amarillo, Texas",
+      "lat": 35.3167,
+      "lng": -101.7,
+      "cat": "recent",
+      "date": "September 2015",
+      "desc": "UFO entered airspace, was chased by security officers",
+      "source": "[latintimes.com](https://www.latintimes.com/military-aviator-describes-object-unlike-anything-i-had-seen-latest-declassified-ufo-files-598198) July 2026",
+      "approx": false,
+      "addedOn": "2026-07-15",
       "isNew": true
     }
   ]
