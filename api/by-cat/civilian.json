@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-15",
-  "total": 87,
+  "updated": "2026-07-17",
+  "total": 90,
   "sightings": [
     {
       "id": "r4",
@@ -1125,6 +1125,45 @@
       "source": "San Angelo Live - 13 May 2026",
       "approx": false,
       "addedOn": "2026-07-14",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-17_deepseek-deepseek-ch_01",
+      "name": "Tarn Taran, India",
+      "lat": 31.4504,
+      "lng": 74.9254,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Bright mysterious light appeared in sky, captured on video and went viral on social media, witnessed by multiple people",
+      "source": "Ground News, July 17 2026",
+      "approx": false,
+      "addedOn": "2026-07-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-17_deepseek-deepseek-ch_02",
+      "name": "Xinjiang, China",
+      "lat": 42.5246,
+      "lng": 87.5396,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "UFO-like glow with changing shapes witnessed across multiple locations including Urumqi, Altay and Fuyun county",
+      "source": "Global Times, July 17 2026",
+      "approx": true,
+      "addedOn": "2026-07-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-17_deepseek-deepseek-ch_04",
+      "name": "Central Punjab, Pakistan",
+      "lat": 31.5204,
+      "lng": 74.3587,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Bright fireball lit up night sky across multiple districts, described as exceptionally bright meteor",
+      "source": "MM News, July 17 2026",
+      "approx": true,
+      "addedOn": "2026-07-17",
       "isNew": true
     }
   ]

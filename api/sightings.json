@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-15",
-  "total": 206,
+  "updated": "2026-07-17",
+  "total": 210,
   "categories": {
     "recent": 50,
-    "military": 34,
-    "civilian": 87,
+    "military": 35,
+    "civilian": 90,
     "gov": 27,
     "historic": 8
   },
-  "approximate_locations": 22,
+  "approximate_locations": 24,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -2238,7 +2238,7 @@
       "source": "[uaplogbook.com](https://uaplogbook.com/wisconsin-uap-cluster-county-density/)",
       "approx": true,
       "addedOn": "2026-07-08",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-08_meta-llama-llama-3-3_02",
@@ -2251,7 +2251,7 @@
       "source": "[philadelphianewsroom.com](https://philadelphianewsroom.com/2026/07/07/pennsylvanias-skies-keep-the-mystery-alive-philly-ranks-among-americas-ufo-hotspots/)",
       "approx": false,
       "addedOn": "2026-07-08",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-09_deepseek-deepseek-ch_01",
@@ -2264,7 +2264,7 @@
       "source": "Coast to Coast AM, July 8 2026",
       "approx": false,
       "addedOn": "2026-07-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-09_deepseek-deepseek-ch_02",
@@ -2277,7 +2277,7 @@
       "source": "NUFORC, April 12 2026",
       "approx": false,
       "addedOn": "2026-07-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-09_deepseek-deepseek-ch_03",
@@ -2290,7 +2290,7 @@
       "source": "Milky Way News, 2026",
       "approx": false,
       "addedOn": "2026-07-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-10_deepseek-deepseek-ch_01",
@@ -2656,6 +2656,58 @@
       "source": "[latintimes.com](https://www.latintimes.com/military-aviator-describes-object-unlike-anything-i-had-seen-latest-declassified-ufo-files-598198) July 2026",
       "approx": false,
       "addedOn": "2026-07-15",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-17_deepseek-deepseek-ch_01",
+      "name": "Tarn Taran, India",
+      "lat": 31.4504,
+      "lng": 74.9254,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Bright mysterious light appeared in sky, captured on video and went viral on social media, witnessed by multiple people",
+      "source": "Ground News, July 17 2026",
+      "approx": false,
+      "addedOn": "2026-07-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-17_deepseek-deepseek-ch_02",
+      "name": "Xinjiang, China",
+      "lat": 42.5246,
+      "lng": 87.5396,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "UFO-like glow with changing shapes witnessed across multiple locations including Urumqi, Altay and Fuyun county",
+      "source": "Global Times, July 17 2026",
+      "approx": true,
+      "addedOn": "2026-07-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-17_deepseek-deepseek-ch_03",
+      "name": "Pantex, Texas, USA",
+      "lat": 35.3167,
+      "lng": -101.5333,
+      "cat": "military",
+      "date": "September 2015",
+      "desc": "Diamond-shaped object 4ft tall triggered lockdown at nuclear weapons facility, pursued by security officers",
+      "source": "CBS News, July 17 2026",
+      "approx": false,
+      "addedOn": "2026-07-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-17_deepseek-deepseek-ch_04",
+      "name": "Central Punjab, Pakistan",
+      "lat": 31.5204,
+      "lng": 74.3587,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Bright fireball lit up night sky across multiple districts, described as exceptionally bright meteor",
+      "source": "MM News, July 17 2026",
+      "approx": true,
+      "addedOn": "2026-07-17",
       "isNew": true
     }
   ]

@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-15",
-  "total": 34,
+  "updated": "2026-07-17",
+  "total": 35,
   "sightings": [
     {
       "id": "r2",
@@ -313,7 +313,7 @@
       "source": "NUFORC, April 12 2026",
       "approx": false,
       "addedOn": "2026-07-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-09_deepseek-deepseek-ch_03",
@@ -326,7 +326,7 @@
       "source": "Milky Way News, 2026",
       "approx": false,
       "addedOn": "2026-07-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_deepseek-deepseek-ch_02",
@@ -430,6 +430,19 @@
       "source": "Vision Times - 13 July 2026",
       "approx": false,
       "addedOn": "2026-07-14",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-17_deepseek-deepseek-ch_03",
+      "name": "Pantex, Texas, USA",
+      "lat": 35.3167,
+      "lng": -101.5333,
+      "cat": "military",
+      "date": "September 2015",
+      "desc": "Diamond-shaped object 4ft tall triggered lockdown at nuclear weapons facility, pursued by security officers",
+      "source": "CBS News, July 17 2026",
+      "approx": false,
+      "addedOn": "2026-07-17",
       "isNew": true
     }
   ]
