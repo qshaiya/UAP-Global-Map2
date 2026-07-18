@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-17",
-  "count": 210,
+  "updated": "2026-07-18",
+  "count": 214,
   "sightings": [
     {
       "id": "r1",
@@ -2274,7 +2274,7 @@
       "source": "news-usa.today July 10, 2026",
       "approx": false,
       "addedOn": "2026-07-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-10_deepseek-deepseek-ch_02",
@@ -2287,7 +2287,7 @@
       "source": "ufosightingsdaily.com July 9, 2026",
       "approx": false,
       "addedOn": "2026-07-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-10_deepseek-deepseek-ch_03",
@@ -2300,7 +2300,7 @@
       "source": "NUFORC case #194088",
       "approx": false,
       "addedOn": "2026-07-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-10_deepseek-deepseek-ch_04",
@@ -2313,7 +2313,7 @@
       "source": "Ufology Research June 2026",
       "approx": false,
       "addedOn": "2026-07-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-10_meta-llama-llama-3-3_01",
@@ -2326,7 +2326,7 @@
       "source": "[news-usa.today](https://news-usa.today/bright-flashes-of-light-reported-over-i-85-north-of-the-loop/)",
       "approx": false,
       "addedOn": "2026-07-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_deepseek-deepseek-ch_01",
@@ -2679,6 +2679,58 @@
       "source": "MM News, July 17 2026",
       "approx": true,
       "addedOn": "2026-07-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-18_deepseek-deepseek-ch_01",
+      "name": "Western United States (Test Range)",
+      "lat": 36.585242,
+      "lng": -115.776374,
+      "cat": "military",
+      "date": "Late 2025",
+      "desc": "Senior US intelligence officer reports over an hour of encounters with countless silent, orange orbs swarming and closely approaching a military helicopter.",
+      "source": "BBC & ODNI narrative via PURSUE, July 2026",
+      "approx": true,
+      "addedOn": "2026-07-18",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-18_deepseek-deepseek-ch_02",
+      "name": "Amarillo, Texas, USA",
+      "lat": 35.221997,
+      "lng": -101.831297,
+      "cat": "military",
+      "date": "September 2015",
+      "desc": "Diamond-shaped object tracked over Pantex nuclear weapons plant, prompting lockdown. Officers pursued it but observed no sound or propulsion system.",
+      "source": "DOE Pantex Report via PURSUE Release, July 2026",
+      "approx": false,
+      "addedOn": "2026-07-18",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-18_deepseek-deepseek-ch_03",
+      "name": "Yellow Sea / East China Sea",
+      "lat": 35.0,
+      "lng": 123.0,
+      "cat": "military",
+      "date": "2025",
+      "desc": "U.S. Indo-Pacific Command video shows a sensor tracking an area of contrast resembling a six-pointed star. Object remains unexplained.",
+      "source": "CBS News & LAmag, July 2026",
+      "approx": true,
+      "addedOn": "2026-07-18",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-18_deepseek-deepseek-ch_04",
+      "name": "Atlantic Ocean (East Coast)",
+      "lat": 35.0,
+      "lng": -70.0,
+      "cat": "military",
+      "date": "2020",
+      "desc": "Navy crew footage and report describe a dark, maroonish, 12-15ft tall object, likened to a large deformed balloon, encountered over the Atlantic.",
+      "source": "CBS News, July 2026",
+      "approx": true,
+      "addedOn": "2026-07-18",
       "isNew": true
     }
   ]

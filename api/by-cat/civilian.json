@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-17",
+  "updated": "2026-07-18",
   "total": 90,
   "sightings": [
     {
@@ -1020,7 +1020,7 @@
       "source": "NUFORC case #194088",
       "approx": false,
       "addedOn": "2026-07-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-10_deepseek-deepseek-ch_04",
@@ -1033,7 +1033,7 @@
       "source": "Ufology Research June 2026",
       "approx": false,
       "addedOn": "2026-07-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_deepseek-deepseek-ch_01",
