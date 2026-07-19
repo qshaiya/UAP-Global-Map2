@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18",
-  "count": 214,
+  "updated": "2026-07-19",
+  "count": 216,
   "sightings": [
     {
       "id": "r1",
@@ -2732,6 +2732,34 @@
       "approx": true,
       "addedOn": "2026-07-18",
       "isNew": true
+    },
+    {
+      "id": "legacy_auto-2bb1cb1a6ab1",
+      "name": "Albuquerque, New Mexico, USA",
+      "lat": 35.0844,
+      "lng": -106.6504,
+      "cat": "civilian",
+      "date": "2026-07-12",
+      "desc": "For my 40th my wife is letting me plan a Ufology trip to NM. For those that have been, what would be a good route for 2 days? Thinking flying into Albuquerque then driving. Roswell, Socorro, etc? I kn",
+      "source": "Reddit | confidence: low | https://www.reddit.com/r/UFOs/comments/1uuv98z/new_mexico_vacation/",
+      "approx": false,
+      "addedOn": "2026-07-19",
+      "isNew": false,
+      "legacy": true
+    },
+    {
+      "id": "legacy_auto-c3dbbfbd16d4",
+      "name": "Coordinates 33.2243371, 53.6922187",
+      "lat": 33.224337,
+      "lng": 53.692219,
+      "cat": "civilian",
+      "date": "2026-07-17",
+      "desc": "Location: Esmaiilan Village, Isfahan, Iran. Exact coordinates: 33.2243371, 53.6922187 Time: 1:20 to 1:26 Local time July 17th 2026 An unidentified flying object was observed by more than 10 observers,",
+      "source": "Reddit | confidence: low",
+      "approx": false,
+      "addedOn": "2026-07-19",
+      "isNew": false,
+      "legacy": true
     }
   ]
 }

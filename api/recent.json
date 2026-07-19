@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-07-18",
+  "updated": "2026-07-19",
   "total": 31,
   "sightings": [
     {
@@ -159,34 +159,6 @@
       "approx": true,
       "addedOn": "2026-07-12",
       "isNew": true
-    },
-    {
-      "id": "legacy_auto-d26b20a7c091",
-      "name": "Greece",
-      "lat": 39.0742,
-      "lng": 21.8243,
-      "cat": "civilian",
-      "date": "2026-07-08",
-      "desc": "Location: Greece/Kavala/Mountain Paggaio Date: July 2 to July 6 of 2026 Time: Usually 12pm to 1am Duration: 20 Minutes at times Number of witnesses: At least 50 people Description of sighting: Every d",
-      "source": "Reddit | confidence: low",
-      "approx": false,
-      "addedOn": "2026-07-12",
-      "isNew": false,
-      "legacy": true
-    },
-    {
-      "id": "legacy_auto-dc32d91732b7",
-      "name": "Iraq",
-      "lat": 33.2232,
-      "lng": 43.6793,
-      "cat": "recent",
-      "date": "2026-07-10",
-      "desc": "The object resembles what was dubbed a “jellyfish” UFO, captured on video in Iraq in 2018.",
-      "source": "News_Search | confidence: low",
-      "approx": false,
-      "addedOn": "2026-07-12",
-      "isNew": false,
-      "legacy": true
     },
     {
       "id": "scan_2026-07-13_deepseek-deepseek-ch_01",
@@ -408,6 +380,34 @@
       "approx": true,
       "addedOn": "2026-07-18",
       "isNew": true
+    },
+    {
+      "id": "legacy_auto-2bb1cb1a6ab1",
+      "name": "Albuquerque, New Mexico, USA",
+      "lat": 35.0844,
+      "lng": -106.6504,
+      "cat": "civilian",
+      "date": "2026-07-12",
+      "desc": "For my 40th my wife is letting me plan a Ufology trip to NM. For those that have been, what would be a good route for 2 days? Thinking flying into Albuquerque then driving. Roswell, Socorro, etc? I kn",
+      "source": "Reddit | confidence: low | https://www.reddit.com/r/UFOs/comments/1uuv98z/new_mexico_vacation/",
+      "approx": false,
+      "addedOn": "2026-07-19",
+      "isNew": false,
+      "legacy": true
+    },
+    {
+      "id": "legacy_auto-c3dbbfbd16d4",
+      "name": "Coordinates 33.2243371, 53.6922187",
+      "lat": 33.224337,
+      "lng": 53.692219,
+      "cat": "civilian",
+      "date": "2026-07-17",
+      "desc": "Location: Esmaiilan Village, Isfahan, Iran. Exact coordinates: 33.2243371, 53.6922187 Time: 1:20 to 1:26 Local time July 17th 2026 An unidentified flying object was observed by more than 10 observers,",
+      "source": "Reddit | confidence: low",
+      "approx": false,
+      "addedOn": "2026-07-19",
+      "isNew": false,
+      "legacy": true
     }
   ]
 }
