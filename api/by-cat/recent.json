@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-19",
-  "total": 50,
+  "updated": "2026-07-20",
+  "total": 51,
   "sightings": [
     {
       "id": "r14",
@@ -577,7 +577,7 @@
       "source": "[foxnews.com](https://www.foxnews.com/politics/trump-ufo-file-dump-includes-military-footage-mysterious-star-shaped-object)",
       "approx": false,
       "addedOn": "2026-07-12",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-12_meta-llama-llama-3-3_02",
@@ -590,7 +590,7 @@
       "source": "[foxnews.com](https://www.foxnews.com/politics/trump-ufo-file-dump-includes-military-footage-mysterious-star-shaped-object)",
       "approx": true,
       "addedOn": "2026-07-12",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-dc32d91732b7",
@@ -643,6 +643,19 @@
       "source": "[latintimes.com](https://www.latintimes.com/military-aviator-describes-object-unlike-anything-i-had-seen-latest-declassified-ufo-files-598198) July 2026",
       "approx": false,
       "addedOn": "2026-07-15",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-20_meta-llama-llama-3-3_01",
+      "name": "US Military Test Grounds",
+      "lat": 37.7749,
+      "lng": -119.4179,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Unknown platforms penetrated test grounds",
+      "source": "[sentinel-news.org](https://www.sentinel-news.org/p/us-military-test-grounds-regularly)",
+      "approx": true,
+      "addedOn": "2026-07-20",
       "isNew": true
     }
   ]

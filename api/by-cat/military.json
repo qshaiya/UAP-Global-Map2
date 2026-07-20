@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-19",
-  "total": 39,
+  "updated": "2026-07-20",
+  "total": 40,
   "sightings": [
     {
       "id": "r2",
@@ -339,7 +339,7 @@
       "source": "Pentagon PURSUE release, July 10, 2026",
       "approx": true,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_deepseek-deepseek-ch_04",
@@ -352,7 +352,7 @@
       "source": "Pentagon PURSUE release, July 10, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_deepseek-deepseek-ch_05",
@@ -365,7 +365,7 @@
       "source": "Pentagon PURSUE release, July 10, 2026",
       "approx": true,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_meta-llama-llama-3-3_02",
@@ -378,7 +378,7 @@
       "source": "[cbsnews.com](https://cbsnews.com/) - Jul 11, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-12_deepseek-deepseek-ch_02",
@@ -391,7 +391,7 @@
       "source": "fouglobal.com July 10, 2026",
       "approx": true,
       "addedOn": "2026-07-12",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-13_deepseek-deepseek-ch_01",
@@ -495,6 +495,19 @@
       "source": "CBS News, July 2026",
       "approx": true,
       "addedOn": "2026-07-18",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-20_deepseek-deepseek-ch_01",
+      "name": "Anchorage, Alaska, USA",
+      "lat": 61.2181,
+      "lng": -149.9003,
+      "cat": "military",
+      "date": "July 2026",
+      "desc": "Three luminous orbs shadowed UPS Flight 62 cargo plane, maintaining coordinated formation and changing speeds",
+      "source": "universal.net July 2026",
+      "approx": false,
+      "addedOn": "2026-07-20",
       "isNew": true
     }
   ]

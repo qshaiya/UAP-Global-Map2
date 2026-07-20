@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-19",
-  "total": 216,
+  "updated": "2026-07-20",
+  "total": 219,
   "categories": {
-    "recent": 50,
-    "military": 39,
-    "civilian": 92,
+    "recent": 51,
+    "military": 40,
+    "civilian": 93,
     "gov": 27,
     "historic": 8
   },
-  "approximate_locations": 27,
+  "approximate_locations": 28,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -2368,7 +2368,7 @@
       "source": "UFO Sightings Daily, July 8, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_deepseek-deepseek-ch_02",
@@ -2381,7 +2381,7 @@
       "source": "Pentagon PURSUE release, July 10, 2026",
       "approx": true,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_deepseek-deepseek-ch_03",
@@ -2394,7 +2394,7 @@
       "source": "UFO Sightings Daily, June 18, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_deepseek-deepseek-ch_04",
@@ -2407,7 +2407,7 @@
       "source": "Pentagon PURSUE release, July 10, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_deepseek-deepseek-ch_05",
@@ -2420,7 +2420,7 @@
       "source": "Pentagon PURSUE release, July 10, 2026",
       "approx": true,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_meta-llama-llama-3-3_01",
@@ -2433,7 +2433,7 @@
       "source": "[interestingengineering.com](https://interestingengineering.com/) - Jul 11, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_meta-llama-llama-3-3_02",
@@ -2446,7 +2446,7 @@
       "source": "[cbsnews.com](https://cbsnews.com/) - Jul 11, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-11_meta-llama-llama-3-3_03",
@@ -2459,7 +2459,7 @@
       "source": "[kmph.com](https://kmph.com/) - Jul 11, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-12_deepseek-deepseek-ch_01",
@@ -2472,7 +2472,7 @@
       "source": "ufosightingshotspot.blogspot.com July 7, 2026",
       "approx": false,
       "addedOn": "2026-07-12",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-12_deepseek-deepseek-ch_02",
@@ -2485,7 +2485,7 @@
       "source": "fouglobal.com July 10, 2026",
       "approx": true,
       "addedOn": "2026-07-12",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-12_meta-llama-llama-3-3_01",
@@ -2498,7 +2498,7 @@
       "source": "[foxnews.com](https://www.foxnews.com/politics/trump-ufo-file-dump-includes-military-footage-mysterious-star-shaped-object)",
       "approx": false,
       "addedOn": "2026-07-12",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-12_meta-llama-llama-3-3_02",
@@ -2511,7 +2511,7 @@
       "source": "[foxnews.com](https://www.foxnews.com/politics/trump-ufo-file-dump-includes-military-footage-mysterious-star-shaped-object)",
       "approx": true,
       "addedOn": "2026-07-12",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-d26b20a7c091",
@@ -2789,6 +2789,45 @@
       "addedOn": "2026-07-19",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-07-20_deepseek-deepseek-ch_01",
+      "name": "Anchorage, Alaska, USA",
+      "lat": 61.2181,
+      "lng": -149.9003,
+      "cat": "military",
+      "date": "July 2026",
+      "desc": "Three luminous orbs shadowed UPS Flight 62 cargo plane, maintaining coordinated formation and changing speeds",
+      "source": "universal.net July 2026",
+      "approx": false,
+      "addedOn": "2026-07-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-20_deepseek-deepseek-ch_02",
+      "name": "Buffalo, New York, USA",
+      "lat": 42.8864,
+      "lng": -78.8784,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Former Army Signal Officer reported black dome-shaped disk and cube objects in thunderstorm photos near Grand Island Parkway",
+      "source": "q1057.com July 2026",
+      "approx": false,
+      "addedOn": "2026-07-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-20_meta-llama-llama-3-3_01",
+      "name": "US Military Test Grounds",
+      "lat": 37.7749,
+      "lng": -119.4179,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Unknown platforms penetrated test grounds",
+      "source": "[sentinel-news.org](https://www.sentinel-news.org/p/us-military-test-grounds-regularly)",
+      "approx": true,
+      "addedOn": "2026-07-20",
+      "isNew": true
     }
   ]
 }

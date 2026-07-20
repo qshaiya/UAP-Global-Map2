@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: historic",
   "category": "historic",
-  "updated": "2026-07-19",
+  "updated": "2026-07-20",
   "total": 8,
   "sightings": [
     {
@@ -105,7 +105,7 @@
       "source": "[kmph.com](https://kmph.com/) - Jul 11, 2026",
       "approx": false,
       "addedOn": "2026-07-11",
-      "isNew": true
+      "isNew": false
     }
   ]
 }
