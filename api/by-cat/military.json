@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-20",
-  "total": 40,
+  "updated": "2026-07-21",
+  "total": 41,
   "sightings": [
     {
       "id": "r2",
@@ -404,7 +404,7 @@
       "source": "CBS News July 11, 2026",
       "approx": true,
       "addedOn": "2026-07-13",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-13_deepseek-deepseek-ch_03",
@@ -417,7 +417,7 @@
       "source": "Interesting Engineering July 2026",
       "approx": false,
       "addedOn": "2026-07-13",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-14_deepseek-deepseek-ch_02",
@@ -508,6 +508,19 @@
       "source": "universal.net July 2026",
       "approx": false,
       "addedOn": "2026-07-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-21_deepseek-deepseek-ch_01",
+      "name": "Lake Meade, Nevada",
+      "lat": 36.023,
+      "lng": -114.7377,
+      "cat": "military",
+      "date": "June 1947",
+      "desc": "Military pilot observed 5-6 white circular UFO objects flying in formation northwest of Lake Meade at 6,000 ft altitude",
+      "source": "[beforeitsnews.com](https://beforeitsnews.com/paranormal/2026/07/5-alien-craft-spotted-over-lake-meade-2571478.html) July 2026",
+      "approx": true,
+      "addedOn": "2026-07-21",
       "isNew": true
     }
   ]

@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-20",
-  "total": 219,
+  "updated": "2026-07-21",
+  "total": 222,
   "categories": {
-    "recent": 51,
-    "military": 40,
-    "civilian": 93,
+    "recent": 52,
+    "military": 41,
+    "civilian": 94,
     "gov": 27,
     "historic": 8
   },
-  "approximate_locations": 28,
+  "approximate_locations": 29,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -2552,7 +2552,7 @@
       "source": "CBS News July 11, 2026",
       "approx": true,
       "addedOn": "2026-07-13",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-13_deepseek-deepseek-ch_02",
@@ -2565,7 +2565,7 @@
       "source": "UFOSightingsHotspot July 2026",
       "approx": false,
       "addedOn": "2026-07-13",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-13_deepseek-deepseek-ch_03",
@@ -2578,7 +2578,7 @@
       "source": "Interesting Engineering July 2026",
       "approx": false,
       "addedOn": "2026-07-13",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-13_deepseek-deepseek-ch_04",
@@ -2591,7 +2591,7 @@
       "source": "Naples News July 8, 2026",
       "approx": false,
       "addedOn": "2026-07-13",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-13_meta-llama-llama-3-3_01",
@@ -2604,7 +2604,7 @@
       "source": "Pentagon declassified files",
       "approx": false,
       "addedOn": "2026-07-13",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-14_deepseek-deepseek-ch_01",
@@ -2827,6 +2827,45 @@
       "source": "[sentinel-news.org](https://www.sentinel-news.org/p/us-military-test-grounds-regularly)",
       "approx": true,
       "addedOn": "2026-07-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-21_deepseek-deepseek-ch_01",
+      "name": "Lake Meade, Nevada",
+      "lat": 36.023,
+      "lng": -114.7377,
+      "cat": "military",
+      "date": "June 1947",
+      "desc": "Military pilot observed 5-6 white circular UFO objects flying in formation northwest of Lake Meade at 6,000 ft altitude",
+      "source": "[beforeitsnews.com](https://beforeitsnews.com/paranormal/2026/07/5-alien-craft-spotted-over-lake-meade-2571478.html) July 2026",
+      "approx": true,
+      "addedOn": "2026-07-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-21_deepseek-deepseek-ch_02",
+      "name": "Buffalo, New York",
+      "lat": 42.8864,
+      "lng": -78.8784,
+      "cat": "civilian",
+      "date": "May 2026",
+      "desc": "Former Army Signal Officer photographed black dome-shaped disk and cube-within-cube objects during thunderstorm on Grand Island Parkway",
+      "source": "[q1057.com](https://q1057.com/ixp/81/p/uap-sighting-western-new-york-state/) July 2026",
+      "approx": false,
+      "addedOn": "2026-07-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-21_meta-llama-llama-3-3_01",
+      "name": "Pantex nuclear facility, Texas",
+      "lat": 35.3,
+      "lng": -101.6,
+      "cat": "recent",
+      "date": "2015",
+      "desc": "Diamond-shaped object",
+      "source": "Pentagon PURSUE/AARO portal",
+      "approx": false,
+      "addedOn": "2026-07-21",
       "isNew": true
     }
   ]

@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-20",
-  "total": 93,
+  "updated": "2026-07-21",
+  "total": 94,
   "sightings": [
     {
       "id": "r4",
@@ -1099,7 +1099,7 @@
       "source": "UFOSightingsHotspot July 2026",
       "approx": false,
       "addedOn": "2026-07-13",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-13_deepseek-deepseek-ch_04",
@@ -1112,7 +1112,7 @@
       "source": "Naples News July 8, 2026",
       "approx": false,
       "addedOn": "2026-07-13",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-14_deepseek-deepseek-ch_03",
@@ -1205,6 +1205,19 @@
       "source": "q1057.com July 2026",
       "approx": false,
       "addedOn": "2026-07-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-21_deepseek-deepseek-ch_02",
+      "name": "Buffalo, New York",
+      "lat": 42.8864,
+      "lng": -78.8784,
+      "cat": "civilian",
+      "date": "May 2026",
+      "desc": "Former Army Signal Officer photographed black dome-shaped disk and cube-within-cube objects during thunderstorm on Grand Island Parkway",
+      "source": "[q1057.com](https://q1057.com/ixp/81/p/uap-sighting-western-new-york-state/) July 2026",
+      "approx": false,
+      "addedOn": "2026-07-21",
       "isNew": true
     }
   ]
