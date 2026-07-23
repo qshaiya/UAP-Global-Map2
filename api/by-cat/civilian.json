@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-21",
-  "total": 94,
+  "updated": "2026-07-23",
+  "total": 95,
   "sightings": [
     {
       "id": "r4",
@@ -1125,7 +1125,7 @@
       "source": "San Angelo Live - 13 May 2026",
       "approx": false,
       "addedOn": "2026-07-14",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-17_deepseek-deepseek-ch_01",
@@ -1218,6 +1218,19 @@
       "source": "[q1057.com](https://q1057.com/ixp/81/p/uap-sighting-western-new-york-state/) July 2026",
       "approx": false,
       "addedOn": "2026-07-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-23_deepseek-deepseek-ch_02",
+      "name": "Ensenada, Mexico",
+      "lat": 31.8617,
+      "lng": -116.6078,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Silent spherical object filmed emerging from mountains near Ensenada, reportedly seen multiple times",
+      "source": "[universal.net](https://universal.net/spherical-ufo-filmed-flying-over-the-mountains-near-ensenada-mexico/) July 18, 2026",
+      "approx": false,
+      "addedOn": "2026-07-23",
       "isNew": true
     }
   ]

@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-07-21",
-  "total": 27,
+  "updated": "2026-07-23",
+  "total": 28,
   "sightings": [
     {
       "id": "a2",
@@ -340,6 +340,19 @@
       "approx": false,
       "addedOn": "2026-07-11",
       "isNew": false
+    },
+    {
+      "id": "scan_2026-07-23_meta-llama-llama-3-3_02",
+      "name": "Washington D.C., USA",
+      "lat": 38.8951,
+      "lng": -77.0364,
+      "cat": "gov",
+      "date": "July 2026",
+      "desc": "Trump orders UAP whistleblowers released from NDAs",
+      "source": "[ibtimes.co.uk](https://www.ibtimes.co.uk/trump-directive-eases-nda-restrictions-uap-witnesses-1809990)",
+      "approx": false,
+      "addedOn": "2026-07-23",
+      "isNew": true
     }
   ]
 }

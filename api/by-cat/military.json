@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-21",
-  "total": 41,
+  "updated": "2026-07-23",
+  "total": 42,
   "sightings": [
     {
       "id": "r2",
@@ -430,7 +430,7 @@
       "source": "Vision Times - 13 July 2026",
       "approx": false,
       "addedOn": "2026-07-14",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-17_deepseek-deepseek-ch_03",
@@ -521,6 +521,19 @@
       "source": "[beforeitsnews.com](https://beforeitsnews.com/paranormal/2026/07/5-alien-craft-spotted-over-lake-meade-2571478.html) July 2026",
       "approx": true,
       "addedOn": "2026-07-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-23_deepseek-deepseek-ch_01",
+      "name": "Virginia Coast, USA",
+      "lat": 36.8508,
+      "lng": -75.978,
+      "cat": "military",
+      "date": "July 2026",
+      "desc": "Navy reports approximately 100 airborne UAP and 2 uncrewed surface systems operating off Virginia coast",
+      "source": "[defensescoop.com](https://defensescoop.com/2026/07/21/pentagon-investigating-ufo-uap-event-near-virginia-coast/) July 21, 2026",
+      "approx": true,
+      "addedOn": "2026-07-23",
       "isNew": true
     }
   ]
