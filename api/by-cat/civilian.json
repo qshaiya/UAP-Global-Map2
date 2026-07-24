@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-23",
-  "total": 95,
+  "updated": "2026-07-24",
+  "total": 97,
   "sightings": [
     {
       "id": "r4",
@@ -1231,6 +1231,32 @@
       "source": "[universal.net](https://universal.net/spherical-ufo-filmed-flying-over-the-mountains-near-ensenada-mexico/) July 18, 2026",
       "approx": false,
       "addedOn": "2026-07-23",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-24_deepseek-deepseek-ch_01",
+      "name": "Houston, Texas, USA",
+      "lat": 29.7604,
+      "lng": -95.3698,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Marine F-18 pilot witnessed 737-sized wingless mercury-like object hovering motionless, accelerated at extreme speed",
+      "source": "amelica.org July 2026",
+      "approx": false,
+      "addedOn": "2026-07-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-24_deepseek-deepseek-ch_02",
+      "name": "Mablethorpe, Lincolnshire, UK",
+      "lat": 53.3419,
+      "lng": 0.261,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Holidaymaker reports black triangle UFO twice fighter jet size with lights at corners, moving thousands mph silently",
+      "source": "lincolnshireworld.com July 2026",
+      "approx": false,
+      "addedOn": "2026-07-24",
       "isNew": true
     }
   ]

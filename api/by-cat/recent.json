@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-23",
-  "total": 53,
+  "updated": "2026-07-24",
+  "total": 55,
   "sightings": [
     {
       "id": "r14",
@@ -682,6 +682,32 @@
       "source": "[defensescoop.com](https://defensescoop.com/2026/07/21/pentagon-investigating-ufo-uap-event-near-virginia-coast/)",
       "approx": false,
       "addedOn": "2026-07-23",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-24_meta-llama-llama-3-3_01",
+      "name": "Virginia Coast",
+      "lat": 36.8583,
+      "lng": -75.9833,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "100 airborne UAP and 2 uncrewed surface systems",
+      "source": "[defensescoop.com](https://defensescoop.com/2026/07/21/pentagon-investigating-ufo-uap-event-near-virginia-coast/)",
+      "approx": false,
+      "addedOn": "2026-07-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-24_meta-llama-llama-3-3_02",
+      "name": "Houston",
+      "lat": 29.7633,
+      "lng": -95.3632,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Wingless, mercury-like object the size of a 737",
+      "source": "[amelica.org](https://amelica.org/c0a518adEXFuRG4HCU52Cic)",
+      "approx": false,
+      "addedOn": "2026-07-24",
       "isNew": true
     }
   ]

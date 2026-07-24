@@ -3,12 +3,12 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-23",
-  "total": 226,
+  "updated": "2026-07-24",
+  "total": 230,
   "categories": {
-    "recent": 53,
+    "recent": 55,
     "military": 42,
-    "civilian": 95,
+    "civilian": 97,
     "gov": 28,
     "historic": 8
   },
@@ -2918,6 +2918,58 @@
       "source": "[ibtimes.co.uk](https://www.ibtimes.co.uk/trump-directive-eases-nda-restrictions-uap-witnesses-1809990)",
       "approx": false,
       "addedOn": "2026-07-23",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-24_deepseek-deepseek-ch_01",
+      "name": "Houston, Texas, USA",
+      "lat": 29.7604,
+      "lng": -95.3698,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Marine F-18 pilot witnessed 737-sized wingless mercury-like object hovering motionless, accelerated at extreme speed",
+      "source": "amelica.org July 2026",
+      "approx": false,
+      "addedOn": "2026-07-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-24_deepseek-deepseek-ch_02",
+      "name": "Mablethorpe, Lincolnshire, UK",
+      "lat": 53.3419,
+      "lng": 0.261,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Holidaymaker reports black triangle UFO twice fighter jet size with lights at corners, moving thousands mph silently",
+      "source": "lincolnshireworld.com July 2026",
+      "approx": false,
+      "addedOn": "2026-07-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-24_meta-llama-llama-3-3_01",
+      "name": "Virginia Coast",
+      "lat": 36.8583,
+      "lng": -75.9833,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "100 airborne UAP and 2 uncrewed surface systems",
+      "source": "[defensescoop.com](https://defensescoop.com/2026/07/21/pentagon-investigating-ufo-uap-event-near-virginia-coast/)",
+      "approx": false,
+      "addedOn": "2026-07-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-24_meta-llama-llama-3-3_02",
+      "name": "Houston",
+      "lat": 29.7633,
+      "lng": -95.3632,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Wingless, mercury-like object the size of a 737",
+      "source": "[amelica.org](https://amelica.org/c0a518adEXFuRG4HCU52Cic)",
+      "approx": false,
+      "addedOn": "2026-07-24",
       "isNew": true
     }
   ]
