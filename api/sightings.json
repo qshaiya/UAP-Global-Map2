@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-24",
-  "total": 230,
+  "updated": "2026-07-25",
+  "total": 237,
   "categories": {
-    "recent": 55,
-    "military": 42,
-    "civilian": 97,
-    "gov": 28,
+    "recent": 56,
+    "military": 43,
+    "civilian": 101,
+    "gov": 29,
     "historic": 8
   },
-  "approximate_locations": 30,
+  "approximate_locations": 31,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -2669,7 +2669,7 @@
       "source": "Ground News, July 17 2026",
       "approx": false,
       "addedOn": "2026-07-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-17_deepseek-deepseek-ch_02",
@@ -2682,7 +2682,7 @@
       "source": "Global Times, July 17 2026",
       "approx": true,
       "addedOn": "2026-07-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-17_deepseek-deepseek-ch_03",
@@ -2695,7 +2695,7 @@
       "source": "CBS News, July 17 2026",
       "approx": false,
       "addedOn": "2026-07-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-17_deepseek-deepseek-ch_04",
@@ -2708,7 +2708,7 @@
       "source": "MM News, July 17 2026",
       "approx": true,
       "addedOn": "2026-07-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-18_deepseek-deepseek-ch_01",
@@ -2970,6 +2970,97 @@
       "source": "[amelica.org](https://amelica.org/c0a518adEXFuRG4HCU52Cic)",
       "approx": false,
       "addedOn": "2026-07-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_01",
+      "name": "Layton, Utah, USA",
+      "lat": 41.0602,
+      "lng": -111.9711,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Triangular craft with three white lights caused electrical interference with home security lighting. Witness reported craft 'bigger than a jet' with soft whooshing sound.",
+      "source": "NUFORC Incident 199372 reported July 11, 2026 - kezj.com",
+      "approx": false,
+      "addedOn": "2026-07-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_02",
+      "name": "Broken Arrow, Oklahoma, USA",
+      "lat": 35.9908,
+      "lng": -95.7958,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Triangle UFO with lights changing from green to red, stationary for 10 minutes during thunderstorm. Two prominent lights with third white light appearing periodically.",
+      "source": "UFOIndex.com recent report - ufoindex.com",
+      "approx": false,
+      "addedOn": "2026-07-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_03",
+      "name": "Pantex Nuclear Facility, Amarillo, Texas, USA",
+      "lat": 35.317,
+      "lng": -101.5689,
+      "cat": "gov",
+      "date": "July 2026",
+      "desc": "Declassified documents reveal 2015 UFO sighting near nuclear weapons facility. Diamond-shaped object 4ft tall, 2ft wide, silent, changed speed when followed.",
+      "source": "Pentagon disclosure July 10, 2026 - newschannel10.com",
+      "approx": false,
+      "addedOn": "2026-07-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_04",
+      "name": "Off Virginia Coast, USA",
+      "lat": 37.4316,
+      "lng": -75.6586,
+      "cat": "military",
+      "date": "July 2026",
+      "desc": "Navy report describes approximately 100 airborne UAP and two uncrewed surface systems. AARO actively investigating this maritime incident.",
+      "source": "AARO FY2025 Report - thedebrief.org",
+      "approx": true,
+      "addedOn": "2026-07-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_05",
+      "name": "São Paulo, Brazil",
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Metallic grey triangle UFO over hillside with bright flashing lights. Dogs heard barking in response to the craft. Reported to NUFORC.",
+      "source": "NUFORC Brazil report June 26, 2026 - ufosightingsdaily.com",
+      "approx": false,
+      "addedOn": "2026-07-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_06",
+      "name": "Mount Pleasant Township, Pennsylvania, USA",
+      "lat": 40.149,
+      "lng": -79.5395,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Two bright orbs 10-15ft diameter flashing multiple colors. Objects dropped low, lit area like daylight, caused electrical sensations on witness.",
+      "source": "Stan Gordon report July 8, 2026 - stangordon.info",
+      "approx": false,
+      "addedOn": "2026-07-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_meta-llama-llama-3-3_01",
+      "name": "Layton, Utah",
+      "lat": 41.0659,
+      "lng": -111.9883,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Triangular UAP with three white lights",
+      "source": "NUFORC",
+      "approx": false,
+      "addedOn": "2026-07-25",
       "isNew": true
     }
   ]

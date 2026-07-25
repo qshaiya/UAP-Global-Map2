@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-24",
-  "total": 42,
+  "updated": "2026-07-25",
+  "total": 43,
   "sightings": [
     {
       "id": "r2",
@@ -443,7 +443,7 @@
       "source": "CBS News, July 17 2026",
       "approx": false,
       "addedOn": "2026-07-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-18_deepseek-deepseek-ch_01",
@@ -534,6 +534,19 @@
       "source": "[defensescoop.com](https://defensescoop.com/2026/07/21/pentagon-investigating-ufo-uap-event-near-virginia-coast/) July 21, 2026",
       "approx": true,
       "addedOn": "2026-07-23",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_04",
+      "name": "Off Virginia Coast, USA",
+      "lat": 37.4316,
+      "lng": -75.6586,
+      "cat": "military",
+      "date": "July 2026",
+      "desc": "Navy report describes approximately 100 airborne UAP and two uncrewed surface systems. AARO actively investigating this maritime incident.",
+      "source": "AARO FY2025 Report - thedebrief.org",
+      "approx": true,
+      "addedOn": "2026-07-25",
       "isNew": true
     }
   ]

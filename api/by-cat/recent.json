@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-24",
-  "total": 55,
+  "updated": "2026-07-25",
+  "total": 56,
   "sightings": [
     {
       "id": "r14",
@@ -708,6 +708,19 @@
       "source": "[amelica.org](https://amelica.org/c0a518adEXFuRG4HCU52Cic)",
       "approx": false,
       "addedOn": "2026-07-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_meta-llama-llama-3-3_01",
+      "name": "Layton, Utah",
+      "lat": 41.0659,
+      "lng": -111.9883,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Triangular UAP with three white lights",
+      "source": "NUFORC",
+      "approx": false,
+      "addedOn": "2026-07-25",
       "isNew": true
     }
   ]

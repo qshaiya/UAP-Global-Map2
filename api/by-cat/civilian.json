@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-24",
-  "total": 97,
+  "updated": "2026-07-25",
+  "total": 101,
   "sightings": [
     {
       "id": "r4",
@@ -1138,7 +1138,7 @@
       "source": "Ground News, July 17 2026",
       "approx": false,
       "addedOn": "2026-07-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-17_deepseek-deepseek-ch_02",
@@ -1151,7 +1151,7 @@
       "source": "Global Times, July 17 2026",
       "approx": true,
       "addedOn": "2026-07-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-17_deepseek-deepseek-ch_04",
@@ -1164,7 +1164,7 @@
       "source": "MM News, July 17 2026",
       "approx": true,
       "addedOn": "2026-07-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-2bb1cb1a6ab1",
@@ -1257,6 +1257,58 @@
       "source": "lincolnshireworld.com July 2026",
       "approx": false,
       "addedOn": "2026-07-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_01",
+      "name": "Layton, Utah, USA",
+      "lat": 41.0602,
+      "lng": -111.9711,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Triangular craft with three white lights caused electrical interference with home security lighting. Witness reported craft 'bigger than a jet' with soft whooshing sound.",
+      "source": "NUFORC Incident 199372 reported July 11, 2026 - kezj.com",
+      "approx": false,
+      "addedOn": "2026-07-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_02",
+      "name": "Broken Arrow, Oklahoma, USA",
+      "lat": 35.9908,
+      "lng": -95.7958,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Triangle UFO with lights changing from green to red, stationary for 10 minutes during thunderstorm. Two prominent lights with third white light appearing periodically.",
+      "source": "UFOIndex.com recent report - ufoindex.com",
+      "approx": false,
+      "addedOn": "2026-07-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_05",
+      "name": "São Paulo, Brazil",
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Metallic grey triangle UFO over hillside with bright flashing lights. Dogs heard barking in response to the craft. Reported to NUFORC.",
+      "source": "NUFORC Brazil report June 26, 2026 - ufosightingsdaily.com",
+      "approx": false,
+      "addedOn": "2026-07-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_06",
+      "name": "Mount Pleasant Township, Pennsylvania, USA",
+      "lat": 40.149,
+      "lng": -79.5395,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Two bright orbs 10-15ft diameter flashing multiple colors. Objects dropped low, lit area like daylight, caused electrical sensations on witness.",
+      "source": "Stan Gordon report July 8, 2026 - stangordon.info",
+      "approx": false,
+      "addedOn": "2026-07-25",
       "isNew": true
     }
   ]

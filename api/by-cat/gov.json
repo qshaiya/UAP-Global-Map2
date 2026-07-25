@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-07-24",
-  "total": 28,
+  "updated": "2026-07-25",
+  "total": 29,
   "sightings": [
     {
       "id": "a2",
@@ -352,6 +352,19 @@
       "source": "[ibtimes.co.uk](https://www.ibtimes.co.uk/trump-directive-eases-nda-restrictions-uap-witnesses-1809990)",
       "approx": false,
       "addedOn": "2026-07-23",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-25_deepseek-deepseek-ch_03",
+      "name": "Pantex Nuclear Facility, Amarillo, Texas, USA",
+      "lat": 35.317,
+      "lng": -101.5689,
+      "cat": "gov",
+      "date": "July 2026",
+      "desc": "Declassified documents reveal 2015 UFO sighting near nuclear weapons facility. Diamond-shaped object 4ft tall, 2ft wide, silent, changed speed when followed.",
+      "source": "Pentagon disclosure July 10, 2026 - newschannel10.com",
+      "approx": false,
+      "addedOn": "2026-07-25",
       "isNew": true
     }
   ]
