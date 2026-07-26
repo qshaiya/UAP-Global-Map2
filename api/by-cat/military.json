@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-25",
+  "updated": "2026-07-26",
   "total": 43,
   "sightings": [
     {
@@ -456,7 +456,7 @@
       "source": "BBC & ODNI narrative via PURSUE, July 2026",
       "approx": true,
       "addedOn": "2026-07-18",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-18_deepseek-deepseek-ch_02",
@@ -469,7 +469,7 @@
       "source": "DOE Pantex Report via PURSUE Release, July 2026",
       "approx": false,
       "addedOn": "2026-07-18",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-18_deepseek-deepseek-ch_03",
@@ -482,7 +482,7 @@
       "source": "CBS News & LAmag, July 2026",
       "approx": true,
       "addedOn": "2026-07-18",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-18_deepseek-deepseek-ch_04",
@@ -495,7 +495,7 @@
       "source": "CBS News, July 2026",
       "approx": true,
       "addedOn": "2026-07-18",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-20_deepseek-deepseek-ch_01",

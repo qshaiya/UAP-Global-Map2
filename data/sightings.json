@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25",
-  "count": 237,
+  "updated": "2026-07-26",
+  "count": 239,
   "sightings": [
     {
       "id": "r1",
@@ -2692,7 +2692,7 @@
       "source": "BBC & ODNI narrative via PURSUE, July 2026",
       "approx": true,
       "addedOn": "2026-07-18",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-18_deepseek-deepseek-ch_02",
@@ -2705,7 +2705,7 @@
       "source": "DOE Pantex Report via PURSUE Release, July 2026",
       "approx": false,
       "addedOn": "2026-07-18",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-18_deepseek-deepseek-ch_03",
@@ -2718,7 +2718,7 @@
       "source": "CBS News & LAmag, July 2026",
       "approx": true,
       "addedOn": "2026-07-18",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-18_deepseek-deepseek-ch_04",
@@ -2731,7 +2731,7 @@
       "source": "CBS News, July 2026",
       "approx": true,
       "addedOn": "2026-07-18",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-2bb1cb1a6ab1",
@@ -3032,6 +3032,32 @@
       "source": "NUFORC",
       "approx": false,
       "addedOn": "2026-07-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-26_deepseek-deepseek-ch_01",
+      "name": "Almelo, Netherlands",
+      "lat": 52.3569,
+      "lng": 6.6627,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Yellow-orange object fragmented into multiple light sources moving rapidly WNW to E direction",
+      "source": "UFO Meldpunt Nederland July 24, 2026",
+      "approx": false,
+      "addedOn": "2026-07-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-26_deepseek-deepseek-ch_02",
+      "name": "San Diego, California, USA",
+      "lat": 32.7157,
+      "lng": -117.1611,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Dark rigid structure drifting silently across horizon captured on clear footage over San Diego Bay",
+      "source": "Third Phase of Moon July 2026",
+      "approx": false,
+      "addedOn": "2026-07-26",
       "isNew": true
     }
   ]
