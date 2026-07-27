@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-26",
-  "total": 103,
+  "updated": "2026-07-27",
+  "total": 106,
   "sightings": [
     {
       "id": "r4",
@@ -1335,6 +1335,45 @@
       "source": "Third Phase of Moon July 2026",
       "approx": false,
       "addedOn": "2026-07-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-27_deepseek-deepseek-ch_01",
+      "name": "Molokai to Maui, Hawaii, USA",
+      "lat": 20.7984,
+      "lng": -156.3319,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Passenger aircraft swerved to avoid white object emerging from clouds. Pilots reportedly alarmed by sudden appearance",
+      "source": "ibtimes.co.uk July 9, 2026",
+      "approx": false,
+      "addedOn": "2026-07-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-27_deepseek-deepseek-ch_02",
+      "name": "Soweto, South Africa",
+      "lat": -26.2485,
+      "lng": 27.854,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Bright crescent-shaped object photographed hovering over township, sparking widespread speculation and debate",
+      "source": "briefly.co.za July 25, 2026",
+      "approx": false,
+      "addedOn": "2026-07-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-27_deepseek-deepseek-ch_03",
+      "name": "Disneyland, California, USA",
+      "lat": 33.8121,
+      "lng": -117.919,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Metallic orb observed hovering above Tomorrowland, reportedly moving against wind currents and changing colors",
+      "source": "uapglobe.com July 3, 2026",
+      "approx": false,
+      "addedOn": "2026-07-27",
       "isNew": true
     }
   ]

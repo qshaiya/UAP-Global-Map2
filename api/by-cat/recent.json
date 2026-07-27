@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-26",
-  "total": 57,
+  "updated": "2026-07-27",
+  "total": 58,
   "sightings": [
     {
       "id": "r14",
@@ -736,6 +736,19 @@
       "addedOn": "2026-07-26",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-07-27_meta-llama-llama-3-3_01",
+      "name": "Hawaii, USA",
+      "lat": 21.0943,
+      "lng": -157.4983,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "White object in front of aircraft",
+      "source": "IBTimes UK, 2026-07-09",
+      "approx": false,
+      "addedOn": "2026-07-27",
+      "isNew": true
     }
   ]
 }
