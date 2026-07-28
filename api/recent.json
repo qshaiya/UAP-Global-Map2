@@ -1,48 +1,9 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-07-27",
-  "total": 28,
+  "updated": "2026-07-28",
+  "total": 29,
   "sightings": [
-    {
-      "id": "scan_2026-07-20_deepseek-deepseek-ch_01",
-      "name": "Anchorage, Alaska, USA",
-      "lat": 61.2181,
-      "lng": -149.9003,
-      "cat": "military",
-      "date": "July 2026",
-      "desc": "Three luminous orbs shadowed UPS Flight 62 cargo plane, maintaining coordinated formation and changing speeds",
-      "source": "universal.net July 2026",
-      "approx": false,
-      "addedOn": "2026-07-20",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-07-20_deepseek-deepseek-ch_02",
-      "name": "Buffalo, New York, USA",
-      "lat": 42.8864,
-      "lng": -78.8784,
-      "cat": "civilian",
-      "date": "July 2026",
-      "desc": "Former Army Signal Officer reported black dome-shaped disk and cube objects in thunderstorm photos near Grand Island Parkway",
-      "source": "q1057.com July 2026",
-      "approx": false,
-      "addedOn": "2026-07-20",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-07-20_meta-llama-llama-3-3_01",
-      "name": "US Military Test Grounds",
-      "lat": 37.7749,
-      "lng": -119.4179,
-      "cat": "recent",
-      "date": "July 2026",
-      "desc": "Unknown platforms penetrated test grounds",
-      "source": "[sentinel-news.org](https://www.sentinel-news.org/p/us-military-test-grounds-regularly)",
-      "approx": true,
-      "addedOn": "2026-07-20",
-      "isNew": true
-    },
     {
       "id": "scan_2026-07-21_deepseek-deepseek-ch_01",
       "name": "Lake Meade, Nevada",
@@ -367,6 +328,58 @@
       "source": "IBTimes UK, 2026-07-09",
       "approx": false,
       "addedOn": "2026-07-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-28_deepseek-deepseek-ch_01",
+      "name": "Normal, Illinois, USA",
+      "lat": 40.5142,
+      "lng": -88.9906,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Black triangle with 6 lights witnessed during stargazing, flying below airplane elevation near Normal",
+      "source": "101theeagle.com July 2026",
+      "approx": false,
+      "addedOn": "2026-07-28",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-28_deepseek-deepseek-ch_02",
+      "name": "Between Molokai and Maui, Hawaii, USA",
+      "lat": 20.7984,
+      "lng": -156.3319,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Commuter flight swerved to avoid mysterious white object, pilots visibly alarmed during near-miss",
+      "source": "inkl.com July 2026",
+      "approx": true,
+      "addedOn": "2026-07-28",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-28_meta-llama-llama-3-3_01",
+      "name": "Normal, Illinois",
+      "lat": 40.5142,
+      "lng": -88.9867,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Triangle object with 6 lights",
+      "source": "101theeagle.com",
+      "approx": false,
+      "addedOn": "2026-07-28",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-28_meta-llama-llama-3-3_02",
+      "name": "Hawaii",
+      "lat": 19.7414,
+      "lng": -155.8444,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "White object seen by plane",
+      "source": "ibtimes.co.uk",
+      "approx": true,
+      "addedOn": "2026-07-28",
       "isNew": true
     }
   ]

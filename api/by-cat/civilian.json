@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-27",
-  "total": 106,
+  "updated": "2026-07-28",
+  "total": 107,
   "sightings": [
     {
       "id": "r4",
@@ -1205,7 +1205,7 @@
       "source": "q1057.com July 2026",
       "approx": false,
       "addedOn": "2026-07-20",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-21_deepseek-deepseek-ch_02",
@@ -1374,6 +1374,19 @@
       "source": "uapglobe.com July 3, 2026",
       "approx": false,
       "addedOn": "2026-07-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-28_deepseek-deepseek-ch_02",
+      "name": "Between Molokai and Maui, Hawaii, USA",
+      "lat": 20.7984,
+      "lng": -156.3319,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Commuter flight swerved to avoid mysterious white object, pilots visibly alarmed during near-miss",
+      "source": "inkl.com July 2026",
+      "approx": true,
+      "addedOn": "2026-07-28",
       "isNew": true
     }
   ]

@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-27",
-  "total": 58,
+  "updated": "2026-07-28",
+  "total": 61,
   "sightings": [
     {
       "id": "r14",
@@ -656,7 +656,7 @@
       "source": "[sentinel-news.org](https://www.sentinel-news.org/p/us-military-test-grounds-regularly)",
       "approx": true,
       "addedOn": "2026-07-20",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-21_meta-llama-llama-3-3_01",
@@ -748,6 +748,45 @@
       "source": "IBTimes UK, 2026-07-09",
       "approx": false,
       "addedOn": "2026-07-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-28_deepseek-deepseek-ch_01",
+      "name": "Normal, Illinois, USA",
+      "lat": 40.5142,
+      "lng": -88.9906,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Black triangle with 6 lights witnessed during stargazing, flying below airplane elevation near Normal",
+      "source": "101theeagle.com July 2026",
+      "approx": false,
+      "addedOn": "2026-07-28",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-28_meta-llama-llama-3-3_01",
+      "name": "Normal, Illinois",
+      "lat": 40.5142,
+      "lng": -88.9867,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Triangle object with 6 lights",
+      "source": "101theeagle.com",
+      "approx": false,
+      "addedOn": "2026-07-28",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-28_meta-llama-llama-3-3_02",
+      "name": "Hawaii",
+      "lat": 19.7414,
+      "lng": -155.8444,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "White object seen by plane",
+      "source": "ibtimes.co.uk",
+      "approx": true,
+      "addedOn": "2026-07-28",
       "isNew": true
     }
   ]

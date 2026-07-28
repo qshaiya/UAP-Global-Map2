@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-27",
+  "updated": "2026-07-28",
   "total": 43,
   "sightings": [
     {
@@ -508,7 +508,7 @@
       "source": "universal.net July 2026",
       "approx": false,
       "addedOn": "2026-07-20",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-21_deepseek-deepseek-ch_01",
