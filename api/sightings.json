@@ -3,11 +3,11 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-07-28",
-  "total": 248,
+  "updated": "2026-07-30",
+  "total": 255,
   "categories": {
-    "recent": 61,
-    "military": 43,
+    "recent": 65,
+    "military": 46,
     "civilian": 107,
     "gov": 29,
     "historic": 8
@@ -2840,7 +2840,7 @@
       "source": "[beforeitsnews.com](https://beforeitsnews.com/paranormal/2026/07/5-alien-craft-spotted-over-lake-meade-2571478.html) July 2026",
       "approx": true,
       "addedOn": "2026-07-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-21_deepseek-deepseek-ch_02",
@@ -2853,7 +2853,7 @@
       "source": "[q1057.com](https://q1057.com/ixp/81/p/uap-sighting-western-new-york-state/) July 2026",
       "approx": false,
       "addedOn": "2026-07-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-21_meta-llama-llama-3-3_01",
@@ -2866,7 +2866,7 @@
       "source": "Pentagon PURSUE/AARO portal",
       "approx": false,
       "addedOn": "2026-07-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-23_deepseek-deepseek-ch_01",
@@ -3205,6 +3205,97 @@
       "source": "ibtimes.co.uk",
       "approx": true,
       "addedOn": "2026-07-28",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-30_deepseek-deepseek-ch_01",
+      "name": "Mediterranean Sea, between Greece and Turkey",
+      "lat": 36.581389,
+      "lng": 25.995278,
+      "cat": "military",
+      "date": "July 2024",
+      "desc": "Declassified US report describes triangular metallic UAP encountered by military aircraft at 24,989 feet altitude",
+      "source": "Nicematin.com July 30, 2024",
+      "approx": false,
+      "addedOn": "2026-07-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-30_deepseek-deepseek-ch_02",
+      "name": "Tarnawa-Kolonia, Poland",
+      "lat": 50.5375,
+      "lng": 22.7044,
+      "cat": "military",
+      "date": "July 2024",
+      "desc": "Unidentified object crashed creating 10m wide crater after crossing Polish airspace during Russian attack on Ukraine",
+      "source": "Notes From Poland July 30, 2024",
+      "approx": false,
+      "addedOn": "2026-07-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-30_deepseek-deepseek-ch_03",
+      "name": "Cheorwon area, Gyeonggi Province, South Korea",
+      "lat": 38.25,
+      "lng": 127.2,
+      "cat": "military",
+      "date": "July 2024",
+      "desc": "Unidentified aerial vehicle initially detected near Korean border, later confirmed as US military drone on training mission",
+      "source": "The Herald Business July 2024",
+      "approx": false,
+      "addedOn": "2026-07-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-30_deepseek-deepseek-ch_04",
+      "name": "Lublin region, Poland",
+      "lat": 51.25,
+      "lng": 22.5667,
+      "cat": "recent",
+      "date": "July 2024",
+      "desc": "Multiple reports of explosions and air raid sirens as unidentified object crossed Polish airspace, crash investigated",
+      "source": "Kyiv Post July 30, 2024",
+      "approx": false,
+      "addedOn": "2026-07-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-30_meta-llama-llama-3-3_01",
+      "name": "Mediterranean",
+      "lat": 36.581389,
+      "lng": 25.995556,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Triangular metallic UAP",
+      "source": "nicematin.com",
+      "approx": false,
+      "addedOn": "2026-07-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-30_meta-llama-llama-3-3_02",
+      "name": "Lublin, Poland",
+      "lat": 51.25,
+      "lng": 22.566667,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Russian missile suspected",
+      "source": "ibtimes.co.uk",
+      "approx": false,
+      "addedOn": "2026-07-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-30_meta-llama-llama-3-3_03",
+      "name": "Sandia, New Mexico",
+      "lat": 35.05,
+      "lng": -106.45,
+      "cat": "recent",
+      "date": "2023",
+      "desc": "UFO sightings and investigations",
+      "source": "nv.ua",
+      "approx": false,
+      "addedOn": "2026-07-30",
       "isNew": true
     }
   ]
