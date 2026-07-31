@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "total": 29,
   "sightings": [
     {
@@ -352,7 +352,7 @@
       "source": "[ibtimes.co.uk](https://www.ibtimes.co.uk/trump-directive-eases-nda-restrictions-uap-witnesses-1809990)",
       "approx": false,
       "addedOn": "2026-07-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_03",

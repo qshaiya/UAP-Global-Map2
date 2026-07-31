@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-07-30",
-  "total": 46,
+  "updated": "2026-07-31",
+  "total": 48,
   "sightings": [
     {
       "id": "r2",
@@ -534,7 +534,7 @@
       "source": "[defensescoop.com](https://defensescoop.com/2026/07/21/pentagon-investigating-ufo-uap-event-near-virginia-coast/) July 21, 2026",
       "approx": true,
       "addedOn": "2026-07-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_04",
@@ -586,6 +586,32 @@
       "source": "The Herald Business July 2024",
       "approx": false,
       "addedOn": "2026-07-30",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-31_deepseek-deepseek-ch_03",
+      "name": "Eastern Mediterranean (between Greece and Turkey)",
+      "lat": 36.5814,
+      "lng": 25.9953,
+      "cat": "military",
+      "date": "July 2026",
+      "desc": "Declassified report describes US military aircraft encountering triangular metallic UAP over Mediterranean at coordinates 36°34'53\"N, 25°59'43\"E.",
+      "source": "Nice Matin, July 29 2026",
+      "approx": false,
+      "addedOn": "2026-07-31",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-07-31_deepseek-deepseek-ch_04",
+      "name": "Yellow Sea/East China Sea",
+      "lat": 35.0,
+      "lng": 123.0,
+      "cat": "military",
+      "date": "July 2026",
+      "desc": "Fourth PURSUE release includes military video tracking 'six-pointed star' object over Yellow Sea and East China Sea in 2025, with pilot noting unusual flight characteristics.",
+      "source": "Department of War/PURSUE Release 4, July 10 2026",
+      "approx": true,
+      "addedOn": "2026-07-31",
       "isNew": true
     }
   ]

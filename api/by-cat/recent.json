@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "total": 65,
   "sightings": [
     {
@@ -682,7 +682,7 @@
       "source": "[defensescoop.com](https://defensescoop.com/2026/07/21/pentagon-investigating-ufo-uap-event-near-virginia-coast/)",
       "approx": false,
       "addedOn": "2026-07-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-24_meta-llama-llama-3-3_01",
