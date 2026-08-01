@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31",
-  "count": 259,
+  "updated": "2026-08-01",
+  "count": 262,
   "sightings": [
     {
       "id": "r1",
@@ -2902,7 +2902,7 @@
       "source": "amelica.org July 2026",
       "approx": false,
       "addedOn": "2026-07-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-24_deepseek-deepseek-ch_02",
@@ -2915,7 +2915,7 @@
       "source": "lincolnshireworld.com July 2026",
       "approx": false,
       "addedOn": "2026-07-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-24_meta-llama-llama-3-3_01",
@@ -2928,7 +2928,7 @@
       "source": "[defensescoop.com](https://defensescoop.com/2026/07/21/pentagon-investigating-ufo-uap-event-near-virginia-coast/)",
       "approx": false,
       "addedOn": "2026-07-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-24_meta-llama-llama-3-3_02",
@@ -2941,7 +2941,7 @@
       "source": "[amelica.org](https://amelica.org/c0a518adEXFuRG4HCU52Cic)",
       "approx": false,
       "addedOn": "2026-07-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_01",
@@ -3319,6 +3319,45 @@
       "source": "Department of War/PURSUE Release 4, July 10 2026",
       "approx": true,
       "addedOn": "2026-07-31",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-01_deepseek-deepseek-ch_01",
+      "name": "Tenerife, Canary Islands",
+      "lat": 28.2916,
+      "lng": -16.6291,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Two static amber lights nicknamed 'gold nuggets' remained stationary for hours, accompanied by moving lights at 3am on July 15, 2026",
+      "source": "uapglobe.com July 2026",
+      "approx": false,
+      "addedOn": "2026-08-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-01_deepseek-deepseek-ch_02",
+      "name": "Washington, D.C.",
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "cat": "gov",
+      "date": "July 2026",
+      "desc": "Department of War released 4th PURSUE tranche of 40 declassified UAP files on July 10, 2026 including Project Sign and Los Alamos documents",
+      "source": "war.gov July 2026",
+      "approx": false,
+      "addedOn": "2026-08-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-01_meta-llama-llama-3-3_01",
+      "name": "Eastern Mediterranean",
+      "lat": 37.0,
+      "lng": 30.0,
+      "cat": "recent",
+      "date": "Not specified",
+      "desc": "Metallic triangle UFO",
+      "source": "[dailystar.co.uk](https://www.dailystar.co.uk/news/latest-news/top-secret-files-reveal-metallic-37500129), 2026",
+      "approx": true,
+      "addedOn": "2026-08-01",
       "isNew": true
     }
   ]

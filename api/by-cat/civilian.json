@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-07-31",
-  "total": 109,
+  "updated": "2026-08-01",
+  "total": 110,
   "sightings": [
     {
       "id": "r4",
@@ -1244,7 +1244,7 @@
       "source": "amelica.org July 2026",
       "approx": false,
       "addedOn": "2026-07-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-24_deepseek-deepseek-ch_02",
@@ -1257,7 +1257,7 @@
       "source": "lincolnshireworld.com July 2026",
       "approx": false,
       "addedOn": "2026-07-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_01",
@@ -1413,6 +1413,19 @@
       "source": "NUFORC/UFO Sightings Daily, July 2026",
       "approx": false,
       "addedOn": "2026-07-31",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-01_deepseek-deepseek-ch_01",
+      "name": "Tenerife, Canary Islands",
+      "lat": 28.2916,
+      "lng": -16.6291,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Two static amber lights nicknamed 'gold nuggets' remained stationary for hours, accompanied by moving lights at 3am on July 15, 2026",
+      "source": "uapglobe.com July 2026",
+      "approx": false,
+      "addedOn": "2026-08-01",
       "isNew": true
     }
   ]

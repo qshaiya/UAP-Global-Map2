@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-07-31",
-  "total": 29,
+  "updated": "2026-08-01",
+  "total": 30,
   "sightings": [
     {
       "id": "a2",
@@ -365,6 +365,19 @@
       "source": "Pentagon disclosure July 10, 2026 - newschannel10.com",
       "approx": false,
       "addedOn": "2026-07-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-01_deepseek-deepseek-ch_02",
+      "name": "Washington, D.C.",
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "cat": "gov",
+      "date": "July 2026",
+      "desc": "Department of War released 4th PURSUE tranche of 40 declassified UAP files on July 10, 2026 including Project Sign and Los Alamos documents",
+      "source": "war.gov July 2026",
+      "approx": false,
+      "addedOn": "2026-08-01",
       "isNew": true
     }
   ]
