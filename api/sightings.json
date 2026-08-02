@@ -4,11 +4,11 @@
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
   "updated": "2026-08-02",
-  "total": 264,
+  "total": 265,
   "categories": {
     "recent": 68,
     "military": 48,
-    "civilian": 110,
+    "civilian": 111,
     "gov": 30,
     "historic": 8
   },
@@ -3414,6 +3414,20 @@
       "approx": false,
       "addedOn": "2026-08-02",
       "isNew": true
+    },
+    {
+      "id": "legacy_auto-914359ae250f",
+      "name": "Coordinates 52.001, -1.273",
+      "lat": 52.001,
+      "lng": -1.273,
+      "cat": "civilian",
+      "date": "2026-07-26",
+      "desc": "Reported by u/Imtooflyforawhiteguy (verified via ufosighting.report) This is an automated post. The report was filed through the structured sighting form on ufosighting.report and posted here by u/ufo",
+      "source": "Reddit | confidence: low",
+      "approx": false,
+      "addedOn": "2026-08-02",
+      "isNew": false,
+      "legacy": true
     }
   ]
 }

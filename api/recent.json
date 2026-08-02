@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
   "updated": "2026-08-02",
-  "total": 26,
+  "total": 27,
   "sightings": [
     {
       "id": "scan_2026-07-26_deepseek-deepseek-ch_01",
@@ -341,6 +341,20 @@
       "approx": false,
       "addedOn": "2026-08-02",
       "isNew": true
+    },
+    {
+      "id": "legacy_auto-914359ae250f",
+      "name": "Coordinates 52.001, -1.273",
+      "lat": 52.001,
+      "lng": -1.273,
+      "cat": "civilian",
+      "date": "2026-07-26",
+      "desc": "Reported by u/Imtooflyforawhiteguy (verified via ufosighting.report) This is an automated post. The report was filed through the structured sighting form on ufosighting.report and posted here by u/ufo",
+      "source": "Reddit | confidence: low",
+      "approx": false,
+      "addedOn": "2026-08-02",
+      "isNew": false,
+      "legacy": true
     }
   ]
 }
