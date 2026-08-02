@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-08-01",
+  "updated": "2026-08-02",
   "total": 48,
   "sightings": [
     {
@@ -547,7 +547,7 @@
       "source": "AARO FY2025 Report - thedebrief.org",
       "approx": true,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_deepseek-deepseek-ch_01",

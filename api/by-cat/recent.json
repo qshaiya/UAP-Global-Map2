@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-08-01",
-  "total": 66,
+  "updated": "2026-08-02",
+  "total": 68,
   "sightings": [
     {
       "id": "r14",
@@ -721,7 +721,7 @@
       "source": "NUFORC",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-a609b446d8d8",
@@ -852,6 +852,32 @@
       "source": "[dailystar.co.uk](https://www.dailystar.co.uk/news/latest-news/top-secret-files-reveal-metallic-37500129), 2026",
       "approx": true,
       "addedOn": "2026-08-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-02_deepseek-deepseek-ch_01",
+      "name": "Tenerife, Canary Islands, Spain",
+      "lat": 28.2916,
+      "lng": -16.6291,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Two static amber lights observed for hours alongside field of moving lights at 3am on July 15, recorded with telephoto lens.",
+      "source": "UAP Globe case file, July 15, 2026",
+      "approx": false,
+      "addedOn": "2026-08-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-02_deepseek-deepseek-ch_02",
+      "name": "Londrina, Paraná, Brazil",
+      "lat": -23.3103,
+      "lng": -51.1628,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "King Air crew reported bright, fast-moving lights to west, described as giving them chills, reported to Brazilian Air Force.",
+      "source": "UAP Globe case file, July 13, 2026",
+      "approx": false,
+      "addedOn": "2026-08-02",
       "isNew": true
     }
   ]

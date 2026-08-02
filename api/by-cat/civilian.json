@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-01",
+  "updated": "2026-08-02",
   "total": 110,
   "sightings": [
     {
@@ -1270,7 +1270,7 @@
       "source": "NUFORC Incident 199372 reported July 11, 2026 - kezj.com",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_02",
@@ -1283,7 +1283,7 @@
       "source": "UFOIndex.com recent report - ufoindex.com",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_05",
@@ -1296,7 +1296,7 @@
       "source": "NUFORC Brazil report June 26, 2026 - ufosightingsdaily.com",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_06",
@@ -1309,7 +1309,7 @@
       "source": "Stan Gordon report July 8, 2026 - stangordon.info",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-26_deepseek-deepseek-ch_01",

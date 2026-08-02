@@ -3,10 +3,10 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-08-01",
-  "total": 262,
+  "updated": "2026-08-02",
+  "total": 264,
   "categories": {
-    "recent": 66,
+    "recent": 68,
     "military": 48,
     "civilian": 110,
     "gov": 30,
@@ -2983,7 +2983,7 @@
       "source": "NUFORC Incident 199372 reported July 11, 2026 - kezj.com",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_02",
@@ -2996,7 +2996,7 @@
       "source": "UFOIndex.com recent report - ufoindex.com",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_03",
@@ -3009,7 +3009,7 @@
       "source": "Pentagon disclosure July 10, 2026 - newschannel10.com",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_04",
@@ -3022,7 +3022,7 @@
       "source": "AARO FY2025 Report - thedebrief.org",
       "approx": true,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_05",
@@ -3035,7 +3035,7 @@
       "source": "NUFORC Brazil report June 26, 2026 - ufosightingsdaily.com",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_deepseek-deepseek-ch_06",
@@ -3048,7 +3048,7 @@
       "source": "Stan Gordon report July 8, 2026 - stangordon.info",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-25_meta-llama-llama-3-3_01",
@@ -3061,7 +3061,7 @@
       "source": "NUFORC",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-26_deepseek-deepseek-ch_01",
@@ -3387,6 +3387,32 @@
       "source": "[dailystar.co.uk](https://www.dailystar.co.uk/news/latest-news/top-secret-files-reveal-metallic-37500129), 2026",
       "approx": true,
       "addedOn": "2026-08-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-02_deepseek-deepseek-ch_01",
+      "name": "Tenerife, Canary Islands, Spain",
+      "lat": 28.2916,
+      "lng": -16.6291,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Two static amber lights observed for hours alongside field of moving lights at 3am on July 15, recorded with telephoto lens.",
+      "source": "UAP Globe case file, July 15, 2026",
+      "approx": false,
+      "addedOn": "2026-08-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-02_deepseek-deepseek-ch_02",
+      "name": "Londrina, Paraná, Brazil",
+      "lat": -23.3103,
+      "lng": -51.1628,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "King Air crew reported bright, fast-moving lights to west, described as giving them chills, reported to Brazilian Air Force.",
+      "source": "UAP Globe case file, July 13, 2026",
+      "approx": false,
+      "addedOn": "2026-08-02",
       "isNew": true
     }
   ]

@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-08-01",
+  "updated": "2026-08-02",
   "total": 30,
   "sightings": [
     {
@@ -365,7 +365,7 @@
       "source": "Pentagon disclosure July 10, 2026 - newschannel10.com",
       "approx": false,
       "addedOn": "2026-07-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-01_deepseek-deepseek-ch_02",
