@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-02",
-  "total": 111,
+  "updated": "2026-08-03",
+  "total": 114,
   "sightings": [
     {
       "id": "r4",
@@ -1322,7 +1322,7 @@
       "source": "UFO Meldpunt Nederland July 24, 2026",
       "approx": false,
       "addedOn": "2026-07-26",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-26_deepseek-deepseek-ch_02",
@@ -1335,7 +1335,7 @@
       "source": "Third Phase of Moon July 2026",
       "approx": false,
       "addedOn": "2026-07-26",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-27_deepseek-deepseek-ch_01",
@@ -1441,6 +1441,45 @@
       "addedOn": "2026-08-02",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-08-03_deepseek-deepseek-ch_01",
+      "name": "Near London Gatwick Airport, UK",
+      "lat": 51.1537,
+      "lng": -0.1821,
+      "cat": "civilian",
+      "date": "April 2026",
+      "desc": "Airbus A319 pilot reported disc-shaped 'flying saucer' object 100-300ft from wing during approach. Described as disc with darker markings on rim, moving opposite direction.",
+      "source": "AOL.com and Metro.co.uk reports August 2026",
+      "approx": false,
+      "addedOn": "2026-08-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-03_deepseek-deepseek-ch_02",
+      "name": "Over Marlow, UK (near Heathrow)",
+      "lat": 51.5758,
+      "lng": -0.7757,
+      "cat": "civilian",
+      "date": "April 2026",
+      "desc": "Airbus A321 pilot reported drone-like object flying down left side during landing approach. Close enough to see color, shape, and individual spinning propellers.",
+      "source": "AOL.com report August 2026",
+      "approx": false,
+      "addedOn": "2026-08-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-03_deepseek-deepseek-ch_04",
+      "name": "Anderson, California, USA",
+      "lat": 40.4482,
+      "lng": -122.2978,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Witness reported bright fireball with persistent trail moving across sky for 3.5 seconds. Described as light blue and white, leaving 10-degree long trail.",
+      "source": "Fireball report IMO network August 2026",
+      "approx": false,
+      "addedOn": "2026-08-03",
+      "isNew": true
     }
   ]
 }

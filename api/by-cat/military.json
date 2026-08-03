@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-08-02",
-  "total": 48,
+  "updated": "2026-08-03",
+  "total": 50,
   "sightings": [
     {
       "id": "r2",
@@ -612,6 +612,32 @@
       "source": "Department of War/PURSUE Release 4, July 10 2026",
       "approx": true,
       "addedOn": "2026-07-31",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-03_deepseek-deepseek-ch_03",
+      "name": "North Sea off Norfolk coast, UK",
+      "lat": 53.0,
+      "lng": 1.5,
+      "cat": "military",
+      "date": "April 2026",
+      "desc": "RAF Voyager tanker pilots reported unidentified object streaking past at 100-150ft distance during air-to-air refueling at 16,000ft. Pilot physically ducked.",
+      "source": "IBTimes UK report August 2026",
+      "approx": true,
+      "addedOn": "2026-08-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-03_deepseek-deepseek-ch_05",
+      "name": "Test Range, Western USA",
+      "lat": 37.0,
+      "lng": -113.0,
+      "cat": "military",
+      "date": "Late 2025",
+      "desc": "Senior intelligence officer reported orange orbs near helicopter and fighter jets during test range mission. Objects formed formations, matched jet speeds.",
+      "source": "UAP Logbook ODNI-UAP-D001 file August 2026",
+      "approx": true,
+      "addedOn": "2026-08-03",
       "isNew": true
     }
   ]
