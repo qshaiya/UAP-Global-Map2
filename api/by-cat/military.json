@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-08-03",
-  "total": 50,
+  "updated": "2026-08-04",
+  "total": 51,
   "sightings": [
     {
       "id": "r2",
@@ -638,6 +638,19 @@
       "source": "UAP Logbook ODNI-UAP-D001 file August 2026",
       "approx": true,
       "addedOn": "2026-08-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-04_deepseek-deepseek-ch_01",
+      "name": "Hangcross, UK",
+      "lat": 51.098,
+      "lng": -0.157,
+      "cat": "military",
+      "date": "April 2026",
+      "desc": "Commercial pilot reported disc-shaped object passing within 100-300ft of Airbus A319 near Gatwick Airport",
+      "source": "UK Airprox Board report August 2026",
+      "approx": false,
+      "addedOn": "2026-08-04",
       "isNew": true
     }
   ]

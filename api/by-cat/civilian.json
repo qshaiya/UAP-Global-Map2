@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-03",
-  "total": 114,
+  "updated": "2026-08-04",
+  "total": 118,
   "sightings": [
     {
       "id": "r4",
@@ -1348,7 +1348,7 @@
       "source": "ibtimes.co.uk July 9, 2026",
       "approx": false,
       "addedOn": "2026-07-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-27_deepseek-deepseek-ch_02",
@@ -1361,7 +1361,7 @@
       "source": "briefly.co.za July 25, 2026",
       "approx": false,
       "addedOn": "2026-07-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-27_deepseek-deepseek-ch_03",
@@ -1374,7 +1374,7 @@
       "source": "uapglobe.com July 3, 2026",
       "approx": false,
       "addedOn": "2026-07-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-28_deepseek-deepseek-ch_02",
@@ -1479,6 +1479,58 @@
       "source": "Fireball report IMO network August 2026",
       "approx": false,
       "addedOn": "2026-08-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-04_deepseek-deepseek-ch_02",
+      "name": "Meander Valley, Tasmania",
+      "lat": -41.65,
+      "lng": 146.5,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Multiple witnesses report mysterious lights over Mother Cummings Peak, visible for extended periods with sharp-angle movements",
+      "source": "Pulse Tasmania August 4, 2026",
+      "approx": true,
+      "addedOn": "2026-08-04",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-04_deepseek-deepseek-ch_03",
+      "name": "Canada (Google Earth)",
+      "lat": 45.0,
+      "lng": -75.0,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Disk-like craft captured by Google Earth mapping car over Canadian island, described as classic disk UFO shape",
+      "source": "UFO Sightings Daily August 3, 2026",
+      "approx": true,
+      "addedOn": "2026-08-04",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-04_deepseek-deepseek-ch_04",
+      "name": "Carolina Beach, North Carolina",
+      "lat": 34.037,
+      "lng": -77.896,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Orange orbs observed over ocean, stationary for 20+ minutes, appearing/disappearing irregularly",
+      "source": "Reddit r/UFOs June 24, 2026",
+      "approx": false,
+      "addedOn": "2026-08-04",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-04_deepseek-deepseek-ch_05",
+      "name": "Cape Cod Bay, Massachusetts",
+      "lat": 41.8,
+      "lng": -70.5,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Grey sphere fell into bay during storm, remained motionless against tide, disappeared by morning",
+      "source": "Reddit r/UFOs June 21, 2026",
+      "approx": false,
+      "addedOn": "2026-08-04",
       "isNew": true
     }
   ]

@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-08-03",
-  "total": 72,
+  "updated": "2026-08-04",
+  "total": 75,
   "sightings": [
     {
       "id": "r14",
@@ -748,7 +748,7 @@
       "source": "IBTimes UK, 2026-07-09",
       "approx": false,
       "addedOn": "2026-07-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-28_deepseek-deepseek-ch_01",
@@ -930,6 +930,45 @@
       "source": "[en.parapolitika.gr](https://en.parapolitika.gr/world/249713/pentagon-reveals-new-ufo-evidence-military-videos-expose-unexplained-aerial-phenomena-and-nuclear-base-breach/)",
       "approx": false,
       "addedOn": "2026-08-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-04_meta-llama-llama-3-3_01",
+      "name": "Gatwick Airport, London",
+      "lat": 51.1561,
+      "lng": -0.1903,
+      "cat": "recent",
+      "date": "April 2026",
+      "desc": "UAP sighting near passenger plane",
+      "source": "[timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/world/uk/uk-pilot-spots-mysterious-flying-saucer-just-100-feet-from-passenger-plane-near-gatwick-airport-officials-say-the-near-miss-reduced-the-aircrafts-safety/articleshow/132850461.cms)",
+      "approx": false,
+      "addedOn": "2026-08-04",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-04_meta-llama-llama-3-3_02",
+      "name": "Norfolk coast, UK",
+      "lat": 52.6667,
+      "lng": 1.7667,
+      "cat": "recent",
+      "date": "February 2026",
+      "desc": "UFO spotted by RAF pilots",
+      "source": "[edp24.co.uk](https://www.edp24.co.uk/news/26432391.ufo-spotted-off-norfolk-coast-raf-pilots-mission/)",
+      "approx": false,
+      "addedOn": "2026-08-04",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-04_meta-llama-llama-3-3_03",
+      "name": "Mother Cummings Peak, Tasmania",
+      "lat": -41.6333,
+      "lng": 146.2333,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Mysterious lights in the night sky",
+      "source": "[pulsetasmania.com.au](https://pulsetasmania.com.au/news/are-they-aliens-meander-valley-mayor-wants-answers-over-mysterious-lights-in-night-sky)",
+      "approx": false,
+      "addedOn": "2026-08-04",
       "isNew": true
     }
   ]
