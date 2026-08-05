@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-04",
-  "total": 118,
+  "updated": "2026-08-05",
+  "total": 119,
   "sightings": [
     {
       "id": "r4",
@@ -1387,7 +1387,7 @@
       "source": "inkl.com July 2026",
       "approx": true,
       "addedOn": "2026-07-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-31_deepseek-deepseek-ch_01",
@@ -1531,6 +1531,19 @@
       "source": "Reddit r/UFOs June 21, 2026",
       "approx": false,
       "addedOn": "2026-08-04",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-05_deepseek-deepseek-ch_03",
+      "name": "Gatwick Airport, UK",
+      "lat": 51.1481,
+      "lng": -0.1903,
+      "cat": "civilian",
+      "date": "April 2026",
+      "desc": "Disc-shaped 'flying saucer' passed within 100-300 feet of Airbus A319 on approach. UK Airprox Board classified as unknown object.",
+      "source": "Times of India (July 2026)",
+      "approx": false,
+      "addedOn": "2026-08-05",
       "isNew": true
     }
   ]

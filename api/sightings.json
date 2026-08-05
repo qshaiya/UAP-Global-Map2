@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-08-04",
-  "total": 282,
+  "updated": "2026-08-05",
+  "total": 286,
   "categories": {
-    "recent": 75,
+    "recent": 77,
     "military": 51,
-    "civilian": 118,
-    "gov": 30,
+    "civilian": 119,
+    "gov": 31,
     "historic": 8
   },
-  "approximate_locations": 40,
+  "approximate_locations": 41,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -3166,7 +3166,7 @@
       "source": "101theeagle.com July 2026",
       "approx": false,
       "addedOn": "2026-07-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-28_deepseek-deepseek-ch_02",
@@ -3179,7 +3179,7 @@
       "source": "inkl.com July 2026",
       "approx": true,
       "addedOn": "2026-07-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-28_meta-llama-llama-3-3_01",
@@ -3192,7 +3192,7 @@
       "source": "101theeagle.com",
       "approx": false,
       "addedOn": "2026-07-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-28_meta-llama-llama-3-3_02",
@@ -3205,7 +3205,7 @@
       "source": "ibtimes.co.uk",
       "approx": true,
       "addedOn": "2026-07-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_deepseek-deepseek-ch_01",
@@ -3648,6 +3648,58 @@
       "source": "[pulsetasmania.com.au](https://pulsetasmania.com.au/news/are-they-aliens-meander-valley-mayor-wants-answers-over-mysterious-lights-in-night-sky)",
       "approx": false,
       "addedOn": "2026-08-04",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-05_deepseek-deepseek-ch_01",
+      "name": "Northwest Indiana, USA",
+      "lat": 41.5934,
+      "lng": -87.3464,
+      "cat": "recent",
+      "date": "June 2026",
+      "desc": "Amber orb filmed hovering over sports field, brightening and shifting to red color. Single witness video posted to r/UFOs.",
+      "source": "UAP Globe (June 23, 2026)",
+      "approx": true,
+      "addedOn": "2026-08-05",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-05_deepseek-deepseek-ch_02",
+      "name": "Pantex Plant, Texas, USA",
+      "lat": 35.3167,
+      "lng": -101.5333,
+      "cat": "gov",
+      "date": "September 2015 (released July 2026)",
+      "desc": "Diamond-shaped silent object over nuclear weapons facility. Officers chased object but couldn't identify propulsion system.",
+      "source": "Pentagon PURSUE Release (July 10, 2026)",
+      "approx": false,
+      "addedOn": "2026-08-05",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-05_deepseek-deepseek-ch_03",
+      "name": "Gatwick Airport, UK",
+      "lat": 51.1481,
+      "lng": -0.1903,
+      "cat": "civilian",
+      "date": "April 2026",
+      "desc": "Disc-shaped 'flying saucer' passed within 100-300 feet of Airbus A319 on approach. UK Airprox Board classified as unknown object.",
+      "source": "Times of India (July 2026)",
+      "approx": false,
+      "addedOn": "2026-08-05",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-05_meta-llama-llama-3-3_01",
+      "name": "Leipzig/Halle Airport, Germany",
+      "lat": 51.4343,
+      "lng": 12.2411,
+      "cat": "recent",
+      "date": "Not specified",
+      "desc": "Police investigate flying object near airport, flights diverted",
+      "source": "apnews.com",
+      "approx": false,
+      "addedOn": "2026-08-05",
       "isNew": true
     }
   ]

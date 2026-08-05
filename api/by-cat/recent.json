@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-08-04",
-  "total": 75,
+  "updated": "2026-08-05",
+  "total": 77,
   "sightings": [
     {
       "id": "r14",
@@ -761,7 +761,7 @@
       "source": "101theeagle.com July 2026",
       "approx": false,
       "addedOn": "2026-07-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-28_meta-llama-llama-3-3_01",
@@ -774,7 +774,7 @@
       "source": "101theeagle.com",
       "approx": false,
       "addedOn": "2026-07-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-28_meta-llama-llama-3-3_02",
@@ -787,7 +787,7 @@
       "source": "ibtimes.co.uk",
       "approx": true,
       "addedOn": "2026-07-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_deepseek-deepseek-ch_04",
@@ -969,6 +969,32 @@
       "source": "[pulsetasmania.com.au](https://pulsetasmania.com.au/news/are-they-aliens-meander-valley-mayor-wants-answers-over-mysterious-lights-in-night-sky)",
       "approx": false,
       "addedOn": "2026-08-04",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-05_deepseek-deepseek-ch_01",
+      "name": "Northwest Indiana, USA",
+      "lat": 41.5934,
+      "lng": -87.3464,
+      "cat": "recent",
+      "date": "June 2026",
+      "desc": "Amber orb filmed hovering over sports field, brightening and shifting to red color. Single witness video posted to r/UFOs.",
+      "source": "UAP Globe (June 23, 2026)",
+      "approx": true,
+      "addedOn": "2026-08-05",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-05_meta-llama-llama-3-3_01",
+      "name": "Leipzig/Halle Airport, Germany",
+      "lat": 51.4343,
+      "lng": 12.2411,
+      "cat": "recent",
+      "date": "Not specified",
+      "desc": "Police investigate flying object near airport, flights diverted",
+      "source": "apnews.com",
+      "approx": false,
+      "addedOn": "2026-08-05",
       "isNew": true
     }
   ]

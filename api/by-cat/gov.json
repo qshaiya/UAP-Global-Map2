@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-08-04",
-  "total": 30,
+  "updated": "2026-08-05",
+  "total": 31,
   "sightings": [
     {
       "id": "a2",
@@ -378,6 +378,19 @@
       "source": "war.gov July 2026",
       "approx": false,
       "addedOn": "2026-08-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-05_deepseek-deepseek-ch_02",
+      "name": "Pantex Plant, Texas, USA",
+      "lat": 35.3167,
+      "lng": -101.5333,
+      "cat": "gov",
+      "date": "September 2015 (released July 2026)",
+      "desc": "Diamond-shaped silent object over nuclear weapons facility. Officers chased object but couldn't identify propulsion system.",
+      "source": "Pentagon PURSUE Release (July 10, 2026)",
+      "approx": false,
+      "addedOn": "2026-08-05",
       "isNew": true
     }
   ]
