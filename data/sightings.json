@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-05",
-  "count": 286,
+  "updated": "2026-08-06",
+  "count": 289,
   "sightings": [
     {
       "id": "r1",
@@ -3671,6 +3671,45 @@
       "source": "apnews.com",
       "approx": false,
       "addedOn": "2026-08-05",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-06_deepseek-deepseek-ch_01",
+      "name": "Rocky Mountain National Park, Colorado",
+      "lat": 40.3428,
+      "lng": -105.6836,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Backpacker filmed vibrating light that pulsed and jittered in place for extended period before falling asleep watching it",
+      "source": "Reddit r/UFOs July 22, 2026",
+      "approx": false,
+      "addedOn": "2026-08-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-06_deepseek-deepseek-ch_02",
+      "name": "Between Molokai and Maui, Hawaii",
+      "lat": 20.7984,
+      "lng": -156.3319,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Mokulele Airlines flight swerved to avoid white object that appeared from clouds, pilots reacted instantly",
+      "source": "Hawaii News Now July 16, 2026",
+      "approx": true,
+      "addedOn": "2026-08-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-06_deepseek-deepseek-ch_03",
+      "name": "Newport, Oregon",
+      "lat": 44.6368,
+      "lng": -124.0535,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Massive fireball described as Empire State Building size flaming marshmallow with sparkler-like fragmentation",
+      "source": "IMO Fireball Report July 30, 2026",
+      "approx": false,
+      "addedOn": "2026-08-06",
       "isNew": true
     }
   ]
