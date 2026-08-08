@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-06",
+  "updated": "2026-08-08",
   "total": 122,
   "sightings": [
     {
@@ -1400,7 +1400,7 @@
       "source": "UAP Globe, July 2026",
       "approx": false,
       "addedOn": "2026-07-31",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-31_deepseek-deepseek-ch_02",
@@ -1413,7 +1413,7 @@
       "source": "NUFORC/UFO Sightings Daily, July 2026",
       "approx": false,
       "addedOn": "2026-07-31",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-01_deepseek-deepseek-ch_01",

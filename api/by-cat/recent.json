@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-08-06",
+  "updated": "2026-08-08",
   "total": 77,
   "sightings": [
     {
@@ -800,7 +800,7 @@
       "source": "Kyiv Post July 30, 2024",
       "approx": false,
       "addedOn": "2026-07-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_meta-llama-llama-3-3_01",
@@ -813,7 +813,7 @@
       "source": "nicematin.com",
       "approx": false,
       "addedOn": "2026-07-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_meta-llama-llama-3-3_02",
@@ -826,7 +826,7 @@
       "source": "ibtimes.co.uk",
       "approx": false,
       "addedOn": "2026-07-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_meta-llama-llama-3-3_03",
@@ -839,7 +839,7 @@
       "source": "nv.ua",
       "approx": false,
       "addedOn": "2026-07-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-01_meta-llama-llama-3-3_01",

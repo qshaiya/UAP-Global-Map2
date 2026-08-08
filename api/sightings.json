@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-08-06",
-  "total": 289,
+  "updated": "2026-08-08",
+  "total": 291,
   "categories": {
     "recent": 77,
-    "military": 51,
+    "military": 53,
     "civilian": 122,
     "gov": 31,
     "historic": 8
   },
-  "approximate_locations": 42,
+  "approximate_locations": 44,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -3218,7 +3218,7 @@
       "source": "Nicematin.com July 30, 2024",
       "approx": false,
       "addedOn": "2026-07-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_deepseek-deepseek-ch_02",
@@ -3231,7 +3231,7 @@
       "source": "Notes From Poland July 30, 2024",
       "approx": false,
       "addedOn": "2026-07-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_deepseek-deepseek-ch_03",
@@ -3244,7 +3244,7 @@
       "source": "The Herald Business July 2024",
       "approx": false,
       "addedOn": "2026-07-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_deepseek-deepseek-ch_04",
@@ -3257,7 +3257,7 @@
       "source": "Kyiv Post July 30, 2024",
       "approx": false,
       "addedOn": "2026-07-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_meta-llama-llama-3-3_01",
@@ -3270,7 +3270,7 @@
       "source": "nicematin.com",
       "approx": false,
       "addedOn": "2026-07-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_meta-llama-llama-3-3_02",
@@ -3283,7 +3283,7 @@
       "source": "ibtimes.co.uk",
       "approx": false,
       "addedOn": "2026-07-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-30_meta-llama-llama-3-3_03",
@@ -3296,7 +3296,7 @@
       "source": "nv.ua",
       "approx": false,
       "addedOn": "2026-07-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-31_deepseek-deepseek-ch_01",
@@ -3309,7 +3309,7 @@
       "source": "UAP Globe, July 2026",
       "approx": false,
       "addedOn": "2026-07-31",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-31_deepseek-deepseek-ch_02",
@@ -3322,7 +3322,7 @@
       "source": "NUFORC/UFO Sightings Daily, July 2026",
       "approx": false,
       "addedOn": "2026-07-31",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-31_deepseek-deepseek-ch_03",
@@ -3335,7 +3335,7 @@
       "source": "Nice Matin, July 29 2026",
       "approx": false,
       "addedOn": "2026-07-31",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-07-31_deepseek-deepseek-ch_04",
@@ -3348,7 +3348,7 @@
       "source": "Department of War/PURSUE Release 4, July 10 2026",
       "approx": true,
       "addedOn": "2026-07-31",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-01_deepseek-deepseek-ch_01",
@@ -3739,6 +3739,32 @@
       "source": "IMO Fireball Report July 30, 2026",
       "approx": false,
       "addedOn": "2026-08-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-08_deepseek-deepseek-ch_01",
+      "name": "Middle East (unspecified)",
+      "lat": 31.0,
+      "lng": 35.0,
+      "cat": "military",
+      "date": "2025",
+      "desc": "Sphere-shaped UAP moving rapidly over residential area, classified as unresolved despite military sensor footage",
+      "source": "NDTV August 2026",
+      "approx": true,
+      "addedOn": "2026-08-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-08_deepseek-deepseek-ch_02",
+      "name": "Gulf of Oman",
+      "lat": 25.0,
+      "lng": 57.0,
+      "cat": "military",
+      "date": "September 2021",
+      "desc": "Two 4-foot diameter cold orbs observed hovering above flare during training exercise, moving erratically without propulsion",
+      "source": "Scientific American August 2026",
+      "approx": true,
+      "addedOn": "2026-08-08",
       "isNew": true
     }
   ]
