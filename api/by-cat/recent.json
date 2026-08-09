@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-08-08",
-  "total": 77,
+  "updated": "2026-08-09",
+  "total": 78,
   "sightings": [
     {
       "id": "r14",
@@ -852,7 +852,7 @@
       "source": "[dailystar.co.uk](https://www.dailystar.co.uk/news/latest-news/top-secret-files-reveal-metallic-37500129), 2026",
       "approx": true,
       "addedOn": "2026-08-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-02_deepseek-deepseek-ch_01",
@@ -995,6 +995,19 @@
       "source": "apnews.com",
       "approx": false,
       "addedOn": "2026-08-05",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-09_meta-llama-llama-3-3_01",
+      "name": "Middle East",
+      "lat": 32.0,
+      "lng": 45.0,
+      "cat": "recent",
+      "date": "2025",
+      "desc": "UAP sighting",
+      "source": "US Central Command",
+      "approx": true,
+      "addedOn": "2026-08-09",
       "isNew": true
     }
   ]

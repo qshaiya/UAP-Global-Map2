@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-08",
-  "total": 122,
+  "updated": "2026-08-09",
+  "total": 125,
   "sightings": [
     {
       "id": "r4",
@@ -1426,7 +1426,7 @@
       "source": "uapglobe.com July 2026",
       "approx": false,
       "addedOn": "2026-08-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-914359ae250f",
@@ -1583,6 +1583,45 @@
       "source": "IMO Fireball Report July 30, 2026",
       "approx": false,
       "addedOn": "2026-08-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-09_deepseek-deepseek-ch_01",
+      "name": "Trepalle, Italy",
+      "lat": 46.5075,
+      "lng": 10.37,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Bright barrel-shaped object moving west at aircraft height, no sound, viewed for 2 minutes on August 4",
+      "source": "ufouap.net August 2026",
+      "approx": false,
+      "addedOn": "2026-08-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-09_deepseek-deepseek-ch_02",
+      "name": "Santa Fe Springs, California",
+      "lat": 33.9472,
+      "lng": -118.0853,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Black star-shaped object observed over freeway, caused cell service disruption on August 5",
+      "source": "ufosightingsdaily.com August 7, 2026",
+      "approx": false,
+      "addedOn": "2026-08-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-09_deepseek-deepseek-ch_03",
+      "name": "Arcadia, California",
+      "lat": 34.1328,
+      "lng": -118.0364,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Fleet of 8+ shiny spheres moving east to west at different speeds, some stopping mid-air on August 2",
+      "source": "ufosightingsdaily.com August 7, 2026",
+      "approx": false,
+      "addedOn": "2026-08-09",
       "isNew": true
     }
   ]

@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: historic",
   "category": "historic",
-  "updated": "2026-08-08",
-  "total": 8,
+  "updated": "2026-08-09",
+  "total": 9,
   "sightings": [
     {
       "id": "r1",
@@ -106,6 +106,19 @@
       "approx": false,
       "addedOn": "2026-07-11",
       "isNew": false
+    },
+    {
+      "id": "scan_2026-08-09_meta-llama-llama-3-3_02",
+      "name": "Afghanistan",
+      "lat": 34.0,
+      "lng": 69.0,
+      "cat": "historic",
+      "date": "2002",
+      "desc": "UAP sighting",
+      "source": "Pentagon",
+      "approx": false,
+      "addedOn": "2026-08-09",
+      "isNew": true
     }
   ]
 }

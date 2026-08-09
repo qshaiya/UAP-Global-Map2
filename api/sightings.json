@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-08-08",
-  "total": 291,
+  "updated": "2026-08-09",
+  "total": 296,
   "categories": {
-    "recent": 77,
+    "recent": 78,
     "military": 53,
-    "civilian": 122,
+    "civilian": 125,
     "gov": 31,
-    "historic": 8
+    "historic": 9
   },
-  "approximate_locations": 44,
+  "approximate_locations": 45,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -3361,7 +3361,7 @@
       "source": "uapglobe.com July 2026",
       "approx": false,
       "addedOn": "2026-08-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-01_deepseek-deepseek-ch_02",
@@ -3374,7 +3374,7 @@
       "source": "war.gov July 2026",
       "approx": false,
       "addedOn": "2026-08-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-01_meta-llama-llama-3-3_01",
@@ -3387,7 +3387,7 @@
       "source": "[dailystar.co.uk](https://www.dailystar.co.uk/news/latest-news/top-secret-files-reveal-metallic-37500129), 2026",
       "approx": true,
       "addedOn": "2026-08-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-02_deepseek-deepseek-ch_01",
@@ -3765,6 +3765,71 @@
       "source": "Scientific American August 2026",
       "approx": true,
       "addedOn": "2026-08-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-09_deepseek-deepseek-ch_01",
+      "name": "Trepalle, Italy",
+      "lat": 46.5075,
+      "lng": 10.37,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Bright barrel-shaped object moving west at aircraft height, no sound, viewed for 2 minutes on August 4",
+      "source": "ufouap.net August 2026",
+      "approx": false,
+      "addedOn": "2026-08-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-09_deepseek-deepseek-ch_02",
+      "name": "Santa Fe Springs, California",
+      "lat": 33.9472,
+      "lng": -118.0853,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Black star-shaped object observed over freeway, caused cell service disruption on August 5",
+      "source": "ufosightingsdaily.com August 7, 2026",
+      "approx": false,
+      "addedOn": "2026-08-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-09_deepseek-deepseek-ch_03",
+      "name": "Arcadia, California",
+      "lat": 34.1328,
+      "lng": -118.0364,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Fleet of 8+ shiny spheres moving east to west at different speeds, some stopping mid-air on August 2",
+      "source": "ufosightingsdaily.com August 7, 2026",
+      "approx": false,
+      "addedOn": "2026-08-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-09_meta-llama-llama-3-3_01",
+      "name": "Middle East",
+      "lat": 32.0,
+      "lng": 45.0,
+      "cat": "recent",
+      "date": "2025",
+      "desc": "UAP sighting",
+      "source": "US Central Command",
+      "approx": true,
+      "addedOn": "2026-08-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-09_meta-llama-llama-3-3_02",
+      "name": "Afghanistan",
+      "lat": 34.0,
+      "lng": 69.0,
+      "cat": "historic",
+      "date": "2002",
+      "desc": "UAP sighting",
+      "source": "Pentagon",
+      "approx": false,
+      "addedOn": "2026-08-09",
       "isNew": true
     }
   ]
