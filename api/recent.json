@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
   "updated": "2026-08-09",
-  "total": 33,
+  "total": 34,
   "sightings": [
     {
       "id": "scan_2026-08-02_deepseek-deepseek-ch_01",
@@ -432,6 +432,20 @@
       "approx": false,
       "addedOn": "2026-08-09",
       "isNew": true
+    },
+    {
+      "id": "legacy_auto-6fbb4e4ec0ed",
+      "name": "Nevada, USA",
+      "lat": 38.8026,
+      "lng": -116.4194,
+      "cat": "recent",
+      "date": "2026-08-07",
+      "desc": "Malcolm M. Dejnozka presents a volume examining UFO and UAP sightings across Nevada while providing historical context ...",
+      "source": "News_Search | confidence: low",
+      "approx": false,
+      "addedOn": "2026-08-09",
+      "isNew": false,
+      "legacy": true
     }
   ]
 }
