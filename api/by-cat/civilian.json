@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-09",
-  "total": 125,
+  "updated": "2026-08-10",
+  "total": 131,
   "sightings": [
     {
       "id": "r4",
@@ -1622,6 +1622,84 @@
       "source": "ufosightingsdaily.com August 7, 2026",
       "approx": false,
       "addedOn": "2026-08-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-10_deepseek-deepseek-ch_01",
+      "name": "Gimpo and Goyang, South Korea",
+      "lat": 37.6236,
+      "lng": 126.7142,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Three white dots spotted moving side by side before changing formation over Gimpo and Goyang areas on August 9",
+      "source": "koreajoongangdaily.com August 10, 2026",
+      "approx": false,
+      "addedOn": "2026-08-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-10_deepseek-deepseek-ch_02",
+      "name": "Siheung, South Korea",
+      "lat": 37.3797,
+      "lng": 126.8031,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Sky appeared divided horizontally into white and blue as if drawn with a line on August 9",
+      "source": "koreajoongangdaily.com August 10, 2026",
+      "approx": false,
+      "addedOn": "2026-08-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-10_deepseek-deepseek-ch_03",
+      "name": "Dzilam de Bravo, Mexico",
+      "lat": 21.4333,
+      "lng": -88.8833,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Fishermen photographed oval/disc-shaped object suspended in sky on August 4",
+      "source": "rivieramayanews.mx August 9, 2026",
+      "approx": false,
+      "addedOn": "2026-08-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-10_deepseek-deepseek-ch_04",
+      "name": "New Castle, Colorado, USA",
+      "lat": 39.5728,
+      "lng": -107.5364,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Plasma orb observed for over 5 hours on August 4, second similar sighting in different locations",
+      "source": "ufosightingsdaily.com August 4, 2026",
+      "approx": false,
+      "addedOn": "2026-08-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-10_deepseek-deepseek-ch_05",
+      "name": "Santa Fe Springs, California, USA",
+      "lat": 33.9472,
+      "lng": -118.0853,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Pointy black star-shaped UFO observed on August 5, similar to US government release",
+      "source": "ufosightingsdaily.com August 7, 2026",
+      "approx": false,
+      "addedOn": "2026-08-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-10_meta-llama-llama-3-3_02",
+      "name": "Gyeonggi, South Korea",
+      "lat": 37.2769,
+      "lng": 127.2753,
+      "cat": "civilian",
+      "date": "2026-08-09",
+      "desc": "White dots and divided sky seen by witnesses",
+      "source": "[koreajoongangdaily.com](https://www.koreajoongangdaily.com/korea/its-a-bird-its-a-plane-its-drones-and-physics-strange-sightings-in-gyeonggi-skies-spread-on-social-media/12816437)",
+      "approx": false,
+      "addedOn": "2026-08-10",
       "isNew": true
     }
   ]

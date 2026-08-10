@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-08-09",
-  "total": 53,
+  "updated": "2026-08-10",
+  "total": 54,
   "sightings": [
     {
       "id": "r2",
@@ -677,6 +677,19 @@
       "source": "Scientific American August 2026",
       "approx": true,
       "addedOn": "2026-08-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-10_meta-llama-llama-3-3_01",
+      "name": "Pacific Ocean",
+      "lat": 0.0,
+      "lng": 160.0,
+      "cat": "military",
+      "date": "2019",
+      "desc": "Black sphere spotted by US military",
+      "source": "[bbc.com](https://www.bbc.com/news/articles/ce8kr7p2pmdo)",
+      "approx": true,
+      "addedOn": "2026-08-10",
       "isNew": true
     }
   ]
