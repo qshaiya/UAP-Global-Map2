@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-08-10",
-  "total": 79,
+  "updated": "2026-08-11",
+  "total": 80,
   "sightings": [
     {
       "id": "r14",
@@ -891,7 +891,7 @@
       "source": "[aol.com](https://www.aol.com/articles/airbus-pilot-reports-ufo-came-110040000.html), [metro.co.uk](https://metro.co.uk/2026/08/02/pilot-spots-flying-saucer-cockpit-plane-near-london-gatwick-airport-29280510/)",
       "approx": false,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-03_meta-llama-llama-3-3_02",
@@ -904,7 +904,7 @@
       "source": "[aol.com](https://www.aol.com/articles/airbus-pilot-reports-ufo-came-110040000.html), [ibtimes.co.uk](https://www.ibtimes.co.uk/flying-saucer-zooms-within-feet-airbus-passenger-jet-coming-land-london-gatwick-1811891)",
       "approx": false,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-03_meta-llama-llama-3-3_03",
@@ -917,7 +917,7 @@
       "source": "[ibtimes.co.uk](https://www.ibtimes.co.uk/flying-saucer-zooms-within-feet-airbus-passenger-jet-coming-land-london-gatwick-1811891)",
       "approx": true,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-03_meta-llama-llama-3-3_04",
@@ -930,7 +930,7 @@
       "source": "[en.parapolitika.gr](https://en.parapolitika.gr/world/249713/pentagon-reveals-new-ufo-evidence-military-videos-expose-unexplained-aerial-phenomena-and-nuclear-base-breach/)",
       "approx": false,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_meta-llama-llama-3-3_01",
@@ -1023,6 +1023,19 @@
       "addedOn": "2026-08-09",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-08-11_meta-llama-llama-3-3_01",
+      "name": "Bagram, Afghanistan",
+      "lat": 34.9433,
+      "lng": 69.2663,
+      "cat": "recent",
+      "date": "2002",
+      "desc": "Equilateral triangle",
+      "source": "cbsnews.com, August 2026",
+      "approx": false,
+      "addedOn": "2026-08-11",
+      "isNew": true
     }
   ]
 }

@@ -3,12 +3,12 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-08-10",
-  "total": 304,
+  "updated": "2026-08-11",
+  "total": 308,
   "categories": {
-    "recent": 79,
+    "recent": 80,
     "military": 54,
-    "civilian": 131,
+    "civilian": 134,
     "gov": 31,
     "historic": 9
   },
@@ -3440,7 +3440,7 @@
       "source": "AOL.com and Metro.co.uk reports August 2026",
       "approx": false,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-03_deepseek-deepseek-ch_02",
@@ -3453,7 +3453,7 @@
       "source": "AOL.com report August 2026",
       "approx": false,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-03_deepseek-deepseek-ch_03",
@@ -3466,7 +3466,7 @@
       "source": "IBTimes UK report August 2026",
       "approx": true,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-03_deepseek-deepseek-ch_04",
@@ -3479,7 +3479,7 @@
       "source": "Fireball report IMO network August 2026",
       "approx": false,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-03_deepseek-deepseek-ch_05",
@@ -3492,7 +3492,7 @@
       "source": "UAP Logbook ODNI-UAP-D001 file August 2026",
       "approx": true,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-03_meta-llama-llama-3-3_01",
@@ -3505,7 +3505,7 @@
       "source": "[aol.com](https://www.aol.com/articles/airbus-pilot-reports-ufo-came-110040000.html), [metro.co.uk](https://metro.co.uk/2026/08/02/pilot-spots-flying-saucer-cockpit-plane-near-london-gatwick-airport-29280510/)",
       "approx": false,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-03_meta-llama-llama-3-3_02",
@@ -3518,7 +3518,7 @@
       "source": "[aol.com](https://www.aol.com/articles/airbus-pilot-reports-ufo-came-110040000.html), [ibtimes.co.uk](https://www.ibtimes.co.uk/flying-saucer-zooms-within-feet-airbus-passenger-jet-coming-land-london-gatwick-1811891)",
       "approx": false,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-03_meta-llama-llama-3-3_03",
@@ -3531,7 +3531,7 @@
       "source": "[ibtimes.co.uk](https://www.ibtimes.co.uk/flying-saucer-zooms-within-feet-airbus-passenger-jet-coming-land-london-gatwick-1811891)",
       "approx": true,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-03_meta-llama-llama-3-3_04",
@@ -3544,7 +3544,7 @@
       "source": "[en.parapolitika.gr](https://en.parapolitika.gr/world/249713/pentagon-reveals-new-ufo-evidence-military-videos-expose-unexplained-aerial-phenomena-and-nuclear-base-breach/)",
       "approx": false,
       "addedOn": "2026-08-03",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_deepseek-deepseek-ch_01",
@@ -3935,6 +3935,58 @@
       "source": "[koreajoongangdaily.com](https://www.koreajoongangdaily.com/korea/its-a-bird-its-a-plane-its-drones-and-physics-strange-sightings-in-gyeonggi-skies-spread-on-social-media/12816437)",
       "approx": false,
       "addedOn": "2026-08-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-11_deepseek-deepseek-ch_01",
+      "name": "Malvern Hills, England, UK",
+      "lat": 52.077,
+      "lng": -2.3333,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Dog walker captured high-speed UFO on video while playing fetch with his Labrador on August 2, video gained over 7 million views",
+      "source": "[expressandstar.com](https://www.expressandstar.com/news/2025/08/10/west-midlands-moment-dog-walker-captures-ufo-speeding-across-sky-video-viewed-more-than-7-million-times/)",
+      "approx": false,
+      "addedOn": "2026-08-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-11_deepseek-deepseek-ch_02",
+      "name": "Carolina Beach, North Carolina, USA",
+      "lat": 34.03,
+      "lng": -77.8967,
+      "cat": "civilian",
+      "date": "June 2026",
+      "desc": "Orange orbs over Atlantic Ocean observed from condo deck on June 24, 2026, stationary for 20+ minutes, filmed at 20x zoom",
+      "source": "[uapglobe.com](https://uapglobe.com/cases/carolina-beach-orbs-2026)",
+      "approx": false,
+      "addedOn": "2026-08-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-11_deepseek-deepseek-ch_03",
+      "name": "Ault, Colorado, USA",
+      "lat": 40.5822,
+      "lng": -104.7347,
+      "cat": "civilian",
+      "date": "February 2026",
+      "desc": "Three observers saw orange-yellow sphere lights hovering for 20+ minutes, switching positions in curved line formation",
+      "source": "[nuforc.org](https://nuforc.org/sighting/?id=196006)",
+      "approx": false,
+      "addedOn": "2026-08-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-11_meta-llama-llama-3-3_01",
+      "name": "Bagram, Afghanistan",
+      "lat": 34.9433,
+      "lng": 69.2663,
+      "cat": "recent",
+      "date": "2002",
+      "desc": "Equilateral triangle",
+      "source": "cbsnews.com, August 2026",
+      "approx": false,
+      "addedOn": "2026-08-11",
       "isNew": true
     }
   ]
