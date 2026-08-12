@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-08-11",
+  "updated": "2026-08-12",
   "total": 80,
   "sightings": [
     {
@@ -943,7 +943,7 @@
       "source": "[timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/world/uk/uk-pilot-spots-mysterious-flying-saucer-just-100-feet-from-passenger-plane-near-gatwick-airport-officials-say-the-near-miss-reduced-the-aircrafts-safety/articleshow/132850461.cms)",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_meta-llama-llama-3-3_02",
@@ -956,7 +956,7 @@
       "source": "[edp24.co.uk](https://www.edp24.co.uk/news/26432391.ufo-spotted-off-norfolk-coast-raf-pilots-mission/)",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_meta-llama-llama-3-3_03",
@@ -969,7 +969,7 @@
       "source": "[pulsetasmania.com.au](https://pulsetasmania.com.au/news/are-they-aliens-meander-valley-mayor-wants-answers-over-mysterious-lights-in-night-sky)",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-05_deepseek-deepseek-ch_01",

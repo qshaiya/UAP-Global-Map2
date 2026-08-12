@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-08-11",
+  "updated": "2026-08-12",
   "total": 54,
   "sightings": [
     {
@@ -651,7 +651,7 @@
       "source": "UK Airprox Board report August 2026",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-08_deepseek-deepseek-ch_01",

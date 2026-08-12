@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-11",
-  "total": 134,
+  "updated": "2026-08-12",
+  "total": 135,
   "sightings": [
     {
       "id": "r4",
@@ -1492,7 +1492,7 @@
       "source": "Pulse Tasmania August 4, 2026",
       "approx": true,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_deepseek-deepseek-ch_03",
@@ -1505,7 +1505,7 @@
       "source": "UFO Sightings Daily August 3, 2026",
       "approx": true,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_deepseek-deepseek-ch_04",
@@ -1518,7 +1518,7 @@
       "source": "Reddit r/UFOs June 24, 2026",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_deepseek-deepseek-ch_05",
@@ -1531,7 +1531,7 @@
       "source": "Reddit r/UFOs June 21, 2026",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-05_deepseek-deepseek-ch_03",
@@ -1739,6 +1739,19 @@
       "source": "[nuforc.org](https://nuforc.org/sighting/?id=196006)",
       "approx": false,
       "addedOn": "2026-08-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-12_deepseek-deepseek-ch_01",
+      "name": "Carrollton, Georgia, USA",
+      "lat": 33.5801,
+      "lng": -85.1515,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Large dark triangular object filmed moving south of Carrollton, detailed footage captured",
+      "source": "Probed August 3, 2026",
+      "approx": false,
+      "addedOn": "2026-08-12",
       "isNew": true
     }
   ]

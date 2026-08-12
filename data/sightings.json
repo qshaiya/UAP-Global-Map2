@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11",
-  "count": 308,
+  "updated": "2026-08-12",
+  "count": 309,
   "sightings": [
     {
       "id": "r1",
@@ -3528,7 +3528,7 @@
       "source": "UK Airprox Board report August 2026",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_deepseek-deepseek-ch_02",
@@ -3541,7 +3541,7 @@
       "source": "Pulse Tasmania August 4, 2026",
       "approx": true,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_deepseek-deepseek-ch_03",
@@ -3554,7 +3554,7 @@
       "source": "UFO Sightings Daily August 3, 2026",
       "approx": true,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_deepseek-deepseek-ch_04",
@@ -3567,7 +3567,7 @@
       "source": "Reddit r/UFOs June 24, 2026",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_deepseek-deepseek-ch_05",
@@ -3580,7 +3580,7 @@
       "source": "Reddit r/UFOs June 21, 2026",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_meta-llama-llama-3-3_01",
@@ -3593,7 +3593,7 @@
       "source": "[timesofindia.indiatimes.com](https://timesofindia.indiatimes.com/world/uk/uk-pilot-spots-mysterious-flying-saucer-just-100-feet-from-passenger-plane-near-gatwick-airport-officials-say-the-near-miss-reduced-the-aircrafts-safety/articleshow/132850461.cms)",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_meta-llama-llama-3-3_02",
@@ -3606,7 +3606,7 @@
       "source": "[edp24.co.uk](https://www.edp24.co.uk/news/26432391.ufo-spotted-off-norfolk-coast-raf-pilots-mission/)",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-04_meta-llama-llama-3-3_03",
@@ -3619,7 +3619,7 @@
       "source": "[pulsetasmania.com.au](https://pulsetasmania.com.au/news/are-they-aliens-meander-valley-mayor-wants-answers-over-mysterious-lights-in-night-sky)",
       "approx": false,
       "addedOn": "2026-08-04",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-05_deepseek-deepseek-ch_01",
@@ -3958,6 +3958,19 @@
       "source": "cbsnews.com, August 2026",
       "approx": false,
       "addedOn": "2026-08-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-12_deepseek-deepseek-ch_01",
+      "name": "Carrollton, Georgia, USA",
+      "lat": 33.5801,
+      "lng": -85.1515,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Large dark triangular object filmed moving south of Carrollton, detailed footage captured",
+      "source": "Probed August 3, 2026",
+      "approx": false,
+      "addedOn": "2026-08-12",
       "isNew": true
     }
   ]
