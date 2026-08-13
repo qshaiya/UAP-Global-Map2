@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "total": 135,
   "sightings": [
     {
@@ -1544,7 +1544,7 @@
       "source": "Times of India (July 2026)",
       "approx": false,
       "addedOn": "2026-08-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-06_deepseek-deepseek-ch_01",

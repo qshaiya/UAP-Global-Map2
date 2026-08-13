@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "total": 31,
   "sightings": [
     {
@@ -391,7 +391,7 @@
       "source": "Pentagon PURSUE Release (July 10, 2026)",
       "approx": false,
       "addedOn": "2026-08-05",
-      "isNew": true
+      "isNew": false
     }
   ]
 }

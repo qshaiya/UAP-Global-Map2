@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12",
-  "count": 309,
+  "updated": "2026-08-13",
+  "count": 310,
   "sightings": [
     {
       "id": "r1",
@@ -3632,7 +3632,7 @@
       "source": "UAP Globe (June 23, 2026)",
       "approx": true,
       "addedOn": "2026-08-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-05_deepseek-deepseek-ch_02",
@@ -3645,7 +3645,7 @@
       "source": "Pentagon PURSUE Release (July 10, 2026)",
       "approx": false,
       "addedOn": "2026-08-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-05_deepseek-deepseek-ch_03",
@@ -3658,7 +3658,7 @@
       "source": "Times of India (July 2026)",
       "approx": false,
       "addedOn": "2026-08-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-05_meta-llama-llama-3-3_01",
@@ -3671,7 +3671,7 @@
       "source": "apnews.com",
       "approx": false,
       "addedOn": "2026-08-05",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-06_deepseek-deepseek-ch_01",
@@ -3971,6 +3971,19 @@
       "source": "Probed August 3, 2026",
       "approx": false,
       "addedOn": "2026-08-12",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-13_deepseek-deepseek-ch_01",
+      "name": "605-N Freeway, California, USA",
+      "lat": 34.0202,
+      "lng": -118.1696,
+      "cat": "recent",
+      "date": "August 2026",
+      "desc": "Black star/starfish object observed near 605-N freeway on August 5, 2026 at 5:00 PM, posted to Reddit r/UFOs",
+      "source": "Probed space sighting, August 7 2026",
+      "approx": false,
+      "addedOn": "2026-08-13",
       "isNew": true
     }
   ]
