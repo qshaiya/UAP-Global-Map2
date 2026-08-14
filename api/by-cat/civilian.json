@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "total": 135,
   "sightings": [
     {
@@ -1557,7 +1557,7 @@
       "source": "Reddit r/UFOs July 22, 2026",
       "approx": false,
       "addedOn": "2026-08-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-06_deepseek-deepseek-ch_02",
@@ -1570,7 +1570,7 @@
       "source": "Hawaii News Now July 16, 2026",
       "approx": true,
       "addedOn": "2026-08-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-06_deepseek-deepseek-ch_03",
@@ -1583,7 +1583,7 @@
       "source": "IMO Fireball Report July 30, 2026",
       "approx": false,
       "addedOn": "2026-08-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-09_deepseek-deepseek-ch_01",

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13",
-  "count": 310,
+  "updated": "2026-08-14",
+  "count": 311,
   "sightings": [
     {
       "id": "r1",
@@ -3684,7 +3684,7 @@
       "source": "Reddit r/UFOs July 22, 2026",
       "approx": false,
       "addedOn": "2026-08-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-06_deepseek-deepseek-ch_02",
@@ -3697,7 +3697,7 @@
       "source": "Hawaii News Now July 16, 2026",
       "approx": true,
       "addedOn": "2026-08-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-06_deepseek-deepseek-ch_03",
@@ -3710,7 +3710,7 @@
       "source": "IMO Fireball Report July 30, 2026",
       "approx": false,
       "addedOn": "2026-08-06",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-08_deepseek-deepseek-ch_01",
@@ -3984,6 +3984,19 @@
       "source": "Probed space sighting, August 7 2026",
       "approx": false,
       "addedOn": "2026-08-13",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-14_meta-llama-llama-3-3_01",
+      "name": "Mountain range in western United States",
+      "lat": 39.7392,
+      "lng": -106.2744,
+      "cat": "recent",
+      "date": "2026",
+      "desc": "Red lights moving along a mountain ridgeline",
+      "source": "FBI report",
+      "approx": true,
+      "addedOn": "2026-08-14",
       "isNew": true
     }
   ]

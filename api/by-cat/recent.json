@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-08-13",
-  "total": 81,
+  "updated": "2026-08-14",
+  "total": 82,
   "sightings": [
     {
       "id": "r14",
@@ -1048,6 +1048,19 @@
       "source": "Probed space sighting, August 7 2026",
       "approx": false,
       "addedOn": "2026-08-13",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-14_meta-llama-llama-3-3_01",
+      "name": "Mountain range in western United States",
+      "lat": 39.7392,
+      "lng": -106.2744,
+      "cat": "recent",
+      "date": "2026",
+      "desc": "Red lights moving along a mountain ridgeline",
+      "source": "FBI report",
+      "approx": true,
+      "addedOn": "2026-08-14",
       "isNew": true
     }
   ]

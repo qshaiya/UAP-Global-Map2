@@ -1,48 +1,9 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-08-13",
-  "total": 24,
+  "updated": "2026-08-14",
+  "total": 22,
   "sightings": [
-    {
-      "id": "scan_2026-08-06_deepseek-deepseek-ch_01",
-      "name": "Rocky Mountain National Park, Colorado",
-      "lat": 40.3428,
-      "lng": -105.6836,
-      "cat": "civilian",
-      "date": "July 2026",
-      "desc": "Backpacker filmed vibrating light that pulsed and jittered in place for extended period before falling asleep watching it",
-      "source": "Reddit r/UFOs July 22, 2026",
-      "approx": false,
-      "addedOn": "2026-08-06",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-08-06_deepseek-deepseek-ch_02",
-      "name": "Between Molokai and Maui, Hawaii",
-      "lat": 20.7984,
-      "lng": -156.3319,
-      "cat": "civilian",
-      "date": "July 2026",
-      "desc": "Mokulele Airlines flight swerved to avoid white object that appeared from clouds, pilots reacted instantly",
-      "source": "Hawaii News Now July 16, 2026",
-      "approx": true,
-      "addedOn": "2026-08-06",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-08-06_deepseek-deepseek-ch_03",
-      "name": "Newport, Oregon",
-      "lat": 44.6368,
-      "lng": -124.0535,
-      "cat": "civilian",
-      "date": "July 2026",
-      "desc": "Massive fireball described as Empire State Building size flaming marshmallow with sparkler-like fragmentation",
-      "source": "IMO Fireball Report July 30, 2026",
-      "approx": false,
-      "addedOn": "2026-08-06",
-      "isNew": true
-    },
     {
       "id": "scan_2026-08-08_deepseek-deepseek-ch_01",
       "name": "Middle East (unspecified)",
@@ -315,6 +276,19 @@
       "source": "Probed space sighting, August 7 2026",
       "approx": false,
       "addedOn": "2026-08-13",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-14_meta-llama-llama-3-3_01",
+      "name": "Mountain range in western United States",
+      "lat": 39.7392,
+      "lng": -106.2744,
+      "cat": "recent",
+      "date": "2026",
+      "desc": "Red lights moving along a mountain ridgeline",
+      "source": "FBI report",
+      "approx": true,
+      "addedOn": "2026-08-14",
       "isNew": true
     }
   ]
