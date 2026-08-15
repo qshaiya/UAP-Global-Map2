@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-08-14",
-  "total": 22,
+  "updated": "2026-08-15",
+  "total": 25,
   "sightings": [
     {
       "id": "scan_2026-08-08_deepseek-deepseek-ch_01",
@@ -289,6 +289,45 @@
       "source": "FBI report",
       "approx": true,
       "addedOn": "2026-08-14",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-15_deepseek-deepseek-ch_01",
+      "name": "Carrollton, Georgia",
+      "lat": 33.5801,
+      "lng": -85.0766,
+      "cat": "recent",
+      "date": "August 2026",
+      "desc": "Large dark triangular object moving slowly south of Carrollton",
+      "source": "probed.space August 7, 2026",
+      "approx": false,
+      "addedOn": "2026-08-15",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-15_deepseek-deepseek-ch_02",
+      "name": "Pensacola, Florida",
+      "lat": 30.4213,
+      "lng": -87.2169,
+      "cat": "recent",
+      "date": "August 2026",
+      "desc": "UFO spotted over Pensacola area",
+      "source": "probed.space August 7, 2026",
+      "approx": false,
+      "addedOn": "2026-08-15",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-15_meta-llama-llama-3-3_01",
+      "name": "Colorado Springs, CO",
+      "lat": 38.8339,
+      "lng": -104.8214,
+      "cat": "recent",
+      "date": "October 2023",
+      "desc": "Triangle-shaped UAP",
+      "source": "Colorado Springs Gazette",
+      "approx": false,
+      "addedOn": "2026-08-15",
       "isNew": true
     }
   ]
