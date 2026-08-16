@@ -3,11 +3,11 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-08-15",
-  "total": 314,
+  "updated": "2026-08-16",
+  "total": 316,
   "categories": {
-    "recent": 85,
-    "military": 54,
+    "recent": 86,
+    "military": 55,
     "civilian": 135,
     "gov": 31,
     "historic": 9
@@ -3752,7 +3752,7 @@
       "source": "NDTV August 2026",
       "approx": true,
       "addedOn": "2026-08-08",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-08_deepseek-deepseek-ch_02",
@@ -3765,7 +3765,7 @@
       "source": "Scientific American August 2026",
       "approx": true,
       "addedOn": "2026-08-08",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-09_deepseek-deepseek-ch_01",
@@ -4065,6 +4065,32 @@
       "source": "Colorado Springs Gazette",
       "approx": false,
       "addedOn": "2026-08-15",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-16_deepseek-deepseek-ch_01",
+      "name": "Djibouti",
+      "lat": 11.3887,
+      "lng": 43.1393,
+      "cat": "military",
+      "date": "January 2025",
+      "desc": "Small infrared contrast object moving across sensor field-of-view, released as unresolved UAP report",
+      "source": "DVIDS release August 5, 2026",
+      "approx": false,
+      "addedOn": "2026-08-16",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-16_deepseek-deepseek-ch_02",
+      "name": "London Gatwick Airport, UK",
+      "lat": 51.1481,
+      "lng": -0.1903,
+      "cat": "recent",
+      "date": "August 2026",
+      "desc": "Pilot reported disc-shaped object passing within 100-300 ft of aircraft during approach to Gatwick Airport",
+      "source": "Airprox Board report August 15, 2026",
+      "approx": false,
+      "addedOn": "2026-08-16",
       "isNew": true
     }
   ]

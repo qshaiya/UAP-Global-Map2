@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-08-15",
-  "total": 54,
+  "updated": "2026-08-16",
+  "total": 55,
   "sightings": [
     {
       "id": "r2",
@@ -664,7 +664,7 @@
       "source": "NDTV August 2026",
       "approx": true,
       "addedOn": "2026-08-08",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-08_deepseek-deepseek-ch_02",
@@ -677,7 +677,7 @@
       "source": "Scientific American August 2026",
       "approx": true,
       "addedOn": "2026-08-08",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-10_meta-llama-llama-3-3_01",
@@ -690,6 +690,19 @@
       "source": "[bbc.com](https://www.bbc.com/news/articles/ce8kr7p2pmdo)",
       "approx": true,
       "addedOn": "2026-08-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-16_deepseek-deepseek-ch_01",
+      "name": "Djibouti",
+      "lat": 11.3887,
+      "lng": 43.1393,
+      "cat": "military",
+      "date": "January 2025",
+      "desc": "Small infrared contrast object moving across sensor field-of-view, released as unresolved UAP report",
+      "source": "DVIDS release August 5, 2026",
+      "approx": false,
+      "addedOn": "2026-08-16",
       "isNew": true
     }
   ]
