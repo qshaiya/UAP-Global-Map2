@@ -3,7 +3,7 @@
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
   "updated": "2026-08-16",
-  "total": 135,
+  "total": 136,
   "sightings": [
     {
       "id": "r4",
@@ -1753,6 +1753,20 @@
       "approx": false,
       "addedOn": "2026-08-12",
       "isNew": true
+    },
+    {
+      "id": "legacy_auto-252d23c07eb4",
+      "name": "Coordinates 42.028465, -5.499427",
+      "lat": 42.028465,
+      "lng": -5.499427,
+      "cat": "civilian",
+      "date": "2026-08-12",
+      "desc": "Reported by u/Late_Ostrich8217 (verified via ufosighting.report) This is an automated post. The report was filed through the structured sighting form on ufosighting.report and posted here by u/ufosigh",
+      "source": "Reddit | confidence: low",
+      "approx": false,
+      "addedOn": "2026-08-16",
+      "isNew": false,
+      "legacy": true
     }
   ]
 }
