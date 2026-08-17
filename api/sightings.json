@@ -3,12 +3,12 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-08-16",
-  "total": 317,
+  "updated": "2026-08-17",
+  "total": 318,
   "categories": {
     "recent": 86,
     "military": 55,
-    "civilian": 136,
+    "civilian": 137,
     "gov": 31,
     "historic": 9
   },
@@ -3778,7 +3778,7 @@
       "source": "ufouap.net August 2026",
       "approx": false,
       "addedOn": "2026-08-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-09_deepseek-deepseek-ch_02",
@@ -3791,7 +3791,7 @@
       "source": "ufosightingsdaily.com August 7, 2026",
       "approx": false,
       "addedOn": "2026-08-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-09_deepseek-deepseek-ch_03",
@@ -3804,7 +3804,7 @@
       "source": "ufosightingsdaily.com August 7, 2026",
       "approx": false,
       "addedOn": "2026-08-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-09_meta-llama-llama-3-3_01",
@@ -3817,7 +3817,7 @@
       "source": "US Central Command",
       "approx": true,
       "addedOn": "2026-08-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-09_meta-llama-llama-3-3_02",
@@ -3830,7 +3830,7 @@
       "source": "Pentagon",
       "approx": false,
       "addedOn": "2026-08-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-6fbb4e4ec0ed",
@@ -4106,6 +4106,19 @@
       "addedOn": "2026-08-16",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-08-17_deepseek-deepseek-ch_01",
+      "name": "Berlin, New Jersey",
+      "lat": 39.7918,
+      "lng": -74.9285,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Conical white object moving south to north at 9:20pm, visible for 10 seconds, size of full moon",
+      "source": "snjtoday.com August 2026",
+      "approx": false,
+      "addedOn": "2026-08-17",
+      "isNew": true
     }
   ]
 }

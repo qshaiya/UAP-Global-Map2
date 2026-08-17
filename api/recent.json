@@ -1,74 +1,9 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-08-16",
-  "total": 25,
+  "updated": "2026-08-17",
+  "total": 21,
   "sightings": [
-    {
-      "id": "scan_2026-08-09_deepseek-deepseek-ch_01",
-      "name": "Trepalle, Italy",
-      "lat": 46.5075,
-      "lng": 10.37,
-      "cat": "civilian",
-      "date": "August 2026",
-      "desc": "Bright barrel-shaped object moving west at aircraft height, no sound, viewed for 2 minutes on August 4",
-      "source": "ufouap.net August 2026",
-      "approx": false,
-      "addedOn": "2026-08-09",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-08-09_deepseek-deepseek-ch_02",
-      "name": "Santa Fe Springs, California",
-      "lat": 33.9472,
-      "lng": -118.0853,
-      "cat": "civilian",
-      "date": "August 2026",
-      "desc": "Black star-shaped object observed over freeway, caused cell service disruption on August 5",
-      "source": "ufosightingsdaily.com August 7, 2026",
-      "approx": false,
-      "addedOn": "2026-08-09",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-08-09_deepseek-deepseek-ch_03",
-      "name": "Arcadia, California",
-      "lat": 34.1328,
-      "lng": -118.0364,
-      "cat": "civilian",
-      "date": "August 2026",
-      "desc": "Fleet of 8+ shiny spheres moving east to west at different speeds, some stopping mid-air on August 2",
-      "source": "ufosightingsdaily.com August 7, 2026",
-      "approx": false,
-      "addedOn": "2026-08-09",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-08-09_meta-llama-llama-3-3_01",
-      "name": "Middle East",
-      "lat": 32.0,
-      "lng": 45.0,
-      "cat": "recent",
-      "date": "2025",
-      "desc": "UAP sighting",
-      "source": "US Central Command",
-      "approx": true,
-      "addedOn": "2026-08-09",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-08-09_meta-llama-llama-3-3_02",
-      "name": "Afghanistan",
-      "lat": 34.0,
-      "lng": 69.0,
-      "cat": "historic",
-      "date": "2002",
-      "desc": "UAP sighting",
-      "source": "Pentagon",
-      "approx": false,
-      "addedOn": "2026-08-09",
-      "isNew": true
-    },
     {
       "id": "scan_2026-08-10_deepseek-deepseek-ch_01",
       "name": "Gimpo and Goyang, South Korea",
@@ -329,6 +264,19 @@
       "addedOn": "2026-08-16",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-08-17_deepseek-deepseek-ch_01",
+      "name": "Berlin, New Jersey",
+      "lat": 39.7918,
+      "lng": -74.9285,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Conical white object moving south to north at 9:20pm, visible for 10 seconds, size of full moon",
+      "source": "snjtoday.com August 2026",
+      "approx": false,
+      "addedOn": "2026-08-17",
+      "isNew": true
     }
   ]
 }
