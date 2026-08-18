@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-08-17",
-  "total": 86,
+  "updated": "2026-08-18",
+  "total": 87,
   "sightings": [
     {
       "id": "r14",
@@ -1113,6 +1113,19 @@
       "source": "Airprox Board report August 15, 2026",
       "approx": false,
       "addedOn": "2026-08-16",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-18_deepseek-deepseek-ch_01",
+      "name": "South of Cyprus, Mediterranean",
+      "lat": 34.5,
+      "lng": 33.0,
+      "cat": "recent",
+      "date": "August 2026",
+      "desc": "Commercial pilot and 5 crew members witnessed three lights performing aerial maneuvers resembling dogfighting for over 2 hours",
+      "source": "cyprus-mail.com August 17, 2026",
+      "approx": true,
+      "addedOn": "2026-08-18",
       "isNew": true
     }
   ]

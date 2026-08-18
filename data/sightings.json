@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17",
-  "count": 318,
+  "updated": "2026-08-18",
+  "count": 320,
   "sightings": [
     {
       "id": "r1",
@@ -3828,7 +3828,7 @@
       "source": "koreajoongangdaily.com August 10, 2026",
       "approx": false,
       "addedOn": "2026-08-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-10_deepseek-deepseek-ch_02",
@@ -3841,7 +3841,7 @@
       "source": "koreajoongangdaily.com August 10, 2026",
       "approx": false,
       "addedOn": "2026-08-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-10_deepseek-deepseek-ch_03",
@@ -3854,7 +3854,7 @@
       "source": "rivieramayanews.mx August 9, 2026",
       "approx": false,
       "addedOn": "2026-08-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-10_deepseek-deepseek-ch_04",
@@ -3867,7 +3867,7 @@
       "source": "ufosightingsdaily.com August 4, 2026",
       "approx": false,
       "addedOn": "2026-08-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-10_deepseek-deepseek-ch_05",
@@ -3880,7 +3880,7 @@
       "source": "ufosightingsdaily.com August 7, 2026",
       "approx": false,
       "addedOn": "2026-08-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-10_meta-llama-llama-3-3_01",
@@ -3893,7 +3893,7 @@
       "source": "[bbc.com](https://www.bbc.com/news/articles/ce8kr7p2pmdo)",
       "approx": true,
       "addedOn": "2026-08-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-10_meta-llama-llama-3-3_02",
@@ -3906,7 +3906,7 @@
       "source": "[koreajoongangdaily.com](https://www.koreajoongangdaily.com/korea/its-a-bird-its-a-plane-its-drones-and-physics-strange-sightings-in-gyeonggi-skies-spread-on-social-media/12816437)",
       "approx": false,
       "addedOn": "2026-08-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-11_deepseek-deepseek-ch_01",
@@ -4089,6 +4089,32 @@
       "source": "snjtoday.com August 2026",
       "approx": false,
       "addedOn": "2026-08-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-18_deepseek-deepseek-ch_01",
+      "name": "South of Cyprus, Mediterranean",
+      "lat": 34.5,
+      "lng": 33.0,
+      "cat": "recent",
+      "date": "August 2026",
+      "desc": "Commercial pilot and 5 crew members witnessed three lights performing aerial maneuvers resembling dogfighting for over 2 hours",
+      "source": "cyprus-mail.com August 17, 2026",
+      "approx": true,
+      "addedOn": "2026-08-18",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-18_deepseek-deepseek-ch_02",
+      "name": "Djibouti, Africa",
+      "lat": 11.3887,
+      "lng": 43.1393,
+      "cat": "military",
+      "date": "2025",
+      "desc": "Small object of contrast moving across sensor field-of-view in Department of War released video",
+      "source": "uapinsight.com August 8, 2026",
+      "approx": false,
+      "addedOn": "2026-08-18",
       "isNew": true
     }
   ]
