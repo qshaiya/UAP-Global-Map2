@@ -3,13 +3,13 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-08-18",
-  "total": 320,
+  "updated": "2026-08-19",
+  "total": 321,
   "categories": {
     "recent": 87,
     "military": 56,
     "civilian": 137,
-    "gov": 31,
+    "gov": 32,
     "historic": 9
   },
   "approximate_locations": 48,
@@ -3948,7 +3948,7 @@
       "source": "[expressandstar.com](https://www.expressandstar.com/news/2025/08/10/west-midlands-moment-dog-walker-captures-ufo-speeding-across-sky-video-viewed-more-than-7-million-times/)",
       "approx": false,
       "addedOn": "2026-08-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-11_deepseek-deepseek-ch_02",
@@ -3961,7 +3961,7 @@
       "source": "[uapglobe.com](https://uapglobe.com/cases/carolina-beach-orbs-2026)",
       "approx": false,
       "addedOn": "2026-08-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-11_deepseek-deepseek-ch_03",
@@ -3974,7 +3974,7 @@
       "source": "[nuforc.org](https://nuforc.org/sighting/?id=196006)",
       "approx": false,
       "addedOn": "2026-08-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-11_meta-llama-llama-3-3_01",
@@ -3987,7 +3987,7 @@
       "source": "cbsnews.com, August 2026",
       "approx": false,
       "addedOn": "2026-08-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-12_deepseek-deepseek-ch_01",
@@ -4144,6 +4144,19 @@
       "source": "uapinsight.com August 8, 2026",
       "approx": false,
       "addedOn": "2026-08-18",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-19_deepseek-deepseek-ch_01",
+      "name": "Colorado Springs, USA",
+      "lat": 38.8339,
+      "lng": -104.8214,
+      "cat": "gov",
+      "date": "October 2023",
+      "desc": "Dark triangular object with red lights emerged from cloud, accelerated to Mach 1-2, banked opposite conventional aircraft direction. Witness reported electronic interference on phone.",
+      "source": "Gazette.com August 8, 2026",
+      "approx": false,
+      "addedOn": "2026-08-19",
       "isNew": true
     }
   ]

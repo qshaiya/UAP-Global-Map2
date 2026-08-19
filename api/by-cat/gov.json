@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-08-18",
-  "total": 31,
+  "updated": "2026-08-19",
+  "total": 32,
   "sightings": [
     {
       "id": "a2",
@@ -392,6 +392,19 @@
       "approx": false,
       "addedOn": "2026-08-05",
       "isNew": false
+    },
+    {
+      "id": "scan_2026-08-19_deepseek-deepseek-ch_01",
+      "name": "Colorado Springs, USA",
+      "lat": 38.8339,
+      "lng": -104.8214,
+      "cat": "gov",
+      "date": "October 2023",
+      "desc": "Dark triangular object with red lights emerged from cloud, accelerated to Mach 1-2, banked opposite conventional aircraft direction. Witness reported electronic interference on phone.",
+      "source": "Gazette.com August 8, 2026",
+      "approx": false,
+      "addedOn": "2026-08-19",
+      "isNew": true
     }
   ]
 }

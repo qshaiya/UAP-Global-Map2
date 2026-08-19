@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "total": 87,
   "sightings": [
     {
@@ -1035,7 +1035,7 @@
       "source": "cbsnews.com, August 2026",
       "approx": false,
       "addedOn": "2026-08-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-13_deepseek-deepseek-ch_01",

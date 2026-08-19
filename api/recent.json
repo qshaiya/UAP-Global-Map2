@@ -1,61 +1,9 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-08-18",
-  "total": 16,
+  "updated": "2026-08-19",
+  "total": 13,
   "sightings": [
-    {
-      "id": "scan_2026-08-11_deepseek-deepseek-ch_01",
-      "name": "Malvern Hills, England, UK",
-      "lat": 52.077,
-      "lng": -2.3333,
-      "cat": "civilian",
-      "date": "August 2026",
-      "desc": "Dog walker captured high-speed UFO on video while playing fetch with his Labrador on August 2, video gained over 7 million views",
-      "source": "[expressandstar.com](https://www.expressandstar.com/news/2025/08/10/west-midlands-moment-dog-walker-captures-ufo-speeding-across-sky-video-viewed-more-than-7-million-times/)",
-      "approx": false,
-      "addedOn": "2026-08-11",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-08-11_deepseek-deepseek-ch_02",
-      "name": "Carolina Beach, North Carolina, USA",
-      "lat": 34.03,
-      "lng": -77.8967,
-      "cat": "civilian",
-      "date": "June 2026",
-      "desc": "Orange orbs over Atlantic Ocean observed from condo deck on June 24, 2026, stationary for 20+ minutes, filmed at 20x zoom",
-      "source": "[uapglobe.com](https://uapglobe.com/cases/carolina-beach-orbs-2026)",
-      "approx": false,
-      "addedOn": "2026-08-11",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-08-11_deepseek-deepseek-ch_03",
-      "name": "Ault, Colorado, USA",
-      "lat": 40.5822,
-      "lng": -104.7347,
-      "cat": "civilian",
-      "date": "February 2026",
-      "desc": "Three observers saw orange-yellow sphere lights hovering for 20+ minutes, switching positions in curved line formation",
-      "source": "[nuforc.org](https://nuforc.org/sighting/?id=196006)",
-      "approx": false,
-      "addedOn": "2026-08-11",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-08-11_meta-llama-llama-3-3_01",
-      "name": "Bagram, Afghanistan",
-      "lat": 34.9433,
-      "lng": 69.2663,
-      "cat": "recent",
-      "date": "2002",
-      "desc": "Equilateral triangle",
-      "source": "cbsnews.com, August 2026",
-      "approx": false,
-      "addedOn": "2026-08-11",
-      "isNew": true
-    },
     {
       "id": "scan_2026-08-12_deepseek-deepseek-ch_01",
       "name": "Carrollton, Georgia, USA",
@@ -211,6 +159,19 @@
       "source": "uapinsight.com August 8, 2026",
       "approx": false,
       "addedOn": "2026-08-18",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-19_deepseek-deepseek-ch_01",
+      "name": "Colorado Springs, USA",
+      "lat": 38.8339,
+      "lng": -104.8214,
+      "cat": "gov",
+      "date": "October 2023",
+      "desc": "Dark triangular object with red lights emerged from cloud, accelerated to Mach 1-2, banked opposite conventional aircraft direction. Witness reported electronic interference on phone.",
+      "source": "Gazette.com August 8, 2026",
+      "approx": false,
+      "addedOn": "2026-08-19",
       "isNew": true
     }
   ]
