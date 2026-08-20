@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-08-19",
-  "total": 56,
+  "updated": "2026-08-20",
+  "total": 57,
   "sightings": [
     {
       "id": "r2",
@@ -716,6 +716,19 @@
       "source": "uapinsight.com August 8, 2026",
       "approx": false,
       "addedOn": "2026-08-18",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-20_deepseek-deepseek-ch_01",
+      "name": "Goubetto, Djibouti",
+      "lat": 11.388655,
+      "lng": 43.139259,
+      "cat": "military",
+      "date": "January 2025",
+      "desc": "Small thermal contrast object moving left-right across sensor field, analyzed as likely fast tactical missile at 3.33 km/s",
+      "source": "DOW-UAP-PR43 August 2026",
+      "approx": false,
+      "addedOn": "2026-08-20",
       "isNew": true
     }
   ]

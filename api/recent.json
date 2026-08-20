@@ -1,22 +1,9 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-08-19",
-  "total": 13,
+  "updated": "2026-08-20",
+  "total": 15,
   "sightings": [
-    {
-      "id": "scan_2026-08-12_deepseek-deepseek-ch_01",
-      "name": "Carrollton, Georgia, USA",
-      "lat": 33.5801,
-      "lng": -85.1515,
-      "cat": "civilian",
-      "date": "August 2026",
-      "desc": "Large dark triangular object filmed moving south of Carrollton, detailed footage captured",
-      "source": "Probed August 3, 2026",
-      "approx": false,
-      "addedOn": "2026-08-12",
-      "isNew": true
-    },
     {
       "id": "scan_2026-08-13_deepseek-deepseek-ch_01",
       "name": "605-N Freeway, California, USA",
@@ -172,6 +159,45 @@
       "source": "Gazette.com August 8, 2026",
       "approx": false,
       "addedOn": "2026-08-19",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-20_deepseek-deepseek-ch_01",
+      "name": "Goubetto, Djibouti",
+      "lat": 11.388655,
+      "lng": 43.139259,
+      "cat": "military",
+      "date": "January 2025",
+      "desc": "Small thermal contrast object moving left-right across sensor field, analyzed as likely fast tactical missile at 3.33 km/s",
+      "source": "DOW-UAP-PR43 August 2026",
+      "approx": false,
+      "addedOn": "2026-08-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-20_meta-llama-llama-3-3_01",
+      "name": "Western U.S.",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "cat": "recent",
+      "date": "2026",
+      "desc": "U.S. Government Special Agent observed black object in the sky",
+      "source": "[cbsnews.com](https://www.cbsnews.com/news/ufo-files-pentagon-5th-release-documents-videos/)",
+      "approx": true,
+      "addedOn": "2026-08-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-20_meta-llama-llama-3-3_02",
+      "name": "Massachusetts",
+      "lat": 42.4072,
+      "lng": -71.0275,
+      "cat": "recent",
+      "date": "October 2023",
+      "desc": "Military pilot observed strange lights in the sky",
+      "source": "[cbsnews.com](https://www.cbsnews.com/news/ufo-files-pentagon-5th-release-documents-videos/)",
+      "approx": false,
+      "addedOn": "2026-08-20",
       "isNew": true
     }
   ]
