@@ -1,22 +1,9 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "total": 15,
   "sightings": [
-    {
-      "id": "scan_2026-08-13_deepseek-deepseek-ch_01",
-      "name": "605-N Freeway, California, USA",
-      "lat": 34.0202,
-      "lng": -118.1696,
-      "cat": "recent",
-      "date": "August 2026",
-      "desc": "Black star/starfish object observed near 605-N freeway on August 5, 2026 at 5:00 PM, posted to Reddit r/UFOs",
-      "source": "Probed space sighting, August 7 2026",
-      "approx": false,
-      "addedOn": "2026-08-13",
-      "isNew": true
-    },
     {
       "id": "scan_2026-08-14_meta-llama-llama-3-3_01",
       "name": "Mountain range in western United States",
@@ -198,6 +185,19 @@
       "source": "[cbsnews.com](https://www.cbsnews.com/news/ufo-files-pentagon-5th-release-documents-videos/)",
       "approx": false,
       "addedOn": "2026-08-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-21_deepseek-deepseek-ch_01",
+      "name": "Edwards Air Force Base, California, USA",
+      "lat": 34.9081,
+      "lng": -117.8855,
+      "cat": "military",
+      "date": "August 2026",
+      "desc": "Intense bright flashes captured on wildlife camera near military base, no official explanation provided",
+      "source": "naturalnews.com August 20, 2026",
+      "approx": false,
+      "addedOn": "2026-08-21",
       "isNew": true
     }
   ]
