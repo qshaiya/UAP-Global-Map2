@@ -3,10 +3,10 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-08-21",
-  "total": 325,
+  "updated": "2026-08-22",
+  "total": 326,
   "categories": {
-    "recent": 89,
+    "recent": 90,
     "military": 58,
     "civilian": 137,
     "gov": 32,
@@ -4026,7 +4026,7 @@
       "source": "FBI report",
       "approx": true,
       "addedOn": "2026-08-14",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-15_deepseek-deepseek-ch_01",
@@ -4209,6 +4209,19 @@
       "source": "naturalnews.com August 20, 2026",
       "approx": false,
       "addedOn": "2026-08-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-22_meta-llama-llama-3-3_01",
+      "name": "Cocoa Beach, Florida",
+      "lat": 28.3347,
+      "lng": -80.6074,
+      "cat": "recent",
+      "date": "August 2026",
+      "desc": "Glowing orbs, giant nuclear weapon-like object",
+      "source": "[dailymail.com](https://www.dailymail.com/sciencetech/article-16067531/nasa-charles-buhler-florida-ufo.html)",
+      "approx": false,
+      "addedOn": "2026-08-22",
       "isNew": true
     }
   ]

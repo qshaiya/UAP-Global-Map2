@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-08-21",
-  "total": 89,
+  "updated": "2026-08-22",
+  "total": 90,
   "sightings": [
     {
       "id": "r14",
@@ -1061,7 +1061,7 @@
       "source": "FBI report",
       "approx": true,
       "addedOn": "2026-08-14",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-15_deepseek-deepseek-ch_01",
@@ -1152,6 +1152,19 @@
       "source": "[cbsnews.com](https://www.cbsnews.com/news/ufo-files-pentagon-5th-release-documents-videos/)",
       "approx": false,
       "addedOn": "2026-08-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-22_meta-llama-llama-3-3_01",
+      "name": "Cocoa Beach, Florida",
+      "lat": 28.3347,
+      "lng": -80.6074,
+      "cat": "recent",
+      "date": "August 2026",
+      "desc": "Glowing orbs, giant nuclear weapon-like object",
+      "source": "[dailymail.com](https://www.dailymail.com/sciencetech/article-16067531/nasa-charles-buhler-florida-ufo.html)",
+      "approx": false,
+      "addedOn": "2026-08-22",
       "isNew": true
     }
   ]

@@ -1,22 +1,9 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "total": 15,
   "sightings": [
-    {
-      "id": "scan_2026-08-14_meta-llama-llama-3-3_01",
-      "name": "Mountain range in western United States",
-      "lat": 39.7392,
-      "lng": -106.2744,
-      "cat": "recent",
-      "date": "2026",
-      "desc": "Red lights moving along a mountain ridgeline",
-      "source": "FBI report",
-      "approx": true,
-      "addedOn": "2026-08-14",
-      "isNew": true
-    },
     {
       "id": "scan_2026-08-15_deepseek-deepseek-ch_01",
       "name": "Carrollton, Georgia",
@@ -198,6 +185,19 @@
       "source": "naturalnews.com August 20, 2026",
       "approx": false,
       "addedOn": "2026-08-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-22_meta-llama-llama-3-3_01",
+      "name": "Cocoa Beach, Florida",
+      "lat": 28.3347,
+      "lng": -80.6074,
+      "cat": "recent",
+      "date": "August 2026",
+      "desc": "Glowing orbs, giant nuclear weapon-like object",
+      "source": "[dailymail.com](https://www.dailymail.com/sciencetech/article-16067531/nasa-charles-buhler-florida-ufo.html)",
+      "approx": false,
+      "addedOn": "2026-08-22",
       "isNew": true
     }
   ]
