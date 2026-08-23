@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-22",
-  "total": 137,
+  "updated": "2026-08-23",
+  "total": 138,
   "sightings": [
     {
       "id": "r4",
@@ -1779,6 +1779,19 @@
       "source": "snjtoday.com August 2026",
       "approx": false,
       "addedOn": "2026-08-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-23_deepseek-deepseek-ch_01",
+      "name": "Coeur d'Alene, Idaho",
+      "lat": 47.6777,
+      "lng": -116.7805,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Couple recorded 300-400 ft rectangular UFO with blinking lights above tree line at 2 PM on August 14, 2026",
+      "source": "kezj.com August 2026",
+      "approx": false,
+      "addedOn": "2026-08-23",
       "isNew": true
     }
   ]
