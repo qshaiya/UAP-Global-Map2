@@ -3,12 +3,12 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-08-23",
-  "total": 327,
+  "updated": "2026-08-24",
+  "total": 329,
   "categories": {
     "recent": 90,
     "military": 58,
-    "civilian": 138,
+    "civilian": 140,
     "gov": 32,
     "historic": 9
   },
@@ -4078,7 +4078,7 @@
       "source": "DVIDS release August 5, 2026",
       "approx": false,
       "addedOn": "2026-08-16",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-16_deepseek-deepseek-ch_02",
@@ -4091,7 +4091,7 @@
       "source": "Airprox Board report August 15, 2026",
       "approx": false,
       "addedOn": "2026-08-16",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-252d23c07eb4",
@@ -4235,6 +4235,32 @@
       "source": "kezj.com August 2026",
       "approx": false,
       "addedOn": "2026-08-23",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-24_deepseek-deepseek-ch_01",
+      "name": "Coeur d'Alene, Idaho, US",
+      "lat": 47.6777,
+      "lng": -116.7805,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Couple recorded 300-400 ft rectangular UFO with multiple colored lights hovering over tree line at 2 PM",
+      "source": "NUFORC Report #200185, August 21 2026",
+      "approx": false,
+      "addedOn": "2026-08-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-08-24_deepseek-deepseek-ch_02",
+      "name": "Colorado Springs, Colorado, US",
+      "lat": 38.8339,
+      "lng": -104.8214,
+      "cat": "civilian",
+      "date": "October 2023",
+      "desc": "Dark triangular object with red lights emerging from pixelated cloud, witnessed by government employee",
+      "source": "Department of War PURSUE Release 05, August 7 2026",
+      "approx": false,
+      "addedOn": "2026-08-24",
       "isNew": true
     }
   ]
