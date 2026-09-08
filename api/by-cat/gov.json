@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-08-24",
+  "updated": "2026-09-08",
   "total": 32,
   "sightings": [
     {
@@ -404,7 +404,7 @@
       "source": "Gazette.com August 8, 2026",
       "approx": false,
       "addedOn": "2026-08-19",
-      "isNew": true
+      "isNew": false
     }
   ]
 }

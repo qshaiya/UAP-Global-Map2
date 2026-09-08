@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-08-24",
-  "total": 140,
+  "updated": "2026-09-08",
+  "total": 143,
   "sightings": [
     {
       "id": "r4",
@@ -1779,7 +1779,7 @@
       "source": "snjtoday.com August 2026",
       "approx": false,
       "addedOn": "2026-08-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-23_deepseek-deepseek-ch_01",
@@ -1792,7 +1792,7 @@
       "source": "kezj.com August 2026",
       "approx": false,
       "addedOn": "2026-08-23",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-24_deepseek-deepseek-ch_01",
@@ -1805,7 +1805,7 @@
       "source": "NUFORC Report #200185, August 21 2026",
       "approx": false,
       "addedOn": "2026-08-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-08-24_deepseek-deepseek-ch_02",
@@ -1818,6 +1818,45 @@
       "source": "Department of War PURSUE Release 05, August 7 2026",
       "approx": false,
       "addedOn": "2026-08-24",
+      "isNew": false
+    },
+    {
+      "id": "scan_2026-09-08_deepseek-deepseek-ch_01",
+      "name": "Irvine, California, USA",
+      "lat": 33.6846,
+      "lng": -117.8265,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "White object observed west of John Wayne Airport moving slowly over ocean before disappearing, NUFORC #200653",
+      "source": "ufosightingsdaily.com September 6, 2026",
+      "approx": false,
+      "addedOn": "2026-09-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-08_deepseek-deepseek-ch_02",
+      "name": "Kiev, Ukraine",
+      "lat": 50.4501,
+      "lng": 30.5234,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Unusual aerial phenomena reported over Ukrainian capital, details emerging from public reports",
+      "source": "news-pravda.com September 8, 2026",
+      "approx": false,
+      "addedOn": "2026-09-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-08_deepseek-deepseek-ch_03",
+      "name": "Blakely, Pennsylvania, USA",
+      "lat": 41.4809,
+      "lng": -75.5946,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Bright silent object hovering and accelerating vertically during dog walk, submitted as NUFORC #200502",
+      "source": "usaherald.com September 6, 2026",
+      "approx": false,
+      "addedOn": "2026-09-08",
       "isNew": true
     }
   ]
