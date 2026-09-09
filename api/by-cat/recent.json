@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-09-08",
-  "total": 91,
+  "updated": "2026-09-09",
+  "total": 94,
   "sightings": [
     {
       "id": "r14",
@@ -1178,6 +1178,45 @@
       "source": "usaherald.com",
       "approx": false,
       "addedOn": "2026-09-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-09_meta-llama-llama-3-3_01",
+      "name": "Yemen",
+      "lat": 15.0,
+      "lng": 48.0,
+      "cat": "recent",
+      "date": "October 2024",
+      "desc": "UAP sighting: orb hit by Hellfire missile",
+      "source": "nbcnews.com, 09 September 2026",
+      "approx": false,
+      "addedOn": "2026-09-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-09_meta-llama-llama-3-3_02",
+      "name": "Vandenberg Space Force Base, California",
+      "lat": 34.7,
+      "lng": -120.5,
+      "cat": "recent",
+      "date": "2003-2005",
+      "desc": "UAP sightings: massive objects like flying buildings",
+      "source": "defensescoop.com, 09 September 2026",
+      "approx": false,
+      "addedOn": "2026-09-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-09_meta-llama-llama-3-3_03",
+      "name": "USS Jackson",
+      "lat": 0.0,
+      "lng": 0.0,
+      "cat": "recent",
+      "date": "2023",
+      "desc": "UAP sighting: self-luminous Tic Tac-shaped object",
+      "source": "defensescoop.com, 09 September 2026",
+      "approx": true,
+      "addedOn": "2026-09-09",
       "isNew": true
     }
   ]

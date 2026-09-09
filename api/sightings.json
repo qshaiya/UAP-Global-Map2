@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-09-08",
-  "total": 333,
+  "updated": "2026-09-09",
+  "total": 337,
   "categories": {
-    "recent": 91,
+    "recent": 94,
     "military": 58,
-    "civilian": 143,
+    "civilian": 144,
     "gov": 32,
     "historic": 9
   },
-  "approximate_locations": 49,
+  "approximate_locations": 50,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -4313,6 +4313,58 @@
       "source": "usaherald.com",
       "approx": false,
       "addedOn": "2026-09-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-09_deepseek-deepseek-ch_01",
+      "name": "Wicklow Coast, Ireland",
+      "lat": 52.9805,
+      "lng": -6.0427,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Large unidentified drone spotted over Irish Sea by commercial pilot approaching Dublin Airport, Gardaí investigating",
+      "source": "eastcoast.fm, September 9, 2026",
+      "approx": false,
+      "addedOn": "2026-09-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-09_meta-llama-llama-3-3_01",
+      "name": "Yemen",
+      "lat": 15.0,
+      "lng": 48.0,
+      "cat": "recent",
+      "date": "October 2024",
+      "desc": "UAP sighting: orb hit by Hellfire missile",
+      "source": "nbcnews.com, 09 September 2026",
+      "approx": false,
+      "addedOn": "2026-09-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-09_meta-llama-llama-3-3_02",
+      "name": "Vandenberg Space Force Base, California",
+      "lat": 34.7,
+      "lng": -120.5,
+      "cat": "recent",
+      "date": "2003-2005",
+      "desc": "UAP sightings: massive objects like flying buildings",
+      "source": "defensescoop.com, 09 September 2026",
+      "approx": false,
+      "addedOn": "2026-09-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-09_meta-llama-llama-3-3_03",
+      "name": "USS Jackson",
+      "lat": 0.0,
+      "lng": 0.0,
+      "cat": "recent",
+      "date": "2023",
+      "desc": "UAP sighting: self-luminous Tic Tac-shaped object",
+      "source": "defensescoop.com, 09 September 2026",
+      "approx": true,
+      "addedOn": "2026-09-09",
       "isNew": true
     }
   ]

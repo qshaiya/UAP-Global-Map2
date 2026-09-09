@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-09-08",
-  "total": 143,
+  "updated": "2026-09-09",
+  "total": 144,
   "sightings": [
     {
       "id": "r4",
@@ -1857,6 +1857,19 @@
       "source": "usaherald.com September 6, 2026",
       "approx": false,
       "addedOn": "2026-09-08",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-09_deepseek-deepseek-ch_01",
+      "name": "Wicklow Coast, Ireland",
+      "lat": 52.9805,
+      "lng": -6.0427,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Large unidentified drone spotted over Irish Sea by commercial pilot approaching Dublin Airport, Gardaí investigating",
+      "source": "eastcoast.fm, September 9, 2026",
+      "approx": false,
+      "addedOn": "2026-09-09",
       "isNew": true
     }
   ]
