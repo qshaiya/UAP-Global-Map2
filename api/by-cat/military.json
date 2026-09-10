@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-09-09",
-  "total": 58,
+  "updated": "2026-09-10",
+  "total": 60,
   "sightings": [
     {
       "id": "r2",
@@ -743,6 +743,32 @@
       "approx": false,
       "addedOn": "2026-08-21",
       "isNew": false
+    },
+    {
+      "id": "scan_2026-09-10_deepseek-deepseek-ch_01",
+      "name": "Bench, Idaho, USA",
+      "lat": 42.47801,
+      "lng": -111.58506,
+      "cat": "military",
+      "date": "September 2026",
+      "desc": "Former soldier reports military jets chased triangular multi-colored UAPs performing impossible maneuvers near Caribou County",
+      "source": "kezj.com September 9, 2026",
+      "approx": false,
+      "addedOn": "2026-09-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-10_deepseek-deepseek-ch_02",
+      "name": "Virginia Beach, Virginia, USA",
+      "lat": 36.8529,
+      "lng": -75.978,
+      "cat": "military",
+      "date": "September 2026",
+      "desc": "Navy tracked ~100 unidentified aerial craft and 2 unmanned surface vessels off Virginia coast between May 2024-2025",
+      "source": "ffgrv.com September 9, 2026",
+      "approx": false,
+      "addedOn": "2026-09-10",
+      "isNew": true
     }
   ]
 }

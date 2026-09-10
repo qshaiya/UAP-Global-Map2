@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-09-09",
-  "total": 94,
+  "updated": "2026-09-10",
+  "total": 97,
   "sightings": [
     {
       "id": "r14",
@@ -1217,6 +1217,45 @@
       "source": "defensescoop.com, 09 September 2026",
       "approx": true,
       "addedOn": "2026-09-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-10_meta-llama-llama-3-3_01",
+      "name": "Southern Idaho",
+      "lat": 42.0,
+      "lng": -111.0,
+      "cat": "recent",
+      "date": "September 4, 2026",
+      "desc": "UAP sighting near Bench, Idaho",
+      "source": "kezj.com",
+      "approx": false,
+      "addedOn": "2026-09-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-10_meta-llama-llama-3-3_03",
+      "name": "Aegean Sea",
+      "lat": 38.0,
+      "lng": 25.0,
+      "cat": "recent",
+      "date": "2023",
+      "desc": "UAP flying just above the surface of the ocean",
+      "source": "infonews.ca",
+      "approx": false,
+      "addedOn": "2026-09-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-10_meta-llama-llama-3-3_04",
+      "name": "Virginia Beach",
+      "lat": 36.0,
+      "lng": -76.0,
+      "cat": "recent",
+      "date": "May 2024",
+      "desc": "U.S. Navy assets tracked roughly one hundred unidentified aerial craft",
+      "source": "ffgrv.com",
+      "approx": false,
+      "addedOn": "2026-09-10",
       "isNew": true
     }
   ]
