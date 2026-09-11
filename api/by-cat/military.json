@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-09-10",
-  "total": 60,
+  "updated": "2026-09-11",
+  "total": 62,
   "sightings": [
     {
       "id": "r2",
@@ -768,6 +768,32 @@
       "source": "ffgrv.com September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-11_deepseek-deepseek-ch_02",
+      "name": "Caribou County, Idaho, USA",
+      "lat": 42.47801,
+      "lng": -111.58506,
+      "cat": "military",
+      "date": "September 2026",
+      "desc": "Three triangular multi-colored UAPs performing impossible maneuvers with military jet pursuit",
+      "source": "kezj.com September 9, 2026",
+      "approx": false,
+      "addedOn": "2026-09-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-11_deepseek-deepseek-ch_04",
+      "name": "Virginia Beach Coast, USA",
+      "lat": 36.8529,
+      "lng": -75.978,
+      "cat": "military",
+      "date": "May 2024-May 2025",
+      "desc": "100 unidentified craft tracked by Navy alongside unmanned surface vessels, official AARO report",
+      "source": "ffgrv.com September 9, 2026",
+      "approx": false,
+      "addedOn": "2026-09-11",
       "isNew": true
     }
   ]

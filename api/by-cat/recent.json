@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-09-10",
-  "total": 97,
+  "updated": "2026-09-11",
+  "total": 101,
   "sightings": [
     {
       "id": "r14",
@@ -1256,6 +1256,58 @@
       "source": "ffgrv.com",
       "approx": false,
       "addedOn": "2026-09-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-11_deepseek-deepseek-ch_01",
+      "name": "Centralia, Illinois, USA",
+      "lat": 38.527,
+      "lng": -89.1334,
+      "cat": "recent",
+      "date": "August 2026",
+      "desc": "Triangle lights size of football field, silent movement, video evidence captured during morning walk",
+      "source": "101theeagle.com September 10, 2026",
+      "approx": false,
+      "addedOn": "2026-09-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-11_deepseek-deepseek-ch_03",
+      "name": "North Fort Myers, Florida, USA",
+      "lat": 26.6676,
+      "lng": -81.8801,
+      "cat": "recent",
+      "date": "June 2026",
+      "desc": "Football field-sized dark metallic disc with dome and symbol-like lights, rotating slowly in storm clouds",
+      "source": "worldufophotosandnews.org September 8, 2026",
+      "approx": false,
+      "addedOn": "2026-09-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-11_meta-llama-llama-3-3_01",
+      "name": "Caribou County, Idaho",
+      "lat": 42.47801,
+      "lng": -111.58506,
+      "cat": "recent",
+      "date": "September 4, 2026",
+      "desc": "Triangular UAPs chased by military jets",
+      "source": "[kezj.com](https://kezj.com/ixp/97/p/ufo-sightings-idaho-military-jets-uaps/)",
+      "approx": false,
+      "addedOn": "2026-09-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-11_meta-llama-llama-3-3_02",
+      "name": "Centralia, Illinois",
+      "lat": 38.5228,
+      "lng": -89.1353,
+      "cat": "recent",
+      "date": "August 28, 2026",
+      "desc": "Triangle of lights, size of a football field",
+      "source": "[101theeagle.com](https://101theeagle.com/centralia-illinois-triangle-lights/)",
+      "approx": false,
+      "addedOn": "2026-09-11",
       "isNew": true
     }
   ]
