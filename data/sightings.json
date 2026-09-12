@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-11",
-  "count": 350,
+  "updated": "2026-09-12",
+  "count": 352,
   "sightings": [
     {
       "id": "r1",
@@ -4505,6 +4505,32 @@
       "source": "[101theeagle.com](https://101theeagle.com/centralia-illinois-triangle-lights/)",
       "approx": false,
       "addedOn": "2026-09-11",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-12_deepseek-deepseek-ch_01",
+      "name": "Seminyak, Bali, Indonesia",
+      "lat": -8.6833,
+      "lng": 115.1667,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Former RAF serviceman filmed three triangular UFOs hovering silently above hotel for 20 minutes with flashing colored lights",
+      "source": "ibtimes.co.uk September 12, 2026",
+      "approx": false,
+      "addedOn": "2026-09-12",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-12_meta-llama-llama-3-3_01",
+      "name": "Bali, Indonesia",
+      "lat": -8.0,
+      "lng": 115.0,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Triangular UFOs spotted by ex-RAF witness",
+      "source": "[ibtimes.co.uk](https://www.ibtimes.co.uk/hovered-above-hotel-20-minutes-ex-raf-witness-films-suspected-alien-triangular-ufos-bali-1819276)",
+      "approx": false,
+      "addedOn": "2026-09-12",
       "isNew": true
     }
   ]

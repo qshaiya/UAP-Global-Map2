@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-09-11",
-  "total": 144,
+  "updated": "2026-09-12",
+  "total": 145,
   "sightings": [
     {
       "id": "r4",
@@ -1870,6 +1870,19 @@
       "source": "eastcoast.fm, September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-09",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-12_deepseek-deepseek-ch_01",
+      "name": "Seminyak, Bali, Indonesia",
+      "lat": -8.6833,
+      "lng": 115.1667,
+      "cat": "civilian",
+      "date": "July 2026",
+      "desc": "Former RAF serviceman filmed three triangular UFOs hovering silently above hotel for 20 minutes with flashing colored lights",
+      "source": "ibtimes.co.uk September 12, 2026",
+      "approx": false,
+      "addedOn": "2026-09-12",
       "isNew": true
     }
   ]
