@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13",
-  "count": 353,
+  "updated": "2026-09-14",
+  "count": 354,
   "sightings": [
     {
       "id": "r1",
@@ -4546,6 +4546,19 @@
       "addedOn": "2026-09-13",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-09-14_deepseek-deepseek-ch_01",
+      "name": "Varėna, Lithuania",
+      "lat": 54.2167,
+      "lng": 24.5667,
+      "cat": "military",
+      "date": "September 2026",
+      "desc": "Unidentified object crossed Lithuanian airspace from Belarus, traveled 60-70 km before entering Kaliningrad airspace",
+      "source": "lrt.lt September 14, 2026",
+      "approx": false,
+      "addedOn": "2026-09-14",
+      "isNew": true
     }
   ]
 }
