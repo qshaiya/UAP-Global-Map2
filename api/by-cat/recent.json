@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-09-14",
-  "total": 102,
+  "updated": "2026-09-15",
+  "total": 103,
   "sightings": [
     {
       "id": "r14",
@@ -1321,6 +1321,19 @@
       "source": "[ibtimes.co.uk](https://www.ibtimes.co.uk/hovered-above-hotel-20-minutes-ex-raf-witness-films-suspected-alien-triangular-ufos-bali-1819276)",
       "approx": false,
       "addedOn": "2026-09-12",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-15_meta-llama-llama-3-3_01",
+      "name": "Seminyak, Bali",
+      "lat": -8.6888,
+      "lng": 115.1644,
+      "cat": "recent",
+      "date": "July 2026",
+      "desc": "Ex-RAF witness films suspected alien triangular UFOs",
+      "source": "IBTimes UK, September 12, 2026",
+      "approx": false,
+      "addedOn": "2026-09-15",
       "isNew": true
     }
   ]

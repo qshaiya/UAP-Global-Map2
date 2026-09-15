@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-09-14",
-  "total": 146,
+  "updated": "2026-09-15",
+  "total": 147,
   "sightings": [
     {
       "id": "r4",
@@ -1898,6 +1898,19 @@
       "addedOn": "2026-09-13",
       "isNew": false,
       "legacy": true
+    },
+    {
+      "id": "scan_2026-09-15_deepseek-deepseek-ch_01",
+      "name": "Kearney, Missouri, USA",
+      "lat": 39.36778,
+      "lng": -94.36217,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Spinning light beams alternating green/white seen over fishing trail, no solid object visible",
+      "source": "101theeagle.com September 14, 2026",
+      "approx": false,
+      "addedOn": "2026-09-15",
+      "isNew": true
     }
   ]
 }
