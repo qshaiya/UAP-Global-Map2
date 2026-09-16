@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "total": 103,
   "sightings": [
     {
@@ -1178,7 +1178,7 @@
       "source": "usaherald.com",
       "approx": false,
       "addedOn": "2026-09-08",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-09_meta-llama-llama-3-3_01",

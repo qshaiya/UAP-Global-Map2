@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-15",
-  "count": 356,
+  "updated": "2026-09-16",
+  "count": 357,
   "sightings": [
     {
       "id": "r1",
@@ -4245,7 +4245,7 @@
       "source": "ufosightingsdaily.com September 6, 2026",
       "approx": false,
       "addedOn": "2026-09-08",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-08_deepseek-deepseek-ch_02",
@@ -4258,7 +4258,7 @@
       "source": "news-pravda.com September 8, 2026",
       "approx": false,
       "addedOn": "2026-09-08",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-08_deepseek-deepseek-ch_03",
@@ -4271,7 +4271,7 @@
       "source": "usaherald.com September 6, 2026",
       "approx": false,
       "addedOn": "2026-09-08",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-08_meta-llama-llama-3-3_01",
@@ -4284,7 +4284,7 @@
       "source": "usaherald.com",
       "approx": false,
       "addedOn": "2026-09-08",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-09_deepseek-deepseek-ch_01",
@@ -4584,6 +4584,19 @@
       "source": "IBTimes UK, September 12, 2026",
       "approx": false,
       "addedOn": "2026-09-15",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-16_deepseek-deepseek-ch_01",
+      "name": "Hereford, UK",
+      "lat": 52.0567,
+      "lng": -2.7161,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Multiple streaks of colored lights seen moving across night sky by two separate witnesses on September 12 and 15",
+      "source": "herefordtimes.com September 16, 2026",
+      "approx": false,
+      "addedOn": "2026-09-16",
       "isNew": true
     }
   ]
