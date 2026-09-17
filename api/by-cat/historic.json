@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: historic",
   "category": "historic",
-  "updated": "2026-09-16",
-  "total": 11,
+  "updated": "2026-09-17",
+  "total": 12,
   "sightings": [
     {
       "id": "r1",
@@ -144,6 +144,19 @@
       "source": "defensescoop.com",
       "approx": false,
       "addedOn": "2026-09-10",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-17_meta-llama-llama-3-3_02",
+      "name": "California coast",
+      "lat": 34.0,
+      "lng": -119.0,
+      "cat": "historic",
+      "date": "November 2004",
+      "desc": "UAP sighting reported by former U.S. Navy commanding officer",
+      "source": "newsweek.com",
+      "approx": true,
+      "addedOn": "2026-09-17",
       "isNew": true
     }
   ]

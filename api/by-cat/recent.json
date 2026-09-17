@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-09-16",
-  "total": 103,
+  "updated": "2026-09-17",
+  "total": 104,
   "sightings": [
     {
       "id": "r14",
@@ -1191,7 +1191,7 @@
       "source": "nbcnews.com, 09 September 2026",
       "approx": false,
       "addedOn": "2026-09-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-09_meta-llama-llama-3-3_02",
@@ -1204,7 +1204,7 @@
       "source": "defensescoop.com, 09 September 2026",
       "approx": false,
       "addedOn": "2026-09-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-09_meta-llama-llama-3-3_03",
@@ -1217,7 +1217,7 @@
       "source": "defensescoop.com, 09 September 2026",
       "approx": true,
       "addedOn": "2026-09-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-10_meta-llama-llama-3-3_01",
@@ -1334,6 +1334,19 @@
       "source": "IBTimes UK, September 12, 2026",
       "approx": false,
       "addedOn": "2026-09-15",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-17_meta-llama-llama-3-3_01",
+      "name": "Langley Air Force Base",
+      "lat": 37.0833,
+      "lng": -76.3667,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "UAP sighting reported by former Air Force geospatial intelligence specialist",
+      "source": "wired.com",
+      "approx": false,
+      "addedOn": "2026-09-17",
       "isNew": true
     }
   ]

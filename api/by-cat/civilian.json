@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-09-16",
-  "total": 148,
+  "updated": "2026-09-17",
+  "total": 149,
   "sightings": [
     {
       "id": "r4",
@@ -1870,7 +1870,7 @@
       "source": "eastcoast.fm, September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-12_deepseek-deepseek-ch_01",
@@ -1923,6 +1923,19 @@
       "source": "herefordtimes.com September 16, 2026",
       "approx": false,
       "addedOn": "2026-09-16",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-17_deepseek-deepseek-ch_01",
+      "name": "Hereford, United Kingdom",
+      "lat": 52.0565,
+      "lng": -2.7167,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Multiple streaks of light with red and blue colors spotted by residents on September 12 and 15, described as rainbow-like display",
+      "source": "herefordtimes.com, September 16, 2026",
+      "approx": false,
+      "addedOn": "2026-09-17",
       "isNew": true
     }
   ]

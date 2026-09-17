@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-09-16",
-  "total": 357,
+  "updated": "2026-09-17",
+  "total": 360,
   "categories": {
-    "recent": 103,
+    "recent": 104,
     "military": 63,
-    "civilian": 148,
+    "civilian": 149,
     "gov": 32,
-    "historic": 11
+    "historic": 12
   },
-  "approximate_locations": 50,
+  "approximate_locations": 51,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -4326,7 +4326,7 @@
       "source": "eastcoast.fm, September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-09_meta-llama-llama-3-3_01",
@@ -4339,7 +4339,7 @@
       "source": "nbcnews.com, 09 September 2026",
       "approx": false,
       "addedOn": "2026-09-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-09_meta-llama-llama-3-3_02",
@@ -4352,7 +4352,7 @@
       "source": "defensescoop.com, 09 September 2026",
       "approx": false,
       "addedOn": "2026-09-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-09_meta-llama-llama-3-3_03",
@@ -4365,7 +4365,7 @@
       "source": "defensescoop.com, 09 September 2026",
       "approx": true,
       "addedOn": "2026-09-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-10_deepseek-deepseek-ch_01",
@@ -4626,6 +4626,45 @@
       "source": "herefordtimes.com September 16, 2026",
       "approx": false,
       "addedOn": "2026-09-16",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-17_deepseek-deepseek-ch_01",
+      "name": "Hereford, United Kingdom",
+      "lat": 52.0565,
+      "lng": -2.7167,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Multiple streaks of light with red and blue colors spotted by residents on September 12 and 15, described as rainbow-like display",
+      "source": "herefordtimes.com, September 16, 2026",
+      "approx": false,
+      "addedOn": "2026-09-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-17_meta-llama-llama-3-3_01",
+      "name": "Langley Air Force Base",
+      "lat": 37.0833,
+      "lng": -76.3667,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "UAP sighting reported by former Air Force geospatial intelligence specialist",
+      "source": "wired.com",
+      "approx": false,
+      "addedOn": "2026-09-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-17_meta-llama-llama-3-3_02",
+      "name": "California coast",
+      "lat": 34.0,
+      "lng": -119.0,
+      "cat": "historic",
+      "date": "November 2004",
+      "desc": "UAP sighting reported by former U.S. Navy commanding officer",
+      "source": "newsweek.com",
+      "approx": true,
+      "addedOn": "2026-09-17",
       "isNew": true
     }
   ]

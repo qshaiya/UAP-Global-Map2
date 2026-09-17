@@ -1,61 +1,9 @@
 {
   "api_version": "1.0",
   "description": "SENTINEL-7 — sightings added or confirmed in the last 7 days",
-  "updated": "2026-09-16",
-  "total": 24,
+  "updated": "2026-09-17",
+  "total": 23,
   "sightings": [
-    {
-      "id": "scan_2026-09-09_deepseek-deepseek-ch_01",
-      "name": "Wicklow Coast, Ireland",
-      "lat": 52.9805,
-      "lng": -6.0427,
-      "cat": "civilian",
-      "date": "September 2026",
-      "desc": "Large unidentified drone spotted over Irish Sea by commercial pilot approaching Dublin Airport, Gardaí investigating",
-      "source": "eastcoast.fm, September 9, 2026",
-      "approx": false,
-      "addedOn": "2026-09-09",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-09-09_meta-llama-llama-3-3_01",
-      "name": "Yemen",
-      "lat": 15.0,
-      "lng": 48.0,
-      "cat": "recent",
-      "date": "October 2024",
-      "desc": "UAP sighting: orb hit by Hellfire missile",
-      "source": "nbcnews.com, 09 September 2026",
-      "approx": false,
-      "addedOn": "2026-09-09",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-09-09_meta-llama-llama-3-3_02",
-      "name": "Vandenberg Space Force Base, California",
-      "lat": 34.7,
-      "lng": -120.5,
-      "cat": "recent",
-      "date": "2003-2005",
-      "desc": "UAP sightings: massive objects like flying buildings",
-      "source": "defensescoop.com, 09 September 2026",
-      "approx": false,
-      "addedOn": "2026-09-09",
-      "isNew": true
-    },
-    {
-      "id": "scan_2026-09-09_meta-llama-llama-3-3_03",
-      "name": "USS Jackson",
-      "lat": 0.0,
-      "lng": 0.0,
-      "cat": "recent",
-      "date": "2023",
-      "desc": "UAP sighting: self-luminous Tic Tac-shaped object",
-      "source": "defensescoop.com, 09 September 2026",
-      "approx": true,
-      "addedOn": "2026-09-09",
-      "isNew": true
-    },
     {
       "id": "scan_2026-09-10_deepseek-deepseek-ch_01",
       "name": "Bench, Idaho, USA",
@@ -315,6 +263,45 @@
       "source": "herefordtimes.com September 16, 2026",
       "approx": false,
       "addedOn": "2026-09-16",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-17_deepseek-deepseek-ch_01",
+      "name": "Hereford, United Kingdom",
+      "lat": 52.0565,
+      "lng": -2.7167,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Multiple streaks of light with red and blue colors spotted by residents on September 12 and 15, described as rainbow-like display",
+      "source": "herefordtimes.com, September 16, 2026",
+      "approx": false,
+      "addedOn": "2026-09-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-17_meta-llama-llama-3-3_01",
+      "name": "Langley Air Force Base",
+      "lat": 37.0833,
+      "lng": -76.3667,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "UAP sighting reported by former Air Force geospatial intelligence specialist",
+      "source": "wired.com",
+      "approx": false,
+      "addedOn": "2026-09-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-17_meta-llama-llama-3-3_02",
+      "name": "California coast",
+      "lat": 34.0,
+      "lng": -119.0,
+      "cat": "historic",
+      "date": "November 2004",
+      "desc": "UAP sighting reported by former U.S. Navy commanding officer",
+      "source": "newsweek.com",
+      "approx": true,
+      "addedOn": "2026-09-17",
       "isNew": true
     }
   ]
