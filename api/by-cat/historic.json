@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: historic",
   "category": "historic",
-  "updated": "2026-09-17",
+  "updated": "2026-09-20",
   "total": 12,
   "sightings": [
     {
@@ -131,7 +131,7 @@
       "source": "infonews.ca",
       "approx": false,
       "addedOn": "2026-09-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-10_meta-llama-llama-3-3_05",
@@ -144,7 +144,7 @@
       "source": "defensescoop.com",
       "approx": false,
       "addedOn": "2026-09-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-17_meta-llama-llama-3-3_02",

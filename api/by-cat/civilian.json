@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-09-17",
+  "updated": "2026-09-20",
   "total": 149,
   "sightings": [
     {
@@ -1883,7 +1883,7 @@
       "source": "ibtimes.co.uk September 12, 2026",
       "approx": false,
       "addedOn": "2026-09-12",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-ec3548a35084",

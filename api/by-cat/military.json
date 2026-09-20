@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-09-17",
+  "updated": "2026-09-20",
   "total": 63,
   "sightings": [
     {
@@ -755,7 +755,7 @@
       "source": "kezj.com September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-10_deepseek-deepseek-ch_02",
@@ -768,7 +768,7 @@
       "source": "ffgrv.com September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-11_deepseek-deepseek-ch_02",
@@ -781,7 +781,7 @@
       "source": "kezj.com September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-11_deepseek-deepseek-ch_04",
@@ -794,7 +794,7 @@
       "source": "ffgrv.com September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-14_deepseek-deepseek-ch_01",

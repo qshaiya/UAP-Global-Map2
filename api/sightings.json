@@ -3,10 +3,10 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-09-17",
-  "total": 360,
+  "updated": "2026-09-20",
+  "total": 364,
   "categories": {
-    "recent": 104,
+    "recent": 108,
     "military": 63,
     "civilian": 149,
     "gov": 32,
@@ -4378,7 +4378,7 @@
       "source": "kezj.com September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-10_deepseek-deepseek-ch_02",
@@ -4391,7 +4391,7 @@
       "source": "ffgrv.com September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-10_meta-llama-llama-3-3_01",
@@ -4404,7 +4404,7 @@
       "source": "kezj.com",
       "approx": false,
       "addedOn": "2026-09-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-10_meta-llama-llama-3-3_02",
@@ -4417,7 +4417,7 @@
       "source": "infonews.ca",
       "approx": false,
       "addedOn": "2026-09-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-10_meta-llama-llama-3-3_03",
@@ -4430,7 +4430,7 @@
       "source": "infonews.ca",
       "approx": false,
       "addedOn": "2026-09-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-10_meta-llama-llama-3-3_04",
@@ -4443,7 +4443,7 @@
       "source": "ffgrv.com",
       "approx": false,
       "addedOn": "2026-09-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-10_meta-llama-llama-3-3_05",
@@ -4456,7 +4456,7 @@
       "source": "defensescoop.com",
       "approx": false,
       "addedOn": "2026-09-10",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-11_deepseek-deepseek-ch_01",
@@ -4469,7 +4469,7 @@
       "source": "101theeagle.com September 10, 2026",
       "approx": false,
       "addedOn": "2026-09-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-11_deepseek-deepseek-ch_02",
@@ -4482,7 +4482,7 @@
       "source": "kezj.com September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-11_deepseek-deepseek-ch_03",
@@ -4495,7 +4495,7 @@
       "source": "worldufophotosandnews.org September 8, 2026",
       "approx": false,
       "addedOn": "2026-09-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-11_deepseek-deepseek-ch_04",
@@ -4508,7 +4508,7 @@
       "source": "ffgrv.com September 9, 2026",
       "approx": false,
       "addedOn": "2026-09-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-11_meta-llama-llama-3-3_01",
@@ -4521,7 +4521,7 @@
       "source": "[kezj.com](https://kezj.com/ixp/97/p/ufo-sightings-idaho-military-jets-uaps/)",
       "approx": false,
       "addedOn": "2026-09-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-11_meta-llama-llama-3-3_02",
@@ -4534,7 +4534,7 @@
       "source": "[101theeagle.com](https://101theeagle.com/centralia-illinois-triangle-lights/)",
       "approx": false,
       "addedOn": "2026-09-11",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-12_deepseek-deepseek-ch_01",
@@ -4547,7 +4547,7 @@
       "source": "ibtimes.co.uk September 12, 2026",
       "approx": false,
       "addedOn": "2026-09-12",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-12_meta-llama-llama-3-3_01",
@@ -4560,7 +4560,7 @@
       "source": "[ibtimes.co.uk](https://www.ibtimes.co.uk/hovered-above-hotel-20-minutes-ex-raf-witness-films-suspected-alien-triangular-ufos-bali-1819276)",
       "approx": false,
       "addedOn": "2026-09-12",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "legacy_auto-ec3548a35084",
@@ -4665,6 +4665,58 @@
       "source": "newsweek.com",
       "approx": true,
       "addedOn": "2026-09-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-20_deepseek-deepseek-ch_01",
+      "name": "Berezlogi, Moldova",
+      "lat": 47.3833,
+      "lng": 28.8167,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Resident reported flying object resembling drone in sky around 1:50 AM, police investigation found no debris or impact marks",
+      "source": "moldpres.md September 20, 2026",
+      "approx": false,
+      "addedOn": "2026-09-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-20_deepseek-deepseek-ch_02",
+      "name": "Dereneu, Moldova",
+      "lat": 47.2667,
+      "lng": 28.3,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Resident reported bright light followed by explosion in sky around 2:00 AM, police investigation found no debris or impact marks",
+      "source": "moldpres.md September 20, 2026",
+      "approx": false,
+      "addedOn": "2026-09-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-20_deepseek-deepseek-ch_03",
+      "name": "Wheat Ridge, Colorado, USA",
+      "lat": 39.7667,
+      "lng": -105.0833,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Fishermen observed glowing lights changing colors over night fishing location, described as huge UFO with color changes",
+      "source": "techno-news.danielepais.com September 19, 2026",
+      "approx": false,
+      "addedOn": "2026-09-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-20_deepseek-deepseek-ch_04",
+      "name": "Lakewood, Colorado, USA",
+      "lat": 39.7047,
+      "lng": -105.0814,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Witness recorded silent, shape-changing silver/metallic object that appeared partly transparent before abruptly vanishing after 30 seconds",
+      "source": "garnerreport.com September 17, 2026",
+      "approx": false,
+      "addedOn": "2026-09-20",
       "isNew": true
     }
   ]
