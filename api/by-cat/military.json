@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-09-20",
-  "total": 63,
+  "updated": "2026-09-21",
+  "total": 64,
   "sightings": [
     {
       "id": "r2",
@@ -807,6 +807,19 @@
       "source": "lrt.lt September 14, 2026",
       "approx": false,
       "addedOn": "2026-09-14",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-21_deepseek-deepseek-ch_01",
+      "name": "Tabani, Moldova",
+      "lat": 48.3667,
+      "lng": 27.0833,
+      "cat": "military",
+      "date": "September 2026",
+      "desc": "Unidentified aerial object entered Moldovan airspace from Ukraine, tracked across northern regions before disappearing near Tabani village at 00:44",
+      "source": "moldovalive.md September 21, 2026",
+      "approx": false,
+      "addedOn": "2026-09-21",
       "isNew": true
     }
   ]

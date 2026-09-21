@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-09-20",
-  "total": 108,
+  "updated": "2026-09-21",
+  "total": 109,
   "sightings": [
     {
       "id": "r14",
@@ -1399,6 +1399,19 @@
       "source": "garnerreport.com September 17, 2026",
       "approx": false,
       "addedOn": "2026-09-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-21_meta-llama-llama-3-3_01",
+      "name": "Moldova",
+      "lat": 47.0333,
+      "lng": 28.6333,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Unidentified aerial object",
+      "source": "moldovalive.md",
+      "approx": true,
+      "addedOn": "2026-09-21",
       "isNew": true
     }
   ]

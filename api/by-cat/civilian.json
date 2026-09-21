@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-09-20",
-  "total": 149,
+  "updated": "2026-09-21",
+  "total": 150,
   "sightings": [
     {
       "id": "r4",
@@ -1936,6 +1936,19 @@
       "source": "herefordtimes.com, September 16, 2026",
       "approx": false,
       "addedOn": "2026-09-17",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-21_deepseek-deepseek-ch_02",
+      "name": "Mashhad, Iran",
+      "lat": 36.2605,
+      "lng": 59.6168,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Second UAP sighting reported over Mashhad on same night as Tehran incident, showing different type of aerial phenomenon near Turkmenistan border",
+      "source": "intellinews.com September 21, 2026",
+      "approx": false,
+      "addedOn": "2026-09-21",
       "isNew": true
     }
   ]

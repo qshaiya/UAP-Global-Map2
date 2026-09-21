@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-09-20",
-  "total": 364,
+  "updated": "2026-09-21",
+  "total": 367,
   "categories": {
-    "recent": 108,
-    "military": 63,
-    "civilian": 149,
+    "recent": 109,
+    "military": 64,
+    "civilian": 150,
     "gov": 32,
     "historic": 12
   },
-  "approximate_locations": 51,
+  "approximate_locations": 52,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -4717,6 +4717,45 @@
       "source": "garnerreport.com September 17, 2026",
       "approx": false,
       "addedOn": "2026-09-20",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-21_deepseek-deepseek-ch_01",
+      "name": "Tabani, Moldova",
+      "lat": 48.3667,
+      "lng": 27.0833,
+      "cat": "military",
+      "date": "September 2026",
+      "desc": "Unidentified aerial object entered Moldovan airspace from Ukraine, tracked across northern regions before disappearing near Tabani village at 00:44",
+      "source": "moldovalive.md September 21, 2026",
+      "approx": false,
+      "addedOn": "2026-09-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-21_deepseek-deepseek-ch_02",
+      "name": "Mashhad, Iran",
+      "lat": 36.2605,
+      "lng": 59.6168,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Second UAP sighting reported over Mashhad on same night as Tehran incident, showing different type of aerial phenomenon near Turkmenistan border",
+      "source": "intellinews.com September 21, 2026",
+      "approx": false,
+      "addedOn": "2026-09-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-21_meta-llama-llama-3-3_01",
+      "name": "Moldova",
+      "lat": 47.0333,
+      "lng": 28.6333,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Unidentified aerial object",
+      "source": "moldovalive.md",
+      "approx": true,
+      "addedOn": "2026-09-21",
       "isNew": true
     }
   ]
