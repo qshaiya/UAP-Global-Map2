@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-21",
-  "count": 367,
+  "updated": "2026-09-22",
+  "count": 368,
   "sightings": [
     {
       "id": "r1",
@@ -4558,7 +4558,7 @@
       "source": "lrt.lt September 14, 2026",
       "approx": false,
       "addedOn": "2026-09-14",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-15_deepseek-deepseek-ch_01",
@@ -4727,6 +4727,19 @@
       "source": "moldovalive.md",
       "approx": true,
       "addedOn": "2026-09-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-22_deepseek-deepseek-ch_01",
+      "name": "Zahedan, Iran",
+      "lat": 29.4969,
+      "lng": 60.8629,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Unusual lights moving across sky in southeastern Iran, generating online speculation about drones or aircraft",
+      "source": "moneycontrol.com September 22, 2026",
+      "approx": false,
+      "addedOn": "2026-09-22",
       "isNew": true
     }
   ]
