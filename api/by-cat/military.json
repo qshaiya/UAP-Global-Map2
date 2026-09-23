@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-09-22",
-  "total": 64,
+  "updated": "2026-09-23",
+  "total": 65,
   "sightings": [
     {
       "id": "r2",
@@ -820,6 +820,19 @@
       "source": "moldovalive.md September 21, 2026",
       "approx": false,
       "addedOn": "2026-09-21",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-23_deepseek-deepseek-ch_01",
+      "name": "Colorado (location redacted)",
+      "lat": 39.5501,
+      "lng": -105.7821,
+      "cat": "military",
+      "date": "October 2023",
+      "desc": "Law enforcement officer captured orb-like UAP with red/blue/green flashing lights at 300ft altitude, stationary then approached",
+      "source": "denvergazette.com September 22, 2026",
+      "approx": true,
+      "addedOn": "2026-09-23",
       "isNew": true
     }
   ]

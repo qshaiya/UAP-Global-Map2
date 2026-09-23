@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-22",
-  "count": 368,
+  "updated": "2026-09-23",
+  "count": 370,
   "sightings": [
     {
       "id": "r1",
@@ -4571,7 +4571,7 @@
       "source": "101theeagle.com September 14, 2026",
       "approx": false,
       "addedOn": "2026-09-15",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-15_meta-llama-llama-3-3_01",
@@ -4584,7 +4584,7 @@
       "source": "IBTimes UK, September 12, 2026",
       "approx": false,
       "addedOn": "2026-09-15",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-16_deepseek-deepseek-ch_01",
@@ -4740,6 +4740,32 @@
       "source": "moneycontrol.com September 22, 2026",
       "approx": false,
       "addedOn": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-23_deepseek-deepseek-ch_01",
+      "name": "Colorado (location redacted)",
+      "lat": 39.5501,
+      "lng": -105.7821,
+      "cat": "military",
+      "date": "October 2023",
+      "desc": "Law enforcement officer captured orb-like UAP with red/blue/green flashing lights at 300ft altitude, stationary then approached",
+      "source": "denvergazette.com September 22, 2026",
+      "approx": true,
+      "addedOn": "2026-09-23",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-23_meta-llama-llama-3-3_01",
+      "name": "Cheyenne Mountain, Colorado, USA",
+      "lat": 38.7364,
+      "lng": -104.8544,
+      "cat": "recent",
+      "date": "February 2022",
+      "desc": "UAP sighting reported by former U.S. Army intelligence officer",
+      "source": "[gazette.com](https://gazette.com/2026/09/21/feds-declassify-two-more-pikes-peak-area-uap-sightings/)",
+      "approx": false,
+      "addedOn": "2026-09-23",
       "isNew": true
     }
   ]
