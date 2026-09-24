@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-09-23",
-  "total": 65,
+  "updated": "2026-09-24",
+  "total": 66,
   "sightings": [
     {
       "id": "r2",
@@ -833,6 +833,19 @@
       "source": "denvergazette.com September 22, 2026",
       "approx": true,
       "addedOn": "2026-09-23",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-24_deepseek-deepseek-ch_05",
+      "name": "Middle East (redacted)",
+      "lat": 33.3152,
+      "lng": 44.3661,
+      "cat": "military",
+      "date": "September 2026",
+      "desc": "Declassified Pentagon report shows six small spherical objects flying in tandem, changing direction",
+      "source": "CBS News - 18 September 2026",
+      "approx": true,
+      "addedOn": "2026-09-24",
       "isNew": true
     }
   ]

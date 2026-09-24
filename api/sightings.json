@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-09-23",
-  "total": 370,
+  "updated": "2026-09-24",
+  "total": 375,
   "categories": {
-    "recent": 111,
-    "military": 65,
+    "recent": 114,
+    "military": 66,
     "civilian": 150,
-    "gov": 32,
+    "gov": 33,
     "historic": 12
   },
-  "approximate_locations": 53,
+  "approximate_locations": 55,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -4626,7 +4626,7 @@
       "source": "herefordtimes.com September 16, 2026",
       "approx": false,
       "addedOn": "2026-09-16",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-17_deepseek-deepseek-ch_01",
@@ -4795,6 +4795,71 @@
       "source": "[gazette.com](https://gazette.com/2026/09/21/feds-declassify-two-more-pikes-peak-area-uap-sightings/)",
       "approx": false,
       "addedOn": "2026-09-23",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-24_deepseek-deepseek-ch_01",
+      "name": "Uglich, Russia",
+      "lat": 57.5275,
+      "lng": 38.3317,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Multiple bright red objects seen moving across sky for 25 minutes, changing direction and hovering",
+      "source": "caliber.az - 24 September 2026",
+      "approx": false,
+      "addedOn": "2026-09-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-24_deepseek-deepseek-ch_02",
+      "name": "Colorado, USA",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "cat": "gov",
+      "date": "September 2026",
+      "desc": "Declassified law enforcement video showing silent orb with red, blue, green flashing lights",
+      "source": "dvidshub.net - 18 September 2026",
+      "approx": true,
+      "addedOn": "2026-09-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-24_deepseek-deepseek-ch_03",
+      "name": "Los Angeles, USA",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Metallic basketball-sized orb caught by news helicopter flying over freeway in straight line",
+      "source": "thesun.co.uk - 24 September 2026",
+      "approx": false,
+      "addedOn": "2026-09-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-24_deepseek-deepseek-ch_04",
+      "name": "Homer, Illinois, USA",
+      "lat": 40.0348,
+      "lng": -87.9581,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Color-changing object with pulsating lights flying in irregular path, causing animal reactions",
+      "source": "101theeagle.com - 23 September 2026",
+      "approx": false,
+      "addedOn": "2026-09-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-24_deepseek-deepseek-ch_05",
+      "name": "Middle East (redacted)",
+      "lat": 33.3152,
+      "lng": 44.3661,
+      "cat": "military",
+      "date": "September 2026",
+      "desc": "Declassified Pentagon report shows six small spherical objects flying in tandem, changing direction",
+      "source": "CBS News - 18 September 2026",
+      "approx": true,
+      "addedOn": "2026-09-24",
       "isNew": true
     }
   ]
