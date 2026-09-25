@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-09-24",
-  "total": 114,
+  "updated": "2026-09-25",
+  "total": 116,
   "sightings": [
     {
       "id": "r14",
@@ -1347,7 +1347,7 @@
       "source": "wired.com",
       "approx": false,
       "addedOn": "2026-09-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-20_deepseek-deepseek-ch_01",
@@ -1477,6 +1477,32 @@
       "source": "101theeagle.com - 23 September 2026",
       "approx": false,
       "addedOn": "2026-09-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-25_meta-llama-llama-3-3_01",
+      "name": "Los Angeles, California",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Mysterious orb floating over freeway",
+      "source": "nypost.com, September 24, 2026",
+      "approx": false,
+      "addedOn": "2026-09-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-25_meta-llama-llama-3-3_02",
+      "name": "Bahía Blanca, Argentina",
+      "lat": -38.7167,
+      "lng": -62.2667,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Trio of lights outside aircraft",
+      "source": "iheart.com, September 24, 2026",
+      "approx": false,
+      "addedOn": "2026-09-25",
       "isNew": true
     }
   ]

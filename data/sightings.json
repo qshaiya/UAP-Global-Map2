@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-24",
-  "count": 375,
+  "updated": "2026-09-25",
+  "count": 379,
   "sightings": [
     {
       "id": "r1",
@@ -4610,7 +4610,7 @@
       "source": "herefordtimes.com, September 16, 2026",
       "approx": false,
       "addedOn": "2026-09-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-17_meta-llama-llama-3-3_01",
@@ -4623,7 +4623,7 @@
       "source": "wired.com",
       "approx": false,
       "addedOn": "2026-09-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-17_meta-llama-llama-3-3_02",
@@ -4636,7 +4636,7 @@
       "source": "newsweek.com",
       "approx": true,
       "addedOn": "2026-09-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-20_deepseek-deepseek-ch_01",
@@ -4831,6 +4831,58 @@
       "source": "CBS News - 18 September 2026",
       "approx": true,
       "addedOn": "2026-09-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-25_deepseek-deepseek-ch_01",
+      "name": "Uglich, Yaroslavl Oblast, Russia",
+      "lat": 57.5275,
+      "lng": 38.3317,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Multiple bright red objects observed for 25 minutes, changing direction and forming patterns, silent with dogs barking during sighting",
+      "source": "Caliber.az, September 24, 2026",
+      "approx": false,
+      "addedOn": "2026-09-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-25_deepseek-deepseek-ch_02",
+      "name": "Washington, D.C., USA",
+      "lat": 38.8951,
+      "lng": -77.0364,
+      "cat": "gov",
+      "date": "August 2026",
+      "desc": "PURSUE Release 05 documents declassified by Department of War on August 7, 2026, including triangle UAP reports and historical cases",
+      "source": "war.gov UFO portal, ongoing releases",
+      "approx": false,
+      "addedOn": "2026-09-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-25_meta-llama-llama-3-3_01",
+      "name": "Los Angeles, California",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Mysterious orb floating over freeway",
+      "source": "nypost.com, September 24, 2026",
+      "approx": false,
+      "addedOn": "2026-09-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-25_meta-llama-llama-3-3_02",
+      "name": "Bahía Blanca, Argentina",
+      "lat": -38.7167,
+      "lng": -62.2667,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Trio of lights outside aircraft",
+      "source": "iheart.com, September 24, 2026",
+      "approx": false,
+      "addedOn": "2026-09-25",
       "isNew": true
     }
   ]

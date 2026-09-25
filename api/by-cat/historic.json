@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: historic",
   "category": "historic",
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "total": 12,
   "sightings": [
     {
@@ -157,7 +157,7 @@
       "source": "newsweek.com",
       "approx": true,
       "addedOn": "2026-09-17",
-      "isNew": true
+      "isNew": false
     }
   ]
 }

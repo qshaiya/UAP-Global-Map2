@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-09-24",
-  "total": 33,
+  "updated": "2026-09-25",
+  "total": 34,
   "sightings": [
     {
       "id": "a2",
@@ -417,6 +417,19 @@
       "source": "dvidshub.net - 18 September 2026",
       "approx": true,
       "addedOn": "2026-09-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-25_deepseek-deepseek-ch_02",
+      "name": "Washington, D.C., USA",
+      "lat": 38.8951,
+      "lng": -77.0364,
+      "cat": "gov",
+      "date": "August 2026",
+      "desc": "PURSUE Release 05 documents declassified by Department of War on August 7, 2026, including triangle UAP reports and historical cases",
+      "source": "war.gov UFO portal, ongoing releases",
+      "approx": false,
+      "addedOn": "2026-09-25",
       "isNew": true
     }
   ]
