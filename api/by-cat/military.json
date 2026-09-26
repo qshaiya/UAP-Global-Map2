@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-09-25",
-  "total": 66,
+  "updated": "2026-09-26",
+  "total": 67,
   "sightings": [
     {
       "id": "r2",
@@ -846,6 +846,19 @@
       "source": "CBS News - 18 September 2026",
       "approx": true,
       "addedOn": "2026-09-24",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-26_deepseek-deepseek-ch_03",
+      "name": "Stepanivka to Novocotovsc, Moldova-Ukraine border",
+      "lat": 46.2833,
+      "lng": 30.45,
+      "cat": "military",
+      "date": "September 2026",
+      "desc": "Unauthorized aerial object crossed Moldovan airspace from Ukraine, detected by surveillance systems for 2 minutes",
+      "source": "IPN Moldova, September 26, 2026",
+      "approx": true,
+      "addedOn": "2026-09-26",
       "isNew": true
     }
   ]

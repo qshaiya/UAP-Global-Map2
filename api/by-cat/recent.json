@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-09-25",
-  "total": 116,
+  "updated": "2026-09-26",
+  "total": 119,
   "sightings": [
     {
       "id": "r14",
@@ -1503,6 +1503,45 @@
       "source": "iheart.com, September 24, 2026",
       "approx": false,
       "addedOn": "2026-09-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-26_deepseek-deepseek-ch_01",
+      "name": "Cody, Wyoming",
+      "lat": 44.5263,
+      "lng": -109.0565,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Multiple glowing orbs reappearing over Cedar Mountain, witnessed interacting and changing directions, with increased conventional aircraft activity noted",
+      "source": "Cowboy State Daily, September 26, 2026",
+      "approx": false,
+      "addedOn": "2026-09-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-26_deepseek-deepseek-ch_02",
+      "name": "Bighorn Mountains, Wyoming",
+      "lat": 44.8,
+      "lng": -107.9833,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Multiple hovering lights followed vehicle for miles, remained airborne for 2-3 hours near Medicine Wheel area",
+      "source": "Cowboy State Daily, September 26, 2026",
+      "approx": true,
+      "addedOn": "2026-09-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-26_meta-llama-llama-3-3_01",
+      "name": "Pikes Peak, Colorado",
+      "lat": 38.8403,
+      "lng": -105.0442,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Feds declassify two more UAP sightings",
+      "source": "[gazette.com](https://gazette.com/2026/09/21/feds-declassify-two-more-pikes-peak-area-uap-sightings/)",
+      "approx": false,
+      "addedOn": "2026-09-26",
       "isNew": true
     }
   ]
