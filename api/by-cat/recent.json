@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-09-26",
-  "total": 119,
+  "updated": "2026-09-27",
+  "total": 120,
   "sightings": [
     {
       "id": "r14",
@@ -1542,6 +1542,19 @@
       "source": "[gazette.com](https://gazette.com/2026/09/21/feds-declassify-two-more-pikes-peak-area-uap-sightings/)",
       "approx": false,
       "addedOn": "2026-09-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-27_meta-llama-llama-3-3_01",
+      "name": "Romania-Ukraine border",
+      "lat": 45.6667,
+      "lng": 29.6667,
+      "cat": "recent",
+      "date": "September 27, 2026",
+      "desc": "Unidentified aerial target enters Romanian airspace",
+      "source": "[newsukraine.rbc.ua](https://newsukraine.rbc.ua/news/two-f-18s-and-a-helicopter-scrambled-in-romania-1790502156.html)",
+      "approx": false,
+      "addedOn": "2026-09-27",
       "isNew": true
     }
   ]

@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-09-26",
-  "total": 151,
+  "updated": "2026-09-27",
+  "total": 155,
   "sightings": [
     {
       "id": "r4",
@@ -1962,6 +1962,58 @@
       "source": "Caliber.az, September 24, 2026",
       "approx": false,
       "addedOn": "2026-09-25",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-27_deepseek-deepseek-ch_02",
+      "name": "Cody, Wyoming, USA",
+      "lat": 44.5263,
+      "lng": -109.0563,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Multiple glowing orbs reappeared over Cedar Mountain, moving independently and interacting with each other",
+      "source": "cowboystatedaily.com September 26, 2026",
+      "approx": false,
+      "addedOn": "2026-09-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-27_deepseek-deepseek-ch_03",
+      "name": "Clearwater, Florida, USA",
+      "lat": 27.9721,
+      "lng": -82.8286,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Disc/saucer shaped UFO sighting with 2-3 objects spinning and moving rapidly over beach area",
+      "source": "ufoindex.com September 21, 2026",
+      "approx": false,
+      "addedOn": "2026-09-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-27_deepseek-deepseek-ch_04",
+      "name": "Bighorn Mountains, Wyoming, USA",
+      "lat": 44.8,
+      "lng": -107.9833,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Multiple lights followed vehicle for hours, hovering and dancing in wind, witnessed by gold miner near Medicine Wheel",
+      "source": "cowboystatedaily.com September 26, 2026",
+      "approx": true,
+      "addedOn": "2026-09-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-27_deepseek-deepseek-ch_05",
+      "name": "Aurora, Oregon, USA",
+      "lat": 45.23,
+      "lng": -122.7558,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Helicopter pilot observed UFO performing rapid maneuvers and sharp corkscrew turns near airport",
+      "source": "auroraoregon.com September 25, 2026",
+      "approx": false,
+      "addedOn": "2026-09-27",
       "isNew": true
     }
   ]

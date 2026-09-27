@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-09-26",
-  "total": 67,
+  "updated": "2026-09-27",
+  "total": 68,
   "sightings": [
     {
       "id": "r2",
@@ -859,6 +859,19 @@
       "source": "IPN Moldova, September 26, 2026",
       "approx": true,
       "addedOn": "2026-09-26",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-27_deepseek-deepseek-ch_01",
+      "name": "Chilia Veche, Romania",
+      "lat": 45.4167,
+      "lng": 29.2833,
+      "cat": "military",
+      "date": "September 2026",
+      "desc": "Unidentified aerial target entered Romanian airspace near Ukraine border, prompting NATO F-18 scramble and RO-Alert warning",
+      "source": "nexta.ro September 27, 2026",
+      "approx": false,
+      "addedOn": "2026-09-27",
       "isNew": true
     }
   ]
