@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-09-27",
-  "total": 155,
+  "updated": "2026-09-28",
+  "total": 157,
   "sightings": [
     {
       "id": "r4",
@@ -2014,6 +2014,32 @@
       "source": "auroraoregon.com September 25, 2026",
       "approx": false,
       "addedOn": "2026-09-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-28_deepseek-deepseek-ch_01",
+      "name": "Raleigh, North Carolina, USA",
+      "lat": 35.7796,
+      "lng": -78.6382,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "5 white circular blinking lights emerging from cloud cover, filmed for 1 minute before disappearing",
+      "source": "NUFORC September 19, 2026",
+      "approx": false,
+      "addedOn": "2026-09-28",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-28_deepseek-deepseek-ch_02",
+      "name": "Buenos Aires, Argentina",
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Circular and V-shaped lights observed during major power outage affecting over 600,000 customers",
+      "source": "John de Nugent September 21, 2026",
+      "approx": false,
+      "addedOn": "2026-09-28",
       "isNew": true
     }
   ]

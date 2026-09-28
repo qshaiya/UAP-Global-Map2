@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-09-27",
-  "total": 120,
+  "updated": "2026-09-28",
+  "total": 122,
   "sightings": [
     {
       "id": "r14",
@@ -1360,7 +1360,7 @@
       "source": "moldpres.md September 20, 2026",
       "approx": false,
       "addedOn": "2026-09-20",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-20_deepseek-deepseek-ch_02",
@@ -1373,7 +1373,7 @@
       "source": "moldpres.md September 20, 2026",
       "approx": false,
       "addedOn": "2026-09-20",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-20_deepseek-deepseek-ch_03",
@@ -1386,7 +1386,7 @@
       "source": "techno-news.danielepais.com September 19, 2026",
       "approx": false,
       "addedOn": "2026-09-20",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-20_deepseek-deepseek-ch_04",
@@ -1399,7 +1399,7 @@
       "source": "garnerreport.com September 17, 2026",
       "approx": false,
       "addedOn": "2026-09-20",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-21_meta-llama-llama-3-3_01",
@@ -1555,6 +1555,32 @@
       "source": "[newsukraine.rbc.ua](https://newsukraine.rbc.ua/news/two-f-18s-and-a-helicopter-scrambled-in-romania-1790502156.html)",
       "approx": false,
       "addedOn": "2026-09-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-28_meta-llama-llama-3-3_01",
+      "name": "Eglin Air Force Base, Florida, USA",
+      "lat": 30.4539,
+      "lng": -86.6944,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Space Force witness saw TR-3B-like craft",
+      "source": "ExoNews",
+      "approx": false,
+      "addedOn": "2026-09-28",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-28_meta-llama-llama-3-3_02",
+      "name": "Romania",
+      "lat": 45.9432,
+      "lng": 24.9668,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Aerial target enters Romanian airspace, two F-16s scrambled",
+      "source": "BGNES",
+      "approx": true,
+      "addedOn": "2026-09-28",
       "isNew": true
     }
   ]
