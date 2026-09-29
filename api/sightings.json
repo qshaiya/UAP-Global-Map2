@@ -3,10 +3,10 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-09-28",
-  "total": 393,
+  "updated": "2026-09-29",
+  "total": 397,
   "categories": {
-    "recent": 122,
+    "recent": 126,
     "military": 68,
     "civilian": 157,
     "gov": 34,
@@ -4730,7 +4730,7 @@
       "source": "moldovalive.md September 21, 2026",
       "approx": false,
       "addedOn": "2026-09-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-21_deepseek-deepseek-ch_02",
@@ -4743,7 +4743,7 @@
       "source": "intellinews.com September 21, 2026",
       "approx": false,
       "addedOn": "2026-09-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-21_meta-llama-llama-3-3_01",
@@ -4756,7 +4756,7 @@
       "source": "moldovalive.md",
       "approx": true,
       "addedOn": "2026-09-21",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-22_deepseek-deepseek-ch_01",
@@ -5094,6 +5094,58 @@
       "source": "BGNES",
       "approx": true,
       "addedOn": "2026-09-28",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-29_deepseek-deepseek-ch_01",
+      "name": "Karachi, Sindh, Pakistan",
+      "lat": 24.8607,
+      "lng": 67.0011,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Plasma orbs united into massive sphere moving zigzag pattern before disappearing",
+      "source": "NUFORC September 19, 2026",
+      "approx": false,
+      "addedOn": "2026-09-29",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-29_deepseek-deepseek-ch_02",
+      "name": "Saint Petersburg, Russia",
+      "lat": 59.9343,
+      "lng": 30.3351,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Three glowing objects forming triangular shape with sudden flashes and disappearances",
+      "source": "Probed September 20, 2026",
+      "approx": false,
+      "addedOn": "2026-09-29",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-29_deepseek-deepseek-ch_03",
+      "name": "Mexico City, Mexico",
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Diamond-shaped black object filmed from cockpit, crossed military aircraft path during parade",
+      "source": "Sportschosun September 16, 2026",
+      "approx": false,
+      "addedOn": "2026-09-29",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-09-29_meta-llama-llama-3-3_01",
+      "name": "Texas, USA",
+      "lat": 29.7604,
+      "lng": -95.3698,
+      "cat": "recent",
+      "date": "September 28, 2026",
+      "desc": "Mysterious object spotted on SpaceX livestream",
+      "source": "Daily Mail",
+      "approx": false,
+      "addedOn": "2026-09-29",
       "isNew": true
     }
   ]
