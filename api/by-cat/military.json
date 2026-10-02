@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-10-01",
-  "total": 68,
+  "updated": "2026-10-02",
+  "total": 69,
   "sightings": [
     {
       "id": "r2",
@@ -846,7 +846,7 @@
       "source": "CBS News - 18 September 2026",
       "approx": true,
       "addedOn": "2026-09-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-26_deepseek-deepseek-ch_03",
@@ -872,6 +872,19 @@
       "source": "nexta.ro September 27, 2026",
       "approx": false,
       "addedOn": "2026-09-27",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-02_deepseek-deepseek-ch_03",
+      "name": "Plauru, Romania",
+      "lat": 45.0167,
+      "lng": 29.0167,
+      "cat": "military",
+      "date": "October 2026",
+      "desc": "Unidentified object crashed near village causing fire, believed to be drone from Ukrainian conflict zone",
+      "source": "digi24.ro October 2, 2026",
+      "approx": false,
+      "addedOn": "2026-10-02",
       "isNew": true
     }
   ]

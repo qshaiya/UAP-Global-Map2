@@ -3,12 +3,12 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-10-01",
-  "total": 404,
+  "updated": "2026-10-02",
+  "total": 409,
   "categories": {
-    "recent": 129,
-    "military": 68,
-    "civilian": 161,
+    "recent": 131,
+    "military": 69,
+    "civilian": 163,
     "gov": 34,
     "historic": 12
   },
@@ -4808,7 +4808,7 @@
       "source": "caliber.az - 24 September 2026",
       "approx": false,
       "addedOn": "2026-09-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-24_deepseek-deepseek-ch_02",
@@ -4821,7 +4821,7 @@
       "source": "dvidshub.net - 18 September 2026",
       "approx": true,
       "addedOn": "2026-09-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-24_deepseek-deepseek-ch_03",
@@ -4834,7 +4834,7 @@
       "source": "thesun.co.uk - 24 September 2026",
       "approx": false,
       "addedOn": "2026-09-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-24_deepseek-deepseek-ch_04",
@@ -4847,7 +4847,7 @@
       "source": "101theeagle.com - 23 September 2026",
       "approx": false,
       "addedOn": "2026-09-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-24_deepseek-deepseek-ch_05",
@@ -4860,7 +4860,7 @@
       "source": "CBS News - 18 September 2026",
       "approx": true,
       "addedOn": "2026-09-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-25_deepseek-deepseek-ch_01",
@@ -5237,6 +5237,71 @@
       "source": "ibtimes.co.uk",
       "approx": false,
       "addedOn": "2026-10-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-02_deepseek-deepseek-ch_01",
+      "name": "Mérida, Venezuela",
+      "lat": 8.5897,
+      "lng": -71.1561,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Witness filmed mysterious white orb cruising past mountain at Sierra Nevada National Park on September 23",
+      "source": "iheart.com September 30, 2026",
+      "approx": false,
+      "addedOn": "2026-10-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-02_deepseek-deepseek-ch_02",
+      "name": "Chazy Lake, New York",
+      "lat": 44.7493,
+      "lng": -73.8244,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Military witness reported two pickup-truck-sized blue orbs hovering over lake before shooting straight upward",
+      "source": "wgna.com September 24, 2026",
+      "approx": false,
+      "addedOn": "2026-10-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-02_deepseek-deepseek-ch_03",
+      "name": "Plauru, Romania",
+      "lat": 45.0167,
+      "lng": 29.0167,
+      "cat": "military",
+      "date": "October 2026",
+      "desc": "Unidentified object crashed near village causing fire, believed to be drone from Ukrainian conflict zone",
+      "source": "digi24.ro October 2, 2026",
+      "approx": false,
+      "addedOn": "2026-10-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-02_meta-llama-llama-3-3_01",
+      "name": "Haywood County, Tennessee, USA",
+      "lat": 35.657,
+      "lng": -89.222,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Possible UFO sighting on video",
+      "source": "wbbjtv.com",
+      "approx": false,
+      "addedOn": "2026-10-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-02_meta-llama-llama-3-3_02",
+      "name": "Brownsville, Tennessee, USA",
+      "lat": 35.594,
+      "lng": -89.262,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "UFO reported in the area since 2000",
+      "source": "wbbjtv.com",
+      "approx": false,
+      "addedOn": "2026-10-02",
       "isNew": true
     }
   ]

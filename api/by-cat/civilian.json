@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-10-01",
-  "total": 161,
+  "updated": "2026-10-02",
+  "total": 163,
   "sightings": [
     {
       "id": "r4",
@@ -2092,6 +2092,32 @@
       "source": "ufoindex.com September 2026",
       "approx": false,
       "addedOn": "2026-10-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-02_deepseek-deepseek-ch_01",
+      "name": "Mérida, Venezuela",
+      "lat": 8.5897,
+      "lng": -71.1561,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Witness filmed mysterious white orb cruising past mountain at Sierra Nevada National Park on September 23",
+      "source": "iheart.com September 30, 2026",
+      "approx": false,
+      "addedOn": "2026-10-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-02_deepseek-deepseek-ch_02",
+      "name": "Chazy Lake, New York",
+      "lat": 44.7493,
+      "lng": -73.8244,
+      "cat": "civilian",
+      "date": "September 2026",
+      "desc": "Military witness reported two pickup-truck-sized blue orbs hovering over lake before shooting straight upward",
+      "source": "wgna.com September 24, 2026",
+      "approx": false,
+      "addedOn": "2026-10-02",
       "isNew": true
     }
   ]

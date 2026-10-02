@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-10-01",
-  "total": 129,
+  "updated": "2026-10-02",
+  "total": 131,
   "sightings": [
     {
       "id": "r14",
@@ -1451,7 +1451,7 @@
       "source": "caliber.az - 24 September 2026",
       "approx": false,
       "addedOn": "2026-09-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-24_deepseek-deepseek-ch_03",
@@ -1464,7 +1464,7 @@
       "source": "thesun.co.uk - 24 September 2026",
       "approx": false,
       "addedOn": "2026-09-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-24_deepseek-deepseek-ch_04",
@@ -1477,7 +1477,7 @@
       "source": "101theeagle.com - 23 September 2026",
       "approx": false,
       "addedOn": "2026-09-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-25_meta-llama-llama-3-3_01",
@@ -1672,6 +1672,32 @@
       "source": "ibtimes.co.uk",
       "approx": false,
       "addedOn": "2026-10-01",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-02_meta-llama-llama-3-3_01",
+      "name": "Haywood County, Tennessee, USA",
+      "lat": 35.657,
+      "lng": -89.222,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Possible UFO sighting on video",
+      "source": "wbbjtv.com",
+      "approx": false,
+      "addedOn": "2026-10-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-02_meta-llama-llama-3-3_02",
+      "name": "Brownsville, Tennessee, USA",
+      "lat": 35.594,
+      "lng": -89.262,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "UFO reported in the area since 2000",
+      "source": "wbbjtv.com",
+      "approx": false,
+      "addedOn": "2026-10-02",
       "isNew": true
     }
   ]

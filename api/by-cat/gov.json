@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "total": 34,
   "sightings": [
     {
@@ -417,7 +417,7 @@
       "source": "dvidshub.net - 18 September 2026",
       "approx": true,
       "addedOn": "2026-09-24",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-25_deepseek-deepseek-ch_02",
