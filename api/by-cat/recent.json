@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-10-02",
-  "total": 131,
+  "updated": "2026-10-03",
+  "total": 133,
   "sightings": [
     {
       "id": "r14",
@@ -1490,7 +1490,7 @@
       "source": "nypost.com, September 24, 2026",
       "approx": false,
       "addedOn": "2026-09-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-25_meta-llama-llama-3-3_02",
@@ -1503,7 +1503,7 @@
       "source": "iheart.com, September 24, 2026",
       "approx": false,
       "addedOn": "2026-09-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-26_deepseek-deepseek-ch_01",
@@ -1698,6 +1698,32 @@
       "source": "wbbjtv.com",
       "approx": false,
       "addedOn": "2026-10-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-03_deepseek-deepseek-ch_01",
+      "name": "Chazy Lake, New York, USA",
+      "lat": 44.73,
+      "lng": -73.81,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Military witness reported two blue orb UFOs size of pickup trucks moving around lake, hovering, then shooting vertically upward. Multiple similar reports across Upstate NY.",
+      "source": "1045theteam.com October 1, 2026",
+      "approx": false,
+      "addedOn": "2026-10-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-03_meta-llama-llama-3-3_01",
+      "name": "Lithuania",
+      "lat": 54.6872,
+      "lng": 25.2797,
+      "cat": "recent",
+      "date": "October 2026",
+      "desc": "Unidentified aerial object prompts NATO jets to scramble",
+      "source": "[mezha.net](https://mezha.net/eng/news/735d4ff9_lithuania_cancels_air/) on October 3, 2026",
+      "approx": false,
+      "addedOn": "2026-10-03",
       "isNew": true
     }
   ]

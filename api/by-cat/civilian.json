@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "total": 163,
   "sightings": [
     {
@@ -1962,7 +1962,7 @@
       "source": "Caliber.az, September 24, 2026",
       "approx": false,
       "addedOn": "2026-09-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-27_deepseek-deepseek-ch_02",

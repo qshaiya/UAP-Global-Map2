@@ -3,16 +3,16 @@
   "description": "SENTINEL-7 UAP Live Map — complete sightings database",
   "repo": "https://github.com/qshaiya/UAP-Global-Map2",
   "docs": "https://github.com/qshaiya/UAP-Global-Map2#api",
-  "updated": "2026-10-02",
-  "total": 409,
+  "updated": "2026-10-03",
+  "total": 413,
   "categories": {
-    "recent": 131,
-    "military": 69,
+    "recent": 133,
+    "military": 71,
     "civilian": 163,
     "gov": 34,
     "historic": 12
   },
-  "approximate_locations": 59,
+  "approximate_locations": 60,
   "endpoints": {
     "all": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/sightings.json",
     "recent": "https://raw.githubusercontent.com/qshaiya/UAP-Global-Map2/main/api/recent.json",
@@ -4873,7 +4873,7 @@
       "source": "Caliber.az, September 24, 2026",
       "approx": false,
       "addedOn": "2026-09-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-25_deepseek-deepseek-ch_02",
@@ -4886,7 +4886,7 @@
       "source": "war.gov UFO portal, ongoing releases",
       "approx": false,
       "addedOn": "2026-09-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-25_meta-llama-llama-3-3_01",
@@ -4899,7 +4899,7 @@
       "source": "nypost.com, September 24, 2026",
       "approx": false,
       "addedOn": "2026-09-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-25_meta-llama-llama-3-3_02",
@@ -4912,7 +4912,7 @@
       "source": "iheart.com, September 24, 2026",
       "approx": false,
       "addedOn": "2026-09-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-26_deepseek-deepseek-ch_01",
@@ -5302,6 +5302,58 @@
       "source": "wbbjtv.com",
       "approx": false,
       "addedOn": "2026-10-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-03_deepseek-deepseek-ch_01",
+      "name": "Chazy Lake, New York, USA",
+      "lat": 44.73,
+      "lng": -73.81,
+      "cat": "recent",
+      "date": "September 2026",
+      "desc": "Military witness reported two blue orb UFOs size of pickup trucks moving around lake, hovering, then shooting vertically upward. Multiple similar reports across Upstate NY.",
+      "source": "1045theteam.com October 1, 2026",
+      "approx": false,
+      "addedOn": "2026-10-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-03_deepseek-deepseek-ch_02",
+      "name": "Middle East (Operation Inherent Resolve)",
+      "lat": 33.0,
+      "lng": 44.0,
+      "cat": "military",
+      "date": "July 2025",
+      "desc": "Pentagon released video of 6 spherical objects moving at 480 mph at 22,000 ft, frequently changing direction. Declassified Sept 2026.",
+      "source": "military.com October 3, 2026",
+      "approx": true,
+      "addedOn": "2026-10-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-03_deepseek-deepseek-ch_03",
+      "name": "Vilnius County, Lithuania",
+      "lat": 54.69,
+      "lng": 25.28,
+      "cat": "military",
+      "date": "October 2026",
+      "desc": "NATO jets scrambled after unidentified aerial object detected entering from Belarus. Alert later canceled, possibly flock of birds.",
+      "source": "mezha.net October 2026",
+      "approx": false,
+      "addedOn": "2026-10-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-03_meta-llama-llama-3-3_01",
+      "name": "Lithuania",
+      "lat": 54.6872,
+      "lng": 25.2797,
+      "cat": "recent",
+      "date": "October 2026",
+      "desc": "Unidentified aerial object prompts NATO jets to scramble",
+      "source": "[mezha.net](https://mezha.net/eng/news/735d4ff9_lithuania_cancels_air/) on October 3, 2026",
+      "approx": false,
+      "addedOn": "2026-10-03",
       "isNew": true
     }
   ]

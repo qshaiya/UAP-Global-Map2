@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: gov",
   "category": "gov",
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "total": 34,
   "sightings": [
     {
@@ -430,7 +430,7 @@
       "source": "war.gov UFO portal, ongoing releases",
       "approx": false,
       "addedOn": "2026-09-25",
-      "isNew": true
+      "isNew": false
     }
   ]
 }
