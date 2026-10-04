@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-10-03",
-  "total": 163,
+  "updated": "2026-10-04",
+  "total": 164,
   "sightings": [
     {
       "id": "r4",
@@ -2118,6 +2118,19 @@
       "source": "wgna.com September 24, 2026",
       "approx": false,
       "addedOn": "2026-10-02",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-04_deepseek-deepseek-ch_01",
+      "name": "Chongqing, China",
+      "lat": 29.5637,
+      "lng": 106.5504,
+      "cat": "civilian",
+      "date": "October 2026",
+      "desc": "Multiple witnesses reported 4 luminous objects in triangular formation over Shapingba District, lasting over an hour",
+      "source": "[ikh.tw](https://ikh.tw/ufomag/?id=00760nnv097i&pn=vw)",
+      "approx": false,
+      "addedOn": "2026-10-04",
       "isNew": true
     }
   ]

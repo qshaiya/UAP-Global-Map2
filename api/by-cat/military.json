@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-10-03",
-  "total": 71,
+  "updated": "2026-10-04",
+  "total": 73,
   "sightings": [
     {
       "id": "r2",
@@ -859,7 +859,7 @@
       "source": "IPN Moldova, September 26, 2026",
       "approx": true,
       "addedOn": "2026-09-26",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-27_deepseek-deepseek-ch_01",
@@ -911,6 +911,32 @@
       "source": "mezha.net October 2026",
       "approx": false,
       "addedOn": "2026-10-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-04_deepseek-deepseek-ch_02",
+      "name": "Vilnius, Lithuania",
+      "lat": 54.6872,
+      "lng": 25.2797,
+      "cat": "military",
+      "date": "October 2026",
+      "desc": "NATO jets scrambled after unidentified object entered Lithuanian airspace from Belarus, airport closed temporarily",
+      "source": "[aviationa2z.com](https://aviationa2z.com/index.php/2026/10/04/vilnius-airport-shut-down-as-nato-fighter-jets-scramble-over-unidentified-object/)",
+      "approx": false,
+      "addedOn": "2026-10-04",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-04_deepseek-deepseek-ch_03",
+      "name": "Middle East (undisclosed location)",
+      "lat": 30.0,
+      "lng": 40.0,
+      "cat": "military",
+      "date": "July 2025",
+      "desc": "Pentagon released IR video of 6 spherical objects moving at 480 mph at 22,000 ft during Operation Inherent Resolve",
+      "source": "[military.com](https://www.military.com/pentagon-releases-video-of-6-mysterious-spheres-moving-at-480-mph-sparks-bigger-questions)",
+      "approx": true,
+      "addedOn": "2026-10-04",
       "isNew": true
     }
   ]
