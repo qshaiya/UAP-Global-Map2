@@ -2,7 +2,7 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: military",
   "category": "military",
-  "updated": "2026-10-04",
+  "updated": "2026-10-06",
   "total": 73,
   "sightings": [
     {
@@ -872,7 +872,7 @@
       "source": "nexta.ro September 27, 2026",
       "approx": false,
       "addedOn": "2026-09-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-10-02_deepseek-deepseek-ch_03",

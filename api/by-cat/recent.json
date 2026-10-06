@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: recent",
   "category": "recent",
-  "updated": "2026-10-04",
-  "total": 133,
+  "updated": "2026-10-06",
+  "total": 135,
   "sightings": [
     {
       "id": "r14",
@@ -1555,7 +1555,7 @@
       "source": "[newsukraine.rbc.ua](https://newsukraine.rbc.ua/news/two-f-18s-and-a-helicopter-scrambled-in-romania-1790502156.html)",
       "approx": false,
       "addedOn": "2026-09-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-28_meta-llama-llama-3-3_01",
@@ -1568,7 +1568,7 @@
       "source": "ExoNews",
       "approx": false,
       "addedOn": "2026-09-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-28_meta-llama-llama-3-3_02",
@@ -1581,7 +1581,7 @@
       "source": "BGNES",
       "approx": true,
       "addedOn": "2026-09-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-29_deepseek-deepseek-ch_01",
@@ -1724,6 +1724,32 @@
       "source": "[mezha.net](https://mezha.net/eng/news/735d4ff9_lithuania_cancels_air/) on October 3, 2026",
       "approx": false,
       "addedOn": "2026-10-03",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-06_meta-llama-llama-3-3_01",
+      "name": "Tehran",
+      "lat": 35.6892,
+      "lng": 51.389,
+      "cat": "recent",
+      "date": "September 20, 2026",
+      "desc": "Multicolored lights over Azadegan Expressway",
+      "source": "Online videos",
+      "approx": false,
+      "addedOn": "2026-10-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-06_meta-llama-llama-3-3_02",
+      "name": "Colorado",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "cat": "recent",
+      "date": "October 2023",
+      "desc": "Silent object with red, blue and green flashing lights",
+      "source": "Local law enforcement cellphone footage",
+      "approx": true,
+      "addedOn": "2026-10-06",
       "isNew": true
     }
   ]

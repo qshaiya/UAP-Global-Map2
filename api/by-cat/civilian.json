@@ -2,8 +2,8 @@
   "api_version": "1.0",
   "description": "SENTINEL-7 — category: civilian",
   "category": "civilian",
-  "updated": "2026-10-04",
-  "total": 164,
+  "updated": "2026-10-06",
+  "total": 166,
   "sightings": [
     {
       "id": "r4",
@@ -1975,7 +1975,7 @@
       "source": "cowboystatedaily.com September 26, 2026",
       "approx": false,
       "addedOn": "2026-09-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-27_deepseek-deepseek-ch_03",
@@ -1988,7 +1988,7 @@
       "source": "ufoindex.com September 21, 2026",
       "approx": false,
       "addedOn": "2026-09-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-27_deepseek-deepseek-ch_04",
@@ -2001,7 +2001,7 @@
       "source": "cowboystatedaily.com September 26, 2026",
       "approx": true,
       "addedOn": "2026-09-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-27_deepseek-deepseek-ch_05",
@@ -2014,7 +2014,7 @@
       "source": "auroraoregon.com September 25, 2026",
       "approx": false,
       "addedOn": "2026-09-27",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-28_deepseek-deepseek-ch_01",
@@ -2027,7 +2027,7 @@
       "source": "NUFORC September 19, 2026",
       "approx": false,
       "addedOn": "2026-09-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-28_deepseek-deepseek-ch_02",
@@ -2040,7 +2040,7 @@
       "source": "John de Nugent September 21, 2026",
       "approx": false,
       "addedOn": "2026-09-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "scan_2026-09-30_deepseek-deepseek-ch_01",
@@ -2131,6 +2131,32 @@
       "source": "[ikh.tw](https://ikh.tw/ufomag/?id=00760nnv097i&pn=vw)",
       "approx": false,
       "addedOn": "2026-10-04",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-06_deepseek-deepseek-ch_01",
+      "name": "Buncrana, Ireland",
+      "lat": 55.1333,
+      "lng": -7.45,
+      "cat": "civilian",
+      "date": "October 2026",
+      "desc": "Mysterious luminous trail captured by sky camera, bright flash and persistent glowing vaporous line in night sky at 21:35 local time",
+      "source": "unexplained.ie October 2026",
+      "approx": false,
+      "addedOn": "2026-10-06",
+      "isNew": true
+    },
+    {
+      "id": "scan_2026-10-06_deepseek-deepseek-ch_02",
+      "name": "Gimpo, South Korea",
+      "lat": 37.6236,
+      "lng": 126.7142,
+      "cat": "civilian",
+      "date": "August 2026",
+      "desc": "Three shining white dots spotted in sky over Gimpo, shapes not clearly visible despite advanced observation equipment",
+      "source": "Declassified Today October 4, 2026",
+      "approx": false,
+      "addedOn": "2026-10-06",
       "isNew": true
     }
   ]
